@@ -1,4 +1,8 @@
-/ Github:   https://github.com/shdwjk/Roll20API/blob/master/IsGM/IsGM.js
+
+
+
+
+// Github:   https://github.com/shdwjk/Roll20API/blob/master/IsGM/IsGM.js
 // By:       The Aaron, Arcane Scriptomancer
 // Contact:  https://app.roll20.net/users/104025/the-aaron
 
