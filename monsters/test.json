@@ -1,0 +1,72 @@
+{
+	"source": "MM",
+	"name": "Lekhet (Yuan-Ti Pureblood)",
+	"size": "M",
+	"type": {
+		"type": "humanoid",
+		"tags": [
+			"yuan-ti"
+		]
+	},
+	"alignment": "lawful neutral",
+	"ac": "11",
+	"hp": "40 (9d8)",
+	"speed": "30 ft.",
+	"str": 11,
+	"dex": 12,
+	"con": 11,
+	"int": 13,
+	"wis": 12,
+	"cha": 14,
+	"skill": {
+		"deception": "+6",
+		"perception": "+3",
+		"stealth": "+3"
+	},
+	"immune": "poison",
+	"conditionImmune": "poisoned",
+	"senses": "darkvision 60 ft.",
+	"passive": 13,
+	"languages": "Abyssal, Common, Draconic",
+	"cr": "1",
+	"trait": [
+		{
+			"name": "Innate Spellcasting",
+			"text": [
+				"The yuan-ti’s spellcasting ability is Charisma (spell save DC 12). The yuan-ti can innately cast the following spells, requiring no material components:",
+				"At will: animal friendship (snakes only)",
+				"3/day each: poison spray, suggestion"
+			]
+		},
+		{
+			"name": "Dreamer’s Amulet",
+			"text": [
+				"When in possession of this item, the yuan-ti can also innately cast the following spells:",
+				"2/day each: crown of madness, ray of sickness, sleep"
+			]
+		},
+		{
+			"name": "Magic Resistance",
+			"text": [
+				"The yuan-ti has advantage on saving throws against spells and other magical effects."
+			]
+		}
+	],
+	"action": [
+		{
+			"name": "Multiattack",
+			"text": [
+				"The yuan-ti makes two melee attacks. Scimitar. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6+1) slashing damage."
+			]
+		},
+		{
+			"name": "Shortbow",
+			"text": [
+				"Ranged Weapon Attack: +3 to hit, range 80/320 ft., one target. Hit: 4 (1d6+1) piercing damage plus 7 (2d6) poison damage."
+			]
+		}
+	],
+	"reaction": [],
+	"legendary": [],
+	"page": 0
+}
