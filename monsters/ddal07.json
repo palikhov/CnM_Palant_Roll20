@@ -1,0 +1,354 @@
+{
+	"source": "MM",
+	"name": "Lekhet (Yuan-Ti Pureblood)",
+	"size": "M",
+	"type": {
+		"type": "humanoid",
+		"tags": [
+			"yuan-ti"
+		]
+	},
+	"alignment": "lawful neutral",
+	"ac": "11",
+	"hp": "40 (9d8)",
+	"speed": "30 ft.",
+	"skill": {
+		"deception": "+6",
+		"perception": "+3",
+		"stealth": "+3"
+	},
+	"immune": "poison",
+	"conditionImmune": "poisoned",
+	"senses": "darkvision 60 ft.",
+	"passive": 13,
+	"languages": "Abyssal, Common, Draconic",
+	"cr": "1",
+	"trait": [
+		{
+			"name": "Innate Spellcasting",
+			"text": [
+				"The yuan-ti’s spellcasting ability is"
+			]
+		},
+		{
+			"name": "Charisma (spell save DC 12)",
+			"text": [
+				"The yuan-ti can innately",
+				"cast the following spells, requiring no material",
+				"components:",
+				"",
+				"",
+				"",
+				"At will: animal friendship (snakes only)",
+				"3/day each: poison spray, suggestion"
+			]
+		},
+		{
+			"name": "Dreamer’s Amulet",
+			"text": [
+				"When in possession of this item,",
+				"the yuan-ti can also innately cast the following spells:",
+				"2/day each: crown of madness, ray of sickness, sleep"
+			]
+		},
+		{
+			"name": "Magic Resistance",
+			"text": [
+				"The yuan-ti has advantage on saving",
+				"throws against spells and other magical effects."
+			]
+		}
+	],
+	"action": [
+		{
+			"name": "Multiattack",
+			"text": [
+				"The yuan-ti makes two melee attacks."
+			]
+		},
+		{
+			"name": "Scimitar",
+			"text": [
+				"Melee Weapon Attack: +3 to hit, reach 5 ft.,"
+			]
+		},
+		{
+			"name": "one target",
+			"text": [
+				"Hit: 4 (1d6+1) slashing damage."
+			]
+		},
+		{
+			"name": "Shortbow",
+			"text": [
+				"Ranged Weapon Attack: +3 to hit, range",
+				"80/320 ft., one target. Hit: 4 (1d6+1) piercing damage",
+				"plus 7 (2d6) poison damage."
+			]
+		}
+	],
+	"reaction": [],
+	"legendary": [],
+	"page": 0
+},
+{
+	"source": "MM",
+	"name": "Lekhet (Yuan-Ti Pureblood)",
+	"size": "M",
+	"type": {
+		"type": "humanoid",
+		"tags": [
+			"yuan-ti"
+		]
+	},
+	"alignment": "lawful neutral",
+	"ac": "11",
+	"hp": "40 (9d8)",
+	"speed": "30 ft.",
+	"skill": {
+		"deception": "+6",
+		"perception": "+3",
+		"stealth": "+3"
+	},
+	"immune": "poison",
+	"conditionImmune": "poisoned",
+	"senses": "darkvision 60 ft.",
+	"passive": 13,
+	"languages": "Abyssal, Common, Draconic",
+	"cr": "1",
+	"trait": [
+		{
+			"name": "Innate Spellcasting",
+			"text": [
+				"The yuan-ti’s spellcasting ability is"
+			]
+		},
+		{
+			"name": "Charisma (spell save DC 12)",
+			"text": [
+				"The yuan-ti can innately",
+				"cast the following spells, requiring no material",
+				"components:",
+				"",
+				"",
+				"",
+				"At will: animal friendship (snakes only)",
+				"3/day each: poison spray, suggestion"
+			]
+		},
+		{
+			"name": "Dreamer’s Amulet",
+			"text": [
+				"When in possession of this item,",
+				"the yuan-ti can also innately cast the following spells:",
+				"2/day each: crown of madness, ray of sickness, sleep"
+			]
+		},
+		{
+			"name": "Magic Resistance",
+			"text": [
+				"The yuan-ti has advantage on saving",
+				"throws against spells and other magical effects."
+			]
+		}
+	],
+	"action": [
+		{
+			"name": "Multiattack",
+			"text": [
+				"The yuan-ti makes two melee attacks."
+			]
+		},
+		{
+			"name": "Scimitar",
+			"text": [
+				"Melee Weapon Attack: +3 to hit, reach 5 ft.,"
+			]
+		},
+		{
+			"name": "one target",
+			"text": [
+				"Hit: 4 (1d6+1) slashing damage."
+			]
+		},
+		{
+			"name": "Shortbow",
+			"text": [
+				"Ranged Weapon Attack: +3 to hit, range",
+				"80/320 ft., one target. Hit: 4 (1d6+1) piercing damage",
+				"plus 7 (2d6) poison damage."
+			]
+		}
+	],
+	"reaction": [],
+	"legendary": [],
+	"page": 0
+},
+{
+	"source": "MM",
+	"name": "Yuan-Ti Broodling",
+	"size": "M",
+	"type": {
+		"type": "humanoid",
+		"tags": [
+			"yuan-ti"
+		]
+	},
+	"alignment": "neutral evil",
+	"ac": "10",
+	"hp": "13 (2d8+4)",
+	"speed": "30 ft.",
+	"str": 13,
+	"dex": 10,
+	"con": 15,
+	"int": 2,
+	"wis": 12,
+	"cha": 5,
+	"senses": "darkvision 30 ft.",
+	"passive": null,
+	"cr": "1/4",
+	"trait": [
+		{
+			"name": "Keen Smell",
+			"text": [
+				"The broodling has advantage on Wisdom (Perception) checks that rely on smell."
+			]
+		}
+	],
+	"action": [
+		{
+			"name": "Multiattack",
+			"text": [
+				"The broodling makes two attacks, one with its bite and one with its claws."
+			]
+		},
+		{
+			"name": "Bite",
+			"text": [
+				"Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6+1) piercing damage."
+			]
+		},
+		{
+			"name": "Claws",
+			"text": [
+				"Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4+1) slashing damage."
+			]
+		}
+	],
+	"reaction": [],
+	"legendary": [],
+	"page": 0
+},
+{
+	"source": "MM",
+	"name": "Yuan-Ti Broodling",
+	"size": "M",
+	"type": {
+		"type": "humanoid",
+		"tags": [
+			"yuan-ti"
+		]
+	},
+	"alignment": "neutral evil",
+	"ac": "10",
+	"hp": "13 (2d8+4)",
+	"speed": "30 ft.",
+	"str": 13,
+	"dex": 10,
+	"con": 15,
+	"int": 2,
+	"wis": 12,
+	"cha": 5,
+	"senses": "darkvision 30 ft.",
+	"passive": 11,
+	"languages": "Common, Abyssal, Draconic",
+	"cr": "1/4",
+	"trait": [
+		{
+			"name": "Keen Smell",
+			"text": [
+				"The broodling has advantage on Wisdom",
+				"(Perception) checks that rely on smell."
+			]
+		}
+	],
+	"action": [
+		{
+			"name": "Multiattack",
+			"text": [
+				"The broodling makes two attacks, one",
+				"with its bite and one with its claws."
+			]
+		},
+		{
+			"name": "Bite",
+			"text": [
+				"Melee Weapon Attack: +3 to hit, reach 5 ft., one"
+			]
+		},
+		{
+			"name": "target",
+			"text": [
+				"Hit: 4 (1d6+1) piercing damage."
+			]
+		},
+		{
+			"name": "Claws",
+			"text": [
+				"Melee Weapon Attack: +3 to hit, reach 5 ft., one"
+			]
+		},
+		{
+			"name": "target",
+			"text": [
+				"Hit: 6 (2d4+1) slashing damage."
+			]
+		}
+	],
+	"reaction": [],
+	"legendary": [],
+	"page": 0
+},
+{
+	"source": "MM",
+	"name": "Zealot (Bandit)",
+	"size": "M",
+	"type": {
+		"type": "humanoid",
+		"tags": [
+			"human"
+		]
+	},
+	"alignment": "neutral evil",
+	"ac": "12 (leather armor)",
+	"hp": "11 (2d8+2)",
+	"speed": "30 ft.",
+	"str": 10,
+	"dex": 12,
+	"con": 12,
+	"int": 10,
+	"wis": 11,
+	"cha": 10,
+	"senses": "",
+	"passive": 10,
+	"languages": "Common",
+	"cr": "1/8",
+	"trait": [],
+	"action": [
+		{
+			"name": "Scimitar",
+			"text": [
+				"Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6+1) slashing damage."
+			]
+		},
+		{
+			"name": "Light Crossbow",
+			"text": [
+				"Ranged Weapon Attack: +3 to hit, range 80/320 ft., one target. Hit: 5 (1d8+1) piercing damage."
+			]
+		}
+	],
+	"reaction": [],
+	"legendary": [],
+	"page": 0
+}
