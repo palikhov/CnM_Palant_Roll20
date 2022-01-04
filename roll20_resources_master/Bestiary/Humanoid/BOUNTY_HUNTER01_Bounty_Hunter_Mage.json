@@ -1,0 +1,3495 @@
+{
+    "schema_version": 2,
+    "oldId": "-M-4BcbJjlKdhqI5O9vC",
+    "name": "BOUNTY_HUNTER01_Bounty_Hunter_Mage",
+    "avatar": "https://i.imgur.com/3JEBOCk.png",
+    "bio": "%3Cp%3E%3Ca%20href%3D%22https%3A//www.dmsguild.com/product/266052/Wanted-Scores%22%3E%3Cspan%20class%3D%22userscript-fontstyle0%22%3E%3C/span%3E%3Cspan%20class%3D%22userscript-fontstyle0%22%3EBounty%20Hunter%20Mage%3C/span%3E%20%0A%3Cbr%20style%3D%22font-style%3A%20normal%20%3B%20font-variant%3A%20normal%20%3B%20font-weight%3A%20normal%20%3B%20letter-spacing%3A%20normal%20%3B%20line-height%3A%20normal%20%3B%20text-indent%3A%200px%20%3B%20text-transform%3A%20none%20%3B%20white-space%3A%20normal%20%3B%20word-spacing%3A%200px%22%3E%3C/a%3E%3C/p%3E",
+    "gmnotes": "",
+    "defaulttoken": "{\"left\":1365,\"top\":1085,\"width\":70,\"height\":70,\"imgsrc\":\"https://i.imgur.com/3JEBOCk.png\",\"page_id\":\"-Ly_bGp8M1ckoe8Ju7HQ\",\"layer\":\"objects\",\"name\":\"BOUNTY_HUNTER01_Bounty_Hunter_Mage\",\"represents\":\"-M-4BcbJjlKdhqI5O9vC\",\"bar1_value\":40,\"bar1_max\":40,\"bar1_link\":\"-M-4BcdXAF9C9GjCQoQV\",\"bar2_value\":12,\"bar2_max\":12,\"bar2_link\":\"-M-4BcdW9okAKO0j_PnO\",\"bar3_value\":\"11\",\"bar3_max\":\"11\",\"showname\":true,\"light_radius\":\"10\",\"light_dimradius\":\"1\",\"light_hassight\":true,\"adv_fow_view_distance\":\"10\",\"lastmove\":\"1376,1057\"}",
+    "tags": "[\"Humanoid\",\"Bounty-Hunter\"]",
+    "controlledby": "",
+    "inplayerjournals": "",
+    "attribs": [
+        {
+            "name": "npc",
+            "current": "1",
+            "max": "",
+            "id": "-M-4BcdNaz4D7P3Oxhuh"
+        },
+        {
+            "name": "wtype",
+            "current": "@{whispertoggle}",
+            "max": "",
+            "id": "-M-4BcdOKOAyIPbwGOc5"
+        },
+        {
+            "name": "global_save_mod_flag",
+            "current": "1",
+            "max": "",
+            "id": "-M-4BcdOKOAyIPbwGOc6"
+        },
+        {
+            "name": "global_skill_mod_flag",
+            "current": "1",
+            "max": "",
+            "id": "-M-4BcdPYpu36GUekMck"
+        },
+        {
+            "name": "global_attack_mod_flag",
+            "current": "1",
+            "max": "",
+            "id": "-M-4BcdQwcz_f26Q-iil"
+        },
+        {
+            "name": "global_damage_mod_flag",
+            "current": "1",
+            "max": "",
+            "id": "-M-4BcdRzlHIm_35aOED"
+        },
+        {
+            "name": "charname_output",
+            "current": "{{charname=@{character_name}}}",
+            "max": "",
+            "id": "-M-4BcdRzlHIm_35aOEE"
+        },
+        {
+            "name": "npc_name_flag",
+            "current": "0",
+            "max": "",
+            "id": "-M-4BcdS689xX0wV4d5X"
+        },
+        {
+            "name": "ammotracking",
+            "current": "on",
+            "max": "",
+            "id": "-M-4BcdS689xX0wV4d5Y"
+        },
+        {
+            "name": "cd_bar2_m",
+            "current": "npc_ac",
+            "max": "",
+            "id": "-M-4BcdTNabLOWQI__HV"
+        },
+        {
+            "name": "cd_bar3_m",
+            "current": "spell_save_dc",
+            "max": "",
+            "id": "-M-4BcdUUgqgyaF8pwG1"
+        },
+        {
+            "name": "cd_bar3_l",
+            "current": "spell_save_dc",
+            "max": "",
+            "id": "-M-4BcdUUgqgyaF8pwG2"
+        },
+        {
+            "name": "npc_name",
+            "current": "Bounty Hunter Mage",
+            "max": "",
+            "id": "-M-4BcdUUgqgyaF8pwG3"
+        },
+        {
+            "name": "npc_type",
+            "current": "Medium humanoid (any race), any alignment",
+            "max": "",
+            "id": "-M-4BcdVpm3xiSqb_wss"
+        },
+        {
+            "name": "npc_ac",
+            "current": "12",
+            "max": "12",
+            "id": "-M-4BcdW9okAKO0j_PnO"
+        },
+        {
+            "name": "npc_actype",
+            "current": "15 with mage armor",
+            "max": "",
+            "id": "-M-4BcdW9okAKO0j_PnP"
+        },
+        {
+            "name": "hp",
+            "current": "40",
+            "max": "40",
+            "id": "-M-4BcdXAF9C9GjCQoQV"
+        },
+        {
+            "name": "condition_health",
+            "current": 6,
+            "max": "",
+            "id": "-M-4BcdYEy7g-eF1pJLV"
+        },
+        {
+            "name": "npc_hpformula",
+            "current": "9d8",
+            "max": "",
+            "id": "-M-4BcdYEy7g-eF1pJLW"
+        },
+        {
+            "name": "npc_speed",
+            "current": "30 ft.",
+            "max": "",
+            "id": "-M-4BcdYEy7g-eF1pJLX"
+        },
+        {
+            "name": "strength_base",
+            "current": "9",
+            "max": "",
+            "id": "-M-4BcdZoiu1QqQXvz6q"
+        },
+        {
+            "name": "strength_flag",
+            "current": 0,
+            "max": "",
+            "id": "-M-4Bcd_5KugQafZJaqW"
+        },
+        {
+            "name": "strength",
+            "current": 9,
+            "max": "",
+            "id": "-M-4Bcd_5KugQafZJaqX"
+        },
+        {
+            "name": "strength_mod",
+            "current": -1,
+            "max": "",
+            "id": "-M-4Bcda_Va63li2M5eG"
+        },
+        {
+            "name": "npc_str_negative",
+            "current": 1,
+            "max": "",
+            "id": "-M-4BcdbFWG3LUo970px"
+        },
+        {
+            "name": "weighttotal",
+            "current": 0,
+            "max": "",
+            "id": "-M-4BcdbFWG3LUo970py"
+        },
+        {
+            "name": "slotstotal",
+            "current": 0,
+            "max": "",
+            "id": "-M-4BcdckpA-0Onvl_1l"
+        },
+        {
+            "name": "slotsmaximum",
+            "current": 17,
+            "max": "",
+            "id": "-M-4BcdckpA-0Onvl_1m"
+        },
+        {
+            "name": "encumberance",
+            "current": " ",
+            "max": "",
+            "id": "-M-4BcdckpA-0Onvl_1n"
+        },
+        {
+            "name": "spell_attack_bonus",
+            "current": 12,
+            "max": "",
+            "id": "-M-4BcddtZtHs_fGZ9Z2"
+        },
+        {
+            "name": "spell_save_dc",
+            "current": 28,
+            "max": "",
+            "id": "-M-4BcdeHlgPJVEUh8MQ"
+        },
+        {
+            "name": "strength_save_bonus",
+            "current": -1,
+            "max": "",
+            "id": "-M-4BcdeHlgPJVEUh8MR"
+        },
+        {
+            "name": "athletics_bonus",
+            "current": -1,
+            "max": "",
+            "id": "-M-4BcdffM4fDl9SbDbi"
+        },
+        {
+            "name": "dexterity_base",
+            "current": "14",
+            "max": "",
+            "id": "-M-4BcdgIT_D3p4z5Rvw"
+        },
+        {
+            "name": "dexterity_flag",
+            "current": 0,
+            "max": "",
+            "id": "-M-4BcdgIT_D3p4z5Rvx"
+        },
+        {
+            "name": "dexterity",
+            "current": 14,
+            "max": "",
+            "id": "-M-4BcdhlT35EozTWSq7"
+        },
+        {
+            "name": "dexterity_mod",
+            "current": 2,
+            "max": "",
+            "id": "-M-4BcdhlT35EozTWSq8"
+        },
+        {
+            "name": "npc_dex_negative",
+            "current": 0,
+            "max": "",
+            "id": "-M-4BcdjrwdY_qLitnvx"
+        },
+        {
+            "name": "initiative_bonus",
+            "current": 3,
+            "max": "",
+            "id": "-M-4BcdjrwdY_qLitnvy"
+        },
+        {
+            "name": "dexterity_save_bonus",
+            "current": 2,
+            "max": "",
+            "id": "-M-4BcdkB0ChXHZCu5KI"
+        },
+        {
+            "name": "acrobatics_bonus",
+            "current": 2,
+            "max": "",
+            "id": "-M-4BcdkB0ChXHZCu5KJ"
+        },
+        {
+            "name": "sleight_of_hand_bonus",
+            "current": 2,
+            "max": "",
+            "id": "-M-4Bcdl3U5__35yUah6"
+        },
+        {
+            "name": "stealth_bonus",
+            "current": 2,
+            "max": "",
+            "id": "-M-4Bcdl3U5__35yUah7"
+        },
+        {
+            "name": "armorwarningflag",
+            "current": "hide",
+            "max": "",
+            "id": "-M-4Bcdl3U5__35yUah8"
+        },
+        {
+            "name": "customacwarningflag",
+            "current": "hide",
+            "max": "",
+            "id": "-M-4Bcdmg6ZwcAmmoPQA"
+        },
+        {
+            "name": "ac",
+            "current": 12,
+            "max": "",
+            "id": "-M-4Bcdmg6ZwcAmmoPQB"
+        },
+        {
+            "name": "constitution_base",
+            "current": "11",
+            "max": "",
+            "id": "-M-4Bcdmg6ZwcAmmoPQC"
+        },
+        {
+            "name": "constitution_flag",
+            "current": 0,
+            "max": "",
+            "id": "-M-4Bcdna_buy1u-6XM3"
+        },
+        {
+            "name": "constitution",
+            "current": 11,
+            "max": "",
+            "id": "-M-4Bcdna_buy1u-6XM4"
+        },
+        {
+            "name": "constitution_mod",
+            "current": 0,
+            "max": "",
+            "id": "-M-4Bcdna_buy1u-6XM5"
+        },
+        {
+            "name": "npc_con_negative",
+            "current": 0,
+            "max": "",
+            "id": "-M-4Bcdna_buy1u-6XM6"
+        },
+        {
+            "name": "constitution_save_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-M-4Bcdna_buy1u-6XM7"
+        },
+        {
+            "name": "intelligence_base",
+            "current": "17",
+            "max": "",
+            "id": "-M-4Bcdna_buy1u-6XM8"
+        },
+        {
+            "name": "intelligence_flag",
+            "current": 0,
+            "max": "",
+            "id": "-M-4BcdoE-rNiASGriAQ"
+        },
+        {
+            "name": "intelligence",
+            "current": 17,
+            "max": "",
+            "id": "-M-4BcdoE-rNiASGriAR"
+        },
+        {
+            "name": "intelligence_mod",
+            "current": 3,
+            "max": "",
+            "id": "-M-4BcdoE-rNiASGriAS"
+        },
+        {
+            "name": "npc_int_negative",
+            "current": 0,
+            "max": "",
+            "id": "-M-4BcdoE-rNiASGriAT"
+        },
+        {
+            "name": "intelligence_save_bonus",
+            "current": 3,
+            "max": "",
+            "id": "-M-4Bcdp_zLesIhORGTc"
+        },
+        {
+            "name": "arcana_bonus",
+            "current": 3,
+            "max": "",
+            "id": "-M-4Bcdp_zLesIhORGTd"
+        },
+        {
+            "name": "history_bonus",
+            "current": 3,
+            "max": "",
+            "id": "-M-4Bcdp_zLesIhORGTe"
+        },
+        {
+            "name": "investigation_bonus",
+            "current": 3,
+            "max": "",
+            "id": "-M-4Bcdp_zLesIhORGTf"
+        },
+        {
+            "name": "nature_bonus",
+            "current": 3,
+            "max": "",
+            "id": "-M-4BcdqldMT_EIX-UoE"
+        },
+        {
+            "name": "religion_bonus",
+            "current": 3,
+            "max": "",
+            "id": "-M-4BcdqldMT_EIX-UoF"
+        },
+        {
+            "name": "wisdom_base",
+            "current": "12",
+            "max": "",
+            "id": "-M-4BcdqldMT_EIX-UoG"
+        },
+        {
+            "name": "wisdom_flag",
+            "current": 0,
+            "max": "",
+            "id": "-M-4BcdrkLzrpSFRrmdQ"
+        },
+        {
+            "name": "wisdom",
+            "current": 12,
+            "max": "",
+            "id": "-M-4BcdrkLzrpSFRrmdR"
+        },
+        {
+            "name": "wisdom_mod",
+            "current": 1,
+            "max": "",
+            "id": "-M-4BcdrkLzrpSFRrmdS"
+        },
+        {
+            "name": "npc_wis_negative",
+            "current": 0,
+            "max": "",
+            "id": "-M-4BcdrkLzrpSFRrmdT"
+        },
+        {
+            "name": "wisdom_save_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-M-4BcdsupWkKgX5kalh"
+        },
+        {
+            "name": "animal_handling_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-M-4BcdsupWkKgX5kali"
+        },
+        {
+            "name": "insight_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-M-4BcdtoDsI48mibc6Z"
+        },
+        {
+            "name": "medicine_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-M-4BcdtoDsI48mibc6_"
+        },
+        {
+            "name": "perception_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-M-4BcdtoDsI48mibc6a"
+        },
+        {
+            "name": "survival_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-M-4BcdtoDsI48mibc6b"
+        },
+        {
+            "name": "passive_wisdom",
+            "current": 11,
+            "max": "",
+            "id": "-M-4BcdtoDsI48mibc6c"
+        },
+        {
+            "name": "charisma_base",
+            "current": "11",
+            "max": "",
+            "id": "-M-4BcdtoDsI48mibc6d"
+        },
+        {
+            "name": "charisma_flag",
+            "current": 0,
+            "max": "",
+            "id": "-M-4BcduQ795KmYiS0Zb"
+        },
+        {
+            "name": "charisma",
+            "current": 11,
+            "max": "",
+            "id": "-M-4BcduQ795KmYiS0Zc"
+        },
+        {
+            "name": "charisma_mod",
+            "current": 0,
+            "max": "",
+            "id": "-M-4BcduQ795KmYiS0Zd"
+        },
+        {
+            "name": "npc_cha_negative",
+            "current": 0,
+            "max": "",
+            "id": "-M-4Bcdv4OsY9Fn_q9rv"
+        },
+        {
+            "name": "charisma_save_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-M-4Bcdv4OsY9Fn_q9rw"
+        },
+        {
+            "name": "deception_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-M-4Bcdv4OsY9Fn_q9rx"
+        },
+        {
+            "name": "intimidation_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-M-4Bcdv4OsY9Fn_q9ry"
+        },
+        {
+            "name": "performance_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-M-4Bcdv4OsY9Fn_q9rz"
+        },
+        {
+            "name": "persuasion_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-M-4Bcdw-CGsshsWZ1an"
+        },
+        {
+            "name": "npc_perception_base",
+            "current": "",
+            "max": "",
+            "id": "-M-4Bcdw-CGsshsWZ1ao"
+        },
+        {
+            "name": "npc_skills_flag",
+            "current": "66",
+            "max": "",
+            "id": "-M-4Bcdw-CGsshsWZ1ap"
+        },
+        {
+            "name": "npc_stealth_flag",
+            "current": 0,
+            "max": "",
+            "id": "-M-4BcdxuSaKC2ewvI1b"
+        },
+        {
+            "name": "npc_survival",
+            "current": "",
+            "max": "",
+            "id": "-M-4Bcdykxz3uAaxuaUV"
+        },
+        {
+            "name": "npc_acrobatics",
+            "current": "",
+            "max": "",
+            "id": "-M-4Bcdykxz3uAaxuaUW"
+        },
+        {
+            "name": "npc_acrobatics_flag",
+            "current": 0,
+            "max": "",
+            "id": "-M-4Bcdykxz3uAaxuaUX"
+        },
+        {
+            "name": "npc_animal_handling",
+            "current": "",
+            "max": "",
+            "id": "-M-4Bcdykxz3uAaxuaUY"
+        },
+        {
+            "name": "npc_animal_handling_flag",
+            "current": 0,
+            "max": "",
+            "id": "-M-4Bcdykxz3uAaxuaUZ"
+        },
+        {
+            "name": "npc_arcana",
+            "current": 6,
+            "max": "",
+            "id": "-M-4BcdzDrER7EVU7CPU"
+        },
+        {
+            "name": "npc_arcana_flag",
+            "current": 1,
+            "max": "",
+            "id": "-M-4BcdzDrER7EVU7CPV"
+        },
+        {
+            "name": "npc_athletics",
+            "current": "",
+            "max": "",
+            "id": "-M-4BcdzDrER7EVU7CPW"
+        },
+        {
+            "name": "npc_athletics_flag",
+            "current": 0,
+            "max": "",
+            "id": "-M-4Bce-iQN03HI0W56t"
+        },
+        {
+            "name": "npc_deception",
+            "current": "",
+            "max": "",
+            "id": "-M-4Bce-iQN03HI0W56u"
+        },
+        {
+            "name": "npc_deception_flag",
+            "current": 0,
+            "max": "",
+            "id": "-M-4Bce0C4ZD3M6ea_tR"
+        },
+        {
+            "name": "npc_history",
+            "current": 6,
+            "max": "",
+            "id": "-M-4Bce0C4ZD3M6ea_tS"
+        },
+        {
+            "name": "npc_history_flag",
+            "current": 2,
+            "max": "",
+            "id": "-M-4Bce0C4ZD3M6ea_tT"
+        },
+        {
+            "name": "npc_insight",
+            "current": "",
+            "max": "",
+            "id": "-M-4Bce1hBd_-KRI94hZ"
+        },
+        {
+            "name": "npc_insight_flag",
+            "current": 0,
+            "max": "",
+            "id": "-M-4Bce1hBd_-KRI94h_"
+        },
+        {
+            "name": "npc_intimidation",
+            "current": "",
+            "max": "",
+            "id": "-M-4Bce1hBd_-KRI94ha"
+        },
+        {
+            "name": "npc_intimidation_flag",
+            "current": 0,
+            "max": "",
+            "id": "-M-4Bce1hBd_-KRI94hb"
+        },
+        {
+            "name": "npc_investigation",
+            "current": "",
+            "max": "",
+            "id": "-M-4Bce1hBd_-KRI94hc"
+        },
+        {
+            "name": "npc_investigation_flag",
+            "current": 0,
+            "max": "",
+            "id": "-M-4Bce2TLyR8XLRsd8y"
+        },
+        {
+            "name": "npc_medicine",
+            "current": "",
+            "max": "",
+            "id": "-M-4Bce2TLyR8XLRsd8z"
+        },
+        {
+            "name": "npc_medicine_flag",
+            "current": 0,
+            "max": "",
+            "id": "-M-4Bce2TLyR8XLRsd9-"
+        },
+        {
+            "name": "npc_nature",
+            "current": "",
+            "max": "",
+            "id": "-M-4Bce2TLyR8XLRsd90"
+        },
+        {
+            "name": "npc_nature_flag",
+            "current": 0,
+            "max": "",
+            "id": "-M-4Bce3g4o_23LkEQuJ"
+        },
+        {
+            "name": "npc_perception",
+            "current": "",
+            "max": "",
+            "id": "-M-4Bce3g4o_23LkEQuK"
+        },
+        {
+            "name": "npc_perception_flag",
+            "current": 0,
+            "max": "",
+            "id": "-M-4Bce3g4o_23LkEQuL"
+        },
+        {
+            "name": "npc_performance",
+            "current": "",
+            "max": "",
+            "id": "-M-4Bce3g4o_23LkEQuM"
+        },
+        {
+            "name": "npc_performance_flag",
+            "current": 0,
+            "max": "",
+            "id": "-M-4Bce4y6ukVwJykTik"
+        },
+        {
+            "name": "npc_persuasion",
+            "current": "",
+            "max": "",
+            "id": "-M-4Bce4y6ukVwJykTil"
+        },
+        {
+            "name": "npc_persuasion_flag",
+            "current": 0,
+            "max": "",
+            "id": "-M-4Bce4y6ukVwJykTim"
+        },
+        {
+            "name": "npc_religion",
+            "current": "",
+            "max": "",
+            "id": "-M-4Bce4y6ukVwJykTin"
+        },
+        {
+            "name": "npc_religion_flag",
+            "current": 0,
+            "max": "",
+            "id": "-M-4Bce4y6ukVwJykTio"
+        },
+        {
+            "name": "npc_sleight_of_hand",
+            "current": "",
+            "max": "",
+            "id": "-M-4Bce5hKZ3L_5-9gbS"
+        },
+        {
+            "name": "npc_sleight_of_hand_flag",
+            "current": 0,
+            "max": "",
+            "id": "-M-4Bce5hKZ3L_5-9gbT"
+        },
+        {
+            "name": "npc_stealth",
+            "current": "",
+            "max": "",
+            "id": "-M-4Bce5hKZ3L_5-9gbU"
+        },
+        {
+            "name": "npc_survival_flag",
+            "current": 0,
+            "max": "",
+            "id": "-M-4Bce5hKZ3L_5-9gbV"
+        },
+        {
+            "name": "npc_senses",
+            "current": "passive Perception 11",
+            "max": "",
+            "id": "-M-4Bce5hKZ3L_5-9gbW"
+        },
+        {
+            "name": "npc_languages",
+            "current": "any four languages",
+            "max": "",
+            "id": "-M-4Bce5hKZ3L_5-9gbX"
+        },
+        {
+            "name": "npc_challenge",
+            "current": "6",
+            "max": "",
+            "id": "-M-4Bce6_HkfS8_nfwi0"
+        },
+        {
+            "name": "npc_xp",
+            "current": "2300",
+            "max": "",
+            "id": "-M-4Bce6_HkfS8_nfwi1"
+        },
+        {
+            "name": "pb_custom",
+            "current": 3,
+            "max": "",
+            "id": "-M-4Bce7cM7Gi4innPyr"
+        },
+        {
+            "name": "pb_type",
+            "current": "custom",
+            "max": "",
+            "id": "-M-4Bce7cM7Gi4innPys"
+        },
+        {
+            "name": "pb",
+            "current": 3,
+            "max": "",
+            "id": "-M-4Bce8q08W4UU_VXZd"
+        },
+        {
+            "name": "jack",
+            "current": 1,
+            "max": "",
+            "id": "-M-4Bce8q08W4UU_VXZe"
+        },
+        {
+            "name": "pbd_safe",
+            "current": "",
+            "max": "",
+            "id": "-M-4Bce8q08W4UU_VXZf"
+        },
+        {
+            "name": "jack_bonus",
+            "current": "",
+            "max": "",
+            "id": "-M-4Bce8q08W4UU_VXZg"
+        },
+        {
+            "name": "jack_attr",
+            "current": "",
+            "max": "",
+            "id": "-M-4Bce8q08W4UU_VXZh"
+        },
+        {
+            "name": "death_save_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-M-4Bce8q08W4UU_VXZi"
+        },
+        {
+            "name": "rtype",
+            "current": "@{advantagetoggle}",
+            "max": "",
+            "id": "-M-4Bce8q08W4UU_VXZj"
+        },
+        {
+            "name": "npc_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-M-4Bce95dEVzF7nyuns"
+        },
+        {
+            "name": "drop_category",
+            "current": "",
+            "max": "",
+            "id": "-M-4BceAXEdlNAdL5ygY"
+        },
+        {
+            "name": "drop_name",
+            "current": "",
+            "max": "",
+            "id": "-M-4BceAXEdlNAdL5ygZ"
+        },
+        {
+            "name": "drop_data",
+            "current": "",
+            "max": "",
+            "id": "-M-4BceAXEdlNAdL5yg_"
+        },
+        {
+            "name": "drop_content",
+            "current": "",
+            "max": "",
+            "id": "-M-4BceAXEdlNAdL5yga"
+        },
+        {
+            "name": "whispertoggle",
+            "current": "/w gm ",
+            "max": "",
+            "id": "-M-4BceRZieAvdWGrMx6"
+        },
+        {
+            "name": "npc_int_save_base",
+            "current": "6",
+            "max": "",
+            "id": "-M-4EL9EixugaiQkBnWa"
+        },
+        {
+            "name": "npc_saving_flag",
+            "current": "46",
+            "max": "",
+            "id": "-M-4ELBfO0c5u0p3dIVh"
+        },
+        {
+            "name": "npc_str_save",
+            "current": "",
+            "max": "",
+            "id": "-M-4ELBhVarfpnWTUGqM"
+        },
+        {
+            "name": "npc_str_save_flag",
+            "current": 0,
+            "max": "",
+            "id": "-M-4ELBithR4JGemPUyP"
+        },
+        {
+            "name": "npc_dex_save",
+            "current": "",
+            "max": "",
+            "id": "-M-4ELBkNQ8O5PJD1Pzb"
+        },
+        {
+            "name": "npc_dex_save_flag",
+            "current": 0,
+            "max": "",
+            "id": "-M-4ELBmLcrhpvU7IRFG"
+        },
+        {
+            "name": "npc_con_save",
+            "current": "",
+            "max": "",
+            "id": "-M-4ELBoA66-zgsjCXns"
+        },
+        {
+            "name": "npc_con_save_flag",
+            "current": 0,
+            "max": "",
+            "id": "-M-4ELBqBpNF7_xFutrS"
+        },
+        {
+            "name": "npc_int_save",
+            "current": 6,
+            "max": "",
+            "id": "-M-4ELBrO7aZBJ0TK2_t"
+        },
+        {
+            "name": "npc_int_save_flag",
+            "current": 1,
+            "max": "",
+            "id": "-M-4ELBttnaCj3PW9D9O"
+        },
+        {
+            "name": "npc_wis_save",
+            "current": 4,
+            "max": "",
+            "id": "-M-4ELBv-M-bL3oQSfMw"
+        },
+        {
+            "name": "npc_wis_save_flag",
+            "current": 2,
+            "max": "",
+            "id": "-M-4ELBxnbHxfWvEjEmG"
+        },
+        {
+            "name": "npc_cha_save",
+            "current": "",
+            "max": "",
+            "id": "-M-4ELByc-5imHkWZyvY"
+        },
+        {
+            "name": "npc_cha_save_flag",
+            "current": 0,
+            "max": "",
+            "id": "-M-4ELC-mEpqr1CNXgSu"
+        },
+        {
+            "name": "npc_wis_save_base",
+            "current": "4",
+            "max": "",
+            "id": "-M-4ELq4nyKWdQcGOEPd"
+        },
+        {
+            "name": "npc_arcana_base",
+            "current": "6",
+            "max": "",
+            "id": "-M-4ENYCkze6LokVLn4a"
+        },
+        {
+            "name": "npc_history_base",
+            "current": "6",
+            "max": "",
+            "id": "-M-4ENsrf5YTB8Q70NcX"
+        },
+        {
+            "name": "npcspellcastingflag",
+            "current": "1",
+            "max": "",
+            "id": "-M-4EUTB6s8CzS9eo7Su"
+        },
+        {
+            "name": "caster_level",
+            "current": "9",
+            "max": "",
+            "id": "-M-4EVw0OA39RH_6qYXX"
+        },
+        {
+            "name": "level",
+            "current": 9,
+            "max": "",
+            "id": "-M-4EVy-3MpcmmD7R_v6"
+        },
+        {
+            "name": "lvl1_slots_total",
+            "current": 4,
+            "max": "",
+            "id": "-M-4EVy3xRCZsSdUW-LY"
+        },
+        {
+            "name": "lvl2_slots_total",
+            "current": 3,
+            "max": "",
+            "id": "-M-4EVy4-KZCl62F_iDF"
+        },
+        {
+            "name": "lvl3_slots_total",
+            "current": 3,
+            "max": "",
+            "id": "-M-4EVy7iRspGcodZ2cD"
+        },
+        {
+            "name": "lvl4_slots_total",
+            "current": 3,
+            "max": "",
+            "id": "-M-4EVy9zDQdTz1k0BoH"
+        },
+        {
+            "name": "lvl5_slots_total",
+            "current": 1,
+            "max": "",
+            "id": "-M-4EVyBHE9XhpRkK-P9"
+        },
+        {
+            "name": "lvl6_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-M-4EVyDGPWVIcDERZe4"
+        },
+        {
+            "name": "lvl7_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-M-4EVyEjCqNScbSXWHb"
+        },
+        {
+            "name": "lvl8_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-M-4EVyH7lCxPdSMjXeB"
+        },
+        {
+            "name": "lvl9_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-M-4EVyJzi1sXpA5-KqR"
+        },
+        {
+            "name": "spellcasting_ability",
+            "current": "@{intelligence_mod}+",
+            "max": "",
+            "id": "-M-4EXbiG1AEQk4DXVF6"
+        },
+        {
+            "name": "spell_attack_mod",
+            "current": 6,
+            "max": "",
+            "id": "-M-4EXdeSdsP_p9VpBR7"
+        },
+        {
+            "name": "spell_dc_mod",
+            "current": "14",
+            "max": "",
+            "id": "-M-4EZfdddg8JK6J3_TE"
+        },
+        {
+            "name": "globalmagicmod",
+            "current": "6",
+            "max": "",
+            "id": "-M-4E_8Re2ZcDeFnl0sH"
+        },
+        {
+            "name": "repeating_npctrait_-M-4Eq5N1vIegbEtZUta_desc",
+            "current": "The mage is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The mage has the following wizard spells prepared:\n\nCantrips (at will): fire bolt, light, message, ray of frost\n1st level (4 slots): detect magic, mage armor, magic missile, sleep, disguise self\n2nd level (3 slots): ray of enfeeblement, suggestion, hold person,\n3rd level (3 slots): counterspell, fly, clairvoyance\n4th level (3 slots): greater invisibility, locate creature, polymorph\n5th level (1 slot): dominate person",
+            "max": "",
+            "id": "-M-4Er0toMwqwuKV3xq-"
+        },
+        {
+            "name": "repeating_npctrait_-M-4Eq5N1vIegbEtZUta_name",
+            "current": "Spellcasting",
+            "max": "",
+            "id": "-M-4EsV8IMMbYQ3eFuR0"
+        },
+        {
+            "name": "repeating_npctrait_-M-4Eq5N1vIegbEtZUta_npc_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-M-4EsWJD1GyJSLi374k"
+        },
+        {
+            "name": "repeating_npcaction_-M-4F50cU81DmKqNPd6Y_npc_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-M-4F50pAmEEeEwg8ANV"
+        },
+        {
+            "name": "repeating_npcaction_-M-4F50cU81DmKqNPd6Y_attack_flag",
+            "current": "on",
+            "max": "",
+            "id": "-M-4F50vLFHwLVcNoqrf"
+        },
+        {
+            "name": "repeating_npcaction_-M-4F50cU81DmKqNPd6Y_name",
+            "current": "Staff (One-Handed)",
+            "max": "",
+            "id": "-M-4F50z5RMNBT0o_lzt"
+        },
+        {
+            "name": "repeating_npcaction_-M-4F50cU81DmKqNPd6Y_attack_display_flag",
+            "current": "{{attack=1}}",
+            "max": "",
+            "id": "-M-4F512JBkHUrtrvsu_"
+        },
+        {
+            "name": "repeating_npcaction_-M-4F50cU81DmKqNPd6Y_attack_options",
+            "current": "{{attack=1}}",
+            "max": "",
+            "id": "-M-4F5177Tyij987EuGF"
+        },
+        {
+            "name": "repeating_npcaction_-M-4F50cU81DmKqNPd6Y_attack_type",
+            "current": "Melee",
+            "max": "",
+            "id": "-M-4F51BKSW1U2DefQrS"
+        },
+        {
+            "name": "repeating_npcaction_-M-4F50cU81DmKqNPd6Y_attack_range",
+            "current": "5 ft",
+            "max": "",
+            "id": "-M-4F51E5nWtDwOHvLxb"
+        },
+        {
+            "name": "repeating_npcaction_-M-4F50cU81DmKqNPd6Y_attack_target",
+            "current": "one target",
+            "max": "",
+            "id": "-M-4F51H0ry4HE8QpDaB"
+        },
+        {
+            "name": "repeating_npcaction_-M-4F50cU81DmKqNPd6Y_attack_tohit",
+            "current": "5",
+            "max": "",
+            "id": "-M-4F51JmFje8CAz9ot_"
+        },
+        {
+            "name": "repeating_npcaction_-M-4F50cU81DmKqNPd6Y_attack_damage",
+            "current": "1d6+2",
+            "max": "",
+            "id": "-M-4F51MfL1DlEat-X5D"
+        },
+        {
+            "name": "repeating_npcaction_-M-4F50cU81DmKqNPd6Y_attack_damagetype",
+            "current": "Bludgeoning",
+            "max": "",
+            "id": "-M-4F51Nr2FVm7Pwa8xo"
+        },
+        {
+            "name": "repeating_npcaction_-M-4F50ed5AJvlul7asA_npc_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-M-4F51QaFq8bEkbQwJ2"
+        },
+        {
+            "name": "repeating_npcaction_-M-4F50ed5AJvlul7asA_attack_flag",
+            "current": "on",
+            "max": "",
+            "id": "-M-4F51UhIGxKZpsM8wH"
+        },
+        {
+            "name": "repeating_npcaction_-M-4F50ed5AJvlul7asA_name",
+            "current": "Staff (Two-Handed)",
+            "max": "",
+            "id": "-M-4F51WN_OB3OD8mjXH"
+        },
+        {
+            "name": "repeating_npcaction_-M-4F50ed5AJvlul7asA_attack_display_flag",
+            "current": "{{attack=1}}",
+            "max": "",
+            "id": "-M-4F51YGt9iYq_hsqJk"
+        },
+        {
+            "name": "repeating_npcaction_-M-4F50ed5AJvlul7asA_attack_options",
+            "current": "{{attack=1}}",
+            "max": "",
+            "id": "-M-4F51aH454bIbSRUV9"
+        },
+        {
+            "name": "repeating_npcaction_-M-4F50ed5AJvlul7asA_attack_type",
+            "current": "Melee",
+            "max": "",
+            "id": "-M-4F51e_z5AfB8hKdut"
+        },
+        {
+            "name": "repeating_npcaction_-M-4F50ed5AJvlul7asA_attack_range",
+            "current": "5 ft",
+            "max": "",
+            "id": "-M-4F51hxYdwsjZRExaz"
+        },
+        {
+            "name": "repeating_npcaction_-M-4F50ed5AJvlul7asA_attack_target",
+            "current": "one target",
+            "max": "",
+            "id": "-M-4F51k9q_W3L6mp8Jx"
+        },
+        {
+            "name": "repeating_npcaction_-M-4F50ed5AJvlul7asA_attack_tohit",
+            "current": "5",
+            "max": "",
+            "id": "-M-4F51pgH07AQ0x5Ko_"
+        },
+        {
+            "name": "repeating_npcaction_-M-4F50ed5AJvlul7asA_attack_damage",
+            "current": "1d8+2",
+            "max": "",
+            "id": "-M-4F51s1_LM8vrZTjdm"
+        },
+        {
+            "name": "repeating_npcaction_-M-4F50ed5AJvlul7asA_attack_damagetype",
+            "current": "Bludgeoning",
+            "max": "",
+            "id": "-M-4F51uiXVSd3oeyIFP"
+        },
+        {
+            "name": "repeating_npcaction_-M-4F50cU81DmKqNPd6Y_attack_tohitrange",
+            "current": "+5, Reach 5 ft, one target",
+            "max": "",
+            "id": "-M-4F8y59Gyv9VWQZ_Pn"
+        },
+        {
+            "name": "repeating_npcaction_-M-4F50cU81DmKqNPd6Y_attack_onhit",
+            "current": "5 (1d6+2) Bludgeoning damage",
+            "max": "",
+            "id": "-M-4F8y9LJ5OLOuPd2Vc"
+        },
+        {
+            "name": "repeating_npcaction_-M-4F50cU81DmKqNPd6Y_damage_flag",
+            "current": "{{damage=1}} {{dmg1flag=1}} ",
+            "max": "",
+            "id": "-M-4F8yBKVG-h4OFryTl"
+        },
+        {
+            "name": "repeating_npcaction_-M-4F50cU81DmKqNPd6Y_attack_crit",
+            "current": "1d6",
+            "max": "",
+            "id": "-M-4F8yDLNF7PQrLgv0f"
+        },
+        {
+            "name": "repeating_npcaction_-M-4F50cU81DmKqNPd6Y_attack_crit2",
+            "current": "",
+            "max": "",
+            "id": "-M-4F8yFuleyKntNkyQ0"
+        },
+        {
+            "name": "repeating_npcaction_-M-4F50cU81DmKqNPd6Y_rollbase",
+            "current": "@{wtype}&{template:npcatk} {{attack=1}} @{damage_flag} @{npc_name_flag} {{rname=[@{name}](~repeating_npcaction_npc_dmg)}} {{rnamec=[@{name}](~repeating_npcaction_npc_crit)}} {{type=[Attack](~repeating_npcaction_npc_dmg)}} {{typec=[Attack](~repeating_npcaction_npc_crit)}} {{r1=[[@{d20}+(@{attack_tohit}+0)]]}} @{rtype}+(@{attack_tohit}+0)]]}} {{description=@{show_desc}}} @{charname_output}",
+            "max": "",
+            "id": "-M-4F8yHhm5-B9eI0M0_"
+        },
+        {
+            "name": "repeating_npcaction_-M-4F50ed5AJvlul7asA_attack_tohitrange",
+            "current": "+5, Reach 5 ft, one target",
+            "max": "",
+            "id": "-M-4FDxKTFjBraSH0Z5O"
+        },
+        {
+            "name": "repeating_npcaction_-M-4F50ed5AJvlul7asA_attack_onhit",
+            "current": "6 (1d8+2) Bludgeoning damage",
+            "max": "",
+            "id": "-M-4FDxObpIOOKQCOBmR"
+        },
+        {
+            "name": "repeating_npcaction_-M-4F50ed5AJvlul7asA_damage_flag",
+            "current": "{{damage=1}} {{dmg1flag=1}} ",
+            "max": "",
+            "id": "-M-4FDxR6Ldhbrj4vh0h"
+        },
+        {
+            "name": "repeating_npcaction_-M-4F50ed5AJvlul7asA_attack_crit",
+            "current": "1d8",
+            "max": "",
+            "id": "-M-4FDxUoCiLULQfBEBF"
+        },
+        {
+            "name": "repeating_npcaction_-M-4F50ed5AJvlul7asA_attack_crit2",
+            "current": "",
+            "max": "",
+            "id": "-M-4FDxXpV2UfGJSMvE5"
+        },
+        {
+            "name": "repeating_npcaction_-M-4F50ed5AJvlul7asA_rollbase",
+            "current": "@{wtype}&{template:npcatk} {{attack=1}} @{damage_flag} @{npc_name_flag} {{rname=[@{name}](~repeating_npcaction_npc_dmg)}} {{rnamec=[@{name}](~repeating_npcaction_npc_crit)}} {{type=[Attack](~repeating_npcaction_npc_dmg)}} {{typec=[Attack](~repeating_npcaction_npc_crit)}} {{r1=[[@{d20}+(@{attack_tohit}+0)]]}} @{rtype}+(@{attack_tohit}+0)]]}} {{description=@{show_desc}}} @{charname_output}",
+            "max": "",
+            "id": "-M-4FDxZd-qEZSRPU3qL"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FPLi3sZpyUSBHgVl_spelllevel",
+            "current": "cantrip",
+            "max": "",
+            "id": "-M-4FPLpxxEKBfBVApjS"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FPLi3sZpyUSBHgVl_spell_ability",
+            "current": "spell",
+            "max": "",
+            "id": "-M-4FPLsKCG17lh82wgQ"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FPLi3sZpyUSBHgVl_spellname",
+            "current": "Fire Bolt",
+            "max": "",
+            "id": "-M-4FPLv7GlL-m7oMPXN"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FPLi3sZpyUSBHgVl_spellschool",
+            "current": "evocation",
+            "max": "",
+            "id": "-M-4FPLxDbfYN-wl12Yh"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FPLi3sZpyUSBHgVl_spellcastingtime",
+            "current": "1 action",
+            "max": "",
+            "id": "-M-4FPLzUK2I8hJqU7Sc"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FPLi3sZpyUSBHgVl_spellrange",
+            "current": "120 feet",
+            "max": "",
+            "id": "-M-4FPM01oiNl_b7aiAs"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FPLi3sZpyUSBHgVl_spelltarget",
+            "current": "A creature or object within range",
+            "max": "",
+            "id": "-M-4FPM3v_RJJpCAMSlo"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FPLi3sZpyUSBHgVl_spellcomp_m",
+            "current": "0",
+            "max": "",
+            "id": "-M-4FPM5w0IGfCjFfW8P"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FPLi3sZpyUSBHgVl_spellduration",
+            "current": "Instantaneous",
+            "max": "",
+            "id": "-M-4FPM7tg8us4pShibA"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FPLi3sZpyUSBHgVl_spelloutput",
+            "current": "ATTACK",
+            "max": "",
+            "id": "-M-4FPMA3iX_t6SQMyNL"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FPLi3sZpyUSBHgVl_spellattack",
+            "current": "Ranged",
+            "max": "",
+            "id": "-M-4FPMCfyAPCl0NxZrT"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FPLi3sZpyUSBHgVl_spelldamage",
+            "current": "1d10",
+            "max": "",
+            "id": "-M-4FPMEZJaLHxJsQo6E"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FPLi3sZpyUSBHgVl_spelldamagetype",
+            "current": "Fire",
+            "max": "",
+            "id": "-M-4FPMHkTTLjlDBNfLR"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FPLi3sZpyUSBHgVl_spell_damage_progression",
+            "current": "Cantrip Dice",
+            "max": "",
+            "id": "-M-4FPMIB2UpgfbR-vzQ"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FPLi3sZpyUSBHgVl_spelldescription",
+            "current": "You hurl a mote of fire at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 fire damage. A flammable object hit by this spell ignites if it isn’t being worn or carried.",
+            "max": "",
+            "id": "-M-4FPMLWhr95CGUQlvZ"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FPLi3sZpyUSBHgVl_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-M-4FPMND8mW2v7hl2r5"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FPLi3sZpyUSBHgVl_spellattackid",
+            "current": "-M-4FPMRqbZQVXXbVRFU",
+            "max": "",
+            "id": "-M-4FPMcdQg9VIzYzBOL"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FPLi3sZpyUSBHgVl_rollcontent",
+            "current": "%{-M-4BcbJjlKdhqI5O9vC|repeating_attack_-M-4FPMRqbZQVXXbVRFU_attack}",
+            "max": "",
+            "id": "-M-4FPMh3TXJHbnCJK6x"
+        },
+        {
+            "name": "repeating_attack_-M-4FPMRqbZQVXXbVRFU_atkattr_base",
+            "current": "spell",
+            "max": "",
+            "id": "-M-4FPMsnI5RMU6f5MtI"
+        },
+        {
+            "name": "repeating_attack_-M-4FPMRqbZQVXXbVRFU_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-M-4FPMv2OoWhZ0qdahu"
+        },
+        {
+            "name": "repeating_attack_-M-4FPMRqbZQVXXbVRFU_spellid",
+            "current": "-M-4FPLi3sZpyUSBHgVl",
+            "max": "",
+            "id": "-M-4FPMxgeagQjgaiWPE"
+        },
+        {
+            "name": "repeating_attack_-M-4FPMRqbZQVXXbVRFU_spelllevel",
+            "current": "cantrip",
+            "max": "",
+            "id": "-M-4FPN-YS2K5EYwKffM"
+        },
+        {
+            "name": "repeating_attack_-M-4FPMRqbZQVXXbVRFU_savedc",
+            "current": "(@{spell_save_dc})",
+            "max": "",
+            "id": "-M-4FPN2SoFrGkUHDp-v"
+        },
+        {
+            "name": "repeating_attack_-M-4FPMRqbZQVXXbVRFU_atkname",
+            "current": "Fire Bolt",
+            "max": "",
+            "id": "-M-4FPN4sYjq277HrmH7"
+        },
+        {
+            "name": "repeating_attack_-M-4FPMRqbZQVXXbVRFU_atkflag",
+            "current": "{{attack=1}}",
+            "max": "",
+            "id": "-M-4FPN6uU59RNf7jK6y"
+        },
+        {
+            "name": "repeating_attack_-M-4FPMRqbZQVXXbVRFU_dmgflag",
+            "current": "{{damage=1}} {{dmg1flag=1}}",
+            "max": "",
+            "id": "-M-4FPN8d4WkFgZ6TWEq"
+        },
+        {
+            "name": "repeating_attack_-M-4FPMRqbZQVXXbVRFU_dmgbase",
+            "current": "[[round((@{level} + 1) / 6 + 0.5)]]d10",
+            "max": "",
+            "id": "-M-4FPNAhm-V3FcJlSlC"
+        },
+        {
+            "name": "repeating_attack_-M-4FPMRqbZQVXXbVRFU_dmgattr",
+            "current": "0",
+            "max": "",
+            "id": "-M-4FPNDg4kl9KazvUzB"
+        },
+        {
+            "name": "repeating_attack_-M-4FPMRqbZQVXXbVRFU_dmgtype",
+            "current": "Fire",
+            "max": "",
+            "id": "-M-4FPNGEJS2u9uN0rpi"
+        },
+        {
+            "name": "repeating_attack_-M-4FPMRqbZQVXXbVRFU_dmg2base",
+            "current": "",
+            "max": "",
+            "id": "-M-4FPNIbLrTfwVltJDU"
+        },
+        {
+            "name": "repeating_attack_-M-4FPMRqbZQVXXbVRFU_dmg2attr",
+            "current": 0,
+            "max": "",
+            "id": "-M-4FPNKEDzPtrujGnyQ"
+        },
+        {
+            "name": "repeating_attack_-M-4FPMRqbZQVXXbVRFU_dmg2flag",
+            "current": "0",
+            "max": "",
+            "id": "-M-4FPNMcyb30BuCyCQ4"
+        },
+        {
+            "name": "repeating_attack_-M-4FPMRqbZQVXXbVRFU_dmg2type",
+            "current": "",
+            "max": "",
+            "id": "-M-4FPNO9PB_f3R4Qi3J"
+        },
+        {
+            "name": "repeating_attack_-M-4FPMRqbZQVXXbVRFU_atkrange",
+            "current": "120 feet",
+            "max": "",
+            "id": "-M-4FPNQrJJKSxaBiAE-"
+        },
+        {
+            "name": "repeating_attack_-M-4FPMRqbZQVXXbVRFU_saveflag",
+            "current": "0",
+            "max": "",
+            "id": "-M-4FPNTK_8kV_NonLxE"
+        },
+        {
+            "name": "repeating_attack_-M-4FPMRqbZQVXXbVRFU_saveeffect",
+            "current": "",
+            "max": "",
+            "id": "-M-4FPNV6jaMbSe_MObQ"
+        },
+        {
+            "name": "repeating_attack_-M-4FPMRqbZQVXXbVRFU_hldmg",
+            "current": "",
+            "max": "",
+            "id": "-M-4FPNXtllNXh4DPpCY"
+        },
+        {
+            "name": "repeating_attack_-M-4FPMRqbZQVXXbVRFU_spell_innate",
+            "current": "",
+            "max": "",
+            "id": "-M-4FPNZu1NW7n0MJgom"
+        },
+        {
+            "name": "repeating_attack_-M-4FPMRqbZQVXXbVRFU_atk_desc",
+            "current": "",
+            "max": "",
+            "id": "-M-4FPN__LG2go_qbaG3"
+        },
+        {
+            "name": "repeating_attack_-M-4FPMRqbZQVXXbVRFU_rollbase_dmg",
+            "current": "@{wtype}&{template:dmg} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[[[round((@{level} + 1) / 6 + 0.5)]]d10]]}} {{dmg1type=Fire }} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg} {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[0]]}} {{globaldamagetype=@{global_damage_mod_type}}} @{charname_output}",
+            "max": "",
+            "id": "-M-4FPNzIvEHeyLthWN-"
+        },
+        {
+            "name": "repeating_attack_-M-4FPMRqbZQVXXbVRFU_rollbase_crit",
+            "current": "@{wtype}&{template:dmg} {{crit=1}} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[[[round((@{level} + 1) / 6 + 0.5)]]d10]]}} {{dmg1type=Fire }} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} {{crit1=[[[[round((@{level} + 1) / 6 + 0.5)]]d10]]}} {{crit2=[[0]]}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg}  {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[0]]}} {{globaldamagecrit=[[0]]}} {{globaldamagetype=@{global_damage_mod_type}}} @{charname_output}",
+            "max": "",
+            "id": "-M-4FPO2gDFTwkquW5-5"
+        },
+        {
+            "name": "repeating_attack_-M-4FPMRqbZQVXXbVRFU_atkbonus",
+            "current": "+12",
+            "max": "",
+            "id": "-M-4FPO66MlSEDfA759H"
+        },
+        {
+            "name": "repeating_attack_-M-4FPMRqbZQVXXbVRFU_atkdmgtype",
+            "current": "2d10 Fire  ",
+            "max": "",
+            "id": "-M-4FPO8vkuBQcYlWCSQ"
+        },
+        {
+            "name": "repeating_attack_-M-4FPMRqbZQVXXbVRFU_rollbase",
+            "current": "@{wtype}&{template:atk} {{mod=@{atkbonus}}} {{rname=[@{atkname}](~repeating_attack_attack_dmg)}} {{rnamec=[@{atkname}](~repeating_attack_attack_crit)}} {{r1=[[@{d20}cs>@{atkcritrange} + 3[INT] + 3[PROF] + 6[SPELLATK]]]}} @{rtype}cs>@{atkcritrange} + 3[INT] + 3[PROF] + 6[SPELLATK]]]}} {{range=@{atkrange}}} {{desc=@{atk_desc}}} {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globalattack=@{global_attack_mod}}} ammo=@{ammo} @{charname_output}",
+            "max": "",
+            "id": "-M-4FPOBlkFnB8q2D-QM"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FPLi3sZpyUSBHgVl_spellprepared",
+            "current": "1",
+            "max": "",
+            "id": "-M-4FQSQemmxNkJJu8FW"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FUdpRYSqOGAqI0m2_spelllevel",
+            "current": "cantrip",
+            "max": "",
+            "id": "-M-4FUdy2Hma0P3xS7pu"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FUdpRYSqOGAqI0m2_spell_ability",
+            "current": "spell",
+            "max": "",
+            "id": "-M-4FUe-CUwzBC-dCcKz"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FUdpRYSqOGAqI0m2_spellname",
+            "current": "Light",
+            "max": "",
+            "id": "-M-4FUe1N3-ST3wzcQh6"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FUdpRYSqOGAqI0m2_spellschool",
+            "current": "evocation",
+            "max": "",
+            "id": "-M-4FUe4laiPuajTCld8"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FUdpRYSqOGAqI0m2_spellcastingtime",
+            "current": "1 action",
+            "max": "",
+            "id": "-M-4FUe6rE0rX9YlTpu4"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FUdpRYSqOGAqI0m2_spellrange",
+            "current": "Touch",
+            "max": "",
+            "id": "-M-4FUe8wY1PSD5iHE-X"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FUdpRYSqOGAqI0m2_spelltarget",
+            "current": "One object that is no larger than 10 feet in any dimension",
+            "max": "",
+            "id": "-M-4FUeBFqaZ4fnIgnAT"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FUdpRYSqOGAqI0m2_spellcomp_s",
+            "current": "0",
+            "max": "",
+            "id": "-M-4FUeEKm_bspgDgoT4"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FUdpRYSqOGAqI0m2_spellcomp_materials",
+            "current": "A firefly or phosphorescent moss",
+            "max": "",
+            "id": "-M-4FUeHCXtRhARTRS0S"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FUdpRYSqOGAqI0m2_spellduration",
+            "current": "1 hour",
+            "max": "",
+            "id": "-M-4FUeJM-K_igGTErH1"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FUdpRYSqOGAqI0m2_spelldescription",
+            "current": "You touch one object that is no larger than 10 feet in any dimension. Until the spell ends, the object sheds bright light in a 20-foot radius and dim light for an additional 20 feet. The light can be colored as you like. Completely covering the object with something opaque blocks the light. The spell ends if you cast it again or dismiss it as an action. If you target an object held or worn by a hostile creature, that creature must succeed on a Dexterity saving throw to avoid the spell.",
+            "max": "",
+            "id": "-M-4FUeMAE4PnpN3Opuu"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FUdpRYSqOGAqI0m2_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-M-4FUeOGbkTpz7iUkm3"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FXj2g8cfINbuGXDA_spelllevel",
+            "current": "cantrip",
+            "max": "",
+            "id": "-M-4FXjB_pzHvdbEg5Mv"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FXj2g8cfINbuGXDA_spell_ability",
+            "current": "spell",
+            "max": "",
+            "id": "-M-4FXjFsPEWI59i6HHh"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FXj2g8cfINbuGXDA_spellname",
+            "current": "Message",
+            "max": "",
+            "id": "-M-4FXjH-ACJwnOGCZ9J"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FXj2g8cfINbuGXDA_spellschool",
+            "current": "transmutation",
+            "max": "",
+            "id": "-M-4FXjLRmx_qij6YJIk"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FXj2g8cfINbuGXDA_spellcastingtime",
+            "current": "1 action",
+            "max": "",
+            "id": "-M-4FXjPO9Tciki8vGDm"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FXj2g8cfINbuGXDA_spellrange",
+            "current": "120 feet",
+            "max": "",
+            "id": "-M-4FXjRwD67GWo9T2O9"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FXj2g8cfINbuGXDA_spelltarget",
+            "current": "A creature within range",
+            "max": "",
+            "id": "-M-4FXjTVxqEFszkXdIZ"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FXj2g8cfINbuGXDA_spellcomp_materials",
+            "current": "A short piece of copper wire",
+            "max": "",
+            "id": "-M-4FXjWEw3tr24eAFKQ"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FXj2g8cfINbuGXDA_spellduration",
+            "current": "1 round",
+            "max": "",
+            "id": "-M-4FXjZ-UO1KFCivpvd"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FXj2g8cfINbuGXDA_spelldescription",
+            "current": "You point your finger toward a creature within range and whisper a message. The target (and only the target) hears the message and can reply in a whisper that only you can hear. You can cast this spell through solid objects if you are familiar with the target and know it is beyond the barrier. Magical silence, 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood blocks the spell. The spell doesn’t have to follow a straight line and can travel freely around corners or through openings.",
+            "max": "",
+            "id": "-M-4FXjbXjrN1_PNOZu9"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FXj2g8cfINbuGXDA_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-M-4FXjdmTcbyHBhwlMO"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FZLcYYjPiPHuZGIa_spelllevel",
+            "current": "cantrip",
+            "max": "",
+            "id": "-M-4F_Lj3o7EBPaZ-p7c"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FZLcYYjPiPHuZGIa_spell_ability",
+            "current": "spell",
+            "max": "",
+            "id": "-M-4F_LmmZ7sfhU5G3pC"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FZLcYYjPiPHuZGIa_spellname",
+            "current": "Ray of Frost",
+            "max": "",
+            "id": "-M-4F_LoDNbb_lI_9kzU"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FZLcYYjPiPHuZGIa_spellschool",
+            "current": "evocation",
+            "max": "",
+            "id": "-M-4F_LrnWCPz3DReVoy"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FZLcYYjPiPHuZGIa_spellcastingtime",
+            "current": "1 action",
+            "max": "",
+            "id": "-M-4F_LttWe6oNxV666B"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FZLcYYjPiPHuZGIa_spellrange",
+            "current": "60 feet",
+            "max": "",
+            "id": "-M-4F_LvAqK6qVXhIlIY"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FZLcYYjPiPHuZGIa_spelltarget",
+            "current": "A creature within range",
+            "max": "",
+            "id": "-M-4F_LykJw-AJCJrgsu"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FZLcYYjPiPHuZGIa_spellcomp_m",
+            "current": "0",
+            "max": "",
+            "id": "-M-4F_M-jaweP3ywHFdT"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FZLcYYjPiPHuZGIa_spellduration",
+            "current": "Instantaneous",
+            "max": "",
+            "id": "-M-4F_M2IuxqgXze1l3R"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FZLcYYjPiPHuZGIa_spelloutput",
+            "current": "ATTACK",
+            "max": "",
+            "id": "-M-4F_M3eS3ddqjU5t2z"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FZLcYYjPiPHuZGIa_spellattack",
+            "current": "Ranged",
+            "max": "",
+            "id": "-M-4F_M6fFTWHTpJXcqr"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FZLcYYjPiPHuZGIa_spelldamage",
+            "current": "1d8",
+            "max": "",
+            "id": "-M-4F_M8Nea6pLukR5nl"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FZLcYYjPiPHuZGIa_spelldamagetype",
+            "current": "Cold",
+            "max": "",
+            "id": "-M-4F_MAV1PMx12L5CPH"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FZLcYYjPiPHuZGIa_spell_damage_progression",
+            "current": "Cantrip Dice",
+            "max": "",
+            "id": "-M-4F_MDyQHXdmgCi7xC"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FZLcYYjPiPHuZGIa_spelldescription",
+            "current": "A frigid beam of blue-white light streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes 1d8 cold damage, and its speed is reduced by 10 feet until the start of your next turn.",
+            "max": "",
+            "id": "-M-4F_MF0gQxK3h47FkV"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FZLcYYjPiPHuZGIa_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-M-4F_MHI5J0kpY3LTwK"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FZLcYYjPiPHuZGIa_spellattackid",
+            "current": "-M-4FZMKaFQXOLKA50eg",
+            "max": "",
+            "id": "-M-4F_MWE-m9L5s_DBW_"
+        },
+        {
+            "name": "repeating_spell-cantrip_-M-4FZLcYYjPiPHuZGIa_rollcontent",
+            "current": "%{-M-4BcbJjlKdhqI5O9vC|repeating_attack_-M-4FZMKaFQXOLKA50eg_attack}",
+            "max": "",
+            "id": "-M-4F_MYaU_CaYNd8nNc"
+        },
+        {
+            "name": "repeating_attack_-M-4FZMKaFQXOLKA50eg_atkattr_base",
+            "current": "spell",
+            "max": "",
+            "id": "-M-4F_Ma2QMeN5v18-RY"
+        },
+        {
+            "name": "repeating_attack_-M-4FZMKaFQXOLKA50eg_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-M-4F_MdUcvrqXeAAI1V"
+        },
+        {
+            "name": "repeating_attack_-M-4FZMKaFQXOLKA50eg_spellid",
+            "current": "-M-4FZLcYYjPiPHuZGIa",
+            "max": "",
+            "id": "-M-4F_MfPlW0HMXYwKeB"
+        },
+        {
+            "name": "repeating_attack_-M-4FZMKaFQXOLKA50eg_spelllevel",
+            "current": "cantrip",
+            "max": "",
+            "id": "-M-4F_Mi_s3GnAUjt5kZ"
+        },
+        {
+            "name": "repeating_attack_-M-4FZMKaFQXOLKA50eg_savedc",
+            "current": "(@{spell_save_dc})",
+            "max": "",
+            "id": "-M-4F_MkHje97BlXc-xN"
+        },
+        {
+            "name": "repeating_attack_-M-4FZMKaFQXOLKA50eg_atkname",
+            "current": "Ray of Frost",
+            "max": "",
+            "id": "-M-4F_MmrrUoEe7v6M4_"
+        },
+        {
+            "name": "repeating_attack_-M-4FZMKaFQXOLKA50eg_atkflag",
+            "current": "{{attack=1}}",
+            "max": "",
+            "id": "-M-4F_MoFy0SzwPTY3YM"
+        },
+        {
+            "name": "repeating_attack_-M-4FZMKaFQXOLKA50eg_dmgflag",
+            "current": "{{damage=1}} {{dmg1flag=1}}",
+            "max": "",
+            "id": "-M-4F_MrOoPoxyQ8SFYA"
+        },
+        {
+            "name": "repeating_attack_-M-4FZMKaFQXOLKA50eg_dmgbase",
+            "current": "[[round((@{level} + 1) / 6 + 0.5)]]d8",
+            "max": "",
+            "id": "-M-4F_MusrbZ7syvok9r"
+        },
+        {
+            "name": "repeating_attack_-M-4FZMKaFQXOLKA50eg_dmgattr",
+            "current": "0",
+            "max": "",
+            "id": "-M-4F_Mw5Cq7fT-EudI3"
+        },
+        {
+            "name": "repeating_attack_-M-4FZMKaFQXOLKA50eg_dmgtype",
+            "current": "Cold",
+            "max": "",
+            "id": "-M-4F_MzX0S1X2v8iulA"
+        },
+        {
+            "name": "repeating_attack_-M-4FZMKaFQXOLKA50eg_dmg2base",
+            "current": "",
+            "max": "",
+            "id": "-M-4F_N13v3axREvTg9f"
+        },
+        {
+            "name": "repeating_attack_-M-4FZMKaFQXOLKA50eg_dmg2attr",
+            "current": 0,
+            "max": "",
+            "id": "-M-4F_N2jj0oOLm0RQJW"
+        },
+        {
+            "name": "repeating_attack_-M-4FZMKaFQXOLKA50eg_dmg2flag",
+            "current": "0",
+            "max": "",
+            "id": "-M-4F_N4-VLxKvZ1LMF6"
+        },
+        {
+            "name": "repeating_attack_-M-4FZMKaFQXOLKA50eg_dmg2type",
+            "current": "",
+            "max": "",
+            "id": "-M-4F_N7KotkM6WqGdUD"
+        },
+        {
+            "name": "repeating_attack_-M-4FZMKaFQXOLKA50eg_atkrange",
+            "current": "60 feet",
+            "max": "",
+            "id": "-M-4F_NA9rF-orCa-O3W"
+        },
+        {
+            "name": "repeating_attack_-M-4FZMKaFQXOLKA50eg_saveflag",
+            "current": "0",
+            "max": "",
+            "id": "-M-4F_NDHixM3Tu6oHUL"
+        },
+        {
+            "name": "repeating_attack_-M-4FZMKaFQXOLKA50eg_saveeffect",
+            "current": "",
+            "max": "",
+            "id": "-M-4F_NFEap4Hj0tZDrv"
+        },
+        {
+            "name": "repeating_attack_-M-4FZMKaFQXOLKA50eg_hldmg",
+            "current": "",
+            "max": "",
+            "id": "-M-4F_NI_zbW7cT7Qfyc"
+        },
+        {
+            "name": "repeating_attack_-M-4FZMKaFQXOLKA50eg_spell_innate",
+            "current": "",
+            "max": "",
+            "id": "-M-4F_NLSG-qcAeyxcuR"
+        },
+        {
+            "name": "repeating_attack_-M-4FZMKaFQXOLKA50eg_atk_desc",
+            "current": "",
+            "max": "",
+            "id": "-M-4F_NOIln8GrHDYJE2"
+        },
+        {
+            "name": "repeating_attack_-M-4FZMKaFQXOLKA50eg_rollbase_dmg",
+            "current": "@{wtype}&{template:dmg} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[[[round((@{level} + 1) / 6 + 0.5)]]d8]]}} {{dmg1type=Cold }} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg} {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[0]]}} {{globaldamagetype=@{global_damage_mod_type}}} @{charname_output}",
+            "max": "",
+            "id": "-M-4F_NbLcGZNgu4NfWW"
+        },
+        {
+            "name": "repeating_attack_-M-4FZMKaFQXOLKA50eg_rollbase_crit",
+            "current": "@{wtype}&{template:dmg} {{crit=1}} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[[[round((@{level} + 1) / 6 + 0.5)]]d8]]}} {{dmg1type=Cold }} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} {{crit1=[[[[round((@{level} + 1) / 6 + 0.5)]]d8]]}} {{crit2=[[0]]}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg}  {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[0]]}} {{globaldamagecrit=[[0]]}} {{globaldamagetype=@{global_damage_mod_type}}} @{charname_output}",
+            "max": "",
+            "id": "-M-4F_Newx-NFCaYMZVG"
+        },
+        {
+            "name": "repeating_attack_-M-4FZMKaFQXOLKA50eg_atkbonus",
+            "current": "+12",
+            "max": "",
+            "id": "-M-4F_NhbEyLN3Nl-CCu"
+        },
+        {
+            "name": "repeating_attack_-M-4FZMKaFQXOLKA50eg_atkdmgtype",
+            "current": "2d8 Cold  ",
+            "max": "",
+            "id": "-M-4F_NjSjE_30prdKwJ"
+        },
+        {
+            "name": "repeating_attack_-M-4FZMKaFQXOLKA50eg_rollbase",
+            "current": "@{wtype}&{template:atk} {{mod=@{atkbonus}}} {{rname=[@{atkname}](~repeating_attack_attack_dmg)}} {{rnamec=[@{atkname}](~repeating_attack_attack_crit)}} {{r1=[[@{d20}cs>@{atkcritrange} + 3[INT] + 3[PROF] + 6[SPELLATK]]]}} @{rtype}cs>@{atkcritrange} + 3[INT] + 3[PROF] + 6[SPELLATK]]]}} {{range=@{atkrange}}} {{desc=@{atk_desc}}} {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globalattack=@{global_attack_mod}}} ammo=@{ammo} @{charname_output}",
+            "max": "",
+            "id": "-M-4F_NlqPR4gE4RwICO"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FcUOIUq4ARZKjns9_spelllevel",
+            "current": "1",
+            "max": "",
+            "id": "-M-4FcUXtNWv7YW0lAzO"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FcUOIUq4ARZKjns9_spell_ability",
+            "current": "spell",
+            "max": "",
+            "id": "-M-4FcU_sgJPPb5923Lo"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FcUOIUq4ARZKjns9_spellname",
+            "current": "Detect Magic",
+            "max": "",
+            "id": "-M-4FcUbZTAomjPnP3bl"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FcUOIUq4ARZKjns9_spellritual",
+            "current": "{{ritual=1}}",
+            "max": "",
+            "id": "-M-4FcUeIn85HcwUZVzm"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FcUOIUq4ARZKjns9_spellschool",
+            "current": "divination",
+            "max": "",
+            "id": "-M-4FcUfL0bDPYb2nh-_"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FcUOIUq4ARZKjns9_spellcastingtime",
+            "current": "1 action",
+            "max": "",
+            "id": "-M-4FcUirguALjUzvexZ"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FcUOIUq4ARZKjns9_spellrange",
+            "current": "Self",
+            "max": "",
+            "id": "-M-4FcUk8hDpeK9WtJGx"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FcUOIUq4ARZKjns9_spelltarget",
+            "current": "Self",
+            "max": "",
+            "id": "-M-4FcUnFVnFSJ5UL55g"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FcUOIUq4ARZKjns9_spellcomp_m",
+            "current": "0",
+            "max": "",
+            "id": "-M-4FcUqpJ7oUfZEMxk1"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FcUOIUq4ARZKjns9_spellconcentration",
+            "current": "{{concentration=1}}",
+            "max": "",
+            "id": "-M-4FcUsjthNPj11_PBF"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FcUOIUq4ARZKjns9_spellduration",
+            "current": "Up to 10 minutes",
+            "max": "",
+            "id": "-M-4FcUvjUFFLQFsyrO5"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FcUOIUq4ARZKjns9_spelldescription",
+            "current": "For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any. The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.",
+            "max": "",
+            "id": "-M-4FcUwtai6KgH7s4Jl"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FcUOIUq4ARZKjns9_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-M-4FcUzZHBZvpIx_Cga"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FfX4iJS2xxFvszan_spelllevel",
+            "current": "1",
+            "max": "",
+            "id": "-M-4FfXC_6D0Vf84rxuJ"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FfX4iJS2xxFvszan_spell_ability",
+            "current": "spell",
+            "max": "",
+            "id": "-M-4FfXFyRwAtBDLeRlA"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FfX4iJS2xxFvszan_spellname",
+            "current": "Mage Armor",
+            "max": "",
+            "id": "-M-4FfXIw89ydfaLVI8P"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FfX4iJS2xxFvszan_spellschool",
+            "current": "abjuration",
+            "max": "",
+            "id": "-M-4FfXK71yMT-AWgLrf"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FfX4iJS2xxFvszan_spellcastingtime",
+            "current": "1 action",
+            "max": "",
+            "id": "-M-4FfXNC40WndIUOJOm"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FfX4iJS2xxFvszan_spellrange",
+            "current": "Touch",
+            "max": "",
+            "id": "-M-4FfXPlZ2vgRRETBb0"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FfX4iJS2xxFvszan_spelltarget",
+            "current": "A willing creature who isn't wearing armor",
+            "max": "",
+            "id": "-M-4FfXRD5ZPfjVz1tjp"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FfX4iJS2xxFvszan_spellcomp_materials",
+            "current": "A piece of cured leather",
+            "max": "",
+            "id": "-M-4FfXTQDLCUsyPD8hS"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FfX4iJS2xxFvszan_spellduration",
+            "current": "8 hours",
+            "max": "",
+            "id": "-M-4FfXX6OS7gM0Wuq7-"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FfX4iJS2xxFvszan_spelldescription",
+            "current": "You touch a willing creature who isn’t wearing armor, and a protective magical force surrounds it until the spell ends. The target’s base AC becomes 13 + its Dexterity modifier. The spell ends if the target dons armor or if you dismiss the spell as an action.",
+            "max": "",
+            "id": "-M-4FfXYJ8fKRJoe9ugM"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FfX4iJS2xxFvszan_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-M-4FfXanl8rZ-Zm67dV"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FjrWZ2Azetvw4AZz_spelllevel",
+            "current": "1",
+            "max": "",
+            "id": "-M-4FjrduP8FgrjlPMhA"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FjrWZ2Azetvw4AZz_spell_ability",
+            "current": "spell",
+            "max": "",
+            "id": "-M-4FjrgOnuMPXWnMoGo"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FjrWZ2Azetvw4AZz_spellname",
+            "current": "Magic Missile",
+            "max": "",
+            "id": "-M-4Fjrjg07PtKXAUhN3"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FjrWZ2Azetvw4AZz_spellschool",
+            "current": "evocation",
+            "max": "",
+            "id": "-M-4Fjrl7kmOGnWfRD7e"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FjrWZ2Azetvw4AZz_spellcastingtime",
+            "current": "1 action",
+            "max": "",
+            "id": "-M-4Fjrnm5J--LT4V-GZ"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FjrWZ2Azetvw4AZz_spellrange",
+            "current": "120 feet",
+            "max": "",
+            "id": "-M-4Fjrq6n7C-icQOKj4"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FjrWZ2Azetvw4AZz_spelltarget",
+            "current": "A creature of your choice that you can see within range",
+            "max": "",
+            "id": "-M-4FjrsjEdDNZXI0kKK"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FjrWZ2Azetvw4AZz_spellcomp_m",
+            "current": "0",
+            "max": "",
+            "id": "-M-4Fjrwd2vq60J4yr7J"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FjrWZ2Azetvw4AZz_spellduration",
+            "current": "Instantaneous",
+            "max": "",
+            "id": "-M-4Fjry-twx5JCwiQqO"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FjrWZ2Azetvw4AZz_spelloutput",
+            "current": "ATTACK",
+            "max": "",
+            "id": "-M-4Fjs-kYcJZzVyWqzc"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FjrWZ2Azetvw4AZz_spelldamage",
+            "current": "1d4+1",
+            "max": "",
+            "id": "-M-4Fjs26RDbMYoYUSLG"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FjrWZ2Azetvw4AZz_spelldamagetype",
+            "current": "Force",
+            "max": "",
+            "id": "-M-4Fjs4en6Rzqq55aXS"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FjrWZ2Azetvw4AZz_spellathigherlevels",
+            "current": "When you cast this spell using a spell slot of 2nd level or higher, the spell creates one more dart for each slot above 1st.",
+            "max": "",
+            "id": "-M-4Fjs61QR0dqd19OmF"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FjrWZ2Azetvw4AZz_spelldescription",
+            "current": "You create three glowing darts of magical force. Each dart hits a creature of your choice that you can see within range. A dart deals 1d4 + 1 force damage to its target. The darts all strike simultaneously, and you can direct them to hit one creature or several.",
+            "max": "",
+            "id": "-M-4Fjs9Cxs9ZosBtIJu"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FjrWZ2Azetvw4AZz_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-M-4FjsB16wFhPdMx3nw"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FjrWZ2Azetvw4AZz_spellattackid",
+            "current": "-M-4FjsDaqd3MN9iJkcd",
+            "max": "",
+            "id": "-M-4FjsUHuX1m2Q67UgH"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FjrWZ2Azetvw4AZz_rollcontent",
+            "current": "%{-M-4BcbJjlKdhqI5O9vC|repeating_attack_-M-4FjsDaqd3MN9iJkcd_attack}",
+            "max": "",
+            "id": "-M-4FjsX5klpJWI6CafN"
+        },
+        {
+            "name": "repeating_attack_-M-4FjsDaqd3MN9iJkcd_atkattr_base",
+            "current": "spell",
+            "max": "",
+            "id": "-M-4Fjs_sGojSnNYsXFY"
+        },
+        {
+            "name": "repeating_attack_-M-4FjsDaqd3MN9iJkcd_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-M-4Fjsb_LKPQEz05Vx7"
+        },
+        {
+            "name": "repeating_attack_-M-4FjsDaqd3MN9iJkcd_spellid",
+            "current": "-M-4FjrWZ2Azetvw4AZz",
+            "max": "",
+            "id": "-M-4FjseMWcpa-TTR9Z8"
+        },
+        {
+            "name": "repeating_attack_-M-4FjsDaqd3MN9iJkcd_spelllevel",
+            "current": "1",
+            "max": "",
+            "id": "-M-4FjshrrJYIBrKT7Id"
+        },
+        {
+            "name": "repeating_attack_-M-4FjsDaqd3MN9iJkcd_savedc",
+            "current": "(@{spell_save_dc})",
+            "max": "",
+            "id": "-M-4FjskemKjpqIbvQ0w"
+        },
+        {
+            "name": "repeating_attack_-M-4FjsDaqd3MN9iJkcd_atkname",
+            "current": "Magic Missile",
+            "max": "",
+            "id": "-M-4FjsmAxQxPk0J9aCI"
+        },
+        {
+            "name": "repeating_attack_-M-4FjsDaqd3MN9iJkcd_atkflag",
+            "current": "0",
+            "max": "",
+            "id": "-M-4Fjspn6mgbE_QI7yj"
+        },
+        {
+            "name": "repeating_attack_-M-4FjsDaqd3MN9iJkcd_dmgflag",
+            "current": "{{damage=1}} {{dmg1flag=1}}",
+            "max": "",
+            "id": "-M-4FjssN4VeY8gVhjGe"
+        },
+        {
+            "name": "repeating_attack_-M-4FjsDaqd3MN9iJkcd_dmgbase",
+            "current": "1d4+1",
+            "max": "",
+            "id": "-M-4Fjsuv35YP-zVb3VG"
+        },
+        {
+            "name": "repeating_attack_-M-4FjsDaqd3MN9iJkcd_dmgattr",
+            "current": "0",
+            "max": "",
+            "id": "-M-4Fjsy14Gyk9GYEDI9"
+        },
+        {
+            "name": "repeating_attack_-M-4FjsDaqd3MN9iJkcd_dmgtype",
+            "current": "Force",
+            "max": "",
+            "id": "-M-4Fjt0uV-gi9sLnUOp"
+        },
+        {
+            "name": "repeating_attack_-M-4FjsDaqd3MN9iJkcd_dmg2base",
+            "current": "",
+            "max": "",
+            "id": "-M-4Fjt3N-6EIQDz5rtQ"
+        },
+        {
+            "name": "repeating_attack_-M-4FjsDaqd3MN9iJkcd_dmg2attr",
+            "current": 0,
+            "max": "",
+            "id": "-M-4Fjt4iDZ_ldy1g-JH"
+        },
+        {
+            "name": "repeating_attack_-M-4FjsDaqd3MN9iJkcd_dmg2flag",
+            "current": "0",
+            "max": "",
+            "id": "-M-4Fjt7C34CvPa5-B9b"
+        },
+        {
+            "name": "repeating_attack_-M-4FjsDaqd3MN9iJkcd_dmg2type",
+            "current": "",
+            "max": "",
+            "id": "-M-4FjtBDoQhY_sHM0Mq"
+        },
+        {
+            "name": "repeating_attack_-M-4FjsDaqd3MN9iJkcd_atkrange",
+            "current": "120 feet",
+            "max": "",
+            "id": "-M-4FjtDV3g7L26SgVtV"
+        },
+        {
+            "name": "repeating_attack_-M-4FjsDaqd3MN9iJkcd_saveflag",
+            "current": "0",
+            "max": "",
+            "id": "-M-4FjtGYY3wWkV7XTq2"
+        },
+        {
+            "name": "repeating_attack_-M-4FjsDaqd3MN9iJkcd_saveeffect",
+            "current": "",
+            "max": "",
+            "id": "-M-4FjtJPFI-WlXYBE_w"
+        },
+        {
+            "name": "repeating_attack_-M-4FjsDaqd3MN9iJkcd_hldmg",
+            "current": "",
+            "max": "",
+            "id": "-M-4FjtN-eC7CuZ-qbof"
+        },
+        {
+            "name": "repeating_attack_-M-4FjsDaqd3MN9iJkcd_spell_innate",
+            "current": "",
+            "max": "",
+            "id": "-M-4FjtQtfle1PAVEubm"
+        },
+        {
+            "name": "repeating_attack_-M-4FjsDaqd3MN9iJkcd_atk_desc",
+            "current": "",
+            "max": "",
+            "id": "-M-4FjtT8noobGZYTbs_"
+        },
+        {
+            "name": "repeating_attack_-M-4FjsDaqd3MN9iJkcd_rollbase_dmg",
+            "current": "@{wtype}&{template:dmg} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[1d4+1]]}} {{dmg1type=Force }} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg} {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[0]]}} {{globaldamagetype=@{global_damage_mod_type}}} @{charname_output}",
+            "max": "",
+            "id": "-M-4FjtjIrnmtn7MwlRd"
+        },
+        {
+            "name": "repeating_attack_-M-4FjsDaqd3MN9iJkcd_rollbase_crit",
+            "current": "@{wtype}&{template:dmg} {{crit=1}} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[1d4+1]]}} {{dmg1type=Force }} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} {{crit1=[[1d4+1]]}} {{crit2=[[0]]}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg}  {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[0]]}} {{globaldamagecrit=[[0]]}} {{globaldamagetype=@{global_damage_mod_type}}} @{charname_output}",
+            "max": "",
+            "id": "-M-4Fjtm4ZPt1zV9Swxp"
+        },
+        {
+            "name": "repeating_attack_-M-4FjsDaqd3MN9iJkcd_atkbonus",
+            "current": "-",
+            "max": "",
+            "id": "-M-4FjtpQKeUsXEZZy2K"
+        },
+        {
+            "name": "repeating_attack_-M-4FjsDaqd3MN9iJkcd_atkdmgtype",
+            "current": "1d4+1 Force  ",
+            "max": "",
+            "id": "-M-4FjtszqFdIVgv0WwT"
+        },
+        {
+            "name": "repeating_attack_-M-4FjsDaqd3MN9iJkcd_rollbase",
+            "current": "@{wtype}&{template:dmg} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[1d4+1]]}} {{dmg1type=Force }} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg} {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[0]]}} {{globaldamagetype=@{global_damage_mod_type}}} ammo=@{ammo} @{charname_output}",
+            "max": "",
+            "id": "-M-4Fjtuokx2-za1873Z"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FmAoDXcxvEjp-d05_spelllevel",
+            "current": "1",
+            "max": "",
+            "id": "-M-4FmAwEIPkH5dZn339"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FmAoDXcxvEjp-d05_spell_ability",
+            "current": "spell",
+            "max": "",
+            "id": "-M-4FmAzy30Ch8Ldupge"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FmAoDXcxvEjp-d05_spellname",
+            "current": "Sleep",
+            "max": "",
+            "id": "-M-4FmB0boTXavDEZsO1"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FmAoDXcxvEjp-d05_spellschool",
+            "current": "enchantment",
+            "max": "",
+            "id": "-M-4FmB2m85mTFwozxZC"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FmAoDXcxvEjp-d05_spellcastingtime",
+            "current": "1 action",
+            "max": "",
+            "id": "-M-4FmB5cp_KEXPJ9DTn"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FmAoDXcxvEjp-d05_spellrange",
+            "current": "90 feet",
+            "max": "",
+            "id": "-M-4FmB7s3jPCiK5zXJm"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FmAoDXcxvEjp-d05_spelltarget",
+            "current": "Creatures within 20 feet of a point you choose within range (in ascending order of their current hit points, ignoring unconscious creatures)",
+            "max": "",
+            "id": "-M-4FmBAowYGBD2SSIdQ"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FmAoDXcxvEjp-d05_spellcomp_materials",
+            "current": "A pinch of fine sand, rose petals, or a cricket",
+            "max": "",
+            "id": "-M-4FmBD7c1lLxKDzOhy"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FmAoDXcxvEjp-d05_spellduration",
+            "current": "1 minute",
+            "max": "",
+            "id": "-M-4FmBFzMrO1eJSdlnN"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FmAoDXcxvEjp-d05_spelloutput",
+            "current": "ATTACK",
+            "max": "",
+            "id": "-M-4FmBHyMT1T9NK72Dr"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FmAoDXcxvEjp-d05_spelldamage",
+            "current": "5d8",
+            "max": "",
+            "id": "-M-4FmBKdMBsOs0Er6nu"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FmAoDXcxvEjp-d05_spelldamagetype",
+            "current": "Hit Points of Creatures",
+            "max": "",
+            "id": "-M-4FmBMO7w6LpRuqzZ7"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FmAoDXcxvEjp-d05_spellhldie",
+            "current": "2",
+            "max": "",
+            "id": "-M-4FmBPhetxTUZwLBZD"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FmAoDXcxvEjp-d05_spellhldietype",
+            "current": "d8",
+            "max": "",
+            "id": "-M-4FmBS9tnxLrK4uHb5"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FmAoDXcxvEjp-d05_spellathigherlevels",
+            "current": "When you cast this spell using a spell slot of 2nd level or higher, roll an additional 2d8 for each slot level above 1st.",
+            "max": "",
+            "id": "-M-4FmBVh47VU_-5znih"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FmAoDXcxvEjp-d05_spelldescription",
+            "current": "This spell sends creatures into a magical slumber. Roll 5d8; the total is how many hit points of creatures this spell can affect. Creatures within 20 feet of a point you choose within range are affected in ascending order of their current hit points (ignoring unconscious creatures). Starting with the creature that has the lowest current hit points, each creature affected by this spell falls unconscious until the spell ends, the sleeper takes damage, or someone uses an action to shake or slap the sleeper awake. Subtract each creature’s hit points from the total before moving on to the creature with the next lowest hit points. A creature’s hit points must be equal to or less than the remaining total for that creature to be affected. Undead and creatures immune to being charmed aren’t affected by this spell.",
+            "max": "",
+            "id": "-M-4FmBW2MmU-aLe7BJD"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FmAoDXcxvEjp-d05_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-M-4FmBZi_d9JkVWiKUN"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FmAoDXcxvEjp-d05_spellattackid",
+            "current": "-M-4FmBbKrhC9Gkfen0T",
+            "max": "",
+            "id": "-M-4FmBpwizQKQrbDhQE"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FmAoDXcxvEjp-d05_rollcontent",
+            "current": "%{-M-4BcbJjlKdhqI5O9vC|repeating_attack_-M-4FmBbKrhC9Gkfen0T_attack}",
+            "max": "",
+            "id": "-M-4FmBsXksXXrgutp14"
+        },
+        {
+            "name": "repeating_attack_-M-4FmBbKrhC9Gkfen0T_atkattr_base",
+            "current": "spell",
+            "max": "",
+            "id": "-M-4FmBwx6BqBjDzaJNC"
+        },
+        {
+            "name": "repeating_attack_-M-4FmBbKrhC9Gkfen0T_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-M-4FmBySuWDpgT_X-mJ"
+        },
+        {
+            "name": "repeating_attack_-M-4FmBbKrhC9Gkfen0T_spellid",
+            "current": "-M-4FmAoDXcxvEjp-d05",
+            "max": "",
+            "id": "-M-4FmC1m4vjkB1Xpvp_"
+        },
+        {
+            "name": "repeating_attack_-M-4FmBbKrhC9Gkfen0T_spelllevel",
+            "current": "1",
+            "max": "",
+            "id": "-M-4FmC5m2VuM8vP2Ulv"
+        },
+        {
+            "name": "repeating_attack_-M-4FmBbKrhC9Gkfen0T_savedc",
+            "current": "(@{spell_save_dc})",
+            "max": "",
+            "id": "-M-4FmC7gySbHmeQSfk-"
+        },
+        {
+            "name": "repeating_attack_-M-4FmBbKrhC9Gkfen0T_atkname",
+            "current": "Sleep",
+            "max": "",
+            "id": "-M-4FmCArF-kIXWVCg7K"
+        },
+        {
+            "name": "repeating_attack_-M-4FmBbKrhC9Gkfen0T_atkflag",
+            "current": "0",
+            "max": "",
+            "id": "-M-4FmCCgDwbx3yPyo0n"
+        },
+        {
+            "name": "repeating_attack_-M-4FmBbKrhC9Gkfen0T_dmgflag",
+            "current": "{{damage=1}} {{dmg1flag=1}}",
+            "max": "",
+            "id": "-M-4FmCFi7DgtaY7jF5-"
+        },
+        {
+            "name": "repeating_attack_-M-4FmBbKrhC9Gkfen0T_dmgbase",
+            "current": "5d8",
+            "max": "",
+            "id": "-M-4FmCIGnshvNbUtMLQ"
+        },
+        {
+            "name": "repeating_attack_-M-4FmBbKrhC9Gkfen0T_dmgattr",
+            "current": "0",
+            "max": "",
+            "id": "-M-4FmCOMMymoPP14NaJ"
+        },
+        {
+            "name": "repeating_attack_-M-4FmBbKrhC9Gkfen0T_dmgtype",
+            "current": "Hit Points of Creatures",
+            "max": "",
+            "id": "-M-4FmCRtxHr_D1Z9sKK"
+        },
+        {
+            "name": "repeating_attack_-M-4FmBbKrhC9Gkfen0T_dmg2base",
+            "current": "",
+            "max": "",
+            "id": "-M-4FmCWp2utIEwBg0GB"
+        },
+        {
+            "name": "repeating_attack_-M-4FmBbKrhC9Gkfen0T_dmg2attr",
+            "current": 0,
+            "max": "",
+            "id": "-M-4FmCY8mxos3yZNmqi"
+        },
+        {
+            "name": "repeating_attack_-M-4FmBbKrhC9Gkfen0T_dmg2flag",
+            "current": "0",
+            "max": "",
+            "id": "-M-4FmCbefepEIPZ0laM"
+        },
+        {
+            "name": "repeating_attack_-M-4FmBbKrhC9Gkfen0T_dmg2type",
+            "current": "",
+            "max": "",
+            "id": "-M-4FmCeO8w9xo8dsILc"
+        },
+        {
+            "name": "repeating_attack_-M-4FmBbKrhC9Gkfen0T_atkrange",
+            "current": "90 feet",
+            "max": "",
+            "id": "-M-4FmCg9Cg0t7hpFbKR"
+        },
+        {
+            "name": "repeating_attack_-M-4FmBbKrhC9Gkfen0T_saveflag",
+            "current": "0",
+            "max": "",
+            "id": "-M-4FmCi7bnHBiAr8AGe"
+        },
+        {
+            "name": "repeating_attack_-M-4FmBbKrhC9Gkfen0T_saveeffect",
+            "current": "",
+            "max": "",
+            "id": "-M-4FmCk0AVDe2TWIIeq"
+        },
+        {
+            "name": "repeating_attack_-M-4FmBbKrhC9Gkfen0T_hldmg",
+            "current": "{{hldmg=[[(2*?{Cast at what level?|Level 1,0|Level 2,1|Level 3,2|Level 4,3|Level 5,4|Level 6,5|Level 7,6|Level 8,7|Level 9,8})d8]]}}",
+            "max": "",
+            "id": "-M-4FmCmir525I488cJY"
+        },
+        {
+            "name": "repeating_attack_-M-4FmBbKrhC9Gkfen0T_spell_innate",
+            "current": "",
+            "max": "",
+            "id": "-M-4FmCqDhE6HSJcc8SE"
+        },
+        {
+            "name": "repeating_attack_-M-4FmBbKrhC9Gkfen0T_atk_desc",
+            "current": "",
+            "max": "",
+            "id": "-M-4FmCsMitTUAvo-PFF"
+        },
+        {
+            "name": "repeating_attack_-M-4FmBbKrhC9Gkfen0T_rollbase_dmg",
+            "current": "@{wtype}&{template:dmg} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[5d8]]}} {{dmg1type=Hit Points of Creatures }} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg} {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[0]]}} {{globaldamagetype=@{global_damage_mod_type}}} @{charname_output}",
+            "max": "",
+            "id": "-M-4FmDHQkh5-ssUnjoy"
+        },
+        {
+            "name": "repeating_attack_-M-4FmBbKrhC9Gkfen0T_rollbase_crit",
+            "current": "@{wtype}&{template:dmg} {{crit=1}} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[5d8]]}} {{dmg1type=Hit Points of Creatures }} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} {{crit1=[[5d8]]}} {{crit2=[[0]]}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg} {{hldmgcrit=[[(2*?{Cast at what level?|Level 1,0|Level 2,1|Level 3,2|Level 4,3|Level 5,4|Level 6,5|Level 7,6|Level 8,7|Level 9,8})d8]]}} {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[0]]}} {{globaldamagecrit=[[0]]}} {{globaldamagetype=@{global_damage_mod_type}}} @{charname_output}",
+            "max": "",
+            "id": "-M-4FmDLWD8pu2gI23t7"
+        },
+        {
+            "name": "repeating_attack_-M-4FmBbKrhC9Gkfen0T_atkbonus",
+            "current": "-",
+            "max": "",
+            "id": "-M-4FmDNN1HLH6rAdVwW"
+        },
+        {
+            "name": "repeating_attack_-M-4FmBbKrhC9Gkfen0T_atkdmgtype",
+            "current": "5d8 Hit Points of Creatures  ",
+            "max": "",
+            "id": "-M-4FmDQkqsLIAkU_KLF"
+        },
+        {
+            "name": "repeating_attack_-M-4FmBbKrhC9Gkfen0T_rollbase",
+            "current": "@{wtype}&{template:dmg} {{rname=@{atkname}}} @{atkflag} {{range=@{atkrange}}} @{dmgflag} {{dmg1=[[5d8]]}} {{dmg1type=Hit Points of Creatures }} @{dmg2flag} {{dmg2=[[0]]}} {{dmg2type=}} @{saveflag} {{desc=@{atk_desc}}} @{hldmg} {{spelllevel=@{spelllevel}}} {{innate=@{spell_innate}}} {{globaldamage=[[0]]}} {{globaldamagetype=@{global_damage_mod_type}}} ammo=@{ammo} @{charname_output}",
+            "max": "",
+            "id": "-M-4FmDSYSaUamnRGf8N"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FpBoMHxZ009bATGp_spelllevel",
+            "current": "1",
+            "max": "",
+            "id": "-M-4FpBxiNVNnsYQsQv_"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FpBoMHxZ009bATGp_spell_ability",
+            "current": "spell",
+            "max": "",
+            "id": "-M-4FpC-3VzL8pLDeT6F"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FpBoMHxZ009bATGp_spellname",
+            "current": "Disguise Self",
+            "max": "",
+            "id": "-M-4FpC2E_VGTOh9PcJV"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FpBoMHxZ009bATGp_spellschool",
+            "current": "illusion",
+            "max": "",
+            "id": "-M-4FpC5Bc-MS-HQdm30"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FpBoMHxZ009bATGp_spellcastingtime",
+            "current": "1 action",
+            "max": "",
+            "id": "-M-4FpC6fYnVpX63izDn"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FpBoMHxZ009bATGp_spellrange",
+            "current": "Self",
+            "max": "",
+            "id": "-M-4FpCAqfMOQYMjlwiD"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FpBoMHxZ009bATGp_spelltarget",
+            "current": "Self",
+            "max": "",
+            "id": "-M-4FpCCGxB2I9N_fr2r"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FpBoMHxZ009bATGp_spellcomp_m",
+            "current": "0",
+            "max": "",
+            "id": "-M-4FpCE51afSSTsx9zw"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FpBoMHxZ009bATGp_spellduration",
+            "current": "1 hour",
+            "max": "",
+            "id": "-M-4FpCHn35eleijNwZC"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FpBoMHxZ009bATGp_spelldescription",
+            "current": "You make yourself—including your clothing, armor, weapons, and other belongings on your person—look different until the spell ends or until you use your action to dismiss it. You can seem 1 foot shorter or taller and can appear thin, fat, or in between. You can’t change your body type, so you must adopt a form that has the same basic arrangement of limbs. Otherwise, the extent of the illusion is up to you. The changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing or would feel your head and hair. If you use this spell to appear thinner than you are, the hand of someone who reaches out to touch you would bump into you while it was seemingly still in midair. To discern that you are disguised, a creature can use its action to inspect your appearance and must succeed on an Intelligence (Investigation) check against your spell save DC.",
+            "max": "",
+            "id": "-M-4FpCKg9Z7D1ymSyYF"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FpBoMHxZ009bATGp_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-M-4FpCMhlmmcahAysN3"
+        },
+        {
+            "name": "lvl1_slots_expended",
+            "current": "4",
+            "max": "",
+            "id": "-M-4Fq-MymHui_b1_0kg"
+        },
+        {
+            "name": "lvl2_slots_expended",
+            "current": "3",
+            "max": "",
+            "id": "-M-4FqMVCM9nIxU1mqs0"
+        },
+        {
+            "name": "lvl3_slots_expended",
+            "current": "3",
+            "max": "",
+            "id": "-M-4Fqju_0TqCui-MMCG"
+        },
+        {
+            "name": "lvl4_slots_expended",
+            "current": "3",
+            "max": "",
+            "id": "-M-4FrUMTSuTnbKHlTMN"
+        },
+        {
+            "name": "lvl5_slots_expended",
+            "current": "1",
+            "max": "",
+            "id": "-M-4FsrVsj-hySqG3YtB"
+        },
+        {
+            "name": "repeating_spell-2_-M-4FvsmzrgZWdmaGQBi_spelllevel",
+            "current": "2",
+            "max": "",
+            "id": "-M-4FvsubhDoe00vG8y9"
+        },
+        {
+            "name": "repeating_spell-2_-M-4FvsmzrgZWdmaGQBi_spell_ability",
+            "current": "spell",
+            "max": "",
+            "id": "-M-4FvsxpSmtc8ZXifaf"
+        },
+        {
+            "name": "repeating_spell-2_-M-4FvsmzrgZWdmaGQBi_spellname",
+            "current": "Ray of Enfeeblement",
+            "max": "",
+            "id": "-M-4Fvt-0QEwb3CS6Gis"
+        },
+        {
+            "name": "repeating_spell-2_-M-4FvsmzrgZWdmaGQBi_spellschool",
+            "current": "necromancy",
+            "max": "",
+            "id": "-M-4Fvt13zrLwY3oyQ5W"
+        },
+        {
+            "name": "repeating_spell-2_-M-4FvsmzrgZWdmaGQBi_spellcastingtime",
+            "current": "1 action",
+            "max": "",
+            "id": "-M-4Fvt4SuCmfJ7eAGdK"
+        },
+        {
+            "name": "repeating_spell-2_-M-4FvsmzrgZWdmaGQBi_spellrange",
+            "current": "60 feet",
+            "max": "",
+            "id": "-M-4Fvt6DztZaIYgLQj0"
+        },
+        {
+            "name": "repeating_spell-2_-M-4FvsmzrgZWdmaGQBi_spelltarget",
+            "current": "A creature within range",
+            "max": "",
+            "id": "-M-4Fvt9h9BmsrSXZpsa"
+        },
+        {
+            "name": "repeating_spell-2_-M-4FvsmzrgZWdmaGQBi_spellcomp_m",
+            "current": "0",
+            "max": "",
+            "id": "-M-4FvtClamX0t-Zu4f4"
+        },
+        {
+            "name": "repeating_spell-2_-M-4FvsmzrgZWdmaGQBi_spellconcentration",
+            "current": "{{concentration=1}}",
+            "max": "",
+            "id": "-M-4FvtFf7k9OZeYJEGZ"
+        },
+        {
+            "name": "repeating_spell-2_-M-4FvsmzrgZWdmaGQBi_spellduration",
+            "current": "Up to 1 minute",
+            "max": "",
+            "id": "-M-4FvtG926D6R64Xjgt"
+        },
+        {
+            "name": "repeating_spell-2_-M-4FvsmzrgZWdmaGQBi_spellattack",
+            "current": "Ranged",
+            "max": "",
+            "id": "-M-4FvtJwCzLIjUz1gRD"
+        },
+        {
+            "name": "repeating_spell-2_-M-4FvsmzrgZWdmaGQBi_spelldescription",
+            "current": "A black beam of enervating energy springs from your finger toward a creature within range. Make a ranged spell attack against the target. On a hit, the target deals only half damage with weapon attacks that use Strength until the spell ends. At the end of each of the target’s turns, it can make a Constitution saving throw against the spell. On a success, the spell ends.",
+            "max": "",
+            "id": "-M-4FvtM5vMEaj8JU9ft"
+        },
+        {
+            "name": "repeating_spell-2_-M-4FvsmzrgZWdmaGQBi_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-M-4FvtO8wkI_S1XyRRY"
+        },
+        {
+            "name": "repeating_spell-2_-M-4FxyCvbY7DLctlW8E_spelllevel",
+            "current": "2",
+            "max": "",
+            "id": "-M-4FxyLCT2Nhl2ILcZo"
+        },
+        {
+            "name": "repeating_spell-2_-M-4FxyCvbY7DLctlW8E_spell_ability",
+            "current": "spell",
+            "max": "",
+            "id": "-M-4FxyPrfY3jQSzQ7Q7"
+        },
+        {
+            "name": "repeating_spell-2_-M-4FxyCvbY7DLctlW8E_spellname",
+            "current": "Suggestion",
+            "max": "",
+            "id": "-M-4FxySkJNS7ZRQgCTe"
+        },
+        {
+            "name": "repeating_spell-2_-M-4FxyCvbY7DLctlW8E_spellschool",
+            "current": "enchantment",
+            "max": "",
+            "id": "-M-4FxyVurPZNtPTAOss"
+        },
+        {
+            "name": "repeating_spell-2_-M-4FxyCvbY7DLctlW8E_spellcastingtime",
+            "current": "1 action",
+            "max": "",
+            "id": "-M-4FxyYF5hKEGdQma6q"
+        },
+        {
+            "name": "repeating_spell-2_-M-4FxyCvbY7DLctlW8E_spellrange",
+            "current": "30 feet",
+            "max": "",
+            "id": "-M-4FxybLQt8obhGGnZ0"
+        },
+        {
+            "name": "repeating_spell-2_-M-4FxyCvbY7DLctlW8E_spelltarget",
+            "current": "A creature you can see within range that can hear and understand you",
+            "max": "",
+            "id": "-M-4Fxyd8jf1Dkly5CCg"
+        },
+        {
+            "name": "repeating_spell-2_-M-4FxyCvbY7DLctlW8E_spellcomp_s",
+            "current": "0",
+            "max": "",
+            "id": "-M-4FxyggRBW8florhyt"
+        },
+        {
+            "name": "repeating_spell-2_-M-4FxyCvbY7DLctlW8E_spellcomp_materials",
+            "current": "A snake's tongue and either a bit of honeycomb or a drop of sweet oil",
+            "max": "",
+            "id": "-M-4FxyjdPLvfp7vUiS2"
+        },
+        {
+            "name": "repeating_spell-2_-M-4FxyCvbY7DLctlW8E_spellconcentration",
+            "current": "{{concentration=1}}",
+            "max": "",
+            "id": "-M-4FxymuCbgZpJcreoG"
+        },
+        {
+            "name": "repeating_spell-2_-M-4FxyCvbY7DLctlW8E_spellduration",
+            "current": "Up to 8 hours",
+            "max": "",
+            "id": "-M-4FxypyW56YKfNEnM5"
+        },
+        {
+            "name": "repeating_spell-2_-M-4FxyCvbY7DLctlW8E_spelldescription",
+            "current": "You suggest a course of activity (limited to a sentence or two) and magically influence a creature you can see within range that can hear and understand you. Creatures that can’t be charmed are immune to this effect. The suggestion must be worded in such a manner as to make the course of action sound reasonable. Asking the creature to stab itself, throw itself onto a spear, immolate itself, or do some other obviously harmful act ends the spell. The target must make a Wisdom saving throw. On a failed save, it pursues the course of action you described to the best of its ability. The suggested course of action can continue for the entire duration. If the suggested activity can be completed in a shorter time, the spell ends when the subject finishes what it was asked to do. You can also specify conditions that will trigger a special activity during the duration. For example, you might suggest that a knight give her warhorse to the first beggar she meets. If the condition isn’t met before the spell expires, the activity isn’t performed. If you or any of your companions damage the target, the spell ends.",
+            "max": "",
+            "id": "-M-4Fxys6sUksdlBGl1Q"
+        },
+        {
+            "name": "repeating_spell-2_-M-4FxyCvbY7DLctlW8E_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-M-4Fxyv7eheOpmLuoyT"
+        },
+        {
+            "name": "repeating_spell-2_-M-4G-ZnzZKgnPYHH0m6_spelllevel",
+            "current": "2",
+            "max": "",
+            "id": "-M-4G-ZxlnNTbeKK1Jas"
+        },
+        {
+            "name": "repeating_spell-2_-M-4G-ZnzZKgnPYHH0m6_spell_ability",
+            "current": "spell",
+            "max": "",
+            "id": "-M-4G-_-zRCbdv7YUX3N"
+        },
+        {
+            "name": "repeating_spell-2_-M-4G-ZnzZKgnPYHH0m6_spellname",
+            "current": "Hold Person",
+            "max": "",
+            "id": "-M-4G-_2LWzkFt8OBMc7"
+        },
+        {
+            "name": "repeating_spell-2_-M-4G-ZnzZKgnPYHH0m6_spellschool",
+            "current": "enchantment",
+            "max": "",
+            "id": "-M-4G-_5lTThMfJKU46K"
+        },
+        {
+            "name": "repeating_spell-2_-M-4G-ZnzZKgnPYHH0m6_spellcastingtime",
+            "current": "1 action",
+            "max": "",
+            "id": "-M-4G-_7hteP_hXJYBjY"
+        },
+        {
+            "name": "repeating_spell-2_-M-4G-ZnzZKgnPYHH0m6_spellrange",
+            "current": "60 feet",
+            "max": "",
+            "id": "-M-4G-_Bi2MEItpUHriM"
+        },
+        {
+            "name": "repeating_spell-2_-M-4G-ZnzZKgnPYHH0m6_spelltarget",
+            "current": "A humanoid that you can see within range",
+            "max": "",
+            "id": "-M-4G-_D3LdBHYG4ie43"
+        },
+        {
+            "name": "repeating_spell-2_-M-4G-ZnzZKgnPYHH0m6_spellcomp_materials",
+            "current": "A small, straight piece of iron",
+            "max": "",
+            "id": "-M-4G-_HapI_RPp_X_0w"
+        },
+        {
+            "name": "repeating_spell-2_-M-4G-ZnzZKgnPYHH0m6_spellconcentration",
+            "current": "{{concentration=1}}",
+            "max": "",
+            "id": "-M-4G-_JfnyR7Xy_XMTb"
+        },
+        {
+            "name": "repeating_spell-2_-M-4G-ZnzZKgnPYHH0m6_spellduration",
+            "current": "Up to 1 minute",
+            "max": "",
+            "id": "-M-4G-_McDtMj-F1obQJ"
+        },
+        {
+            "name": "repeating_spell-2_-M-4G-ZnzZKgnPYHH0m6_rollcontent",
+            "current": "@{wtype}&{template:spell} {{level=@{spellschool} ?{Cast at what level?|Level 2,2|Level 3,3|Level 4,4|Level 5,5|Level 6,6|Level 7,7|Level 8,8|Level 9,9}}} {{name=@{spellname}}} {{castingtime=@{spellcastingtime}}} {{range=@{spellrange}}} {{target=@{spelltarget}}} @{spellcomp_v} @{spellcomp_s} @{spellcomp_m} {{material=@{spellcomp_materials}}} {{duration=@{spellduration}}} {{description=@{spelldescription}}} {{athigherlevels=@{spellathigherlevels}}} @{spellritual} {{innate=@{innate}}} @{spellconcentration} @{charname_output}",
+            "max": "",
+            "id": "-M-4G-_Pz0XmsIq-TQkK"
+        },
+        {
+            "name": "repeating_spell-2_-M-4G-ZnzZKgnPYHH0m6_spellathigherlevels",
+            "current": "When you cast this spell using a spell slot of 3rd level or higher, you can target on additional humanoid for each slot level above 2nd. The humanoids must be within 30 feet of each other when you target them.",
+            "max": "",
+            "id": "-M-4G-_Ra45lVSmMzGnY"
+        },
+        {
+            "name": "repeating_spell-2_-M-4G-ZnzZKgnPYHH0m6_spelldescription",
+            "current": "Choose a humanoid that you can see within range. The target must succeed on a Wisdom saving throw or be paralyzed for the duration. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target.",
+            "max": "",
+            "id": "-M-4G-_UqTVECnB01mIa"
+        },
+        {
+            "name": "repeating_spell-2_-M-4G-ZnzZKgnPYHH0m6_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-M-4G-_X6TtmdfktiY9m"
+        },
+        {
+            "name": "repeating_spell-3_-M-4G2aeYKzRXI0PeLJv_spelllevel",
+            "current": "3",
+            "max": "",
+            "id": "-M-4G2atOam7bGlRHa4m"
+        },
+        {
+            "name": "repeating_spell-3_-M-4G2aeYKzRXI0PeLJv_spell_ability",
+            "current": "spell",
+            "max": "",
+            "id": "-M-4G2awLt3E_t0KjllV"
+        },
+        {
+            "name": "repeating_spell-3_-M-4G2aeYKzRXI0PeLJv_spellname",
+            "current": "Counterspell",
+            "max": "",
+            "id": "-M-4G2azGmjJxHNJGHYX"
+        },
+        {
+            "name": "repeating_spell-3_-M-4G2aeYKzRXI0PeLJv_spellschool",
+            "current": "abjuration",
+            "max": "",
+            "id": "-M-4G2b1i2Id_jixFePc"
+        },
+        {
+            "name": "repeating_spell-3_-M-4G2aeYKzRXI0PeLJv_spellcastingtime",
+            "current": "1 reaction, which you take when you see a creature within 60 feet of you casting a spell",
+            "max": "",
+            "id": "-M-4G2b5np1OxSwW--7O"
+        },
+        {
+            "name": "repeating_spell-3_-M-4G2aeYKzRXI0PeLJv_spellrange",
+            "current": "60 feet",
+            "max": "",
+            "id": "-M-4G2b9uS7hfPLTAZDj"
+        },
+        {
+            "name": "repeating_spell-3_-M-4G2aeYKzRXI0PeLJv_spelltarget",
+            "current": "A creature in the process of casting a spell",
+            "max": "",
+            "id": "-M-4G2bB0zyi0O6rnXmH"
+        },
+        {
+            "name": "repeating_spell-3_-M-4G2aeYKzRXI0PeLJv_spellcomp_v",
+            "current": "0",
+            "max": "",
+            "id": "-M-4G2bETTI6DuMOU49m"
+        },
+        {
+            "name": "repeating_spell-3_-M-4G2aeYKzRXI0PeLJv_spellcomp_m",
+            "current": "0",
+            "max": "",
+            "id": "-M-4G2bGNUtfJho5xsbZ"
+        },
+        {
+            "name": "repeating_spell-3_-M-4G2aeYKzRXI0PeLJv_spellduration",
+            "current": "Instantaneous",
+            "max": "",
+            "id": "-M-4G2bL4OThY259HY5r"
+        },
+        {
+            "name": "repeating_spell-3_-M-4G2aeYKzRXI0PeLJv_spelldescription",
+            "current": "You attempt to interrupt a creature in the process of casting a spell. If the creature is casting a spell of 3rd level or lower, its spell fails and has no effect. If it is casting a spell of 4th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell’s level. On a success, the creature’s spell fails and has no effect. At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the interrupted spell has no effect if its level is less than or equal to the level of the spell slot you used.",
+            "max": "",
+            "id": "-M-4G2bN7KrlMepT9ZIh"
+        },
+        {
+            "name": "repeating_spell-3_-M-4G2aeYKzRXI0PeLJv_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-M-4G2bQO-_YsLuq8moO"
+        },
+        {
+            "name": "repeating_spell-3_-M-4G5MzyJ8ek5uPqpa9_spelllevel",
+            "current": "3",
+            "max": "",
+            "id": "-M-4G5N7d5TaVjxuYLDo"
+        },
+        {
+            "name": "repeating_spell-3_-M-4G5MzyJ8ek5uPqpa9_spell_ability",
+            "current": "spell",
+            "max": "",
+            "id": "-M-4G5NANpNPrdbvHEeG"
+        },
+        {
+            "name": "repeating_spell-3_-M-4G5MzyJ8ek5uPqpa9_spellname",
+            "current": "Fly",
+            "max": "",
+            "id": "-M-4G5NDAuY3H95NZ39p"
+        },
+        {
+            "name": "repeating_spell-3_-M-4G5MzyJ8ek5uPqpa9_spellschool",
+            "current": "transmutation",
+            "max": "",
+            "id": "-M-4G5NGtONJMii1UJFN"
+        },
+        {
+            "name": "repeating_spell-3_-M-4G5MzyJ8ek5uPqpa9_spellcastingtime",
+            "current": "1 action",
+            "max": "",
+            "id": "-M-4G5NIk7ILhWbuoLcU"
+        },
+        {
+            "name": "repeating_spell-3_-M-4G5MzyJ8ek5uPqpa9_spellrange",
+            "current": "Touch",
+            "max": "",
+            "id": "-M-4G5NMaiHFKJmkhef1"
+        },
+        {
+            "name": "repeating_spell-3_-M-4G5MzyJ8ek5uPqpa9_spelltarget",
+            "current": "A willing creature",
+            "max": "",
+            "id": "-M-4G5NQiGd0JfHNG5-O"
+        },
+        {
+            "name": "repeating_spell-3_-M-4G5MzyJ8ek5uPqpa9_spellcomp_materials",
+            "current": "A wing feather from any bird",
+            "max": "",
+            "id": "-M-4G5NSYKEGvuRUIjWv"
+        },
+        {
+            "name": "repeating_spell-3_-M-4G5MzyJ8ek5uPqpa9_spellconcentration",
+            "current": "{{concentration=1}}",
+            "max": "",
+            "id": "-M-4G5NVQYaHRX24qiIH"
+        },
+        {
+            "name": "repeating_spell-3_-M-4G5MzyJ8ek5uPqpa9_spellduration",
+            "current": "Up to 10 minutes",
+            "max": "",
+            "id": "-M-4G5NXikIPBF6y_4Ap"
+        },
+        {
+            "name": "repeating_spell-3_-M-4G5MzyJ8ek5uPqpa9_rollcontent",
+            "current": "@{wtype}&{template:spell} {{level=@{spellschool} ?{Cast at what level?|Level 3,3|Level 4,4|Level 5,5|Level 6,6|Level 7,7|Level 8,8|Level 9,9}}} {{name=@{spellname}}} {{castingtime=@{spellcastingtime}}} {{range=@{spellrange}}} {{target=@{spelltarget}}} @{spellcomp_v} @{spellcomp_s} @{spellcomp_m} {{material=@{spellcomp_materials}}} {{duration=@{spellduration}}} {{description=@{spelldescription}}} {{athigherlevels=@{spellathigherlevels}}} @{spellritual} {{innate=@{innate}}} @{spellconcentration} @{charname_output}",
+            "max": "",
+            "id": "-M-4G5N_T7E8xSzz7aAZ"
+        },
+        {
+            "name": "repeating_spell-3_-M-4G5MzyJ8ek5uPqpa9_spellathigherlevels",
+            "current": "When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.",
+            "max": "",
+            "id": "-M-4G5Nb1TArle41gTss"
+        },
+        {
+            "name": "repeating_spell-3_-M-4G5MzyJ8ek5uPqpa9_spelldescription",
+            "current": "You touch a willing creature. The target gains a flying speed of 60 feet for the duration. When the spell ends, the target falls if it is still aloft, unless it can stop the fall.",
+            "max": "",
+            "id": "-M-4G5NeM-TFyKkSrln6"
+        },
+        {
+            "name": "repeating_spell-3_-M-4G5MzyJ8ek5uPqpa9_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-M-4G5Nij1tsUpk3l3Lw"
+        },
+        {
+            "name": "repeating_spell-3_-M-4G8HJ-ksKu19ExYwr_spelllevel",
+            "current": "3",
+            "max": "",
+            "id": "-M-4G8HSLHFgpVsfa05L"
+        },
+        {
+            "name": "repeating_spell-3_-M-4G8HJ-ksKu19ExYwr_spell_ability",
+            "current": "spell",
+            "max": "",
+            "id": "-M-4G8HVpeGAdc9iR0nH"
+        },
+        {
+            "name": "repeating_spell-3_-M-4G8HJ-ksKu19ExYwr_spellname",
+            "current": "Clairvoyance",
+            "max": "",
+            "id": "-M-4G8HY-DsYjNZp9a1L"
+        },
+        {
+            "name": "repeating_spell-3_-M-4G8HJ-ksKu19ExYwr_spellschool",
+            "current": "divination",
+            "max": "",
+            "id": "-M-4G8HaUzYHazN47yzY"
+        },
+        {
+            "name": "repeating_spell-3_-M-4G8HJ-ksKu19ExYwr_spellcastingtime",
+            "current": "10 minutes",
+            "max": "",
+            "id": "-M-4G8HcnZVKLzffqlEN"
+        },
+        {
+            "name": "repeating_spell-3_-M-4G8HJ-ksKu19ExYwr_spellrange",
+            "current": "1 mile",
+            "max": "",
+            "id": "-M-4G8HgGBKr9gsdytNe"
+        },
+        {
+            "name": "repeating_spell-3_-M-4G8HJ-ksKu19ExYwr_spelltarget",
+            "current": "A point in range in a location familiar to you or in an obvious location that is unfamiliar to you",
+            "max": "",
+            "id": "-M-4G8HkOgjq1Gfvt7QM"
+        },
+        {
+            "name": "repeating_spell-3_-M-4G8HJ-ksKu19ExYwr_spellcomp_materials",
+            "current": "A focus worth at least 100 gp, either a jeweled horn for hearing or a glass eye for seeing",
+            "max": "",
+            "id": "-M-4G8Hm6yz19PrIdw6Y"
+        },
+        {
+            "name": "repeating_spell-3_-M-4G8HJ-ksKu19ExYwr_spellconcentration",
+            "current": "{{concentration=1}}",
+            "max": "",
+            "id": "-M-4G8HoGZnR6P51-aLi"
+        },
+        {
+            "name": "repeating_spell-3_-M-4G8HJ-ksKu19ExYwr_spellduration",
+            "current": "Up to 10 minutes",
+            "max": "",
+            "id": "-M-4G8HsmCOVFccZ5Ni7"
+        },
+        {
+            "name": "repeating_spell-3_-M-4G8HJ-ksKu19ExYwr_spelldescription",
+            "current": "You create an invisible sensor within range in a location familiar to you (a place you have visited or seen before) or in an obvious location that is unfamiliar to you (such as behind a door, around a corner, or in a grove of trees). The sensor remains in place for the duration, and it can’t be attacked or otherwise interacted with. When you cast the spell, you choose seeing or hearing. You can use the chosen sense through the sensor as if you were in its space. As your action, you can switch between seeing and hearing. A creature that can see the sensor (such as a creature benefiting from see invisibility or truesight) sees a luminous, intangible orb about the size of your fist.",
+            "max": "",
+            "id": "-M-4G8HvvKHpueueRiCQ"
+        },
+        {
+            "name": "repeating_spell-3_-M-4G8HJ-ksKu19ExYwr_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-M-4G8HyuNxEKy44kcKx"
+        },
+        {
+            "name": "repeating_spell-4_-M-4GBc0h-fYYybSPn7w_spelllevel",
+            "current": "4",
+            "max": "",
+            "id": "-M-4GBc9H8uWnS35GrLU"
+        },
+        {
+            "name": "repeating_spell-4_-M-4GBc0h-fYYybSPn7w_spell_ability",
+            "current": "spell",
+            "max": "",
+            "id": "-M-4GBcCNONQ7D-gqXKX"
+        },
+        {
+            "name": "repeating_spell-4_-M-4GBc0h-fYYybSPn7w_spellname",
+            "current": "Greater Invisibility",
+            "max": "",
+            "id": "-M-4GBcFCIi8PzGMCcGj"
+        },
+        {
+            "name": "repeating_spell-4_-M-4GBc0h-fYYybSPn7w_spellschool",
+            "current": "illusion",
+            "max": "",
+            "id": "-M-4GBcI336VCT7ExK4w"
+        },
+        {
+            "name": "repeating_spell-4_-M-4GBc0h-fYYybSPn7w_spellcastingtime",
+            "current": "1 action",
+            "max": "",
+            "id": "-M-4GBcLD1ybJRDbtFLg"
+        },
+        {
+            "name": "repeating_spell-4_-M-4GBc0h-fYYybSPn7w_spellrange",
+            "current": "Touch",
+            "max": "",
+            "id": "-M-4GBcNAYVFeXtVqQQH"
+        },
+        {
+            "name": "repeating_spell-4_-M-4GBc0h-fYYybSPn7w_spelltarget",
+            "current": "You or a creature you touch",
+            "max": "",
+            "id": "-M-4GBcRlUe68UidYF1z"
+        },
+        {
+            "name": "repeating_spell-4_-M-4GBc0h-fYYybSPn7w_spellcomp_m",
+            "current": "0",
+            "max": "",
+            "id": "-M-4GBcUzVwbRLWBoFyW"
+        },
+        {
+            "name": "repeating_spell-4_-M-4GBc0h-fYYybSPn7w_spellconcentration",
+            "current": "{{concentration=1}}",
+            "max": "",
+            "id": "-M-4GBcWXrrmlSSgCcNk"
+        },
+        {
+            "name": "repeating_spell-4_-M-4GBc0h-fYYybSPn7w_spellduration",
+            "current": "Up to 1 minute",
+            "max": "",
+            "id": "-M-4GBcZDBx1D96d0gWq"
+        },
+        {
+            "name": "repeating_spell-4_-M-4GBc0h-fYYybSPn7w_spelldescription",
+            "current": "You or a creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target’s person.",
+            "max": "",
+            "id": "-M-4GBcbo8XQqCmRRoIV"
+        },
+        {
+            "name": "repeating_spell-4_-M-4GBc0h-fYYybSPn7w_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-M-4GBceV0RWsaGyrb_O"
+        },
+        {
+            "name": "repeating_spell-4_-M-4GEJkOE-sA3OSr57w_spelllevel",
+            "current": "4",
+            "max": "",
+            "id": "-M-4GEJs-qcMIwMdc_xt"
+        },
+        {
+            "name": "repeating_spell-4_-M-4GEJkOE-sA3OSr57w_spell_ability",
+            "current": "spell",
+            "max": "",
+            "id": "-M-4GEJveX2cYrRMpoBD"
+        },
+        {
+            "name": "repeating_spell-4_-M-4GEJkOE-sA3OSr57w_spellname",
+            "current": "Locate Creature",
+            "max": "",
+            "id": "-M-4GEJzIFT81uqM5yXl"
+        },
+        {
+            "name": "repeating_spell-4_-M-4GEJkOE-sA3OSr57w_spellschool",
+            "current": "divination",
+            "max": "",
+            "id": "-M-4GEK0pfqu8zFQmAar"
+        },
+        {
+            "name": "repeating_spell-4_-M-4GEJkOE-sA3OSr57w_spellcastingtime",
+            "current": "1 action",
+            "max": "",
+            "id": "-M-4GEK3gpmAhHSqNjTz"
+        },
+        {
+            "name": "repeating_spell-4_-M-4GEJkOE-sA3OSr57w_spellrange",
+            "current": "Self",
+            "max": "",
+            "id": "-M-4GEK66mR0ugFkdE_u"
+        },
+        {
+            "name": "repeating_spell-4_-M-4GEJkOE-sA3OSr57w_spelltarget",
+            "current": "Self",
+            "max": "",
+            "id": "-M-4GEK93rkB-aquWVBQ"
+        },
+        {
+            "name": "repeating_spell-4_-M-4GEJkOE-sA3OSr57w_spellcomp_materials",
+            "current": "A bit of fur from a bloodhound",
+            "max": "",
+            "id": "-M-4GEKBDheSOeX2KA4M"
+        },
+        {
+            "name": "repeating_spell-4_-M-4GEJkOE-sA3OSr57w_spellconcentration",
+            "current": "{{concentration=1}}",
+            "max": "",
+            "id": "-M-4GEKDr_xItyXF2mmS"
+        },
+        {
+            "name": "repeating_spell-4_-M-4GEJkOE-sA3OSr57w_spellduration",
+            "current": "Up to 1 hour",
+            "max": "",
+            "id": "-M-4GEKHzi9H5w3pmuVS"
+        },
+        {
+            "name": "repeating_spell-4_-M-4GEJkOE-sA3OSr57w_spelldescription",
+            "current": "Describe or name a creature that is familiar to you. You sense the direction to the creature’s location, as long as that creature is within 1,000 feet of you. If the creature is moving, you know the direction of its movement. The spell can locate a specific creature known to you, or the nearest creature of a specific kind (such as a human or a unicorn), so long as you have seen such a creature up close—within 30 feet—at least once. If the creature you described or named is in a different form, such as being under the effects of a polymorph spell, this spell doesn’t locate the creature. This spell can’t locate a creature if running water at least 10 feet wide blocks a direct path between you and the creature.",
+            "max": "",
+            "id": "-M-4GEKKlYIRao-9npzH"
+        },
+        {
+            "name": "repeating_spell-4_-M-4GEJkOE-sA3OSr57w_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-M-4GEKMOCvxBRI025dn"
+        },
+        {
+            "name": "repeating_spell-4_-M-4GGjYeTZU4cbQEh03_spelllevel",
+            "current": "4",
+            "max": "",
+            "id": "-M-4GGjgg9BUwjUI01Sr"
+        },
+        {
+            "name": "repeating_spell-4_-M-4GGjYeTZU4cbQEh03_spell_ability",
+            "current": "spell",
+            "max": "",
+            "id": "-M-4GGjj8jGsaMXN9w7H"
+        },
+        {
+            "name": "repeating_spell-4_-M-4GGjYeTZU4cbQEh03_spellname",
+            "current": "Polymorph",
+            "max": "",
+            "id": "-M-4GGjmRhd7e6IoE7I3"
+        },
+        {
+            "name": "repeating_spell-4_-M-4GGjYeTZU4cbQEh03_spellschool",
+            "current": "transmutation",
+            "max": "",
+            "id": "-M-4GGjq1zIncz11Egwo"
+        },
+        {
+            "name": "repeating_spell-4_-M-4GGjYeTZU4cbQEh03_spellcastingtime",
+            "current": "1 action",
+            "max": "",
+            "id": "-M-4GGjszd0kp8tClv_1"
+        },
+        {
+            "name": "repeating_spell-4_-M-4GGjYeTZU4cbQEh03_spellrange",
+            "current": "60 feet",
+            "max": "",
+            "id": "-M-4GGjvo_0OvFh6nRw3"
+        },
+        {
+            "name": "repeating_spell-4_-M-4GGjYeTZU4cbQEh03_spelltarget",
+            "current": "A creature that you can see within range",
+            "max": "",
+            "id": "-M-4GGjzipPg7wYkQZxp"
+        },
+        {
+            "name": "repeating_spell-4_-M-4GGjYeTZU4cbQEh03_spellcomp_materials",
+            "current": "A caterpillar cocoon",
+            "max": "",
+            "id": "-M-4GGk1kqM5W_Hna7fh"
+        },
+        {
+            "name": "repeating_spell-4_-M-4GGjYeTZU4cbQEh03_spellconcentration",
+            "current": "{{concentration=1}}",
+            "max": "",
+            "id": "-M-4GGk3VCJhH-ADr2zA"
+        },
+        {
+            "name": "repeating_spell-4_-M-4GGjYeTZU4cbQEh03_spellduration",
+            "current": "Concentration, Up to 1 hour",
+            "max": "",
+            "id": "-M-4GGk7Hxz64WcHk-bP"
+        },
+        {
+            "name": "repeating_spell-4_-M-4GGjYeTZU4cbQEh03_spelldescription",
+            "current": "This spell transforms a creature that you can see within range into a new form. An unwilling creature must make a Wisdom saving throw to avoid the effect. The spell has no effect on a shapechanger or a creature with 0 hit points. The transformation lasts for the duration, or until the target drops to 0 hit points or dies. The new form can be any beast whose challenge rating is equal to or less than the target’s (or the target’s level, if it doesn’t have a challenge rating). The target’s game statistics, including mental ability scores, are replaced by the statistics of the chosen beast. It retains its alignment and personality. The target assumes the hit points of its new form. When it reverts to its normal form, the creature returns to the number of hit points it had before it transformed. If it reverts as a result of dropping to 0 hit points, any excess damage carries over to its normal form. As long as the excess damage doesn’t reduce the creature’s normal form to 0 hit points, it isn’t knocked unconscious. The creature is limited in the actions it can perform by the nature of its new form, and it can’t speak, cast spells, or take any other action that requires hands or speech. The target’s gear melds into the new form. The creature can’t activate, use, wield, or otherwise benefit from any of its equipment.",
+            "max": "",
+            "id": "-M-4GGk9e6W5ck1yx3-K"
+        },
+        {
+            "name": "repeating_spell-4_-M-4GGjYeTZU4cbQEh03_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-M-4GGkDgFtRiHUfzKP1"
+        },
+        {
+            "name": "repeating_spell-5_-M-4GLE-lNWHNbJrm2Db_spelllevel",
+            "current": "5",
+            "max": "",
+            "id": "-M-4GLE8_HsFlZhR6-L4"
+        },
+        {
+            "name": "repeating_spell-5_-M-4GLE-lNWHNbJrm2Db_spell_ability",
+            "current": "spell",
+            "max": "",
+            "id": "-M-4GLECb9-2O0RxUkje"
+        },
+        {
+            "name": "repeating_spell-5_-M-4GLE-lNWHNbJrm2Db_spellname",
+            "current": "Dominate Person",
+            "max": "",
+            "id": "-M-4GLEFTJyPHcuD2-yK"
+        },
+        {
+            "name": "repeating_spell-5_-M-4GLE-lNWHNbJrm2Db_spellschool",
+            "current": "enchantment",
+            "max": "",
+            "id": "-M-4GLEHMtrNVk_0lWfZ"
+        },
+        {
+            "name": "repeating_spell-5_-M-4GLE-lNWHNbJrm2Db_spellcastingtime",
+            "current": "1 action",
+            "max": "",
+            "id": "-M-4GLEKq7FAHJHmqTLn"
+        },
+        {
+            "name": "repeating_spell-5_-M-4GLE-lNWHNbJrm2Db_spellrange",
+            "current": "60 feet",
+            "max": "",
+            "id": "-M-4GLEOd2yjTKdC6T1x"
+        },
+        {
+            "name": "repeating_spell-5_-M-4GLE-lNWHNbJrm2Db_spelltarget",
+            "current": "A humanoid that you can see within range",
+            "max": "",
+            "id": "-M-4GLERUHiG08l-PFXz"
+        },
+        {
+            "name": "repeating_spell-5_-M-4GLE-lNWHNbJrm2Db_spellcomp_m",
+            "current": "0",
+            "max": "",
+            "id": "-M-4GLEUFqg1sHkpzaAq"
+        },
+        {
+            "name": "repeating_spell-5_-M-4GLE-lNWHNbJrm2Db_spellconcentration",
+            "current": "{{concentration=1}}",
+            "max": "",
+            "id": "-M-4GLEXS8x7tGrHg2Dh"
+        },
+        {
+            "name": "repeating_spell-5_-M-4GLE-lNWHNbJrm2Db_spellduration",
+            "current": "Up to 1 minute",
+            "max": "",
+            "id": "-M-4GLE_8uVIEFX-K-X8"
+        },
+        {
+            "name": "repeating_spell-5_-M-4GLE-lNWHNbJrm2Db_spelldescription",
+            "current": "You attempt to beguile a humanoid that you can see within range. It must succeed on a Wisdom saving throw or be charmed by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw. While the target is charmed, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as “Attack that creature,” “Run over there,” or “Fetch that object.” If the creature completes the order and doesn’t receive further direction from you, it defends and preserves itself to the best of its ability. You can use your action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn’t do anything that you don’t allow it to do. During this time you can also cause the creature to use a reaction, but this requires you to use your own reaction as well. Each time the target takes damage, it makes a new Wisdom saving throw against the spell. If the saving throw succeeds, the spell ends. At Higher Levels. When you cast this spell using a 6th-level spell slot, the duration is concentration, up to 10 minutes. When you use a 7th-level spell slot, the duration is concentration, up to 1 hour. When you use a spell slot of 8th level or higher, the duration is concentration, up to 8 hours.",
+            "max": "",
+            "id": "-M-4GLEbA4imZKyVF5kH"
+        },
+        {
+            "name": "repeating_spell-5_-M-4GLE-lNWHNbJrm2Db_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-M-4GLEfG856E83JOhOP"
+        },
+        {
+            "name": "repeating_spell-2_-M-4FvsmzrgZWdmaGQBi_spellprepared",
+            "current": "0",
+            "max": "",
+            "id": "-M-4GnTWfZOggUQ0vzjK"
+        },
+        {
+            "name": "repeating_spell-1_-M-4FjrWZ2Azetvw4AZz_spellprepared",
+            "current": "1",
+            "max": "",
+            "id": "-M-4H8nej3LK-5Yn1nHX"
+        }
+    ],
+    "abilities": []
+}

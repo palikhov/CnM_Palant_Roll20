@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 !token-mod {{
   --on showname showplayers_name showplayers_bar3
   --set bar2_link|@{selected|npc_ac} bar2_link|
   --set bar3_value|@{selected|hp|max} bar3_max|@{selected|hp|max} bar3_link| 
   --set layers|objects
+=======
+!token-mod {{
+  --on showname showplayers_name showplayers_bar3
+  --set bar2_link|@{selected|npc_ac} bar2_link|
+  --set bar3_value|@{selected|hp|max} bar3_max|@{selected|hp|max} bar3_link| 
+  --set layers|objects
+>>>>>>> a4bb8e45f456e6f0be4948a5bf3b731f06db9179
 }}

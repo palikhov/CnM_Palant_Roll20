@@ -1,0 +1,153 @@
+{
+    "schema_version": 2,
+    "macros": [
+        {
+            "attributes": {
+                "action": "/w gm &{template:default} {{name=Critics}} {{Hits}} {{ [Acid](!\n#CRIT_Acid) [Bludgeon](!!\n#CRIT_Bludgeon) [Cold](!\n#CRIT_Cold)  [Fire](!\n#CRIT_Fire) [Force](!\n#CRIT_Force) [Lightning](!\n#CRIT_Lightning) [Necrotic](!\n#CRIT_Necrotic) [Piercing](!\n#CRIT_Piercing) [Poison](!\n#CRIT_Poison) [Psychic](!\n#CRIT_Psychic) [Radiant](!\n#CRIT_Radiant) [Slashing](!\n#CRIT_Slashing) [Spell](!!\n#CRIT_Spell) [Thunder](!\n#CRIT_Thunder)}}{{Fumbles}} {{[Melee](!\n#CRIT_Fumble_Melee)  [Ranged](!\n#CRIT_Fumble_Ranged)  [Spell](!\n#CRIT_Fumble_Spell) [Thrown](!\n#CRIT_Fumble_Thrown) }} ",
+                "istokenaction": false,
+                "name": "Critical&nbsp;Hits&nbsp;and&nbsp;Fumbles",
+                "visibleto": ""
+            },
+            "macrobar": {
+                "color": null,
+                "name": null
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm [[  1t[CRIT_Fumble_RANGED]  ]]",
+                "istokenaction": false,
+                "name": "CRIT_Fumble_Ranged",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm [[  1t[CRIT_Fumble_SPELL]  ]]",
+                "istokenaction": false,
+                "name": "CRIT_Fumble_Spell",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm [[  1t[CRIT_Fumble_RANGEDT_HROWN]  ]]",
+                "istokenaction": false,
+                "name": "CRIT_Fumble_Thrown",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm [[  1t[CRIT_Bludgeon]  ]]",
+                "istokenaction": false,
+                "name": "CRIT_Bludgeon",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm [[  1t[CRIT_Fumble_WEAPON]  ]]",
+                "istokenaction": false,
+                "name": "CRIT_Fumble_Melee",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm [[  1t[CRIT_Piercing]  ]]",
+                "istokenaction": false,
+                "name": "CRIT_Piercing",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm [[  1t[CRIT_Slashing]  ]]",
+                "istokenaction": false,
+                "name": "CRIT_Slashing",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm [[  1t[CRIT_Fire]  ]]",
+                "istokenaction": false,
+                "name": "CRIT_Fire",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm [[  1t[CRIT_Spell]  ]]",
+                "istokenaction": false,
+                "name": "CRIT_Spell",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm [[  1t[CRIT_Acid]  ]]",
+                "istokenaction": false,
+                "name": "CRIT_Acid",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm [[  1t[CRIT_Radiant]  ]]",
+                "istokenaction": false,
+                "name": "CRIT_Radiant",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm [[  1t[CRIT_Thunder]  ]]",
+                "istokenaction": false,
+                "name": "CRIT_Thunder",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm [[  1t[CRIT_Lightning]  ]]",
+                "istokenaction": false,
+                "name": "CRIT_Lightning",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm [[  1t[CRIT_Necrotic]  ]]",
+                "istokenaction": false,
+                "name": "CRIT_Necrotic",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm [[  1t[CRIT_Force]  ]]",
+                "istokenaction": false,
+                "name": "CRIT_Force",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm [[  1t[CRIT_Psychic]  ]]",
+                "istokenaction": false,
+                "name": "CRIT_Psychic",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm [[  1t[CRIT_Poison]  ]]",
+                "istokenaction": false,
+                "name": "CRIT_Poison",
+                "visibleto": ""
+            }
+        }
+    ]
+}

@@ -1,0 +1,2880 @@
+{
+	"char": {
+		"name": "Wyatt Ferris",
+		"bio": 1510266408942,
+		"gmnotes": 1510178990331,
+		"avatar": "https://s3.amazonaws.com/files.d20.io/images/42021437/-GcemMbds6W5M5gB9mr7AA/med.jpg?1510176599",
+		"inplayerjournals": "all",
+		"controlledby": "",
+		"defaulttoken": "",
+		"tags": "[]",
+		"archived": false,
+		"attrorder": "",
+		"abilorder": "",
+		"mancerdata": "{}",
+		"id": "-KySKDyRJEelGug06LuT",
+		"attribs": [
+			{
+				"name": "sheet_processing_complete",
+				"current": "",
+				"max": "",
+				"id": "-KySKHCwRym6dufZ-IW1"
+			},
+			{
+				"name": "version",
+				"current": "15.5.8",
+				"max": "",
+				"id": "-KySKHCxM9kLLC-DxATN"
+			},
+			{
+				"name": "character_sheet",
+				"current": "Shaped v15.5.8",
+				"max": "",
+				"id": "-KySKHCzcqsTe_hVfRQQ"
+			},
+			{
+				"name": "edit_mode",
+				"current": "1",
+				"max": "",
+				"id": "-KySKHDExsm16XrX0o85"
+			},
+			{
+				"name": "level",
+				"current": 5,
+				"max": "",
+				"id": "-KySKHDGy7VUN4_-tTNd"
+			},
+			{
+				"name": "strength_mod",
+				"current": 2,
+				"max": "",
+				"id": "-KySKHDOVwj3eLbxTi2W"
+			},
+			{
+				"name": "dexterity_mod",
+				"current": 0,
+				"max": "",
+				"id": "-KySKHDStXzk1iFnWYxF"
+			},
+			{
+				"name": "constitution_mod",
+				"current": 3,
+				"max": "",
+				"id": "-KySKHDVah311sqvpiq5"
+			},
+			{
+				"name": "intelligence_mod",
+				"current": -1,
+				"max": "",
+				"id": "-KySKHDYLCWFWw1ZDw5M"
+			},
+			{
+				"name": "wisdom_mod",
+				"current": 2,
+				"max": "",
+				"id": "-KySKHDbXkeUsvDhdwxL"
+			},
+			{
+				"name": "charisma_mod",
+				"current": 1,
+				"max": "",
+				"id": "-KySKHDdc7B-K2VMRu5_"
+			},
+			{
+				"name": "honor_mod",
+				"current": 0,
+				"max": "",
+				"id": "-KySKHDfnt49HXD2uRQG"
+			},
+			{
+				"name": "sanity_mod",
+				"current": 0,
+				"max": "",
+				"id": "-KySKHDhk_A7ifovW3iy"
+			},
+			{
+				"name": "strength_calculated",
+				"current": 14,
+				"max": "",
+				"id": "-KySKHDj-pmLmIVs0Qy7"
+			},
+			{
+				"name": "finesse_mod",
+				"current": 2,
+				"max": "",
+				"id": "-KySKHDm9a2vPP5G2Tlz"
+			},
+			{
+				"name": "dexterity_calculated",
+				"current": 11,
+				"max": "",
+				"id": "-KySKHDoR2M9rMoxpcN9"
+			},
+			{
+				"name": "constitution_calculated",
+				"current": 16,
+				"max": "",
+				"id": "-KySKHDr8RyAk23LTlod"
+			},
+			{
+				"name": "intelligence_calculated",
+				"current": 9,
+				"max": "",
+				"id": "-KySKHDtnNjczPTE1ck8"
+			},
+			{
+				"name": "wisdom_calculated",
+				"current": 15,
+				"max": "",
+				"id": "-KySKHDv-pGQxsq6QQ5z"
+			},
+			{
+				"name": "charisma_calculated",
+				"current": 13,
+				"max": "",
+				"id": "-KySKHDzXHd5hRwQdAYo"
+			},
+			{
+				"name": "honor_calculated",
+				"current": 10,
+				"max": "",
+				"id": "-KySKHE7fDTxx5HVgwFD"
+			},
+			{
+				"name": "sanity_calculated",
+				"current": 10,
+				"max": "",
+				"id": "-KySKHE92CMZQ9SvHCe1"
+			},
+			{
+				"name": "initiative_formula",
+				"current": "@{initiative_roll}@{d20_mod} + 0[dex]",
+				"max": "",
+				"id": "-KySKHEoF27jBrx1VQVs"
+			},
+			{
+				"name": "strength_check_formula",
+				"current": "{{roll1=[[@{shaped_d20}@{d20_mod} + 2[str]]]}}",
+				"max": "",
+				"id": "-KySKHEpA6Olg0e5GgXi"
+			},
+			{
+				"name": "dexterity_check_formula",
+				"current": "{{roll1=[[@{shaped_d20}@{d20_mod} + 0[dex]]]}}",
+				"max": "",
+				"id": "-KySKHErQI81a-DMhLTU"
+			},
+			{
+				"name": "constitution_check_formula",
+				"current": "{{roll1=[[@{shaped_d20}@{d20_mod} + 3[con]]]}}",
+				"max": "",
+				"id": "-KySKHEtgKv6L5XVpwf7"
+			},
+			{
+				"name": "intelligence_check_formula",
+				"current": "{{roll1=[[@{shaped_d20}@{d20_mod} + -1[int]]]}}",
+				"max": "",
+				"id": "-KySKHEvYzAV6db2B8A7"
+			},
+			{
+				"name": "wisdom_check_formula",
+				"current": "{{roll1=[[@{shaped_d20}@{d20_mod} + 2[wis]]]}}",
+				"max": "",
+				"id": "-KySKHEygT9IW0U9dn1v"
+			},
+			{
+				"name": "charisma_check_formula",
+				"current": "{{roll1=[[@{shaped_d20}@{d20_mod} + 1[cha]]]}}",
+				"max": "",
+				"id": "-KySKHF-3fJ1KiWDmHgt"
+			},
+			{
+				"name": "honor_check_formula",
+				"current": "{{roll1=[[@{shaped_d20}@{d20_mod} + 0[hon]]]}}",
+				"max": "",
+				"id": "-KySKHF12C5lnJnaqRw9"
+			},
+			{
+				"name": "sanity_check_formula",
+				"current": "{{roll1=[[@{shaped_d20}@{d20_mod} + 0[san]]]}}",
+				"max": "",
+				"id": "-KySKHF3SFzJV5fi85zr"
+			},
+			{
+				"name": "strength_check_mod_with_sign",
+				"current": "+2",
+				"max": "",
+				"id": "-KySKHF6kWdJ-mwPnIrx"
+			},
+			{
+				"name": "dexterity_check_mod_with_sign",
+				"current": "+0",
+				"max": "",
+				"id": "-KySKHF9WLeM4PSW8TX3"
+			},
+			{
+				"name": "constitution_check_mod_with_sign",
+				"current": "+3",
+				"max": "",
+				"id": "-KySKHFDXd0KAHFQxrkK"
+			},
+			{
+				"name": "intelligence_check_mod_with_sign",
+				"current": -1,
+				"max": "",
+				"id": "-KySKHFGlhq7MjBCf6w1"
+			},
+			{
+				"name": "wisdom_check_mod_with_sign",
+				"current": "+2",
+				"max": "",
+				"id": "-KySKHFI84kPBO2pqhFb"
+			},
+			{
+				"name": "charisma_check_mod_with_sign",
+				"current": "+1",
+				"max": "",
+				"id": "-KySKHFLfY692kqE5C41"
+			},
+			{
+				"name": "honor_check_mod_with_sign",
+				"current": "+0",
+				"max": "",
+				"id": "-KySKHFNIYC3I8AHCxf6"
+			},
+			{
+				"name": "sanity_check_mod_with_sign",
+				"current": "+0",
+				"max": "",
+				"id": "-KySKHFRtW4ZaPO9CvVa"
+			},
+			{
+				"name": "initiative",
+				"current": "+0",
+				"max": "",
+				"id": "-KySKHFXrNtTYBrHrSHn"
+			},
+			{
+				"name": "saving_throw_macro_var",
+				"current": "[^{STRENGTH} +2](~shaped_strength_saving_throw), [^{DEXTERITY} +0](~shaped_dexterity_saving_throw), [^{CONSTITUTION} +3](~shaped_constitution_saving_throw), [^{INTELLIGENCE} -1](~shaped_intelligence_saving_throw), [^{WISDOM} +5](~shaped_wisdom_saving_throw), [^{CHARISMA} +4](~shaped_charisma_saving_throw), [^{DEATH} +0](~shaped_death_saving_throw)",
+				"max": "",
+				"id": "-KySKHF_FAvV7Jk3PSuA"
+			},
+			{
+				"name": "saving_throw_query_var",
+				"current": "?{Saving Throw|Strength +2,{{title=Strength Saving throw&#125;&#125; {{roll1=[[@{shaped_d20}@{d20_mod} + 2[str]]]&#125;&#125;|Dexterity +0,{{title=Dexterity Saving throw&#125;&#125; {{roll1=[[@{shaped_d20}@{d20_mod} + 0[dex]]]&#125;&#125;|Constitution +3,{{title=Constitution Saving throw&#125;&#125; {{roll1=[[@{shaped_d20}@{d20_mod} + 3[con]]]&#125;&#125;|Intelligence -1,{{title=Intelligence Saving throw&#125;&#125; {{roll1=[[@{shaped_d20}@{d20_mod} + -1[int]]]&#125;&#125;|Wisdom +5,{{title=Wisdom Saving throw&#125;&#125; {{roll1=[[@{shaped_d20}@{d20_mod} + 3[proficient] + 2[wis]]]&#125;&#125;|Charisma +4,{{title=Charisma Saving throw&#125;&#125; {{roll1=[[@{shaped_d20}@{d20_mod} + 3[proficient] + 1[cha]]]&#125;&#125;|Death +0, {{title=Death Saving throw&#125;&#125; {{death_saving_throw_successes=@{death_saving_throw_successes}&#125;&#125; {{death_saving_throw_failures=@{death_saving_throw_failures}&#125;&#125; {{roll1=[[@{shaped_d20}@{d20_mod} + ]]&#125;&#125;}",
+				"max": "",
+				"id": "-KySKHFbbtI2BTtYMf33"
+			},
+			{
+				"name": "strength_saving_throw_formula",
+				"current": "{{roll1=[[@{shaped_d20}@{d20_mod} + 2[str]]]}}",
+				"max": "",
+				"id": "-KySKHFdJcVqkzleoh5d"
+			},
+			{
+				"name": "dexterity_saving_throw_formula",
+				"current": "{{roll1=[[@{shaped_d20}@{d20_mod} + 0[dex]]]}}",
+				"max": "",
+				"id": "-KySKHFg189zu802aSpm"
+			},
+			{
+				"name": "constitution_saving_throw_formula",
+				"current": "{{roll1=[[@{shaped_d20}@{d20_mod} + 3[con]]]}}",
+				"max": "",
+				"id": "-KySKHFiPbGJwQt3mjzb"
+			},
+			{
+				"name": "intelligence_saving_throw_formula",
+				"current": "{{roll1=[[@{shaped_d20}@{d20_mod} + -1[int]]]}}",
+				"max": "",
+				"id": "-KySKHFkRQ_BIi5ts4uC"
+			},
+			{
+				"name": "wisdom_saving_throw_formula",
+				"current": "{{roll1=[[@{shaped_d20}@{d20_mod} + 3[proficient] + 2[wis]]]}}",
+				"max": "",
+				"id": "-KySKHFmsR8hqgHGilVO"
+			},
+			{
+				"name": "charisma_saving_throw_formula",
+				"current": "{{roll1=[[@{shaped_d20}@{d20_mod} + 3[proficient] + 1[cha]]]}}",
+				"max": "",
+				"id": "-KySKHFn4UbdRaiCPox2"
+			},
+			{
+				"name": "honor_saving_throw_formula",
+				"current": "{{roll1=[[@{shaped_d20}@{d20_mod} + 0[hon]]]}}",
+				"max": "",
+				"id": "-KySKHFpJyzidFnHZVg6"
+			},
+			{
+				"name": "sanity_saving_throw_formula",
+				"current": "{{roll1=[[@{shaped_d20}@{d20_mod} + 0[san]]]}}",
+				"max": "",
+				"id": "-KySKHFrYrCHC8aSHPUD"
+			},
+			{
+				"name": "death_saving_throw_formula",
+				"current": "{{roll1=[[@{shaped_d20}@{d20_mod} + ]]}}",
+				"max": "",
+				"id": "-KySKHFtLVp7DMZiCyC9"
+			},
+			{
+				"name": "fortitude_saving_throw_formula",
+				"current": "{{roll1=[[@{shaped_d20}@{d20_mod} + ]]}}",
+				"max": "",
+				"id": "-KySKHFwWcQClRM51pYr"
+			},
+			{
+				"name": "reflex_saving_throw_formula",
+				"current": "{{roll1=[[@{shaped_d20}@{d20_mod} + ]]}}",
+				"max": "",
+				"id": "-KySKHFyh3WYfSnZ1k5c"
+			},
+			{
+				"name": "will_saving_throw_formula",
+				"current": "{{roll1=[[@{shaped_d20}@{d20_mod} + ]]}}",
+				"max": "",
+				"id": "-KySKHG0tcG2Eynkd3Kb"
+			},
+			{
+				"name": "death_saving_throw_mod_with_sign",
+				"current": "+0",
+				"max": "",
+				"id": "-KySKHG294ByB6Bybr_2"
+			},
+			{
+				"name": "spell_save_DC",
+				"current": 12,
+				"max": "",
+				"id": "-KySKHGBaUH1Y4wfZhqN"
+			},
+			{
+				"name": "spell_save_DC_formula",
+				"current": "{{saving_throw_dc=[[9 + 3[proficient]]]}}",
+				"max": "",
+				"id": "-KySKHGEiOhw1YicpEDY"
+			},
+			{
+				"name": "spell_to_hit_formula",
+				"current": "{{attack1=[[@{shaped_d20}@{d20_mod} + 1 + 3[proficient]}]]}}",
+				"max": "",
+				"id": "-KySKHGG_vTtG71W8MCI"
+			},
+			{
+				"name": "repeating_skill_-KySKHGN2HR-ADTI0tmz_storage_name",
+				"current": "ACROBATICS",
+				"max": "",
+				"id": "-KySKHHLnbiUhfzn8DkL"
+			},
+			{
+				"name": "repeating_skill_-KySKHGN2HR-ADTI0tmz_name",
+				"current": "Acrobatics",
+				"max": "",
+				"id": "-KySKHHNwUD27wlPyMNQ"
+			},
+			{
+				"name": "repeating_skill_-KySKHGN2HR-ADTI0tmz_ability",
+				"current": "DEX",
+				"max": "",
+				"id": "-KySKHHPFH0c98MZS0H6"
+			},
+			{
+				"name": "repeating_skill_-KySKHGN2HR-ADTI0tn-_storage_name",
+				"current": "ANIMALHANDLING",
+				"max": "",
+				"id": "-KySKHHRVoijRlVikyMN"
+			},
+			{
+				"name": "repeating_skill_-KySKHGN2HR-ADTI0tn-_name",
+				"current": "Animal Handling",
+				"max": "",
+				"id": "-KySKHHTJXINP3jVQccr"
+			},
+			{
+				"name": "repeating_skill_-KySKHGN2HR-ADTI0tn-_ability",
+				"current": "WIS",
+				"max": "",
+				"id": "-KySKHHWQdjVKEFhFNHD"
+			},
+			{
+				"name": "repeating_skill_-KySKHGN2HR-ADTI0tn0_storage_name",
+				"current": "ARCANA",
+				"max": "",
+				"id": "-KySKHHc9oBTk9-4tS4Z"
+			},
+			{
+				"name": "repeating_skill_-KySKHGN2HR-ADTI0tn0_name",
+				"current": "Arcana",
+				"max": "",
+				"id": "-KySKHHeAGcFP4tBcJJ_"
+			},
+			{
+				"name": "repeating_skill_-KySKHGN2HR-ADTI0tn0_ability",
+				"current": "INT",
+				"max": "",
+				"id": "-KySKHHgKIhldE3m0iIw"
+			},
+			{
+				"name": "repeating_skill_-KySKHGN2HR-ADTI0tn1_storage_name",
+				"current": "ATHLETICS",
+				"max": "",
+				"id": "-KySKHHj-C8mJvdENgUH"
+			},
+			{
+				"name": "repeating_skill_-KySKHGN2HR-ADTI0tn1_name",
+				"current": "Athletics",
+				"max": "",
+				"id": "-KySKHHmlVXOsQYKX70u"
+			},
+			{
+				"name": "repeating_skill_-KySKHGN2HR-ADTI0tn1_ability",
+				"current": "STR",
+				"max": "",
+				"id": "-KySKHHoCPA_x06De15y"
+			},
+			{
+				"name": "repeating_skill_-KySKHGN2HR-ADTI0tn2_storage_name",
+				"current": "DECEPTION",
+				"max": "",
+				"id": "-KySKHHrZxgLT3d16JIw"
+			},
+			{
+				"name": "repeating_skill_-KySKHGN2HR-ADTI0tn2_name",
+				"current": "Deception",
+				"max": "",
+				"id": "-KySKHHu64cXEOD1EIpO"
+			},
+			{
+				"name": "repeating_skill_-KySKHGN2HR-ADTI0tn2_ability",
+				"current": "CHA",
+				"max": "",
+				"id": "-KySKHHxKKsuUMkHUpxS"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8Q_storage_name",
+				"current": "HISTORY",
+				"max": "",
+				"id": "-KySKHHzQ5TW6PB602Jx"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8Q_name",
+				"current": "History",
+				"max": "",
+				"id": "-KySKHI2VTnmkCbjBL-6"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8Q_ability",
+				"current": "INT",
+				"max": "",
+				"id": "-KySKHI46jSHZSsWdEA9"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8R_storage_name",
+				"current": "INSIGHT",
+				"max": "",
+				"id": "-KySKHI7n3e-xyaLCYxL"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8R_name",
+				"current": "Insight",
+				"max": "",
+				"id": "-KySKHIB3iCw6JoHmWfK"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8R_ability",
+				"current": "WIS",
+				"max": "",
+				"id": "-KySKHIDwQ4dSYIv4jNG"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8S_storage_name",
+				"current": "INTIMIDATION",
+				"max": "",
+				"id": "-KySKHIF9WIoNzTKkD0o"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8S_name",
+				"current": "Intimidation",
+				"max": "",
+				"id": "-KySKHIPW2H240OgNLqr"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8S_ability",
+				"current": "CHA",
+				"max": "",
+				"id": "-KySKHISbgcQW8tIQ1Qv"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8T_storage_name",
+				"current": "INVESTIGATION",
+				"max": "",
+				"id": "-KySKHIVFfP3X-2kzMNT"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8T_name",
+				"current": "Investigation",
+				"max": "",
+				"id": "-KySKHIpIFCA9yl9o_TG"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8T_ability",
+				"current": "INT",
+				"max": "",
+				"id": "-KySKHIxs9xsfzo-XnCG"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8U_storage_name",
+				"current": "MEDICINE",
+				"max": "",
+				"id": "-KySKHJ1P1uLr82lbLNg"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8U_name",
+				"current": "Medicine",
+				"max": "",
+				"id": "-KySKHJ5iGQ2KSg7UlMQ"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8U_ability",
+				"current": "WIS",
+				"max": "",
+				"id": "-KySKHJ8XJKhWycEjXrC"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8V_storage_name",
+				"current": "NATURE",
+				"max": "",
+				"id": "-KySKHJCP2vp0rX3HyMu"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8V_name",
+				"current": "Nature",
+				"max": "",
+				"id": "-KySKHJHex3VWo3GJYiR"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8V_ability",
+				"current": "INT",
+				"max": "",
+				"id": "-KySKHJN5tv9MEuCl5hT"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8W_storage_name",
+				"current": "PERCEPTION",
+				"max": "",
+				"id": "-KySKHJT9RXrKIOpEEO_"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8W_name",
+				"current": "Perception",
+				"max": "",
+				"id": "-KySKHJWA808ghf2x3IY"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8W_ability",
+				"current": "WIS",
+				"max": "",
+				"id": "-KySKHJ_mzKQZf6gZcF4"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8X_storage_name",
+				"current": "PERFORMANCE",
+				"max": "",
+				"id": "-KySKHJisvYVAdbA-nWq"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8X_name",
+				"current": "Performance",
+				"max": "",
+				"id": "-KySKHJl-YFDVAPrLmO_"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8X_ability",
+				"current": "CHA",
+				"max": "",
+				"id": "-KySKHJnZMLbTscxhLg3"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8Y_storage_name",
+				"current": "PERSUASION",
+				"max": "",
+				"id": "-KySKHJrcZ4lq7Uo3T50"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8Y_name",
+				"current": "Persuasion",
+				"max": "",
+				"id": "-KySKHJtMvswjpMac7ND"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8Y_ability",
+				"current": "CHA",
+				"max": "",
+				"id": "-KySKHJvcPnBwIS3CXc_"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8Z_storage_name",
+				"current": "SLEIGHTOFHAND",
+				"max": "",
+				"id": "-KySKHJyjjMl15m6yxGU"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8Z_name",
+				"current": "Sleight of Hand",
+				"max": "",
+				"id": "-KySKHK0nFlHpzOLu2id"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8Z_ability",
+				"current": "DEX",
+				"max": "",
+				"id": "-KySKHK4SHNoHSH8F5RW"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8a_storage_name",
+				"current": "STEALTH",
+				"max": "",
+				"id": "-KySKHK7AucF9Tgkmri8"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8a_name",
+				"current": "Stealth",
+				"max": "",
+				"id": "-KySKHKAltb8pwSHvb_T"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8a_ability",
+				"current": "DEX",
+				"max": "",
+				"id": "-KySKHKC0MxbuM-Vp5_Q"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8b_storage_name",
+				"current": "SURVIVAL",
+				"max": "",
+				"id": "-KySKHKFvdREI08_X3vD"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8b_name",
+				"current": "Survival",
+				"max": "",
+				"id": "-KySKHKJYkn6vgaUKumT"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8b_ability",
+				"current": "WIS",
+				"max": "",
+				"id": "-KySKHKVpgAajMmg8Z1u"
+			},
+			{
+				"name": "weight_offense",
+				"current": 5,
+				"max": "",
+				"id": "-KySKHKd3fN7gC_IpJ13"
+			},
+			{
+				"name": "weight_utility",
+				"current": 0,
+				"max": "",
+				"id": "-KySKHKhHiIEIDML1LHR"
+			},
+			{
+				"name": "ac_from_armor",
+				"current": 18,
+				"max": "",
+				"id": "-KySKHKn23AJPn-lGWqK"
+			},
+			{
+				"name": "weight_armor",
+				"current": 65,
+				"max": "",
+				"id": "-KySKHKsnEyfc44aw8h3"
+			},
+			{
+				"name": "ability_checks_query_var",
+				"current": "?{Ability Check|Strength +2,{{title=Strength Check&#125;&#125; {{roll1=[[@{shaped_d20}@{d20_mod} + 2[str]]]&#125;&#125;|Dexterity +0,{{title=Dexterity Check&#125;&#125; {{roll1=[[@{shaped_d20}@{d20_mod} + 0[dex]]]&#125;&#125;|Constitution +3,{{title=Constitution Check&#125;&#125; {{roll1=[[@{shaped_d20}@{d20_mod} + 3[con]]]&#125;&#125;|Intelligence -1,{{title=Intelligence Check&#125;&#125; {{roll1=[[@{shaped_d20}@{d20_mod} + -1[int]]]&#125;&#125;|Wisdom +2,{{title=Wisdom Check&#125;&#125; {{roll1=[[@{shaped_d20}@{d20_mod} + 2[wis]]]&#125;&#125;|Charisma +1,{{title=Charisma Check&#125;&#125; {{roll1=[[@{shaped_d20}@{d20_mod} + 1[cha]]]&#125;&#125;|Acrobatics (Dex) +0, {{title=Acrobatics (Dex)&#125;&#125; {{@{repeating_skill_-kyskhgn2hr-adti0tmz_skill_d20}=1&#125;&#125; {{roll1=[[@{repeating_skill_-kyskhgn2hr-adti0tmz_skill_d20_wrap} + 0[dex]]]&#125;&#125;|Animal Handling (Wis) +2, {{title=Animal Handling (Wis)&#125;&#125; {{@{repeating_skill_-kyskhgn2hr-adti0tn-_skill_d20}=1&#125;&#125; {{roll1=[[@{repeating_skill_-kyskhgn2hr-adti0tn-_skill_d20_wrap} + 2[wis]]]&#125;&#125;|Arcana (Int) -1, {{title=Arcana (Int)&#125;&#125; {{@{repeating_skill_-kyskhgn2hr-adti0tn0_skill_d20}=1&#125;&#125; {{roll1=[[@{repeating_skill_-kyskhgn2hr-adti0tn0_skill_d20_wrap} + -1[int]]]&#125;&#125;|Athletics (Str) +5, {{title=Athletics (Str)&#125;&#125; {{@{repeating_skill_-kyskhgn2hr-adti0tn1_skill_d20}=1&#125;&#125; {{roll1=[[@{repeating_skill_-kyskhgn2hr-adti0tn1_skill_d20_wrap} + 3[proficient] + 2[str]]]&#125;&#125;|Deception (Cha) +1, {{title=Deception (Cha)&#125;&#125; {{@{repeating_skill_-kyskhgn2hr-adti0tn2_skill_d20}=1&#125;&#125; {{roll1=[[@{repeating_skill_-kyskhgn2hr-adti0tn2_skill_d20_wrap} + 1[cha]]]&#125;&#125;|History (Int) +2, {{title=History (Int)&#125;&#125; {{@{repeating_skill_-kyskhgotckntsa2em8q_skill_d20}=1&#125;&#125; {{roll1=[[@{repeating_skill_-kyskhgotckntsa2em8q_skill_d20_wrap} + 3[proficient] + -1[int]]]&#125;&#125;|Insight (Wis) +2, {{title=Insight (Wis)&#125;&#125; {{@{repeating_skill_-kyskhgotckntsa2em8r_skill_d20}=1&#125;&#125; {{roll1=[[@{repeating_skill_-kyskhgotckntsa2em8r_skill_d20_wrap} + 2[wis]]]&#125;&#125;|Intimidation (Cha) +1, {{title=Intimidation (Cha)&#125;&#125; {{@{repeating_skill_-kyskhgotckntsa2em8s_skill_d20}=1&#125;&#125; {{roll1=[[@{repeating_skill_-kyskhgotckntsa2em8s_skill_d20_wrap} + 1[cha]]]&#125;&#125;|Investigation (Int) -1, {{title=Investigation (Int)&#125;&#125; {{@{repeating_skill_-kyskhgotckntsa2em8t_skill_d20}=1&#125;&#125; {{roll1=[[@{repeating_skill_-kyskhgotckntsa2em8t_skill_d20_wrap} + -1[int]]]&#125;&#125;|Medicine (Wis) +2, {{title=Medicine (Wis)&#125;&#125; {{@{repeating_skill_-kyskhgotckntsa2em8u_skill_d20}=1&#125;&#125; {{roll1=[[@{repeating_skill_-kyskhgotckntsa2em8u_skill_d20_wrap} + 2[wis]]]&#125;&#125;|Nature (Int) -1, {{title=Nature (Int)&#125;&#125; {{@{repeating_skill_-kyskhgotckntsa2em8v_skill_d20}=1&#125;&#125; {{roll1=[[@{repeating_skill_-kyskhgotckntsa2em8v_skill_d20_wrap} + -1[int]]]&#125;&#125;|Perception (Wis) +2, {{title=Perception (Wis)&#125;&#125; {{@{repeating_skill_-kyskhgotckntsa2em8w_skill_d20}=1&#125;&#125; {{roll1=[[@{repeating_skill_-kyskhgotckntsa2em8w_skill_d20_wrap} + 2[wis]]]&#125;&#125;|Performance (Cha) +1, {{title=Performance (Cha)&#125;&#125; {{@{repeating_skill_-kyskhgotckntsa2em8x_skill_d20}=1&#125;&#125; {{roll1=[[@{repeating_skill_-kyskhgotckntsa2em8x_skill_d20_wrap} + 1[cha]]]&#125;&#125;|Persuasion (Cha) +1, {{title=Persuasion (Cha)&#125;&#125; {{@{repeating_skill_-kyskhgotckntsa2em8y_skill_d20}=1&#125;&#125; {{roll1=[[@{repeating_skill_-kyskhgotckntsa2em8y_skill_d20_wrap} + 1[cha]]]&#125;&#125;|Sleight of Hand (Dex) +0, {{title=Sleight of Hand (Dex)&#125;&#125; {{@{repeating_skill_-kyskhgotckntsa2em8z_skill_d20}=1&#125;&#125; {{roll1=[[@{repeating_skill_-kyskhgotckntsa2em8z_skill_d20_wrap} + 0[dex]]]&#125;&#125;|Stealth (Dex) +0, {{title=Stealth (Dex)&#125;&#125; {{@{repeating_skill_-kyskhgotckntsa2em8a_skill_d20}=1&#125;&#125; {{roll1=[[@{repeating_skill_-kyskhgotckntsa2em8a_skill_d20_wrap} + 0[dex]]]&#125;&#125;|Survival (Wis) +2, {{title=Survival (Wis)&#125;&#125; {{@{repeating_skill_-kyskhgotckntsa2em8b_skill_d20}=1&#125;&#125; {{roll1=[[@{repeating_skill_-kyskhgotckntsa2em8b_skill_d20_wrap} + 2[wis]]]&#125;&#125;}",
+				"max": "",
+				"id": "-KySKHcBnBwUzJG8hwka"
+			},
+			{
+				"name": "ability_checks_macro_var",
+				"current": "[Strength +2](~shaped_strength_check), [Dexterity +0](~shaped_dexterity_check), [Constitution +3](~shaped_constitution_check), [Intelligence -1](~shaped_intelligence_check), [Wisdom +2](~shaped_wisdom_check), [Charisma +1](~shaped_charisma_check), [Acrobatics +0](~repeating_skill_-kyskhgn2hr-adti0tmz_skill), [Animal Handling +2](~repeating_skill_-kyskhgn2hr-adti0tn-_skill), [Arcana -1](~repeating_skill_-kyskhgn2hr-adti0tn0_skill), [Athletics +5](~repeating_skill_-kyskhgn2hr-adti0tn1_skill), [Deception +1](~repeating_skill_-kyskhgn2hr-adti0tn2_skill), [History +2](~repeating_skill_-kyskhgotckntsa2em8q_skill), [Insight +2](~repeating_skill_-kyskhgotckntsa2em8r_skill), [Intimidation +1](~repeating_skill_-kyskhgotckntsa2em8s_skill), [Investigation -1](~repeating_skill_-kyskhgotckntsa2em8t_skill), [Medicine +2](~repeating_skill_-kyskhgotckntsa2em8u_skill), [Nature -1](~repeating_skill_-kyskhgotckntsa2em8v_skill), [Perception +2](~repeating_skill_-kyskhgotckntsa2em8w_skill), [Performance +1](~repeating_skill_-kyskhgotckntsa2em8x_skill), [Persuasion +1](~repeating_skill_-kyskhgotckntsa2em8y_skill), [Sleight of Hand +0](~repeating_skill_-kyskhgotckntsa2em8z_skill), [Stealth +0](~repeating_skill_-kyskhgotckntsa2em8a_skill), [Survival +2](~repeating_skill_-kyskhgotckntsa2em8b_skill)",
+				"max": "",
+				"id": "-KySKHcEg0p74gdqvzHZ"
+			},
+			{
+				"name": "skills_macro_var",
+				"current": "[Acrobatics +0](~repeating_skill_-kyskhgn2hr-adti0tmz_skill), [Animal Handling +2](~repeating_skill_-kyskhgn2hr-adti0tn-_skill), [Arcana -1](~repeating_skill_-kyskhgn2hr-adti0tn0_skill), [Athletics +5](~repeating_skill_-kyskhgn2hr-adti0tn1_skill), [Deception +1](~repeating_skill_-kyskhgn2hr-adti0tn2_skill), [History +2](~repeating_skill_-kyskhgotckntsa2em8q_skill), [Insight +2](~repeating_skill_-kyskhgotckntsa2em8r_skill), [Intimidation +1](~repeating_skill_-kyskhgotckntsa2em8s_skill), [Investigation -1](~repeating_skill_-kyskhgotckntsa2em8t_skill), [Medicine +2](~repeating_skill_-kyskhgotckntsa2em8u_skill), [Nature -1](~repeating_skill_-kyskhgotckntsa2em8v_skill), [Perception +2](~repeating_skill_-kyskhgotckntsa2em8w_skill), [Performance +1](~repeating_skill_-kyskhgotckntsa2em8x_skill), [Persuasion +1](~repeating_skill_-kyskhgotckntsa2em8y_skill), [Sleight of Hand +0](~repeating_skill_-kyskhgotckntsa2em8z_skill), [Stealth +0](~repeating_skill_-kyskhgotckntsa2em8a_skill), [Survival +2](~repeating_skill_-kyskhgotckntsa2em8b_skill)",
+				"max": "",
+				"id": "-KySKHcHZONsOt3vYblO"
+			},
+			{
+				"name": "weight_total",
+				"current": 71,
+				"max": "",
+				"id": "-KySKHcMiulvDTKxQOPz"
+			},
+			{
+				"name": "AC",
+				"current": "20",
+				"max": "",
+				"id": "-KySKHcUvkPidCMhmv3P"
+			},
+			{
+				"name": "repeating_skill_-KySKHGN2HR-ADTI0tmz_formula",
+				"current": "{{@{repeating_skill_-kyskhgn2hr-adti0tmz_skill_d20}=1}} {{roll1=[[@{repeating_skill_-kyskhgn2hr-adti0tmz_skill_d20_wrap} + 0[dex]]]}}",
+				"max": "",
+				"id": "-KySKHjF7mZWacJEsSo3"
+			},
+			{
+				"name": "repeating_skill_-KySKHGN2HR-ADTI0tn-_formula",
+				"current": "{{@{repeating_skill_-kyskhgn2hr-adti0tn-_skill_d20}=1}} {{roll1=[[@{repeating_skill_-kyskhgn2hr-adti0tn-_skill_d20_wrap} + 2[wis]]]}}",
+				"max": "",
+				"id": "-KySKHjJRfyrYmeS_BNL"
+			},
+			{
+				"name": "repeating_skill_-KySKHGN2HR-ADTI0tn0_formula",
+				"current": "{{@{repeating_skill_-kyskhgn2hr-adti0tn0_skill_d20}=1}} {{roll1=[[@{repeating_skill_-kyskhgn2hr-adti0tn0_skill_d20_wrap} + -1[int]]]}}",
+				"max": "",
+				"id": "-KySKHjLCdIwsLgiAWw1"
+			},
+			{
+				"name": "repeating_skill_-KySKHGN2HR-ADTI0tn1_formula",
+				"current": "{{@{repeating_skill_-kyskhgn2hr-adti0tn1_skill_d20}=1}} {{roll1=[[@{repeating_skill_-kyskhgn2hr-adti0tn1_skill_d20_wrap} + 3[proficient] + 2[str]]]}}",
+				"max": "",
+				"id": "-KySKHjNYznbBpyesrQM"
+			},
+			{
+				"name": "repeating_skill_-KySKHGN2HR-ADTI0tn2_formula",
+				"current": "{{@{repeating_skill_-kyskhgn2hr-adti0tn2_skill_d20}=1}} {{roll1=[[@{repeating_skill_-kyskhgn2hr-adti0tn2_skill_d20_wrap} + 1[cha]]]}}",
+				"max": "",
+				"id": "-KySKHjPoALCFiWOODxu"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8Q_formula",
+				"current": "{{@{repeating_skill_-kyskhgotckntsa2em8q_skill_d20}=1}} {{roll1=[[@{repeating_skill_-kyskhgotckntsa2em8q_skill_d20_wrap} + 3[proficient] + -1[int]]]}}",
+				"max": "",
+				"id": "-KySKHjSCeItT1WQhIrN"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8R_formula",
+				"current": "{{@{repeating_skill_-kyskhgotckntsa2em8r_skill_d20}=1}} {{roll1=[[@{repeating_skill_-kyskhgotckntsa2em8r_skill_d20_wrap} + 2[wis]]]}}",
+				"max": "",
+				"id": "-KySKHjU9nmF9-ybDSsT"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8S_formula",
+				"current": "{{@{repeating_skill_-kyskhgotckntsa2em8s_skill_d20}=1}} {{roll1=[[@{repeating_skill_-kyskhgotckntsa2em8s_skill_d20_wrap} + 1[cha]]]}}",
+				"max": "",
+				"id": "-KySKHjXez2nK03Kek4e"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8T_formula",
+				"current": "{{@{repeating_skill_-kyskhgotckntsa2em8t_skill_d20}=1}} {{roll1=[[@{repeating_skill_-kyskhgotckntsa2em8t_skill_d20_wrap} + -1[int]]]}}",
+				"max": "",
+				"id": "-KySKHjZMv4I72HErCKa"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8U_formula",
+				"current": "{{@{repeating_skill_-kyskhgotckntsa2em8u_skill_d20}=1}} {{roll1=[[@{repeating_skill_-kyskhgotckntsa2em8u_skill_d20_wrap} + 2[wis]]]}}",
+				"max": "",
+				"id": "-KySKHjaHlyU3w3l1K7c"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8V_formula",
+				"current": "{{@{repeating_skill_-kyskhgotckntsa2em8v_skill_d20}=1}} {{roll1=[[@{repeating_skill_-kyskhgotckntsa2em8v_skill_d20_wrap} + -1[int]]]}}",
+				"max": "",
+				"id": "-KySKHjefMSODw1C3zCM"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8W_formula",
+				"current": "{{@{repeating_skill_-kyskhgotckntsa2em8w_skill_d20}=1}} {{roll1=[[@{repeating_skill_-kyskhgotckntsa2em8w_skill_d20_wrap} + 2[wis]]]}}",
+				"max": "",
+				"id": "-KySKHjhg5RfnUl6Sjji"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8X_formula",
+				"current": "{{@{repeating_skill_-kyskhgotckntsa2em8x_skill_d20}=1}} {{roll1=[[@{repeating_skill_-kyskhgotckntsa2em8x_skill_d20_wrap} + 1[cha]]]}}",
+				"max": "",
+				"id": "-KySKHjjZkyOwWrRWT2m"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8Y_formula",
+				"current": "{{@{repeating_skill_-kyskhgotckntsa2em8y_skill_d20}=1}} {{roll1=[[@{repeating_skill_-kyskhgotckntsa2em8y_skill_d20_wrap} + 1[cha]]]}}",
+				"max": "",
+				"id": "-KySKHjmZOFQKdd37wKH"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8Z_formula",
+				"current": "{{@{repeating_skill_-kyskhgotckntsa2em8z_skill_d20}=1}} {{roll1=[[@{repeating_skill_-kyskhgotckntsa2em8z_skill_d20_wrap} + 0[dex]]]}}",
+				"max": "",
+				"id": "-KySKHjpKpcTL4LP3oW4"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8a_formula",
+				"current": "{{@{repeating_skill_-kyskhgotckntsa2em8a_skill_d20}=1}} {{roll1=[[@{repeating_skill_-kyskhgotckntsa2em8a_skill_d20_wrap} + 0[dex]]]}}",
+				"max": "",
+				"id": "-KySKHjtgtBhfLNzOhpz"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8b_formula",
+				"current": "{{@{repeating_skill_-kyskhgotckntsa2em8b_skill_d20}=1}} {{roll1=[[@{repeating_skill_-kyskhgotckntsa2em8b_skill_d20_wrap} + 2[wis]]]}}",
+				"max": "",
+				"id": "-KySKHjwCuXVVCBKfESB"
+			},
+			{
+				"name": "repeating_skill_-KySKHGN2HR-ADTI0tmz_total",
+				"current": 0,
+				"max": "",
+				"id": "-KySKHjym1xOZn7xlxot"
+			},
+			{
+				"name": "acrobatics",
+				"current": 0,
+				"max": "",
+				"id": "-KySKHk0P2Eq2f-LO5ZM"
+			},
+			{
+				"name": "repeating_skill_-KySKHGN2HR-ADTI0tmz_total_with_sign",
+				"current": "+0",
+				"max": "",
+				"id": "-KySKHk5iE7h7JLc-bsB"
+			},
+			{
+				"name": "repeating_skill_-KySKHGN2HR-ADTI0tn-_total",
+				"current": 2,
+				"max": "",
+				"id": "-KySKHk815zdLhl3B0Zx"
+			},
+			{
+				"name": "animalhandling",
+				"current": 2,
+				"max": "",
+				"id": "-KySKHkB8UZxsfzlvsMU"
+			},
+			{
+				"name": "repeating_skill_-KySKHGN2HR-ADTI0tn-_total_with_sign",
+				"current": "+2",
+				"max": "",
+				"id": "-KySKHkFqZ-Mrvz8Hw2e"
+			},
+			{
+				"name": "repeating_skill_-KySKHGN2HR-ADTI0tn0_total",
+				"current": -1,
+				"max": "",
+				"id": "-KySKHkJOrcMavMIwahh"
+			},
+			{
+				"name": "arcana",
+				"current": -1,
+				"max": "",
+				"id": "-KySKHkMcniXFHDUXy-u"
+			},
+			{
+				"name": "repeating_skill_-KySKHGN2HR-ADTI0tn0_total_with_sign",
+				"current": -1,
+				"max": "",
+				"id": "-KySKHkQIduaiM4RSY7C"
+			},
+			{
+				"name": "repeating_skill_-KySKHGN2HR-ADTI0tn1_total",
+				"current": 5,
+				"max": "",
+				"id": "-KySKHkUcK8vVRu_p4iS"
+			},
+			{
+				"name": "athletics",
+				"current": 5,
+				"max": "",
+				"id": "-KySKHkb8N3_xgIWBVqa"
+			},
+			{
+				"name": "repeating_skill_-KySKHGN2HR-ADTI0tn1_total_with_sign",
+				"current": "+5",
+				"max": "",
+				"id": "-KySKHkdHoXbeLZ8nlGd"
+			},
+			{
+				"name": "repeating_skill_-KySKHGN2HR-ADTI0tn2_total",
+				"current": 1,
+				"max": "",
+				"id": "-KySKHkgVuIHMZuk5wm1"
+			},
+			{
+				"name": "deception",
+				"current": 1,
+				"max": "",
+				"id": "-KySKHkjuuueQGPd4lM8"
+			},
+			{
+				"name": "repeating_skill_-KySKHGN2HR-ADTI0tn2_total_with_sign",
+				"current": "+1",
+				"max": "",
+				"id": "-KySKHkmjRQtC7OgxC2w"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8Q_total",
+				"current": 2,
+				"max": "",
+				"id": "-KySKHkoqy8sbEaRZIkd"
+			},
+			{
+				"name": "history",
+				"current": 2,
+				"max": "",
+				"id": "-KySKHkqfUuKcSb6Rq8s"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8Q_total_with_sign",
+				"current": "+2",
+				"max": "",
+				"id": "-KySKHktKS4W2RvAst6V"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8R_total",
+				"current": 2,
+				"max": "",
+				"id": "-KySKHkv1djLXESz7K4S"
+			},
+			{
+				"name": "insight",
+				"current": 2,
+				"max": "",
+				"id": "-KySKHkxF7IXbbRk5j3p"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8R_total_with_sign",
+				"current": "+2",
+				"max": "",
+				"id": "-KySKHl-DS74JdI3j1Da"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8S_total",
+				"current": 1,
+				"max": "",
+				"id": "-KySKHl2BDw-T3m6d6O9"
+			},
+			{
+				"name": "intimidation",
+				"current": 1,
+				"max": "",
+				"id": "-KySKHl4ZqruKMq5syyq"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8S_total_with_sign",
+				"current": "+1",
+				"max": "",
+				"id": "-KySKHl7DEmdJoc_b7RY"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8T_total",
+				"current": -1,
+				"max": "",
+				"id": "-KySKHl9bmcH8obRXxQb"
+			},
+			{
+				"name": "investigation",
+				"current": -1,
+				"max": "",
+				"id": "-KySKHlBXCP5a0A-BkF7"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8T_total_with_sign",
+				"current": -1,
+				"max": "",
+				"id": "-KySKHlF03fQ6456G0co"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8U_total",
+				"current": 2,
+				"max": "",
+				"id": "-KySKHlHOzoHUO9aDx5t"
+			},
+			{
+				"name": "medicine",
+				"current": 2,
+				"max": "",
+				"id": "-KySKHlKDAXPnozVvqzt"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8U_total_with_sign",
+				"current": "+2",
+				"max": "",
+				"id": "-KySKHlM3CJAvRbkDBpS"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8V_total",
+				"current": -1,
+				"max": "",
+				"id": "-KySKHlPh-SgQvpLDDic"
+			},
+			{
+				"name": "nature",
+				"current": -1,
+				"max": "",
+				"id": "-KySKHlR_Tb9O-zqf_mg"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8V_total_with_sign",
+				"current": -1,
+				"max": "",
+				"id": "-KySKHlU_rPWs-KpoWfc"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8W_total",
+				"current": 2,
+				"max": "",
+				"id": "-KySKHlXmFcypKsLLdoY"
+			},
+			{
+				"name": "perception",
+				"current": 2,
+				"max": "",
+				"id": "-KySKHlZzIOz1pSRcotg"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8W_total_with_sign",
+				"current": "+2",
+				"max": "",
+				"id": "-KySKHlbY9QXBn1oMXV_"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8X_total",
+				"current": 1,
+				"max": "",
+				"id": "-KySKHle0eFZ4MV8xZs6"
+			},
+			{
+				"name": "performance",
+				"current": 1,
+				"max": "",
+				"id": "-KySKHlhiuP_lX6kke5A"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8X_total_with_sign",
+				"current": "+1",
+				"max": "",
+				"id": "-KySKHltNU2XJC88hi12"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8Y_total",
+				"current": 1,
+				"max": "",
+				"id": "-KySKHlwpJbWxUXmQdx0"
+			},
+			{
+				"name": "persuasion",
+				"current": 1,
+				"max": "",
+				"id": "-KySKHm12chBewLd9IvE"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8Y_total_with_sign",
+				"current": "+1",
+				"max": "",
+				"id": "-KySKHm6yXmAKEGzGnlx"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8Z_total",
+				"current": 0,
+				"max": "",
+				"id": "-KySKHm97OW06nd-O5o2"
+			},
+			{
+				"name": "sleightofhand",
+				"current": 0,
+				"max": "",
+				"id": "-KySKHmBhzCH75OjrNC_"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8Z_total_with_sign",
+				"current": "+0",
+				"max": "",
+				"id": "-KySKHmE5O2IjCxKLYRC"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8a_total",
+				"current": 0,
+				"max": "",
+				"id": "-KySKHmGYckdBgAm-TCy"
+			},
+			{
+				"name": "stealth",
+				"current": 0,
+				"max": "",
+				"id": "-KySKHmJ7nZNLiUwxWnn"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8a_total_with_sign",
+				"current": "+0",
+				"max": "",
+				"id": "-KySKHmMOG5SDsBzgU3M"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8b_total",
+				"current": 2,
+				"max": "",
+				"id": "-KySKHmPGSj-tsEJLaOD"
+			},
+			{
+				"name": "survival",
+				"current": 2,
+				"max": "",
+				"id": "-KySKHmT2_7DKsPMMXMJ"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8b_total_with_sign",
+				"current": "+2",
+				"max": "",
+				"id": "-KySKHmfH29jJJCj9giX"
+			},
+			{
+				"name": "offense_macro_var",
+				"current": "[Longsword](~repeating_offense_-kysnvkh5syhsey1xbhq_roll), [Longsword (Versatile)](~repeating_offense_-kysnxggaqdcd9ifvoqv_roll), [Longbow](~repeating_offense_-kysnzlwuimufvjc5zq9_roll)",
+				"max": "",
+				"id": "-KySKHoGIqF5hphurdXl"
+			},
+			{
+				"name": "offense_chat_var",
+				"current": "{{Offense=[Longsword](~repeating_offense_-kysnvkh5syhsey1xbhq_roll), [Longsword (Versatile)](~repeating_offense_-kysnxggaqdcd9ifvoqv_roll), [Longbow](~repeating_offense_-kysnzlwuimufvjc5zq9_roll)}}",
+				"max": "",
+				"id": "-KySKHoH_7DqClt-8onR"
+			},
+			{
+				"name": "utility_macro_var",
+				"current": "",
+				"max": "",
+				"id": "-KySKHoJN25z4NUqEmqt"
+			},
+			{
+				"name": "utility_chat_var",
+				"current": "",
+				"max": "",
+				"id": "-KySKHoL4JH_iR0HQUAR"
+			},
+			{
+				"name": "initiative_roll",
+				"current": "",
+				"max": "",
+				"_id": "-KySKI3oTryi7TjHI0gd",
+				"_type": "attribute",
+				"id": "-KySKI3oTryi7TjHI0gd"
+			},
+			{
+				"name": "initiative_to_tracker",
+				"current": 0,
+				"max": "",
+				"_id": "-KySKI4hwRZM_9sY5hde",
+				"_type": "attribute",
+				"id": "-KySKI4hwRZM_9sY5hde"
+			},
+			{
+				"name": "ammo_auto_use",
+				"current": 1,
+				"max": "",
+				"_id": "-KySKI7YvfQLPrMRGiZM",
+				"_type": "attribute",
+				"id": "-KySKI7YvfQLPrMRGiZM"
+			},
+			{
+				"name": "medium_armor_max_dex",
+				"current": 2,
+				"max": "",
+				"_id": "-KySKI95s2oP9oZxewCo",
+				"_type": "attribute",
+				"id": "-KySKI95s2oP9oZxewCo"
+			},
+			{
+				"name": "spells_text_size",
+				"current": "text",
+				"max": "",
+				"_id": "-KySKIPVS2I46Pv6SznK",
+				"_type": "attribute",
+				"id": "-KySKIPVS2I46Pv6SznK"
+			},
+			{
+				"name": "ability_checks_text_size",
+				"current": "text",
+				"max": "",
+				"_id": "-KySKIQjinWl47Xneh7N",
+				"_type": "attribute",
+				"id": "-KySKIQjinWl47Xneh7N"
+			},
+			{
+				"name": "saving_throws_text_size",
+				"current": "text",
+				"max": "",
+				"_id": "-KySKIS13gJsJlM9mqnu",
+				"_type": "attribute",
+				"id": "-KySKIS13gJsJlM9mqnu"
+			},
+			{
+				"name": "automatically_expend_spell_resources",
+				"current": 1,
+				"max": "",
+				"_id": "-KySKIck8HQQG1R3k_L3",
+				"_type": "attribute",
+				"id": "-KySKIck8HQQG1R3k_L3"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8a_skill_d20",
+				"current": "2d20kl1",
+				"max": "",
+				"_id": "-KySKIo3fnB9JtkWY9XM",
+				"_type": "attribute",
+				"id": "-KySKIo3fnB9JtkWY9XM"
+			},
+			{
+				"name": "repeating_class_-KySKM2Ryz-g5tahbiY1_name",
+				"current": "PALADIN",
+				"max": "",
+				"id": "-KySKNa9Rdn50a3bgSJc"
+			},
+			{
+				"name": "caster_level",
+				"current": 4,
+				"max": "",
+				"id": "-KySKNkiFHIT-0Yo6OWW"
+			},
+			{
+				"name": "proficiencies",
+				"current": "Armor: All armor, shields\nWeapons: Simple weapons, martial weapons\nTools: None",
+				"max": "",
+				"id": "-KySKNkxj4avUVh0qihk"
+			},
+			{
+				"name": "show_spells",
+				"current": 1,
+				"max": "",
+				"id": "-KySKNlDYBIgGC9NjKdo"
+			},
+			{
+				"name": "spell_ability",
+				"current": "CHARISMA",
+				"max": "",
+				"id": "-KySKNlYeLUjmvV3i5Rn"
+			},
+			{
+				"name": "spell_slots_toggle",
+				"current": 1,
+				"max": "",
+				"id": "-KySKNlrfSyI29zqr7-s"
+			},
+			{
+				"name": "prepared_matters",
+				"current": 1,
+				"max": "",
+				"id": "-KySKNmAySehoCDB5QG0"
+			},
+			{
+				"name": "prepared_matters_var",
+				"current": true,
+				"max": "",
+				"id": "-KySKNmWYIIacQH2UTxS"
+			},
+			{
+				"name": "wisdom_saving_throw_proficient",
+				"current": 1,
+				"max": "",
+				"id": "-KySKNmu6-o0DGWPrSCb"
+			},
+			{
+				"name": "charisma_saving_throw_proficient",
+				"current": 1,
+				"max": "",
+				"id": "-KySKNnEQ4usuV5Rdfwq"
+			},
+			{
+				"name": "paladin_toggle",
+				"current": 1,
+				"max": "",
+				"id": "-KySKNnYhmkpqrfU8KnS"
+			},
+			{
+				"name": "repeating_class_-KySKM2Ryz-g5tahbiY1_level",
+				"current": 5,
+				"max": "",
+				"id": "-KySKNny_SIDjQQF3rjH"
+			},
+			{
+				"name": "repeating_class_-KySKM2Ryz-g5tahbiY1_spellcasting",
+				"current": "half",
+				"max": "",
+				"id": "-KySKNoOPoG76p7Tnixe"
+			},
+			{
+				"name": "repeating_class_-KySKM2Ryz-g5tahbiY1_hd",
+				"current": "d10",
+				"max": "",
+				"id": "-KySKNowqlJMBbbwHXnQ"
+			},
+			{
+				"name": "paladin_level",
+				"current": 5,
+				"max": "",
+				"id": "-KySKNpGzu_Oq6jUwMx5"
+			},
+			{
+				"name": "class_and_level",
+				"current": "Paladin 5, Cleric 2",
+				"max": "",
+				"id": "-KySKNpf1DKm6An51tUy"
+			},
+			{
+				"name": "xp_next_level",
+				"current": 34000,
+				"max": "",
+				"id": "-KySKNpz3sfbPNmof8i4"
+			},
+			{
+				"name": "has_paladin_levels",
+				"current": 1,
+				"max": "",
+				"id": "-KySKNqHmHWY2Wvac4vR"
+			},
+			{
+				"name": "caster_type",
+				"current": "full",
+				"max": "",
+				"id": "-KySKNq_YELpRb7lQshk"
+			},
+			{
+				"name": "pb",
+				"current": 3,
+				"max": "",
+				"id": "-KySKNsLJmtp7etbcIBE"
+			},
+			{
+				"name": "pb_display",
+				"current": 3,
+				"max": "",
+				"id": "-KySKNseE0Ghvx_onN-I"
+			},
+			{
+				"name": "class_feature_paladin_divine_sense_toggle",
+				"current": 1,
+				"max": "",
+				"id": "-KySKOIOjtXg7W684nVq"
+			},
+			{
+				"name": "class_features_turned_on",
+				"current": " DIVINE_SENSE LAY_ON_HANDS CHANNEL_DIVINITY CHANNEL_DIVINITY_TURN_UNDEAD FIGHTING_STYLE DIVINE_SMITE DIVINE_HEALTH EXTRA_ATTACK",
+				"max": "",
+				"id": "-KySKOIRVs9QiHLCs2wt"
+			},
+			{
+				"name": "class_feature_paladin_lay_on_hands_toggle",
+				"current": 1,
+				"max": "",
+				"id": "-KySKOITfha-DYjbNgK_"
+			},
+			{
+				"name": "spell_level_filter_1",
+				"current": 1,
+				"max": "",
+				"id": "-KySKOIWqSQukmK1e-rg"
+			},
+			{
+				"name": "has_spell_slots",
+				"current": true,
+				"max": "",
+				"id": "-KySKOIZb7WJnEPph1bU"
+			},
+			{
+				"name": "wisdom_saving_throw_mod_with_sign",
+				"current": "+5",
+				"max": "",
+				"id": "-KySKOIemTinbhbsvGrd"
+			},
+			{
+				"name": "charisma_saving_throw_mod_with_sign",
+				"current": "+4",
+				"max": "",
+				"id": "-KySKOIgLOQzqm6xnuBM"
+			},
+			{
+				"name": "hd_d10",
+				"current": 6,
+				"max": 11,
+				"id": "-KySKOKiseQaN9ZMUJFc"
+			},
+			{
+				"name": "hd_d10_query",
+				"current": "?{HD|1|2|3|4|5|6}",
+				"max": "",
+				"id": "-KySKOKmrC916n2d6yzC"
+			},
+			{
+				"name": "hd_d10_formula",
+				"current": "{{roll1=[[{(?{HD|1|2|3|4|5|6})d10 + (?{HD|1|2|3|4|5|6} * 3)[hit dice * con], 0d0}kh1[minimum of 0]]]}}",
+				"max": "",
+				"id": "-KySKOKor1xOyw6-Co62"
+			},
+			{
+				"name": "cast_as_level_1",
+				"current": 1,
+				"max": "",
+				"id": "-KySKOL28i4Be4nRTOyj"
+			},
+			{
+				"name": "higher_level_query_1",
+				"current": 1,
+				"max": "",
+				"id": "-KySKOL5avhADGEUfHR8"
+			},
+			{
+				"name": "cast_as_level_2",
+				"current": "?{Spell Level|2}",
+				"max": "",
+				"id": "-KySKOL8BSvEdQlgF2-2"
+			},
+			{
+				"name": "higher_level_query_2",
+				"current": "?{Spell Level|2}",
+				"max": "",
+				"id": "-KySKOLAsBH98m27Rsrx"
+			},
+			{
+				"name": "cast_as_level_3",
+				"current": "?{Spell Level|3}",
+				"max": "",
+				"id": "-KySKOLCm42uy42t6l_2"
+			},
+			{
+				"name": "higher_level_query_3",
+				"current": "?{Spell Level|3}",
+				"max": "",
+				"id": "-KySKOLFar5_QMnqsXfE"
+			},
+			{
+				"name": "cast_as_level_4",
+				"current": "?{Spell Level|4}",
+				"max": "",
+				"id": "-KySKOLJVeaKd9uHUwK7"
+			},
+			{
+				"name": "higher_level_query_4",
+				"current": "?{Spell Level|4}",
+				"max": "",
+				"id": "-KySKOLM7aHM0W07kA1K"
+			},
+			{
+				"name": "cast_as_level_5",
+				"current": "?{Spell Level|5}",
+				"max": "",
+				"id": "-KySKOLPH6t8EsHR-R3s"
+			},
+			{
+				"name": "higher_level_query_5",
+				"current": "?{Spell Level|5}",
+				"max": "",
+				"id": "-KySKOLRiI_IEOzO7lGh"
+			},
+			{
+				"name": "cast_as_level_6",
+				"current": "?{Spell Level|6}",
+				"max": "",
+				"id": "-KySKOLT2EnT44UOlMOd"
+			},
+			{
+				"name": "higher_level_query_6",
+				"current": "?{Spell Level|6}",
+				"max": "",
+				"id": "-KySKOLVgSYnn38Agg00"
+			},
+			{
+				"name": "cast_as_level_7",
+				"current": "?{Spell Level|7}",
+				"max": "",
+				"id": "-KySKOLYjtvsBw6-F3eX"
+			},
+			{
+				"name": "higher_level_query_7",
+				"current": "?{Spell Level|7}",
+				"max": "",
+				"id": "-KySKOLa8_Nj_ROPbUYf"
+			},
+			{
+				"name": "cast_as_level_8",
+				"current": "?{Spell Level|8}",
+				"max": "",
+				"id": "-KySKOLclk3-3wXd4f6M"
+			},
+			{
+				"name": "higher_level_query_8",
+				"current": "?{Spell Level|8}",
+				"max": "",
+				"id": "-KySKOLfAnQQi0aKyxji"
+			},
+			{
+				"name": "repeating_classfeature_-KySKOLsGxjZFGYwIgWx_storage_name",
+				"current": "CLASS_FEATURE_PALADIN_DIVINE_SENSE",
+				"max": "",
+				"id": "-KySKOMHO5XchzicSOtg"
+			},
+			{
+				"name": "repeating_classfeature_-KySKOLsGxjZFGYwIgWx_name",
+				"current": "Divine Sense",
+				"max": "",
+				"id": "-KySKOMLI4bKkDs_phSd"
+			},
+			{
+				"name": "repeating_classfeature_-KySKOLsGxjZFGYwIgWx_content",
+				"current": "The presence of strong evil registers on your senses like a noxious odor, and powerful good rings like heavenly music in your ears. As an action, you can open your awareness to detect such forces. Until the end of your next turn, you know the location of any celestial, fiend, or undead within 60 feet of you that is not behind total cover. You know the type (celestial, fiend, or undead) of any being whose presence you sense, but not its identity (the vampire Count Strahd von Zarovich, for instance). Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the hallow spell.",
+				"max": "",
+				"id": "-KySKOMPJ80bzE2FkP8e"
+			},
+			{
+				"name": "repeating_classfeature_-KySKOLsGxjZFGYwIgWx_recharge",
+				"current": "LONG_REST",
+				"max": "",
+				"id": "-KySKOMRiFshoEkqi38R"
+			},
+			{
+				"name": "repeating_classfeature_-KySKOLsGxjZFGYwIgWx_uses",
+				"current": "",
+				"max": "",
+				"id": "-KySKOMUnqS4ha04hmTw"
+			},
+			{
+				"name": "repeating_classfeature_-KySKOLsGxjZFGYwIgWx_type",
+				"current": "CLASSFEATURE",
+				"max": "",
+				"id": "-KySKOMX-MCO58I3c7jA"
+			},
+			{
+				"name": "repeating_classfeature_-KySKOLt3K5kUjH9M2oV_storage_name",
+				"current": "CLASS_FEATURE_PALADIN_LAY_ON_HANDS",
+				"max": "",
+				"id": "-KySKOMaHW-JEmhSGoVE"
+			},
+			{
+				"name": "repeating_classfeature_-KySKOLt3K5kUjH9M2oV_name",
+				"current": "Lay on Hands",
+				"max": "",
+				"id": "-KySKOMdVFRj9fLnsw4T"
+			},
+			{
+				"name": "repeating_classfeature_-KySKOLt3K5kUjH9M2oV_content",
+				"current": "Your blessed touch can heal wounds. As an action, you can touch a creature to restore a number of hit points to that creature.\nAlternatively, you can expend 5 hit points from your pool of healing to cure the target of one disease or neutralize one poison affecting it. You can cure multiple diseases and neutralize multiple poisons with a single use of Lay on Hands, expending hit points separately for each one.\nThis feature has no effect on undead and constructs.",
+				"max": "",
+				"id": "-KySKOMfq_Eb7Sm7Grqf"
+			},
+			{
+				"name": "repeating_classfeature_-KySKOLt3K5kUjH9M2oV_heal_query_toggle",
+				"current": "?{Heal Bonus Amount|}",
+				"max": "",
+				"id": "-KySKOMivdEho8ySMZF_"
+			},
+			{
+				"name": "repeating_classfeature_-KySKOLt3K5kUjH9M2oV_recharge",
+				"current": "LONG_REST",
+				"max": "",
+				"id": "-KySKOMlkHFdkw-mA9uY"
+			},
+			{
+				"name": "repeating_classfeature_-KySKOLt3K5kUjH9M2oV_per_use",
+				"current": "?{Heal Bonus Amount|}",
+				"max": "",
+				"id": "-KySKOMovFWvbVXLygwJ"
+			},
+			{
+				"name": "repeating_classfeature_-KySKOLt3K5kUjH9M2oV_uses",
+				"current": 5,
+				"max": 5,
+				"id": "-KySKOMrBWNrcqvEFXGf"
+			},
+			{
+				"name": "repeating_classfeature_-KySKOLt3K5kUjH9M2oV_type",
+				"current": "CLASSFEATURE",
+				"max": "",
+				"id": "-KySKOMv8Q9CXk8bgabf"
+			},
+			{
+				"name": "repeating_classfeature_-KySKOLt3K5kUjH9M2oV_heal_toggle",
+				"current": 1,
+				"max": "",
+				"id": "-KySKOMxdoxKIGsIAOt0"
+			},
+			{
+				"name": "repeating_classfeature_-KySKOLsGxjZFGYwIgWx_roll_formula",
+				"current": "{{uses_max=@{uses|max}}} {{repeating_item=repeating_classfeature_-kyskolsgxjzfgywigwx}} {{recharge=@{recharge}}} {{content=@{content}}}",
+				"max": "",
+				"id": "-KySKOVD_kqI3ps_TZXt"
+			},
+			{
+				"name": "repeating_classfeature_-KySKOLt3K5kUjH9M2oV_roll_formula",
+				"current": "{{uses=@{uses}}} {{uses_max=@{uses|max}}} {{per_use=@{per_use}}} {{repeating_item=repeating_classfeature_-kyskolt3k5kujh9m2ov}} {{recharge=@{recharge}}} {{heal=[[?{Heal Bonus Amount|}[query]]]}} {{content=@{content}}}",
+				"max": "",
+				"id": "-KySKOVL5ClwsRp4WUkk"
+			},
+			{
+				"name": "repeating_classfeature_-KySKOLsGxjZFGYwIgWx_parsed",
+				"current": " content uses",
+				"max": "",
+				"id": "-KySKOVO7I_HzuYVYEaK"
+			},
+			{
+				"name": "repeating_classfeature_-KySKOLt3K5kUjH9M2oV_parsed",
+				"current": " content uses",
+				"max": "",
+				"id": "-KySKOVSKnYn1RQpVKRl"
+			},
+			{
+				"name": "classfeatures_macro_var",
+				"current": "[Divine Sense (/NaN, Long Rest)](~repeating_classfeature_-kyskolsgxjzfgywigwx_action), [Lay on Hands (5/5, Long Rest)](~repeating_classfeature_-kyskolt3k5kujh9m2ov_action), [Channel Divinity (1/1, Short or Long Rest)](~repeating_classfeature_-kysks7pxhd7zm0goqtm_action), [Turn Undead (Channel Divinity)](~repeating_classfeature_-kysks7yy2miymt1h70b_action), [Fighting Style (Paladin)](~repeating_classfeature_-kyskt7goljmym2zekzc_action), [Divine Smite](~repeating_classfeature_-kyskt87zaoowpdfynfk_action), [Divine Health](~repeating_classfeature_-kyskt8ljwoflszgiigu_action), [Extra Attack (Paladin)](~repeating_classfeature_-kyskt8zkzn4poy1zmr5_action)",
+				"max": "",
+				"id": "-KySKOadqU7I0MDUbgJE"
+			},
+			{
+				"name": "classfeatures_chat_var",
+				"current": "{{Class Features=[Divine Sense (/NaN, Long Rest)](~repeating_classfeature_-kyskolsgxjzfgywigwx_action), [Lay on Hands (5/5, Long Rest)](~repeating_classfeature_-kyskolt3k5kujh9m2ov_action), [Channel Divinity (1/1, Short or Long Rest)](~repeating_classfeature_-kysks7pxhd7zm0goqtm_action), [Turn Undead (Channel Divinity)](~repeating_classfeature_-kysks7yy2miymt1h70b_action), [Fighting Style (Paladin)](~repeating_classfeature_-kyskt7goljmym2zekzc_action), [Divine Smite](~repeating_classfeature_-kyskt87zaoowpdfynfk_action), [Divine Health](~repeating_classfeature_-kyskt8ljwoflszgiigu_action), [Extra Attack (Paladin)](~repeating_classfeature_-kyskt8zkzn4poy1zmr5_action)}}",
+				"max": "",
+				"id": "-KySKOagWTyUlqPrHy_z"
+			},
+			{
+				"name": "repeating_class_-KySKOijb67jhGkAGNID_name",
+				"current": "CLERIC",
+				"max": "",
+				"id": "-KySKQ612geaGyJy2BOp"
+			},
+			{
+				"name": "spell_level_filter_0",
+				"current": 1,
+				"max": "",
+				"id": "-KySKQgKWmno6v6sZYSg"
+			},
+			{
+				"name": "cleric_toggle",
+				"current": 1,
+				"max": "",
+				"id": "-KySKQgP3-0vq0daFlWS"
+			},
+			{
+				"name": "repeating_class_-KySKOijb67jhGkAGNID_level",
+				"current": 2,
+				"max": "",
+				"id": "-KySKQgTTJ1DWvr-Hj-J"
+			},
+			{
+				"name": "repeating_class_-KySKOijb67jhGkAGNID_spellcasting",
+				"current": "full",
+				"max": "",
+				"id": "-KySKQgW16hI-O7_Ue_Q"
+			},
+			{
+				"name": "repeating_class_-KySKOijb67jhGkAGNID_hd",
+				"current": "d8",
+				"max": "",
+				"id": "-KySKQgZLp8uD-ZgdkaX"
+			},
+			{
+				"name": "cleric_level",
+				"current": 2,
+				"max": "",
+				"id": "-KySKQgbHSYIQ5koymyo"
+			},
+			{
+				"name": "has_cleric_levels",
+				"current": 1,
+				"max": "",
+				"id": "-KySKQgftSOHmXy7OQdW"
+			},
+			{
+				"name": "spell_slots_l1",
+				"current": 3,
+				"max": 4,
+				"id": "-KySKQiM3m0_tG38rwP3"
+			},
+			{
+				"name": "spell_slots_l1_calc",
+				"current": 4,
+				"max": "",
+				"id": "-KySKQiROSGDugRWxt6J"
+			},
+			{
+				"name": "hd_d8",
+				"current": 2,
+				"max": 2,
+				"id": "-KySKQirqncrJ8v1YQzD"
+			},
+			{
+				"name": "hd_d8_query",
+				"current": "?{HD|1|2}",
+				"max": "",
+				"id": "-KySKQiu7pqH-ytsCWW_"
+			},
+			{
+				"name": "hd_d8_formula",
+				"current": "{{roll1=[[{(?{HD|1|2})d8 + (?{HD|1|2} * 3)[hit dice * con], 0d0}kh1[minimum of 0]]]}}",
+				"max": "",
+				"id": "-KySKQixOdmLwkBnu_kW"
+			},
+			{
+				"name": "hd_d0",
+				"current": "011",
+				"max": "011111111",
+				"id": "-KySKQj-nJ1a3JEuRg88"
+			},
+			{
+				"name": "hd_d0_query",
+				"current": "?{HD|1|2|3|4|5|6|7|8|9|10|11}",
+				"max": "",
+				"id": "-KySKQj6VWzkviv01uFl"
+			},
+			{
+				"name": "hd_d0_formula",
+				"current": "{{roll1=[[{(?{HD|1|2|3|4|5|6|7|8|9|10|11})d0 + (?{HD|1|2|3|4|5|6|7|8|9|10|11} * 3)[hit dice * con], 0d0}kh1[minimum of 0]]]}}",
+				"max": "",
+				"id": "-KySKQj9CsU7JoJNv7Y6"
+			},
+			{
+				"name": "class_feature_cleric_channel_divinity_toggle",
+				"current": 1,
+				"max": "",
+				"id": "-KySKS6bHk3_BbX01jqk"
+			},
+			{
+				"name": "class_feature_cleric_channel_divinity_turn_undead_toggle",
+				"current": 1,
+				"max": "",
+				"id": "-KySKS6duFI10C0WYXr5"
+			},
+			{
+				"name": "repeating_classfeature_-KySKS7pXhd7Zm0GOQtm_storage_name",
+				"current": "CLASS_FEATURE_CLERIC_CHANNEL_DIVINITY",
+				"max": "",
+				"id": "-KySKS82FB74d7yphB7e"
+			},
+			{
+				"name": "repeating_classfeature_-KySKS7pXhd7Zm0GOQtm_name",
+				"current": "Channel Divinity",
+				"max": "",
+				"id": "-KySKS85HbFTbY7hBatW"
+			},
+			{
+				"name": "repeating_classfeature_-KySKS7pXhd7Zm0GOQtm_content",
+				"current": "You gain the ability to channel divine energy directly from your deity, using that energy to fuel magical effects. You start with two such effects: Turn Undead and an effect determined by your domain. Some domains grant you additional effects as you advance in levels, as noted in the domain description",
+				"max": "",
+				"id": "-KySKS8GenP8R4vCdRdr"
+			},
+			{
+				"name": "repeating_classfeature_-KySKS7pXhd7Zm0GOQtm_recharge",
+				"current": "SHORT_OR_LONG_REST",
+				"max": "",
+				"id": "-KySKS8KTFqLGkzg35A1"
+			},
+			{
+				"name": "repeating_classfeature_-KySKS7pXhd7Zm0GOQtm_uses",
+				"current": 1,
+				"max": 1,
+				"id": "-KySKS8NtM_qVqRyxqU5"
+			},
+			{
+				"name": "repeating_classfeature_-KySKS7pXhd7Zm0GOQtm_type",
+				"current": "CLASSFEATURE",
+				"max": "",
+				"id": "-KySKS8RheqrojaLYuHB"
+			},
+			{
+				"name": "repeating_classfeature_-KySKS7yY2mIymt1H70B_storage_name",
+				"current": "CLASS_FEATURE_CLERIC_CHANNEL_DIVINITY_TURN_UNDEAD",
+				"max": "",
+				"id": "-KySKS8a8n-uX9-yW3vL"
+			},
+			{
+				"name": "repeating_classfeature_-KySKS7yY2mIymt1H70B_name",
+				"current": "Turn Undead (Channel Divinity)",
+				"max": "",
+				"id": "-KySKS8duhA7rkwLg0yU"
+			},
+			{
+				"name": "repeating_classfeature_-KySKS7yY2mIymt1H70B_content",
+				"current": "As an action, you present your holy symbol and speak a prayer censuring the undead. Each undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.\nA turned creature must spend its turns trying to move as far away from you as it can, and it can’t willingly move to a space within 30 feet of you. It also can’t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there’s nowhere to move, the creature can use the Dodge action.",
+				"max": "",
+				"id": "-KySKS8hui-O2d92_cQQ"
+			},
+			{
+				"name": "repeating_classfeature_-KySKS7yY2mIymt1H70B_saving_throw_ability",
+				"current": "WIS",
+				"max": "",
+				"id": "-KySKS8mKsQGpsfCn6Kd"
+			},
+			{
+				"name": "repeating_classfeature_-KySKS7yY2mIymt1H70B_saving_throw_vs_ability",
+				"current": "WISDOM",
+				"max": "",
+				"id": "-KySKS8p2LINJfpq_uoL"
+			},
+			{
+				"name": "repeating_classfeature_-KySKS7yY2mIymt1H70B_type",
+				"current": "CLASSFEATURE",
+				"max": "",
+				"id": "-KySKS8t4_QgDEn3jLII"
+			},
+			{
+				"name": "repeating_classfeature_-KySKS7yY2mIymt1H70B_saving_throw_toggle",
+				"current": 1,
+				"max": "",
+				"id": "-KySKS8xBGlTD1CL1vwi"
+			},
+			{
+				"name": "repeating_classfeature_-KySKS7pXhd7Zm0GOQtm_roll_formula",
+				"current": "{{uses=@{uses}}} {{uses_max=@{uses|max}}} {{repeating_item=repeating_classfeature_-kysks7pxhd7zm0goqtm}} {{recharge=@{recharge}}} {{content=@{content}}}",
+				"max": "",
+				"id": "-KySKSJnWwkBnVEqWKaL"
+			},
+			{
+				"name": "repeating_classfeature_-KySKS7yY2mIymt1H70B_roll_formula",
+				"current": "{{saving_throw_vs_ability=WISDOM}} {{saving_throw_dc=13}} {{has_saving_throw_damage=1}} {{has_saving_throw_damage=1}} {{saving_throw_damage_macro=[Saving throw failure:](~repeating_classfeature_saving_throw_damage)}} {{content=@{content}}}",
+				"max": "",
+				"id": "-KySKSJsFHsCHh3Oojjt"
+			},
+			{
+				"name": "repeating_classfeature_-KySKS7yY2mIymt1H70B_saving_throw_dc",
+				"current": 13,
+				"max": "",
+				"id": "-KySKSJvSMTy5NcstiHo"
+			},
+			{
+				"name": "repeating_classfeature_-KySKS7yY2mIymt1H70B_saving_throw_damage_formula",
+				"current": "{{has_saving_throw_damage=1}}",
+				"max": "",
+				"id": "-KySKSJzurzIB1fuLzL_"
+			},
+			{
+				"name": "repeating_classfeature_-KySKS7pXhd7Zm0GOQtm_parsed",
+				"current": " content uses",
+				"max": "",
+				"id": "-KySKSK1mWAN_hPZ95Bw"
+			},
+			{
+				"name": "repeating_classfeature_-KySKS7yY2mIymt1H70B_parsed",
+				"current": " content uses",
+				"max": "",
+				"id": "-KySKSK3wxx9V2zNGAlb"
+			},
+			{
+				"name": "repeating_classfeature_-KySKS7yY2mIymt1H70B_saving_throw_damage_string",
+				"current": " ().",
+				"max": "",
+				"id": "-KySKSK6bZIc26QdHHVn"
+			},
+			{
+				"name": "repeating_classfeature_-KySKS7yY2mIymt1H70B_saving_throw_damage_average",
+				"current": "",
+				"max": "",
+				"id": "-KySKSK9fFhp1N6KY5rD"
+			},
+			{
+				"name": "class_feature_paladin_fighting_style_toggle",
+				"current": 1,
+				"max": "",
+				"id": "-KySKT1ulmCe8aGO2KdL"
+			},
+			{
+				"name": "class_feature_paladin_divine_smite_toggle",
+				"current": 1,
+				"max": "",
+				"id": "-KySKT1w6qLDRRYDH_CC"
+			},
+			{
+				"name": "class_feature_paladin_divine_health_toggle",
+				"current": 1,
+				"max": "",
+				"id": "-KySKT1zT4Y0dkWP2Pga"
+			},
+			{
+				"name": "class_feature_paladin_extra_attack_toggle",
+				"current": 1,
+				"max": "",
+				"id": "-KySKT22msq9oYyfPvEi"
+			},
+			{
+				"name": "spell_slots_l2",
+				"current": "",
+				"max": 3,
+				"id": "-KySKT28k7_oizDAstGP"
+			},
+			{
+				"name": "spell_level_filter_2",
+				"current": 1,
+				"max": "",
+				"id": "-KySKT2AyP4urc1vkVjS"
+			},
+			{
+				"name": "spell_slots_l2_calc",
+				"current": 3,
+				"max": "",
+				"id": "-KySKT2CiwZVlCTkldwa"
+			},
+			{
+				"name": "spell_to_hit",
+				"current": "+4",
+				"max": "",
+				"id": "-KySKT2Zbl5Ux91VhoYQ"
+			},
+			{
+				"name": "repeating_classfeature_-KySKT7goLjMyM2zEKZc_storage_name",
+				"current": "CLASS_FEATURE_PALADIN_FIGHTING_STYLE",
+				"max": "",
+				"id": "-KySKT8lCf5i5WYspXeA"
+			},
+			{
+				"name": "repeating_classfeature_-KySKT7goLjMyM2zEKZc_name",
+				"current": "Fighting Style (Paladin)",
+				"max": "",
+				"id": "-KySKT8pp2-51ZUIFhOG"
+			},
+			{
+				"name": "repeating_classfeature_-KySKT7goLjMyM2zEKZc_content",
+				"current": "You adopt a particular style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.\n\nDefense\nWhile you are wearing armor, you gain a +1 bonus to AC.\n\nDueling\nWhen you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.\n\nGreat Weapon Fighting\nWhen you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.\n\nProtection\nWhen a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.",
+				"max": "",
+				"id": "-KySKT8wSoCU2oUlbNtZ"
+			},
+			{
+				"name": "repeating_classfeature_-KySKT7goLjMyM2zEKZc_type",
+				"current": "CLASSFEATURE",
+				"max": "",
+				"id": "-KySKT8zJfsYH_RZwfqR"
+			},
+			{
+				"name": "repeating_classfeature_-KySKT87ZAOoWPDfYNFk_storage_name",
+				"current": "CLASS_FEATURE_PALADIN_DIVINE_SMITE",
+				"max": "",
+				"id": "-KySKT92mM9uKYFRFW_B"
+			},
+			{
+				"name": "repeating_classfeature_-KySKT87ZAOoWPDfYNFk_name",
+				"current": "Divine Smite",
+				"max": "",
+				"id": "-KySKT96mz1gvZAIBoW5"
+			},
+			{
+				"name": "repeating_classfeature_-KySKT87ZAOoWPDfYNFk_content",
+				"current": "When you hit a creature with a melee weapon attack, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon’s damage. The extra damage is 2d8 for a 1st-level spell slot, plus 1d8 for each spell level higher than 1st, to a maximum of 5d8. The damage increases by 1d8 if the target is an undead or a fiend.",
+				"max": "",
+				"id": "-KySKT9AArZ-D_qzZSr5"
+			},
+			{
+				"name": "repeating_classfeature_-KySKT87ZAOoWPDfYNFk_other_damage_dice",
+				"current": "(?{Spell Level|1|2|3|4|5, (4)} + 1)",
+				"max": "",
+				"id": "-KySKT9DpIJhTWDVzqFi"
+			},
+			{
+				"name": "repeating_classfeature_-KySKT87ZAOoWPDfYNFk_other_damage_die",
+				"current": "d8",
+				"max": "",
+				"id": "-KySKT9GLfhoBYdcRLLD"
+			},
+			{
+				"name": "repeating_classfeature_-KySKT87ZAOoWPDfYNFk_other_damage_type",
+				"current": "radiant",
+				"max": "",
+				"id": "-KySKT9KcRopEDla6iSf"
+			},
+			{
+				"name": "repeating_classfeature_-KySKT87ZAOoWPDfYNFk_freeform",
+				"current": "{{subheader=(as ?{Spell Level|1|2|3|4|5})}}",
+				"max": "",
+				"id": "-KySKT9PAEaHfHOKmk3P"
+			},
+			{
+				"name": "repeating_classfeature_-KySKT87ZAOoWPDfYNFk_other_second_damage_condition",
+				"current": "PLUS",
+				"max": "",
+				"id": "-KySKT9TsBVVxmbxsqeA"
+			},
+			{
+				"name": "repeating_classfeature_-KySKT87ZAOoWPDfYNFk_other_second_damage_dice",
+				"current": 1,
+				"max": "",
+				"id": "-KySKT9YiXyu-wvdkdG4"
+			},
+			{
+				"name": "repeating_classfeature_-KySKT87ZAOoWPDfYNFk_other_second_damage_die",
+				"current": "d8",
+				"max": "",
+				"id": "-KySKT9b68s5Yv3fFG-h"
+			},
+			{
+				"name": "repeating_classfeature_-KySKT87ZAOoWPDfYNFk_other_second_damage_type",
+				"current": "vs undead or fiend",
+				"max": "",
+				"id": "-KySKT9f20ippnhC2E6u"
+			},
+			{
+				"name": "repeating_classfeature_-KySKT87ZAOoWPDfYNFk_type",
+				"current": "CLASSFEATURE",
+				"max": "",
+				"id": "-KySKT9jYboSt9ekdHPT"
+			},
+			{
+				"name": "repeating_classfeature_-KySKT8LJwOfLsZGIIgU_storage_name",
+				"current": "CLASS_FEATURE_PALADIN_DIVINE_HEALTH",
+				"max": "",
+				"id": "-KySKT9niQ9GHN-_ni8R"
+			},
+			{
+				"name": "repeating_classfeature_-KySKT8LJwOfLsZGIIgU_name",
+				"current": "Divine Health",
+				"max": "",
+				"id": "-KySKT9spntsRv3Qov49"
+			},
+			{
+				"name": "repeating_classfeature_-KySKT8LJwOfLsZGIIgU_content",
+				"current": "The divine magic flowing through you makes you immune to disease.",
+				"max": "",
+				"id": "-KySKT9wAKW-GuvqQ-i0"
+			},
+			{
+				"name": "repeating_classfeature_-KySKT8LJwOfLsZGIIgU_type",
+				"current": "CLASSFEATURE",
+				"max": "",
+				"id": "-KySKTA065h222eymeE_"
+			},
+			{
+				"name": "repeating_classfeature_-KySKT8ZkZN4poY1ZmR5_storage_name",
+				"current": "CLASS_FEATURE_PALADIN_EXTRA_ATTACK",
+				"max": "",
+				"id": "-KySKTA4LY4G1bTyAGKS"
+			},
+			{
+				"name": "repeating_classfeature_-KySKT8ZkZN4poY1ZmR5_name",
+				"current": "Extra Attack (Paladin)",
+				"max": "",
+				"id": "-KySKTA8LcoPanrBUgb2"
+			},
+			{
+				"name": "repeating_classfeature_-KySKT8ZkZN4poY1ZmR5_content",
+				"current": "You can attack twice, instead of once, whenever you take the Attack action on your turn.",
+				"max": "",
+				"id": "-KySKTAFu20kDYSpOw_Y"
+			},
+			{
+				"name": "repeating_classfeature_-KySKT8ZkZN4poY1ZmR5_type",
+				"current": "CLASSFEATURE",
+				"max": "",
+				"id": "-KySKTAIwVMgj_PGTO4q"
+			},
+			{
+				"name": "repeating_classfeature_-KySKT7goLjMyM2zEKZc_roll_formula",
+				"current": "{{content=@{content}}}",
+				"max": "",
+				"id": "-KySKTmVJj0148fh7IQw"
+			},
+			{
+				"name": "repeating_classfeature_-KySKT87ZAOoWPDfYNFk_roll_formula",
+				"current": "{{content=@{content}}}",
+				"max": "",
+				"id": "-KySKTmddkLH8JxZvStY"
+			},
+			{
+				"name": "repeating_classfeature_-KySKT8LJwOfLsZGIIgU_roll_formula",
+				"current": "{{content=@{content}}}",
+				"max": "",
+				"id": "-KySKTmjYV78lb4OuNHF"
+			},
+			{
+				"name": "repeating_classfeature_-KySKT8ZkZN4poY1ZmR5_roll_formula",
+				"current": "{{content=@{content}}}",
+				"max": "",
+				"id": "-KySKTmqS8iFxMckEpyC"
+			},
+			{
+				"name": "repeating_classfeature_-KySKT7goLjMyM2zEKZc_parsed",
+				"current": " content uses",
+				"max": "",
+				"id": "-KySKTmvMQonHnJDjYb7"
+			},
+			{
+				"name": "repeating_classfeature_-KySKT87ZAOoWPDfYNFk_parsed",
+				"current": " content uses",
+				"max": "",
+				"id": "-KySKTmzg6pwoZCp7OKD"
+			},
+			{
+				"name": "repeating_classfeature_-KySKT8LJwOfLsZGIIgU_parsed",
+				"current": " content uses",
+				"max": "",
+				"id": "-KySKTn2jM2G3mV4WeSZ"
+			},
+			{
+				"name": "repeating_classfeature_-KySKT8ZkZN4poY1ZmR5_parsed",
+				"current": " content uses",
+				"max": "",
+				"id": "-KySKTn5XpACsX0dtKmA"
+			},
+			{
+				"name": "background",
+				"current": "Acolyte",
+				"max": "",
+				"id": "-KySKWsmnOCcZeyIMTTu"
+			},
+			{
+				"name": "strength",
+				"current": "14",
+				"max": "",
+				"id": "-KySNAxkfNnL3msormJb"
+			},
+			{
+				"name": "strength_mod_with_sign",
+				"current": "+2",
+				"max": "",
+				"id": "-KySNB1KsEoPMIpOkC8J"
+			},
+			{
+				"name": "strength_saving_throw_mod_with_sign",
+				"current": "+2",
+				"max": "",
+				"id": "-KySNB4nNIflM_8qTfaj"
+			},
+			{
+				"name": "dexterity",
+				"current": "11",
+				"max": "",
+				"id": "-KySNBeCg2kjSC94oKZD"
+			},
+			{
+				"name": "constitution",
+				"current": "16",
+				"max": "",
+				"id": "-KySNCM0i79hc3ZUhr8r"
+			},
+			{
+				"name": "constitution_mod_with_sign",
+				"current": "+3",
+				"max": "",
+				"id": "-KySNCQ-JDzXfSUqWR6n"
+			},
+			{
+				"name": "constitution_saving_throw_mod_with_sign",
+				"current": "+3",
+				"max": "",
+				"id": "-KySNCTRwiSoqXZKGg-n"
+			},
+			{
+				"name": "intelligence",
+				"current": "9",
+				"max": "",
+				"id": "-KySNDHQZ_jhaL4-Yyly"
+			},
+			{
+				"name": "intelligence_mod_with_sign",
+				"current": -1,
+				"max": "",
+				"id": "-KySNDLD937R-1uJjOXE"
+			},
+			{
+				"name": "intelligence_saving_throw_mod_with_sign",
+				"current": -1,
+				"max": "",
+				"id": "-KySNDOC6UHa7Hn77dGV"
+			},
+			{
+				"name": "wisdom",
+				"current": "15",
+				"max": "",
+				"id": "-KySNEF5DpfNiwQeo7KB"
+			},
+			{
+				"name": "wisdom_mod_with_sign",
+				"current": "+2",
+				"max": "",
+				"id": "-KySNEIueaBBiTlGo9dU"
+			},
+			{
+				"name": "charisma",
+				"current": "13",
+				"max": "",
+				"id": "-KySNHagYAVS3YKgRYl5"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8Q_prof_toggle",
+				"current": "on",
+				"max": "",
+				"id": "-KySNHbv-gKtgloSaZ_C"
+			},
+			{
+				"name": "charisma_mod_with_sign",
+				"current": "+1",
+				"max": "",
+				"id": "-KySNHhD1Mawr_pVtfxy"
+			},
+			{
+				"name": "repeating_skill_-KySKHGOtcKNTsa2EM8Q_proficiency",
+				"current": "proficient",
+				"max": "",
+				"id": "-KySNHk-CgDOfskZm9wh"
+			},
+			{
+				"name": "repeating_skill_-KySKHGN2HR-ADTI0tn1_prof_toggle",
+				"current": "on",
+				"max": "",
+				"id": "-KySNI-MEDlgR_sW9oFC"
+			},
+			{
+				"name": "repeating_skill_-KySKHGN2HR-ADTI0tn1_proficiency",
+				"current": "proficient",
+				"max": "",
+				"id": "-KySNI849nnRULZ8QrKe"
+			},
+			{
+				"name": "repeating_armor_-KySNNQTbMYsGUfiL9ZV_name",
+				"current": "Plate Armor",
+				"max": "",
+				"id": "-KySNTCAS8hw9hEUgAof"
+			},
+			{
+				"name": "repeating_armor_-KySNNQTbMYsGUfiL9ZV_type",
+				"current": "HEAVY_ARMOR",
+				"max": "",
+				"id": "-KySNTCIDllChGgde-9Z"
+			},
+			{
+				"name": "repeating_armor_-KySNNQTbMYsGUfiL9ZV_ac_base",
+				"current": "18",
+				"max": "",
+				"id": "-KySNTCLPrJoe9qXFtwi"
+			},
+			{
+				"name": "repeating_armor_-KySNNQTbMYsGUfiL9ZV_stealth",
+				"current": "Disadvantage",
+				"max": "",
+				"id": "-KySNTCO8PcDlV3GRM5z"
+			},
+			{
+				"name": "repeating_armor_-KySNNQTbMYsGUfiL9ZV_weight",
+				"current": "65",
+				"max": "",
+				"id": "-KySNTCR4VUwx-uIirNu"
+			},
+			{
+				"name": "repeating_armor_-KySNNQTbMYsGUfiL9ZV_content",
+				"current": "Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.",
+				"max": "",
+				"id": "-KySNTCYRbYSKpjDUpba"
+			},
+			{
+				"name": "repeating_armor_-KySNNQTbMYsGUfiL9ZV_ac_ability",
+				"current": "",
+				"max": "",
+				"id": "-KySNTHhjt7abRj4UrE3"
+			},
+			{
+				"name": "repeating_armor_-KySNNQTbMYsGUfiL9ZV_ac_total",
+				"current": 18,
+				"max": "",
+				"id": "-KySNTHnkVNM02Jf89kW"
+			},
+			{
+				"name": "repeating_armor_-KySNNQTbMYsGUfiL9ZV_roll_formula",
+				"current": "{{content=@{content}}}",
+				"max": "",
+				"id": "-KySNTHr4F02DodO9emO"
+			},
+			{
+				"name": "repeating_armor_-KySNNQTbMYsGUfiL9ZV_parsed",
+				"current": " content uses",
+				"max": "",
+				"id": "-KySNTHzzd00EcS6a7iH"
+			},
+			{
+				"name": "repeating_armor_-KySNNQTbMYsGUfiL9ZV_weight_system",
+				"current": "POUNDS",
+				"max": "",
+				"id": "-KySNTI1frJMpHDAgqDT"
+			},
+			{
+				"name": "repeating_armor_-KySNNQTbMYsGUfiL9ZV_weight_total",
+				"current": 65,
+				"max": "",
+				"id": "-KySNTI56Mb7vPjoiumW"
+			},
+			{
+				"name": "repeating_offense_-KySNVKh5SYhsey1xBhq_properties",
+				"current": "",
+				"max": "",
+				"id": "-KySNXZbejX4Qbvd0hiC"
+			},
+			{
+				"name": "repeating_offense_-KySNVKh5SYhsey1xBhq_weight",
+				"current": "3",
+				"max": "",
+				"id": "-KySNXZegBJnyB3VRDzb"
+			},
+			{
+				"name": "repeating_offense_-KySNVKh5SYhsey1xBhq_damage_from_srd",
+				"current": "",
+				"max": "",
+				"id": "-KySNXZgvm3MihsyOhCB"
+			},
+			{
+				"name": "repeating_offense_-KySNVKh5SYhsey1xBhq_second_damage_from_srd",
+				"current": "",
+				"max": "",
+				"id": "-KySNXZjSux1eOcyiY1J"
+			},
+			{
+				"name": "repeating_offense_-KySNVKh5SYhsey1xBhq_damage_type_from_srd",
+				"current": "",
+				"max": "",
+				"id": "-KySNXZlURfwVMV54wfU"
+			},
+			{
+				"name": "repeating_offense_-KySNVKh5SYhsey1xBhq_name",
+				"current": "Longsword",
+				"max": "",
+				"id": "-KySNXZq48iRHNdcxqVQ"
+			},
+			{
+				"name": "repeating_offense_-KySNVKh5SYhsey1xBhq_attack_type",
+				"current": "MELEE_WEAPON_ATTACK",
+				"max": "",
+				"id": "-KySNX_-MPBUAJjFs5Wr"
+			},
+			{
+				"name": "repeating_offense_-KySNVKh5SYhsey1xBhq_roll_formula",
+				"current": "{{attack_type_macro=[Melee Weapon Attack:](~repeating_offense_attack)}} {{has_attack_damage=1}} {{attack_damage_crit=[[1d8]]}} {{attack_damage=[[1d8[damage] + 2[str]]]}} {{attack_damage_type=slashing}} {{has_attack_damage=1}} {{attack_damage_macro=[Hit:](~repeating_offense_attack_damage)}} {{attack_damage_crit_macro=[Crit:](~repeating_offense_attack_damage_crit)}} {{attack1=[[@{shaped_d20}@{d20_mod} + 3[proficient] + 2[str]]]}}",
+				"max": "",
+				"id": "-KySNXgJwuKt1w5R9mlS"
+			},
+			{
+				"name": "repeating_offense_-KySNVKh5SYhsey1xBhq_attack_toggle",
+				"current": 1,
+				"max": "",
+				"id": "-KySNXgic1gnnapcgA-f"
+			},
+			{
+				"name": "repeating_offense_-KySNVKh5SYhsey1xBhq_attack_ability",
+				"current": "STR",
+				"max": "",
+				"id": "-KySNXgv-rv6yWvurOww"
+			},
+			{
+				"name": "repeating_offense_-KySNVKh5SYhsey1xBhq_attack_damage_formula",
+				"current": "{{has_attack_damage=1}} {{attack_damage_crit=[[1d8]]}} {{attack_damage=[[1d8[damage] + 2[str]]]}} {{attack_damage_type=slashing}}",
+				"max": "",
+				"id": "-KySNXh1Z6SDnD49dFsg"
+			},
+			{
+				"name": "repeating_offense_-KySNVKh5SYhsey1xBhq_attack_damage_dice",
+				"current": "1",
+				"max": "",
+				"id": "-KySNXh4eJFg8AsHfk8G"
+			},
+			{
+				"name": "repeating_offense_-KySNVKh5SYhsey1xBhq_attack_damage_die",
+				"current": "d8",
+				"max": "",
+				"id": "-KySNXh8iCnad8DwqE4L"
+			},
+			{
+				"name": "repeating_offense_-KySNVKh5SYhsey1xBhq_attack_damage_ability",
+				"current": "STR",
+				"max": "",
+				"id": "-KySNXhCQYIdRcscQ33F"
+			},
+			{
+				"name": "repeating_offense_-KySNVKh5SYhsey1xBhq_attack_damage_type",
+				"current": "slashing",
+				"max": "",
+				"id": "-KySNXhFTRBV3jjhCI56"
+			},
+			{
+				"name": "repeating_offense_-KySNVKh5SYhsey1xBhq_attack_second_damage_die",
+				"current": "",
+				"max": "",
+				"id": "-KySNXhMhFueHpqtaGFH"
+			},
+			{
+				"name": "repeating_offense_-KySNVKh5SYhsey1xBhq_attack_second_damage_ability",
+				"current": "",
+				"max": "",
+				"id": "-KySNXhPKjloxPMx8AxE"
+			},
+			{
+				"name": "update",
+				"current": true,
+				"max": "",
+				"id": "-KySNXhRikDUxTTxzqIf"
+			},
+			{
+				"name": "repeating_offense_-KySNVKh5SYhsey1xBhq_parsed",
+				"current": " ammo uses",
+				"max": "",
+				"id": "-KySNXhUWp5xqBSoufP8"
+			},
+			{
+				"name": "repeating_offense_-KySNVKh5SYhsey1xBhq_attack_string",
+				"current": "+5 to hit, one target.",
+				"max": "",
+				"id": "-KySNXhZQz6eF7-raibN"
+			},
+			{
+				"name": "repeating_offense_-KySNVKh5SYhsey1xBhq_attack_formula",
+				"current": "{{attack1=[[@{shaped_d20}@{d20_mod} + 3[proficient] + 2[str]]]}}",
+				"max": "",
+				"id": "-KySNXhbqk9D0iMQm_KC"
+			},
+			{
+				"name": "repeating_offense_-KySNVKh5SYhsey1xBhq_to_hit",
+				"current": "+5",
+				"max": "",
+				"id": "-KySNXhm1eo1BrAQmrOz"
+			},
+			{
+				"name": "repeating_offense_-KySNVKh5SYhsey1xBhq_attack_damage_string",
+				"current": "6 (1d8 + 2) slashing damage.",
+				"max": "",
+				"id": "-KySNXhpuH1Dp0UcRhyl"
+			},
+			{
+				"name": "repeating_offense_-KySNVKh5SYhsey1xBhq_attack_damage_average",
+				"current": 6,
+				"max": "",
+				"id": "-KySNXhteBN3LiHihNVN"
+			},
+			{
+				"name": "repeating_offense_-KySNVKh5SYhsey1xBhq_weight_system",
+				"current": "POUNDS",
+				"max": "",
+				"id": "-KySNXhwTnNEteM3nrBj"
+			},
+			{
+				"name": "repeating_offense_-KySNVKh5SYhsey1xBhq_weight_total",
+				"current": 3,
+				"max": "",
+				"id": "-KySNXi-c6o0NZZTZbOk"
+			},
+			{
+				"name": "repeating_offense_-KySNXgGAqdcD9IfvoqV_name",
+				"current": "Longsword (Versatile)",
+				"max": "",
+				"id": "-KySNXiU_yWR9Ch8ziyv"
+			},
+			{
+				"name": "repeating_offense_-KySNXgGAqdcD9IfvoqV_attack_toggle",
+				"current": 1,
+				"max": "",
+				"id": "-KySNXiYMrwWN3WmtxS7"
+			},
+			{
+				"name": "repeating_offense_-KySNXgGAqdcD9IfvoqV_attack_type",
+				"current": "MELEE_WEAPON_ATTACK",
+				"max": "",
+				"id": "-KySNXiaIz17OVDoUKTF"
+			},
+			{
+				"name": "repeating_offense_-KySNXgGAqdcD9IfvoqV_proficiency",
+				"current": "on",
+				"max": "",
+				"id": "-KySNXieT1yn8ZFLfmGo"
+			},
+			{
+				"name": "repeating_offense_-KySNXgGAqdcD9IfvoqV_attack_ability",
+				"current": "STR",
+				"max": "",
+				"id": "-KySNXimFrgXwGmayysb"
+			},
+			{
+				"name": "repeating_offense_-KySNXgGAqdcD9IfvoqV_attack_target",
+				"current": "ONE_TARGET",
+				"max": "",
+				"id": "-KySNXipU6jSV6ZE6RoD"
+			},
+			{
+				"name": "repeating_offense_-KySNXgGAqdcD9IfvoqV_crit_range",
+				"current": "20",
+				"max": "",
+				"id": "-KySNXis-7OZ-BvfhNNb"
+			},
+			{
+				"name": "repeating_offense_-KySNXgGAqdcD9IfvoqV_attack_damage_dice",
+				"current": "1",
+				"max": "",
+				"id": "-KySNXiwJq21WMkLZjht"
+			},
+			{
+				"name": "repeating_offense_-KySNXgGAqdcD9IfvoqV_attack_damage_die",
+				"current": "d10",
+				"max": "",
+				"id": "-KySNXizHlrXHKgMkD1i"
+			},
+			{
+				"name": "repeating_offense_-KySNXgGAqdcD9IfvoqV_attack_damage_ability",
+				"current": "STR",
+				"max": "",
+				"id": "-KySNXj7ay1k6pc62KWk"
+			},
+			{
+				"name": "repeating_offense_-KySNXgGAqdcD9IfvoqV_attack_damage_type",
+				"current": "slashing",
+				"max": "",
+				"id": "-KySNXjBvjqbkCFYnFwn"
+			},
+			{
+				"name": "repeating_offense_-KySNXgGAqdcD9IfvoqV_content_toggle",
+				"current": "1",
+				"max": "",
+				"id": "-KySNXjF4pxisneG041w"
+			},
+			{
+				"name": "repeating_offense_-KySNXgGAqdcD9IfvoqV_roll_formula",
+				"current": "{{attack_type_macro=[Melee Weapon Attack:](~repeating_offense_attack)}} {{has_attack_damage=1}} {{attack_damage_crit=[[1d10]]}} {{attack_damage=[[1d10[damage] + 2[str]]]}} {{attack_damage_type=slashing}} {{has_attack_damage=1}} {{attack_damage_macro=[Hit:](~repeating_offense_attack_damage)}} {{attack_damage_crit_macro=[Crit:](~repeating_offense_attack_damage_crit)}} {{attack1=[[@{shaped_d20}@{d20_mod} + 3[proficient] + 2[str]]]}}",
+				"max": "",
+				"id": "-KySNXoadhUqZFv3k_hG"
+			},
+			{
+				"name": "repeating_offense_-KySNXgGAqdcD9IfvoqV_attack_damage_formula",
+				"current": "{{has_attack_damage=1}} {{attack_damage_crit=[[1d10]]}} {{attack_damage=[[1d10[damage] + 2[str]]]}} {{attack_damage_type=slashing}}",
+				"max": "",
+				"id": "-KySNXoglPfADD6-lwxR"
+			},
+			{
+				"name": "repeating_offense_-KySNXgGAqdcD9IfvoqV_parsed",
+				"current": " ammo uses",
+				"max": "",
+				"id": "-KySNXolOakcuRv7VL-4"
+			},
+			{
+				"name": "repeating_offense_-KySNXgGAqdcD9IfvoqV_attack_string",
+				"current": "+5 to hit, one target.",
+				"max": "",
+				"id": "-KySNXosclqURI-oFe11"
+			},
+			{
+				"name": "repeating_offense_-KySNXgGAqdcD9IfvoqV_attack_formula",
+				"current": "{{attack1=[[@{shaped_d20}@{d20_mod} + 3[proficient] + 2[str]]]}}",
+				"max": "",
+				"id": "-KySNXowSJqPWAxGyxsd"
+			},
+			{
+				"name": "repeating_offense_-KySNXgGAqdcD9IfvoqV_to_hit",
+				"current": "+5",
+				"max": "",
+				"id": "-KySNXoztW0RXPIbvC35"
+			},
+			{
+				"name": "repeating_offense_-KySNXgGAqdcD9IfvoqV_attack_damage_string",
+				"current": "7 (1d10 + 2) slashing damage.",
+				"max": "",
+				"id": "-KySNXp1ULWJnnPcVUoF"
+			},
+			{
+				"name": "repeating_offense_-KySNXgGAqdcD9IfvoqV_attack_damage_average",
+				"current": 7,
+				"max": "",
+				"id": "-KySNXp59qS8hra-tHTi"
+			},
+			{
+				"name": "repeating_offense_-KySNXgGAqdcD9IfvoqV_weight_system",
+				"current": "POUNDS",
+				"max": "",
+				"id": "-KySNXpCzgxNfa2WtjgU"
+			},
+			{
+				"name": "repeating_offense_-KySNXgGAqdcD9IfvoqV_weight_total",
+				"current": 0,
+				"max": "",
+				"id": "-KySNXpFPISq2j82Omfx"
+			},
+			{
+				"name": "repeating_offense_-KySNZLwuIMUfVJC5zq9_properties",
+				"current": "",
+				"max": "",
+				"id": "-KySNaKvinE873A_VJPu"
+			},
+			{
+				"name": "repeating_offense_-KySNZLwuIMUfVJC5zq9_weight",
+				"current": "2",
+				"max": "",
+				"id": "-KySNaKycuej4kgZdboh"
+			},
+			{
+				"name": "repeating_offense_-KySNZLwuIMUfVJC5zq9_damage_from_srd",
+				"current": "",
+				"max": "",
+				"id": "-KySNaL3iqjkh4CBHrYL"
+			},
+			{
+				"name": "repeating_offense_-KySNZLwuIMUfVJC5zq9_damage_type_from_srd",
+				"current": "",
+				"max": "",
+				"id": "-KySNaL6Rr7Bukq8PoWi"
+			},
+			{
+				"name": "repeating_offense_-KySNZLwuIMUfVJC5zq9_name",
+				"current": "Longbow",
+				"max": "",
+				"id": "-KySNaL8biarZf1IgvIn"
+			},
+			{
+				"name": "repeating_offense_-KySNZLwuIMUfVJC5zq9_attack_type",
+				"current": "RANGED_WEAPON_ATTACK",
+				"max": "",
+				"id": "-KySNaLASlWqi2ybRId_"
+			},
+			{
+				"name": "repeating_offense_-KySNZLwuIMUfVJC5zq9_range",
+				"current": "150/600 ft.",
+				"max": "",
+				"id": "-KySNaLHc-EF1y_emD6m"
+			},
+			{
+				"name": "repeating_offense_-KySNZLwuIMUfVJC5zq9_roll_formula",
+				"current": "{{attack_type_macro=[Ranged Weapon Attack:](~repeating_offense_attack)}} {{has_attack_damage=1}} {{attack_damage_crit=[[1d8]]}} {{attack_damage=[[1d8[damage]]]}} {{attack_damage_type=piercing}} {{has_attack_damage=1}} {{attack_damage_macro=[Hit:](~repeating_offense_attack_damage)}} {{attack_damage_crit_macro=[Crit:](~repeating_offense_attack_damage_crit)}} {{attack1=[[@{shaped_d20}@{d20_mod} + 3[proficient]]]}} {{range=150/600 ft.}} {{ammo=[[@{repeating_ammo_-kysnbs86gyul-3yvxnq_uses}-1]]}} {{ammo_name=Arrows}}",
+				"max": "",
+				"id": "-KySNbPzofPclqpniqVd"
+			},
+			{
+				"name": "repeating_offense_-KySNZLwuIMUfVJC5zq9_attack_toggle",
+				"current": 1,
+				"max": "",
+				"id": "-KySNbQBevHPwxxDFWXB"
+			},
+			{
+				"name": "repeating_offense_-KySNZLwuIMUfVJC5zq9_attack_ability",
+				"current": "DEX",
+				"max": "",
+				"id": "-KySNbQLZsvvg4ZsbcbA"
+			},
+			{
+				"name": "repeating_offense_-KySNZLwuIMUfVJC5zq9_attack_damage_formula",
+				"current": "{{has_attack_damage=1}} {{attack_damage_crit=[[1d8]]}} {{attack_damage=[[1d8[damage]]]}} {{attack_damage_type=piercing}}",
+				"max": "",
+				"id": "-KySNbQR6PWxQASrG9C3"
+			},
+			{
+				"name": "repeating_offense_-KySNZLwuIMUfVJC5zq9_attack_damage_dice",
+				"current": "1",
+				"max": "",
+				"id": "-KySNbQW7wI--dj70jIG"
+			},
+			{
+				"name": "repeating_offense_-KySNZLwuIMUfVJC5zq9_attack_damage_die",
+				"current": "d8",
+				"max": "",
+				"id": "-KySNbQdDVEP9hzUwq72"
+			},
+			{
+				"name": "repeating_offense_-KySNZLwuIMUfVJC5zq9_attack_damage_ability",
+				"current": "DEX",
+				"max": "",
+				"id": "-KySNbQhmiTAXMOuSDMt"
+			},
+			{
+				"name": "repeating_offense_-KySNZLwuIMUfVJC5zq9_attack_damage_type",
+				"current": "piercing",
+				"max": "",
+				"id": "-KySNbQkXaoYmJsnGCZJ"
+			},
+			{
+				"name": "repeating_offense_-KySNZLwuIMUfVJC5zq9_ammo_field_name",
+				"current": "Arrows",
+				"max": "",
+				"id": "-KySNbQo9P8mLYfdv5-2"
+			},
+			{
+				"name": "repeating_offense_-KySNZLwuIMUfVJC5zq9_ammo_per_use",
+				"current": 1,
+				"max": "",
+				"id": "-KySNbQtpBm-eB_SgQqF"
+			},
+			{
+				"name": "repeating_offense_-KySNZLwuIMUfVJC5zq9_parsed",
+				"current": " ammo uses",
+				"max": "",
+				"id": "-KySNbR-iH7lITl6vba3"
+			},
+			{
+				"name": "repeating_offense_-KySNZLwuIMUfVJC5zq9_attack_string",
+				"current": "+3 to hit, range 150/600 ft., one target.",
+				"max": "",
+				"id": "-KySNbR32HxHDpFdc2fw"
+			},
+			{
+				"name": "repeating_offense_-KySNZLwuIMUfVJC5zq9_attack_formula",
+				"current": "{{attack1=[[@{shaped_d20}@{d20_mod} + 3[proficient]]]}} {{range=150/600 ft.}}",
+				"max": "",
+				"id": "-KySNbR7QzuBsP9NqHcD"
+			},
+			{
+				"name": "repeating_offense_-KySNZLwuIMUfVJC5zq9_to_hit",
+				"current": "+3",
+				"max": "",
+				"id": "-KySNbRBm88ZHe99pCLn"
+			},
+			{
+				"name": "repeating_offense_-KySNZLwuIMUfVJC5zq9_attack_damage_string",
+				"current": "4 (1d8) piercing damage.",
+				"max": "",
+				"id": "-KySNbRFEAzNKcMdbs82"
+			},
+			{
+				"name": "repeating_offense_-KySNZLwuIMUfVJC5zq9_attack_damage_average",
+				"current": 4,
+				"max": "",
+				"id": "-KySNbRN4vCXjqOpSysn"
+			},
+			{
+				"name": "repeating_offense_-KySNZLwuIMUfVJC5zq9_weight_system",
+				"current": "POUNDS",
+				"max": "",
+				"id": "-KySNbRRAkfe-LYCqSV2"
+			},
+			{
+				"name": "repeating_offense_-KySNZLwuIMUfVJC5zq9_weight_total",
+				"current": 2,
+				"max": "",
+				"id": "-KySNbRU1aIuuxKbwxOT"
+			},
+			{
+				"name": "repeating_ammo_-KySNbS86gyUl-3yvxnQ_name",
+				"current": "Arrows",
+				"max": "",
+				"id": "-KySNbSFQP-HDNKH6L6q"
+			},
+			{
+				"name": "repeating_ammo_-KySNbS86gyUl-3yvxnQ_uses",
+				"current": "20",
+				"max": "",
+				"id": "-KySNbSJ6xTQdMTvZlW7"
+			},
+			{
+				"name": "repeating_ammo_-KySNbS86gyUl-3yvxnQ_weight",
+				"current": 0.05,
+				"max": "",
+				"id": "-KySNbSMy7yWbd4jCyRn"
+			},
+			{
+				"name": "weight_ammo",
+				"current": 1,
+				"max": "",
+				"id": "-KySNdtPMMaNYvlAVgqn"
+			},
+			{
+				"name": "repeating_ammo_-KySNbS86gyUl-3yvxnQ_weight_system",
+				"current": "POUNDS",
+				"max": "",
+				"id": "-KySNdtTHZfYuoDMJDeR"
+			},
+			{
+				"name": "repeating_ammo_-KySNbS86gyUl-3yvxnQ_weight_total",
+				"current": 1,
+				"max": "",
+				"id": "-KySNdtW8USTy8HW5jks"
+			},
+			{
+				"name": "race",
+				"current": "Elf",
+				"max": "",
+				"id": "-KySNqd9LXT-riW31amy"
+			},
+			{
+				"name": "is_npc",
+				"current": "1",
+				"max": "",
+				"id": "-KySNwYlHt2Cw_NmMvHU"
+			},
+			{
+				"name": "hit_dice_output_option",
+				"current": "/w GM",
+				"max": "",
+				"id": "-KySNwigwGPADwaeOcdC"
+			},
+			{
+				"name": "hit_dice",
+				"current": "6",
+				"max": "",
+				"id": "-KySO0_7kRGwI-nSabgg"
+			},
+			{
+				"name": "HP",
+				"current": 71,
+				"max": 71,
+				"id": "-KySO0et1jx_zuIISztN"
+			},
+			{
+				"name": "hp_formula",
+				"current": "6d10 + 18 + 20",
+				"max": "",
+				"id": "-KySO0eztaAfZvdoKnb6"
+			},
+			{
+				"name": "hit_die",
+				"current": "d10",
+				"max": "",
+				"id": "-KySO1BxfO-XsJT5pPqO"
+			},
+			{
+				"name": "hd_d2",
+				"current": 0,
+				"max": 0,
+				"id": "-KySO1CnBKYRdRdqqlCc"
+			},
+			{
+				"name": "hd_d2_query",
+				"current": "",
+				"max": "",
+				"id": "-KySO1D5kUciZk8NtSsi"
+			},
+			{
+				"name": "hd_d2_formula",
+				"current": "",
+				"max": "",
+				"id": "-KySO1DT9Lkt554JZikR"
+			},
+			{
+				"name": "hp_extra",
+				"current": "20",
+				"max": "",
+				"id": "-KySOChf9aQLL48qtmtC"
+			},
+			{
+				"name": "speed",
+				"current": "30",
+				"max": "",
+				"id": "-KySOEe_qgJejwoZGaz9"
+			},
+			{
+				"name": "speed_string",
+				"current": "30",
+				"max": "",
+				"id": "-KySOEi6kVBDX-EM6IX6"
+			},
+			{
+				"name": "challenge",
+				"current": "5",
+				"max": "",
+				"id": "-KySOKr19KeqmPUIIb30"
+			},
+			{
+				"name": "xp",
+				"current": 1800,
+				"max": "",
+				"id": "-KySOLuSAYShyKn9N88G"
+			},
+			{
+				"name": "xp_readable",
+				"current": "1,800",
+				"max": "",
+				"id": "-KySOLuV0jz5AfDYhu_Q"
+			},
+			{
+				"name": "legendary_action_amount",
+				"current": "1",
+				"max": "1",
+				"id": "-KySOONmPIb9S7S0Ncx_"
+			}
+		]
+	},
+	"blobs": {
+		"bio": "Wyatt%20is%20a%20fair%20haired%20young%20adult%2C%20which%20seems%20perpetually%20in%20the%20bloom%20of%20youth.%3Cbr%3E%3Cbr%3EWhen%20unobserved%20he%20seems%20to%20fall%20naturally%20into%20wonder%20of%20the%20natural%20world%20around%20him%2C%20or%20a%20smile%20will%20lightly%20touch%20the%20corners%20of%20his%20mouth%20as%20he%20watches%20his%20companions%20bicker%20over%20simple%20things.%20His%20eyes%20sparkle%20when%20he%20laughs%2C%20which%20is%20arguably%20infectious.%20%3Cbr%3E%3Cbr%3EAbove%20all%20things%20Wyatt%20is%20a%20believer%2C%20but%20not%20obnoxiously%20so.%20He%20leads%20from%20example%20and%20in%20the%20quiet%20dermination%20of%20his%20actions%20and%20example...%20unless%20you%20are%20foolish%20enough%20to%20insult%20his%20Family%2C%20his%20Friends%2C%20or%20his%20faith%20-%20in%20that%20order.%20%3Cbr%3E%3Cbr%3EThe%20Gods%2C%20he%20holds%2C%20can%20judge%20the%20wicked%20in%20their%20own%20course%2C%20while%20his%20family%20and%20friends%20are%20what%20HE%20needs%20for%20his%20now.%3Cbr%3E%3Cbr%3EHe%20is%20quick%20with%20a%20blade%2C%20and%20a%20sharp%20retort%2C%20and%20when%20his%20is%20away%20from%20his%20friends%20at%20night%20will%20drift%20into%20deep%20silences%20that%20often%20are%20the%20sources%20of%20astute%20wisdom%2C%20which%20he%27ll%20quickly%20mock%20himself%20for%20sharing.%20%3Cbr%3E%3Cbr%3EWyatt%2C%20oddly%20fancies%20himself%20a%20bard.%20Enjoying%20acting%20and%20performing%20and%20dreams%20of%20someday%20getting%20leave%20to%20study%20theatre%20for%20a%20year%20in%20Trajas.%3Cbr%3E%3Cbr%3E%3Cbr%3E%3Cstrong%3EOLDER%20SELF%3A%20%3Cbr%3E%3C/strong%3EThe%20now%20Wylan%20Freeman%2C%20the%20noble%20lord%20of%20Denville%2C%20is%20a%20%28semi%29retired%20adventurer.%20After%20studying%20theater%20and%20mercantile%20trade%20at%20University%20in%20Trajas.%20His%20adventuring%20days%20have%20slowed%20down%20to%20%28as%20he%20puts%20it%29%20a%20more%20responsible%20person%27s%20charter.%20To%20help%20his%20people%20through%20his%20strength%20of%20intellect%2C%20not%20his%20arm.%20Though%20when%20trouble%20calls%20Wylan%20is%20a%20capable%20fighter%20--%20more%20capable%20than%20the%20self-effacing%20stories%20of%20his%20exploits%20he%20tells%20--%20many%20of%20which%20seem%20to%20cast%20his%20fellow%20party%20members%20as%20paragons%20of%20wit%2C%20strength%20and%20cunning...%20and%20when%20they%20visit%2C%20their%20versions%20clash%20-%20and%20he%20begrudgingly%20will%20acquiesce%20that%20he%20did%20help%20%22%20a%20bit%22%20more%20than%20he%20is%20letting%20on.%3Cbr%3E%3Cbr%3EHe%27s%20seen%20much%20in%20his%20journeys%2C%20and%20the%20loss%20of%20loved%20one%20along%20that%20path%20will%20at%20times%20haunt%20his%20silence%20stares%20into%20the%20darkness.%20He%27ll%20shake%20himself%20out%20of%20such%20and%20return%20to%20deepening%20the%20smile%20crinkles%20at%20the%20corners%20of%20his%20eyes..%20which%20denote%20he%27s%20laughed%20much%20in%20his%20long%20youth.%20%3Cbr%3E%3Cbr%3ENow%20days%20he%20is%20invested%20in%20the%20more%20somber%20joy%20of%20seeing%20other%27s%20find%20their%20purpose.%20%3Cbr%3E%3Cbr%3E%3Cbr%3E%3Ca%20href%3D%22https%3A//www.facebook.com/hashtag/play4wyatt%3Fsource%3Dfeed_text%26amp%3Bstory_id%3D10159445287135007%22%3E%23Play4Wyatt%3C/a%3E%20%3Cbr%3E%23WyattNPC%3Cbr%3E%3Cbr%3EWyatt%2C%20may%20you%20only%20roll%20critical%20successes%20in%20your%20new%20adventures.%3Cbr%3EProfile%20Picture%3A%20%3Ca%20href%3D%22https%3A//www.facebook.com/profile.php%3Fid%3D565380400%26amp%3Bfref%3Dgc%26amp%3Bdti%3D305307356313445%22%3EHenriette%20Boldt%3C/a%3E%3Cbr%3EToken%20Image%3A%20%3Ca%20href%3D%22https%3A//l.facebook.com/l.php%3Fu%3Dhttps%253A%252F%252Fwww.instagram.com%252Fmoderngothic%252F%26amp%3Bh%3DATOY5alvSqC9jrewtvJUog1OAvuuZgV9E0kaupPPCGkjofsiNonvCmiomOCUmxpHv40xI3-Dj2kOUF1L0f3liz4TJctLfvBe2F-E_5hqRxE-24Z6S9KE_0cPmeQg-v3aTXFGp48Bbw%22%3Ehttps%3A//www.instagram.com/moderngothic/%3C/a%3E%3Cbr%3E%3Cbr%3E",
+		"gmnotes": "META%3A%20%28A%20call%20for%20help%29%3Cbr%3E%3Cbr%3EFellow%20gamers%2C%20DMs%2C%20writers%2C%20and%20artists%3A%20please%20take%20a%20minute%20to%20read%20this%20post%20from%20one%20of%20my%20D%26amp%3BD%20crafting%20groups.%20%3Ca%20href%3D%22https%3A//www.facebook.com/hashtag/wyattnpc%3Fsource%3Dfeed_text%26amp%3Bstory_id%3D10159445287135007%22%3E%23WyattNPC%3C/a%3E%20will%20be%20making%20an%20appearance%20in%20my%20Disney%20based%20game%20as%20Mulan%27s%20right%20hand/man%20at%20arms.%20And%20then%20again%20whenever%20I%20run%20other%20games%20as%20another%20NPC%20and%20another%20and%20another.%20He%20will%20live%20a%20million%20lives%20across%20a%20million%20stories%2C%20each%20one%20more%20wondrous%20than%20the%20last.%20If%20you%20include%20him%20in%20yours%2C%20make%20sure%20to%20tag%20%3Ca%20href%3D%22https%3A//www.facebook.com/hashtag/play4wyatt%3Fsource%3Dfeed_text%26amp%3Bstory_id%3D10159445287135007%22%3E%23Play4Wyatt%3C/a%3E%20or%20%23WyattNPC%20so%20his%20family%20can%20follow%20along%20on%20his%20adventures.",
+		"defaulttoken": ""
+	}
+}

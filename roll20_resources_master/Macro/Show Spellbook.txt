@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 &{template:default}{{name=@{selected|character_name} Spellcasting
 }}{{ Spell DC @{selected|spell_save_dc} = @{selected|spell_attack_bonus} to hit with spell attacks
 }}{{ Cantrips = [@{selected|repeating_spell-cantrip_$0_spellname}](~selected|repeating_spell-cantrip_$0_spell)
 }}{{ 1st (SLOTS) = [@{selected|repeating_spell-1_$0_spellname}](~selected|repeating_spell-1_$0_spell)
 }}{{ 2nd (SLOTS) = [@{selected|repeating_spell-2_$0_spellname}](~selected|repeating_spell-2_$0_spell)
 }}{{ 3rd (SLOTS) = [@{selected|repeating_spell-3_$0_spellname}](~selected|repeating_spell-3_$0_spell)
+=======
+&{template:default}{{name=@{selected|character_name} Spellcasting
+}}{{ Spell DC @{selected|spell_save_dc} = @{selected|spell_attack_bonus} to hit with spell attacks
+}}{{ Cantrips = [@{selected|repeating_spell-cantrip_$0_spellname}](~selected|repeating_spell-cantrip_$0_spell)
+}}{{ 1st (SLOTS) = [@{selected|repeating_spell-1_$0_spellname}](~selected|repeating_spell-1_$0_spell)
+}}{{ 2nd (SLOTS) = [@{selected|repeating_spell-2_$0_spellname}](~selected|repeating_spell-2_$0_spell)
+}}{{ 3rd (SLOTS) = [@{selected|repeating_spell-3_$0_spellname}](~selected|repeating_spell-3_$0_spell)
+>>>>>>> a4bb8e45f456e6f0be4948a5bf3b731f06db9179
 }}

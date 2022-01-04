@@ -1,0 +1,115 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "HaronaldsTomeofSavamancy",
+				"abbreviation": "HaronaldsTomeofSavamancy",
+				"full": "HaronaldsTomeofSavamancy",
+				"authors": [
+					"LongLongman"
+				],
+				"version": "1.0",
+				"url": "https://github.com/TheGiddyLimit/homebrew",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 1537874753
+	},
+	"spell": [
+		{
+			"name":"Bind Familiar",
+			"level":1,
+			"school":"C",
+			"time":[
+				{
+					"number":1,
+					"unit":"hour"
+				}
+			],
+			"range":{
+				"type":"point",
+				"distance":{
+					"type":"feet",
+					"amount":10
+				}
+			},
+			"duration":[
+				{
+					"type":"timed",
+					"duration":{
+						"type":"hour",
+						"amount":1
+					},
+					"concentration":true
+				}
+			],
+			"classes":{
+				"fromClassList":[
+					{
+						"name":"Ranger",
+						"source":"PHB"
+					},
+					{
+						"name":"Druid",
+						"source":"PHB"
+					}
+				]
+			},
+			"entries":[
+				"The first creature to enter the radius of this spell centered on the brazier must succeed on two out of three of a Wisdom, Intelligence, or Constitution saving throw (DC 8 + the creature's CR) or be bound to the caster until this binding is canceled.",
+				"A creature that is bound is considered a \"familiar\" and gains abilities based on which of the saving throw it fails. ",
+				"Your familiar acts independently of you, but it always obeys your commands. In combat, it rolls its own initiative and acts on its own turn. ",
+				"When the familiar drops to 0 hit points, it dies. If it failed its CON saving throw you can permanently sacrifice a Hit Dice to resurrect the familiar by casting the Bind Familiar ritual again.",
+				"If the familiar failed its INT saving throw and while your familiar is within 100 feet of you, you can communicate with it telepathically. ",
+				"If your familiar failed its WIS saving throw, as an action, you can see through your familiar's eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses that the familiar has. During this time, you are deaf and blind with regard to your own senses.",
+				"Finally, when you cast a spell with a range of touch, your familiar can deliver the spell as if it had cast the spell. Your familiar must be within 100 feet of you, and it must use its reaction to deliver the spell when you cast it. If the spell requires an attack roll, you use your attack modifier for the roll.",
+				"Upon binding, the familiar gains HD until it has the same amount as the caster's level. It then gains one as the caster levels up. The familiar uses the caster's proficiency bonus as its own."
+			],
+			"source":"HaronaldsTomeofSavamancy",
+			"components":{
+				"v":true,
+				"s":true,
+				"m":
+				{
+					"text":"50 ft length of rope, 50 ft length of chains, and shackles that will be consumed by fire in a brass brazier",
+					"consumed":true
+				}
+			},
+			"meta":{
+				"ritual":true
+				},
+			"backgrounds":[
+				{
+					"name":"The Blackstone Conclave",
+					"source":"HaronaldsTomeofSavamancy"
+				},
+				{
+					"name":"The Circle of Thana",
+					"source":"HaronaldsTomeofSavamancy"
+				}
+			],
+			"races":[
+				{
+					"name":"Nysi",
+					"source":"HaronaldsTomeofSavamancy",
+					"baseName":"Elf",
+					"baseSource":"HaronaldsTomeofSavamancy"
+				}
+			],
+			"spellAttack":[
+				"O"
+			],
+			"savingThrow":[
+				"constitution",
+				"intelligence",
+				"wisdom"
+			],
+			"areaTags":[
+				"R"
+			],
+			"miscTags":[
+				"SMN"
+			]
+		}
+	]
+}

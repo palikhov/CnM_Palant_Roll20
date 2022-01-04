@@ -1,0 +1,999 @@
+{
+    "schema_version": 2,
+    "oldId": "-LUFtvRqMcN85sVuX8mR",
+    "name": "Clockwork Xorn",
+    "avatar": "https://s3.amazonaws.com/files.d20.io/images/69510458/imDrWIKAl4GxVfb1XhP0Mw/med.jpg?1545397790",
+    "bio": "",
+    "gmnotes": "%3Cp%3EClanking%20through%20the%20dungeon%2C%20the%20clockwork%20xorn%20seems%20oblivious%20to%20other%20creatures%2C%20continuing%20on%20its%20way%20until%20it%20encounters%20some%20treasure.%20Once%20the%20treasure%20is%20located%2C%20it%20carefully%20uses%20it%27s%20hammers%20to%20lift%20and%20deposit%20the%20treasure%20into%20the%20central%20repository%20where%20it%20is%20locked%20into%20a%20storage%20unit.%20Once%20it%20has%20filled%20every%20storage%20compartment%2C%20it%20seals%20itself%20up%20and%20heads%20back%20towards%20its%20creator.%3C/p%3E%3Cp%3EUnfortunately%2C%20the%20clockwork%20xorn%20has%20no%20way%20of%20making%20the%20distinction%20between%20lost%20treasure%20and%20treasure%20currently%20owned%20by%20someone%2C%20and%20its%20various%20attempts%20to%20retrieve%20the%20treasure%20with%20a%20pair%20of%20large%20hammers%20can%20be%2C%20and%20often%20are%2C%20interpreted%20as%20an%20act%20of%20aggression.%20Once%20attacked%2C%20it%20begins%20to%20defend%20itself%2C%20and%20once%20it%20is%20no%20longer%20being%20attacked%20it%20continues%20to%20collect%20the%20treasure%20before%20exploring%20further.%3C/p%3E%3Cp%3EThe%20three%20hammers%20mounted%20about%20it%20were%20originally%20intended%20as%20a%20tool%20to%20be%20used%20to%20break%20up%20rocks%20surrounding%20natural%20gems%2C%20however%20by%20design%20or%20not%2C%20they%20are%20just%20as%20adept%20at%20smashing%20chests%2C%20doors%20or%20other%20obstacles%20between%20it%20and%20the%20treasure.%3C/p%3E%3Cp%3EAlthough%20dangerous%2C%20a%20clockwork%20xorn%20often%20contains%20a%20fair%20amount%20of%20treasure%2C%20and%20upon%20encountering%20one%20there%27s%20always%20the%20possibility%20of%20retrieving%20that%20treasure.%20Whether%20by%20force%2C%20trickery%20or%20even%20the%20skills%20of%20another%20gnome%20tinkerer%2C%20a%20disabled%20clockwork%20xorn%20can%20provide%20a%20valuable%20bounty%20for%20whoever%20can%20stop%20it%20in%20its%20tracks.%3C/p%3E%3Cp%3E%3Cbr%3E%3C/p%3E%3Cp%3E%3Ca%20href%3D%22https%3A//www.reddit.com/r/monsteraday/comments/8zn0nx/day_362_clockwork_xorn/%22%3EMonster%20a%20Day%20A362%20by%201d6Adventurers%3C/a%3E%3Cbr%3ETome%20of%20Madness%20p111%3C/p%3E",
+    "defaulttoken": "{\"left\":1225,\"top\":1365,\"width\":70,\"height\":70,\"imgsrc\":\"https://s3.amazonaws.com/files.d20.io/images/69510465/Za1MpzBcds4Y6z73rFFAgg/med.png?1545397817\",\"page_id\":\"-LHr_mGeGVpU1htc_tYN\",\"layer\":\"objects\",\"name\":\"Clockwork Xorn\",\"represents\":\"-LUFtvRqMcN85sVuX8mR\",\"bar1_value\":\"16\",\"bar2_value\":\"13\",\"bar3_value\":\"85\",\"bar3_max\":\"85\",\"showname\":true,\"lastmove\":\"1290,1430\"}",
+    "tags": "[]",
+    "controlledby": "",
+    "inplayerjournals": "",
+    "attribs": [
+        {
+            "name": "npc",
+            "current": "1",
+            "max": "",
+            "id": "-LUFqaelquiSrwNPOkrN"
+        },
+        {
+            "name": "l1mancer_status",
+            "current": "completed",
+            "max": "",
+            "id": "-LUFqaelquiSrwNPOkrO"
+        },
+        {
+            "name": "rtype",
+            "current": "@{advantagetoggle}",
+            "max": "",
+            "id": "-LUFqaemj8ZRkx1zJ3Q5"
+        },
+        {
+            "name": "dtype",
+            "current": "full",
+            "max": "",
+            "id": "-LUFqaenpOxAUqNSzfGN"
+        },
+        {
+            "name": "npc_name_flag",
+            "current": "0",
+            "max": "",
+            "id": "-LUFqaenpOxAUqNSzfGO"
+        },
+        {
+            "name": "cd_bar1_v",
+            "current": "npc_ac",
+            "max": "",
+            "id": "-LUFqaenpOxAUqNSzfGP"
+        },
+        {
+            "name": "cd_bar1_m",
+            "current": "",
+            "max": "",
+            "id": "-LUFqaeoHI_c391n9Ofx"
+        },
+        {
+            "name": "cd_bar2_v",
+            "current": "npc_perception",
+            "max": "",
+            "id": "-LUFqaeoHI_c391n9Ofy"
+        },
+        {
+            "name": "cd_bar2_l",
+            "current": "",
+            "max": "",
+            "id": "-LUFqaepfMld0aAiTigQ"
+        },
+        {
+            "name": "cd_bar3_v",
+            "current": "hp_max",
+            "max": "",
+            "id": "-LUFqaeq7KCgRXjg6sN7"
+        },
+        {
+            "name": "cd_bar3_m",
+            "current": "hp_max",
+            "max": "",
+            "id": "-LUFqaeq7KCgRXjg6sN8"
+        },
+        {
+            "name": "dndstyling",
+            "current": "on",
+            "max": "",
+            "id": "-LUFqaeq7KCgRXjg6sN9"
+        },
+        {
+            "name": "version",
+            "current": "2.5",
+            "max": "",
+            "id": "-LUFqb0xGRxQuaxAR-7r"
+        },
+        {
+            "name": "options-class-selection",
+            "current": "0",
+            "max": "",
+            "id": "-LUFqb11X3rXrRfuz1x7"
+        },
+        {
+            "name": "hitdie_final",
+            "current": "@{hitdietype}",
+            "max": "",
+            "id": "-LUFqb15NBJaS5xH7MMx"
+        },
+        {
+            "name": "level",
+            "current": 1,
+            "max": "",
+            "id": "-LUFqb17xyKrIX5mrSiG"
+        },
+        {
+            "name": "caster_level",
+            "current": 0,
+            "max": "",
+            "id": "-LUFqb18GqCV8OYlR0yB"
+        },
+        {
+            "name": "class_display",
+            "current": " 1",
+            "max": "",
+            "id": "-LUFqb1Al7xPTkeKsaqa"
+        },
+        {
+            "name": "hit_dice",
+            "current": "",
+            "max": 1,
+            "id": "-LUFqb1BIoo8JpPYiQhz"
+        },
+        {
+            "name": "race_display",
+            "current": "",
+            "max": "",
+            "id": "-LUFqb1C_sSMa_GuK5Bj"
+        },
+        {
+            "name": "lvl1_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LUFqb1crJLClMbYBBXA"
+        },
+        {
+            "name": "lvl2_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LUFqb1etv8M1te2NMMm"
+        },
+        {
+            "name": "lvl3_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LUFqb1h9A2aGn00fEuH"
+        },
+        {
+            "name": "lvl4_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LUFqb1iba2zXlwjYCeQ"
+        },
+        {
+            "name": "lvl5_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LUFqb1jG7UcZyYv_TPp"
+        },
+        {
+            "name": "lvl6_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LUFqb1lj9-Jjv5jROzw"
+        },
+        {
+            "name": "lvl7_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LUFqb1nnA6QFvDnzOSm"
+        },
+        {
+            "name": "lvl8_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LUFqb1pkcQb69OBewlU"
+        },
+        {
+            "name": "lvl9_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LUFqb1pkcQb69OBewlV"
+        },
+        {
+            "name": "pb",
+            "current": 3,
+            "max": "",
+            "id": "-LUFqb57z7Ruv2LSvv7b"
+        },
+        {
+            "name": "jack",
+            "current": 1,
+            "max": "",
+            "id": "-LUFqb59Eu67iXGIaZPn"
+        },
+        {
+            "name": "pbd_safe",
+            "current": "",
+            "max": "",
+            "id": "-LUFqb59Eu67iXGIaZPo"
+        },
+        {
+            "name": "spell_attack_bonus",
+            "current": "0",
+            "max": "",
+            "id": "-LUFqb67U7kIcd6YTrjV"
+        },
+        {
+            "name": "spell_save_dc",
+            "current": "0",
+            "max": "",
+            "id": "-LUFqb68PN5HGxspGDBy"
+        },
+        {
+            "name": "jack_bonus",
+            "current": "",
+            "max": "",
+            "id": "-LUFqb68PN5HGxspGDBz"
+        },
+        {
+            "name": "jack_attr",
+            "current": "",
+            "max": "",
+            "id": "-LUFqb6Auptq0Kt3DRZz"
+        },
+        {
+            "name": "initiative_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-LUFqb6Le_DF3BJaPtQU"
+        },
+        {
+            "name": "strength_save_bonus",
+            "current": 2,
+            "max": "",
+            "id": "-LUFqb6MaWU5tRdHVgqx"
+        },
+        {
+            "name": "dexterity_save_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-LUFqb6Nx3-rGir_U8vb"
+        },
+        {
+            "name": "constitution_save_bonus",
+            "current": 5,
+            "max": "",
+            "id": "-LUFqb6P1ZQfSpKuTtPu"
+        },
+        {
+            "name": "intelligence_save_bonus",
+            "current": -4,
+            "max": "",
+            "id": "-LUFqb6Q8jw_dN7u1fLo"
+        },
+        {
+            "name": "wisdom_save_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-LUFqb6RuDJ0-AJ9-2nS"
+        },
+        {
+            "name": "charisma_save_bonus",
+            "current": -5,
+            "max": "",
+            "id": "-LUFqb6SC7JvT6qJyDlx"
+        },
+        {
+            "name": "death_save_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-LUFqb6SC7JvT6qJyDly"
+        },
+        {
+            "name": "athletics_bonus",
+            "current": 2,
+            "max": "",
+            "id": "-LUFqb6TYwg2gTPGOppu"
+        },
+        {
+            "name": "acrobatics_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-LUFqb6WUyMoLXK6CbIB"
+        },
+        {
+            "name": "sleight_of_hand_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-LUFqb6WUyMoLXK6CbIC"
+        },
+        {
+            "name": "stealth_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-LUFqb6XDXpGBDGKQp42"
+        },
+        {
+            "name": "arcana_bonus",
+            "current": -4,
+            "max": "",
+            "id": "-LUFqb6Z7tgxZeQMbv_M"
+        },
+        {
+            "name": "history_bonus",
+            "current": -4,
+            "max": "",
+            "id": "-LUFqb6Z7tgxZeQMbv_N"
+        },
+        {
+            "name": "investigation_bonus",
+            "current": -4,
+            "max": "",
+            "id": "-LUFqb6_B6ugqCncWSlG"
+        },
+        {
+            "name": "nature_bonus",
+            "current": -4,
+            "max": "",
+            "id": "-LUFqb6ayLWtvzNqarX3"
+        },
+        {
+            "name": "religion_bonus",
+            "current": -4,
+            "max": "",
+            "id": "-LUFqb6bs_gQ5yjTuBLx"
+        },
+        {
+            "name": "animal_handling_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-LUFqb6cidZmplYxFe96"
+        },
+        {
+            "name": "insight_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-LUFqb6dzzdCq1ulR6z1"
+        },
+        {
+            "name": "medicine_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-LUFqb6dzzdCq1ulR6z2"
+        },
+        {
+            "name": "perception_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-LUFqb6enCZVHsDCN3SV"
+        },
+        {
+            "name": "survival_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-LUFqb6gT8-mX6z06BNx"
+        },
+        {
+            "name": "deception_bonus",
+            "current": -5,
+            "max": "",
+            "id": "-LUFqb6iwAHSjKgtBQ3m"
+        },
+        {
+            "name": "intimidation_bonus",
+            "current": -5,
+            "max": "",
+            "id": "-LUFqb6iwAHSjKgtBQ3n"
+        },
+        {
+            "name": "performance_bonus",
+            "current": -5,
+            "max": "",
+            "id": "-LUFqb6jnUecRr7bSZa7"
+        },
+        {
+            "name": "persuasion_bonus",
+            "current": -5,
+            "max": "",
+            "id": "-LUFqb6kErrj4oZZMTPS"
+        },
+        {
+            "name": "passive_wisdom",
+            "current": 10,
+            "max": "",
+            "id": "-LUFqb6ugNke0bSSpbUn"
+        },
+        {
+            "name": "global_skill_mod",
+            "current": "",
+            "max": "",
+            "id": "-LUFqb6v8gF5UfULw9Ev"
+        },
+        {
+            "name": "global_save_mod",
+            "current": "",
+            "max": "",
+            "id": "-LUFqb6wg_pXVNz0FW8f"
+        },
+        {
+            "name": "global_attack_mod",
+            "current": "",
+            "max": "",
+            "id": "-LUFqb6xcSZB-lbraaLE"
+        },
+        {
+            "name": "global_damage_mod_roll",
+            "current": "",
+            "max": "",
+            "id": "-LUFqb6y4NozRnLq-PyM"
+        },
+        {
+            "name": "global_damage_mod_crit",
+            "current": "",
+            "max": "",
+            "id": "-LUFqb6zvDdt2ve0njK1"
+        },
+        {
+            "name": "global_damage_mod_type",
+            "current": "",
+            "max": "",
+            "id": "-LUFqb6zvDdt2ve0njK2"
+        },
+        {
+            "name": "armorwarningflag",
+            "current": "hide",
+            "max": "",
+            "id": "-LUFqb73LLHJB6eVHKl9"
+        },
+        {
+            "name": "customacwarningflag",
+            "current": "hide",
+            "max": "",
+            "id": "-LUFqb73LLHJB6eVHKlA"
+        },
+        {
+            "name": "ac",
+            "current": 10,
+            "max": "",
+            "id": "-LUFqb74bAmiEPjMr0pF"
+        },
+        {
+            "name": "npc_name",
+            "current": "Clockwork Xorn",
+            "max": "",
+            "id": "-LUFqeqUxfqHJjg2cta6"
+        },
+        {
+            "name": "npc_type",
+            "current": "Medium construct, unaligned",
+            "max": "",
+            "id": "-LUFql90Ks3xxM0fj7X2"
+        },
+        {
+            "name": "npc_ac",
+            "current": "16",
+            "max": "",
+            "id": "-LUFqlc-udVp90NcOuQH"
+        },
+        {
+            "name": "npc_actype",
+            "current": "natural armor",
+            "max": "",
+            "id": "-LUFqm80K1fnJV8XjlnQ"
+        },
+        {
+            "name": "hp",
+            "current": "",
+            "max": "85",
+            "id": "-LUFqmjt2xE8tMIqWVlx"
+        },
+        {
+            "name": "npc_hpformula",
+            "current": "9d8+45",
+            "max": "",
+            "id": "-LUFqnyGAuGtRq23CY1g"
+        },
+        {
+            "name": "npc_speed",
+            "current": "20 ft.",
+            "max": "",
+            "id": "-LUFqotGAZZuk0IE375J"
+        },
+        {
+            "name": "strength_base",
+            "current": "15",
+            "max": "",
+            "id": "-LUFqpMkKI_NX9-jYKCt"
+        },
+        {
+            "name": "strength_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LUFqpOSy3eT-Zulbnak"
+        },
+        {
+            "name": "strength",
+            "current": 15,
+            "max": "",
+            "id": "-LUFqpOUip142tFzmHMn"
+        },
+        {
+            "name": "strength_mod",
+            "current": 2,
+            "max": "",
+            "id": "-LUFqpQBXbnDhFPs4EcS"
+        },
+        {
+            "name": "npc_str_negative",
+            "current": 0,
+            "max": "",
+            "id": "-LUFqpQCY6iIbmWREGxc"
+        },
+        {
+            "name": "weighttotal",
+            "current": 0,
+            "max": "",
+            "id": "-LUFqpQF3pbhoXTw58Ya"
+        },
+        {
+            "name": "encumberance",
+            "current": " ",
+            "max": "",
+            "id": "-LUFqpQF3pbhoXTw58Yb"
+        },
+        {
+            "name": "dexterity_base",
+            "current": "10",
+            "max": "",
+            "id": "-LUFqppVuj7pO8VBDdW5"
+        },
+        {
+            "name": "dexterity_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LUFqprC5VlMVpOrISzt"
+        },
+        {
+            "name": "dexterity",
+            "current": 10,
+            "max": "",
+            "id": "-LUFqprD8JzPS9xFAEHE"
+        },
+        {
+            "name": "dexterity_mod",
+            "current": 0,
+            "max": "",
+            "id": "-LUFqpszCqHGEEGq22H5"
+        },
+        {
+            "name": "npc_dex_negative",
+            "current": 0,
+            "max": "",
+            "id": "-LUFqpt0JTG0y4gSM1sx"
+        },
+        {
+            "name": "constitution_base",
+            "current": "20",
+            "max": "",
+            "id": "-LUFqqF7UQAZ82US0Jk9"
+        },
+        {
+            "name": "constitution_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LUFqqGpyOg5eMzD6t0H"
+        },
+        {
+            "name": "constitution",
+            "current": 20,
+            "max": "",
+            "id": "-LUFqqGqoDn3Vw6uca-c"
+        },
+        {
+            "name": "constitution_mod",
+            "current": 5,
+            "max": "",
+            "id": "-LUFqqIZ0Q2vXTj2UdUW"
+        },
+        {
+            "name": "npc_con_negative",
+            "current": 0,
+            "max": "",
+            "id": "-LUFqqIaBJmlwhiCHoZc"
+        },
+        {
+            "name": "repeating_hpmod_-LUFqqKST8bema4XyAkT_source",
+            "current": "CON",
+            "max": "",
+            "id": "-LUFqqKTaz3jx2Ch6-S1"
+        },
+        {
+            "name": "repeating_hpmod_-LUFqqKST8bema4XyAkT_mod",
+            "current": 5,
+            "max": "",
+            "id": "-LUFqqKTaz3jx2Ch6-S2"
+        },
+        {
+            "name": "intelligence_base",
+            "current": "3",
+            "max": "",
+            "id": "-LUFqqik7ScbJnnjUXG4"
+        },
+        {
+            "name": "intelligence_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LUFqqkTM2wakojkyEAz"
+        },
+        {
+            "name": "intelligence",
+            "current": 3,
+            "max": "",
+            "id": "-LUFqqkVidlcWdEry5IT"
+        },
+        {
+            "name": "intelligence_mod",
+            "current": -4,
+            "max": "",
+            "id": "-LUFqqmBni6Aaqe92mOr"
+        },
+        {
+            "name": "npc_int_negative",
+            "current": 1,
+            "max": "",
+            "id": "-LUFqqmDPGphdQu0eeK3"
+        },
+        {
+            "name": "wisdom_base",
+            "current": "10",
+            "max": "",
+            "id": "-LUFqrD-S06cHkp6PvhR"
+        },
+        {
+            "name": "wisdom_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LUFqrEhnYgKVmKfh2-7"
+        },
+        {
+            "name": "wisdom",
+            "current": 10,
+            "max": "",
+            "id": "-LUFqrEkZbPdcu3VbsWG"
+        },
+        {
+            "name": "wisdom_mod",
+            "current": 0,
+            "max": "",
+            "id": "-LUFqrGSnmFT424tnY0J"
+        },
+        {
+            "name": "npc_wis_negative",
+            "current": 0,
+            "max": "",
+            "id": "-LUFqrGUUooh9pCYVN7i"
+        },
+        {
+            "name": "charisma_base",
+            "current": "1",
+            "max": "",
+            "id": "-LUFqrP0TLI0K0xKAMwl"
+        },
+        {
+            "name": "charisma_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LUFqrQidR02KTS6bGak"
+        },
+        {
+            "name": "charisma",
+            "current": 1,
+            "max": "",
+            "id": "-LUFqrQlJovA2UOhDcRd"
+        },
+        {
+            "name": "charisma_mod",
+            "current": -5,
+            "max": "",
+            "id": "-LUFqrSUPVweDRYofthL"
+        },
+        {
+            "name": "npc_cha_negative",
+            "current": 1,
+            "max": "",
+            "id": "-LUFqrSWhpotUKhZq6rz"
+        },
+        {
+            "name": "npc_immunities",
+            "current": "poison; bludgeoning, piercing and slashing from nonmagical weapons that aren't adamantine",
+            "max": "",
+            "id": "-LUFqurlMTGsoz1zCey6"
+        },
+        {
+            "name": "npc_condition_immunities",
+            "current": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+            "max": "",
+            "id": "-LUFqwl-P1tWOK1KiUqk"
+        },
+        {
+            "name": "npc_senses",
+            "current": "darkvision 60 ft., tremorsense 60 ft., passive Perception 13",
+            "max": "",
+            "id": "-LUFqxy6Bo_Zm0CsZLDk"
+        },
+        {
+            "name": "npc_languages",
+            "current": "Understands one language of its creator but can't speak",
+            "max": "",
+            "id": "-LUFqyREIFrmPN6pATgK"
+        },
+        {
+            "name": "npc_challenge",
+            "current": "6",
+            "max": "",
+            "id": "-LUFqzlWol0ZhlwdsbTf"
+        },
+        {
+            "name": "npc_xp",
+            "current": "2300",
+            "max": "",
+            "id": "-LUFqznDtUTtDU3rgrmz"
+        },
+        {
+            "name": "pb_custom",
+            "current": 3,
+            "max": "",
+            "id": "-LUFqznFH_ICw5G71sqJ"
+        },
+        {
+            "name": "pb_type",
+            "current": "custom",
+            "max": "",
+            "id": "-LUFqznHawLx0_vwqceT"
+        },
+        {
+            "name": "npc_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LUFrCQdSeUhb29LUIA9"
+        },
+        {
+            "name": "repeating_npctrait_-LUFrCl6yHQEq98bC3V0_name",
+            "current": "Lightning Absorption",
+            "max": "",
+            "id": "-LUFrDJWXQNAPS6cjDbB"
+        },
+        {
+            "name": "repeating_npctrait_-LUFrCl6yHQEq98bC3V0_desc",
+            "current": "Whenever the clockwork xorn is subjected to lightning damage, it takes no damage and instead regains a number of hit points equal to the lightning damage dealt.",
+            "max": "",
+            "id": "-LUFrESWSrnixolU6nha"
+        },
+        {
+            "name": "repeating_npctrait_-LUFrFAEsEVSoKpbqhiA_name",
+            "current": "Magic Resistance",
+            "max": "",
+            "id": "-LUFrFeeZwhzhGW1C-mb"
+        },
+        {
+            "name": "repeating_npctrait_-LUFrFAEsEVSoKpbqhiA_desc",
+            "current": "The clockwork xorn has advantage on saving throws against spells and other magical effects.",
+            "max": "",
+            "id": "-LUFrGwHy-SbWxm46RUE"
+        },
+        {
+            "name": "repeating_npctrait_-LUFrHhkqsoKOzSSIXI1_name",
+            "current": "Sprung Legs",
+            "max": "",
+            "id": "-LUFrIChl40bbwwsFzA1"
+        },
+        {
+            "name": "repeating_npctrait_-LUFrHhkqsoKOzSSIXI1_desc",
+            "current": "The clockwork xorn's long jump is up to 20 feet and its high jump is up to 30 feet, with or without a running start.",
+            "max": "",
+            "id": "-LUFrJYB8jz6ibxiUGN0"
+        },
+        {
+            "name": "repeating_npctrait_-LUFrKGXbtRSXvzDHam-_name",
+            "current": "Sure-Footed",
+            "max": "",
+            "id": "-LUFrKhpvgqHadDGwb1e"
+        },
+        {
+            "name": "repeating_npctrait_-LUFrKGXbtRSXvzDHam-_desc",
+            "current": "The clockwork xorn has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.",
+            "max": "",
+            "id": "-LUFrM2heFzrLWYnuwwB"
+        },
+        {
+            "name": "repeating_npctrait_-LUFrMoREqi2RNEQzqem_name",
+            "current": "Treasure Sense",
+            "max": "",
+            "id": "-LUFrNGKgOadrQ7Wnu67"
+        },
+        {
+            "name": "repeating_npctrait_-LUFrMoREqi2RNEQzqem_desc",
+            "current": "The clockwork xorn can pinpoint, by resonant vibration, the location of precious metals and stones, such as coins and gems, within 120 feet of it.",
+            "max": "",
+            "id": "-LUFrOgbdu2hT-laIYE0"
+        },
+        {
+            "name": "repeating_npcaction_-LUFrPCBSFq6FR28yYFy_name",
+            "current": "Multiattack",
+            "max": "",
+            "id": "-LUFrPuDoEMd1AtAxogq"
+        },
+        {
+            "name": "repeating_npcaction_-LUFrPCBSFq6FR28yYFy_description",
+            "current": "The clockwork xorn makes three hammer attacks.",
+            "max": "",
+            "id": "-LUFrQiICV-Xssaui7s8"
+        },
+        {
+            "name": "repeating_npcaction_-LUFrPCBSFq6FR28yYFy_npc_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LUFrQja7NT1EIxmyed7"
+        },
+        {
+            "name": "repeating_npcaction_-LUFrPCBSFq6FR28yYFy_attack_tohitrange",
+            "current": "+0",
+            "max": "",
+            "id": "-LUFrQlKAiD1LdEmgMSy"
+        },
+        {
+            "name": "repeating_npcaction_-LUFrPCBSFq6FR28yYFy_attack_onhit",
+            "current": "",
+            "max": "",
+            "id": "-LUFrQlOemr_r9rQZRlz"
+        },
+        {
+            "name": "repeating_npcaction_-LUFrPCBSFq6FR28yYFy_damage_flag",
+            "current": "",
+            "max": "",
+            "id": "-LUFrQlPOEqd3o1G3kQV"
+        },
+        {
+            "name": "repeating_npcaction_-LUFrPCBSFq6FR28yYFy_attack_crit",
+            "current": "",
+            "max": "",
+            "id": "-LUFrQlQy6LFnYK9x0da"
+        },
+        {
+            "name": "repeating_npcaction_-LUFrPCBSFq6FR28yYFy_attack_crit2",
+            "current": "",
+            "max": "",
+            "id": "-LUFrQlQy6LFnYK9x0db"
+        },
+        {
+            "name": "repeating_npcaction_-LUFrPCBSFq6FR28yYFy_rollbase",
+            "current": "@{wtype}&{template:npcaction}  @{damage_flag} @{npc_name_flag} {{rname=@{name}}} {{r1=[[@{d20}+(@{attack_tohit}+0)]]}} @{rtype}+(@{attack_tohit}+0)]]}} {{dmg1=[[@{attack_damage}+0]]}} {{dmg1type=@{attack_damagetype}}} {{dmg2=[[@{attack_damage2}+0]]}} {{dmg2type=@{attack_damagetype2}}} {{crit1=[[@{attack_crit}+0]]}} {{crit2=[[@{attack_crit2}+0]]}} {{description=@{show_desc}}} @{charname_output}",
+            "max": "",
+            "id": "-LUFrQlSs1Op_B25jV9j"
+        },
+        {
+            "name": "repeating_npcaction_-LUFrRPK8iUXrVIY-IGZ_name",
+            "current": "Hammer",
+            "max": "",
+            "id": "-LUFrRxK_MkyoPXEiDgv"
+        },
+        {
+            "name": "repeating_npcaction_-LUFrRPK8iUXrVIY-IGZ_attack_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LUFrRyi1MVk_xal1GCs"
+        },
+        {
+            "name": "repeating_npcaction_-LUFrRPK8iUXrVIY-IGZ_attack_tohitrange",
+            "current": "+5, Reach 5 ft., one target",
+            "max": "",
+            "id": "-LUFrS-Z1KoiuhDSNjwq"
+        },
+        {
+            "name": "repeating_npcaction_-LUFrRPK8iUXrVIY-IGZ_attack_onhit",
+            "current": "9 (2d6+2) bludgeoning damage",
+            "max": "",
+            "id": "-LUFrS-_w9bs-z3l_TLb"
+        },
+        {
+            "name": "repeating_npcaction_-LUFrRPK8iUXrVIY-IGZ_damage_flag",
+            "current": "{{damage=1}} {{dmg1flag=1}} ",
+            "max": "",
+            "id": "-LUFrS-ae76RomLeWAkO"
+        },
+        {
+            "name": "repeating_npcaction_-LUFrRPK8iUXrVIY-IGZ_attack_crit",
+            "current": "2d6",
+            "max": "",
+            "id": "-LUFrS-bZlAL2BVEx_D3"
+        },
+        {
+            "name": "repeating_npcaction_-LUFrRPK8iUXrVIY-IGZ_attack_crit2",
+            "current": "",
+            "max": "",
+            "id": "-LUFrS-ckTXPkRGtNJxF"
+        },
+        {
+            "name": "repeating_npcaction_-LUFrRPK8iUXrVIY-IGZ_rollbase",
+            "current": "@{wtype}&{template:npcaction} {{attack=1}} @{damage_flag} @{npc_name_flag} {{rname=@{name}}} {{r1=[[@{d20}+(@{attack_tohit}+0)]]}} @{rtype}+(@{attack_tohit}+0)]]}} {{dmg1=[[@{attack_damage}+0]]}} {{dmg1type=@{attack_damagetype}}} {{dmg2=[[@{attack_damage2}+0]]}} {{dmg2type=@{attack_damagetype2}}} {{crit1=[[@{attack_crit}+0]]}} {{crit2=[[@{attack_crit2}+0]]}} {{description=@{show_desc}}} @{charname_output}",
+            "max": "",
+            "id": "-LUFrS-d0NHbT2DEKat1"
+        },
+        {
+            "name": "repeating_npcaction_-LUFrRPK8iUXrVIY-IGZ_attack_range",
+            "current": "5 ft.",
+            "max": "",
+            "id": "-LUFrTH-3WG40EM-QVRc"
+        },
+        {
+            "name": "repeating_npcaction_-LUFrRPK8iUXrVIY-IGZ_attack_tohit",
+            "current": "5",
+            "max": "",
+            "id": "-LUFrTmFW7n1lC-qQ7Vq"
+        },
+        {
+            "name": "repeating_npcaction_-LUFrRPK8iUXrVIY-IGZ_attack_target",
+            "current": "one target",
+            "max": "",
+            "id": "-LUFrUrc9AfnzGOrtJRG"
+        },
+        {
+            "name": "repeating_npcaction_-LUFrRPK8iUXrVIY-IGZ_attack_damage",
+            "current": "2d6+2",
+            "max": "",
+            "id": "-LUFrVjOTy3jhGaZowXY"
+        },
+        {
+            "name": "repeating_npcaction_-LUFrRPK8iUXrVIY-IGZ_attack_damagetype",
+            "current": "bludgeoning",
+            "max": "",
+            "id": "-LUFrY82B7rcRYnynGBU"
+        },
+        {
+            "name": "repeating_npcaction_-LUFrRPK8iUXrVIY-IGZ_npc_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LUFrZRv5qjyc_HTGQJh"
+        },
+        {
+            "name": "repeating_npcaction_-LUFrZi8eiWQXM7whDMv_name",
+            "current": "Hammer Storm (Recharge 4-6)",
+            "max": "",
+            "id": "-LUFr_KRlPfWbpsTHaug"
+        },
+        {
+            "name": "repeating_npcaction_-LUFrZi8eiWQXM7whDMv_description",
+            "current": "The clockwork xorn flails its hammers about simultaneously. Each creature within 5 feet of it must make a DC 13 Dexterity saving throw. On a failure, a target takes 14 (4d6) bludgeoning damage and is flung 10 feet away from the clockwork xornin a random direction and knocked prone.",
+            "max": "",
+            "id": "-LUFraj8NHOA39pxmUyw"
+        },
+        {
+            "name": "repeating_npcaction_-LUFrZi8eiWQXM7whDMv_npc_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LUFrakQPwbg2xSlM5R7"
+        },
+        {
+            "name": "repeating_npcaction_-LUFrZi8eiWQXM7whDMv_attack_tohitrange",
+            "current": "+0",
+            "max": "",
+            "id": "-LUFramKSELWZGD6qGuJ"
+        },
+        {
+            "name": "repeating_npcaction_-LUFrZi8eiWQXM7whDMv_attack_onhit",
+            "current": "",
+            "max": "",
+            "id": "-LUFramLwCfa2zACU4nw"
+        },
+        {
+            "name": "repeating_npcaction_-LUFrZi8eiWQXM7whDMv_damage_flag",
+            "current": "",
+            "max": "",
+            "id": "-LUFramMawqT0lqBjLsO"
+        },
+        {
+            "name": "repeating_npcaction_-LUFrZi8eiWQXM7whDMv_attack_crit",
+            "current": "",
+            "max": "",
+            "id": "-LUFramMawqT0lqBjLsP"
+        },
+        {
+            "name": "repeating_npcaction_-LUFrZi8eiWQXM7whDMv_attack_crit2",
+            "current": "",
+            "max": "",
+            "id": "-LUFramN1ET1a0tvn-XJ"
+        },
+        {
+            "name": "repeating_npcaction_-LUFrZi8eiWQXM7whDMv_rollbase",
+            "current": "@{wtype}&{template:npcaction}  @{damage_flag} @{npc_name_flag} {{rname=@{name}}} {{r1=[[@{d20}+(@{attack_tohit}+0)]]}} @{rtype}+(@{attack_tohit}+0)]]}} {{dmg1=[[@{attack_damage}+0]]}} {{dmg1type=@{attack_damagetype}}} {{dmg2=[[@{attack_damage2}+0]]}} {{dmg2type=@{attack_damagetype2}}} {{crit1=[[@{attack_crit}+0]]}} {{crit2=[[@{attack_crit2}+0]]}} {{description=@{show_desc}}} @{charname_output}",
+            "max": "",
+            "id": "-LUFramOyYGdVogc31Z5"
+        }
+    ],
+    "abilities": []
+}

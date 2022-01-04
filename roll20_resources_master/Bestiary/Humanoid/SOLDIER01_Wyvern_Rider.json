@@ -1,0 +1,1383 @@
+{
+    "schema_version": 2,
+    "oldId": "-LzIlrxht_hGEa6x22Mi",
+    "name": "SOLDIER01_Wyvern_Rider",
+    "avatar": "https://i.imgur.com/KRk56DE.png",
+    "bio": "%3Cp%3E%3Ca%20href%3D%22https%3A//www.reddit.com/r/UnearthedArcana/comments/3piisk/pack_the_kings_army_complete_monster_pack/%22%3EWyvern%20Rider%3C/a%3E%3Cbr%3E%3C/p%3E%3Ca%20href%3D%22https%3A//imgur.com/a/aO8yx%22%3EINFANTRY%3C/a%3E%3Cp%3E%3Cbr%3EThough%20only%20few%20in%20number%2C%20wyvern%20riders%20are%20known%20throughout%20the%20kingdom.%20Always%20on%20the%20back%20of%20their%20trusted%20companions%2C%20they%20can%20be%20seen%20darting%20through%20the%20sky%2C%20doing%20the%20King%u2019s%20bidding%20quickly%20and%20efficiently.%3Cbr%3E%3Cbr%3E%3Cb%3EChosen.%20%3C/b%3E%3Cbr%3EThe%20art%20of%20wyvern%20taming%20and%20riding%20is%20a%20closely%20guarding%20secret%20in%20the%20kingdom.%20Once%20every%20five%20years%2C%20all%20the%20half-elves%20in%20the%20kingdom%20are%20inspected%20by%20an%20Overseer.%20If%20the%20Overseer%20sees%20potential%20in%20the%20young%20half-%20elf%2C%20they%20are%20presented%20with%20a%20wyvern%20egg.%20If%20the%20egg%20hatches%20before%20a%20year%20has%20passed%2C%20they%20are%20accepted%20as%20a%20future%20wyvern%20rider%20and%20trained%2C%20alongside%20their%20wyvern%2C%20to%20be%20vassals%20of%20the%20King.%3Cbr%3E%3Cbr%3E%3Cb%3ETwo%20Bodies%2C%20One%20Mind.%3C/b%3E%26nbsp%3B%20%3Cbr%3EThe%20wyvern%20rider%20bonds%20with%20her%20wyvern%20on%20a%20raw%2C%20magical%20level.%20Since%20the%20moment%20of%20the%20wyvern%u2019s%20birth%2C%20the%20future%20rider%20is%20tasked%20with%20raising%20and%20caring%20for%20the%20creature%20until%20it%20matures.%20Through%20this%20multi-year%20process%2C%20the%20two%20bond%20and%20become%20inseparable%2C%20both%20on%20and%20off%20the%20battlefield.%20Those%20unlucky%20riders%20who%20lost%20their%20wyverns%2C%20known%20as%20fallen%20riders%2C%20fly%20into%20an%20inconsolable%20rage%2C%20killing%20everything%20in%20their%20sight.%20The%20only%20escape%20that%20has%20been%20found%20for%20these%20lost%20riders%20is%20death%2C%20and%20they%20are%20killed%20quickly%20before%20they%20do%20irreparable%20harm%20to%20the%20kingdom.%3Cbr%3E%3C/p%3E",
+    "gmnotes": "",
+    "defaulttoken": "{\"left\":455,\"top\":875,\"width\":70,\"height\":70,\"imgsrc\":\"https://i.imgur.com/KRk56DE.png\",\"page_id\":\"-Ly_bGp8M1ckoe8Ju7HQ\",\"layer\":\"objects\",\"name\":\"SOLDIER01_Wyvern_Rider\",\"represents\":\"-LzIlrxht_hGEa6x22Mi\",\"bar1_value\":119,\"bar1_max\":119,\"bar1_link\":\"-LzIls1CF56skXM4RV31\",\"bar2_value\":17,\"bar2_max\":17,\"bar2_link\":\"-LzIls1CF56skXM4RV30\",\"bar3_value\":\"11\",\"bar3_max\":\"11\",\"showname\":true,\"light_radius\":\"60\",\"light_dimradius\":\"20\",\"adv_fow_view_distance\":\"60\",\"lastmove\":\"460,863\"}",
+    "tags": "[\"Humanoid\",\"Half-Elf\"]",
+    "controlledby": "",
+    "inplayerjournals": "",
+    "attribs": [
+        {
+            "name": "npc",
+            "current": "1",
+            "max": "",
+            "id": "-LzIls0dhcMBKm-ITD09"
+        },
+        {
+            "name": "wtype",
+            "current": "@{whispertoggle}",
+            "max": "",
+            "id": "-LzIls0eCz9KCOHYcuwn"
+        },
+        {
+            "name": "global_save_mod_flag",
+            "current": "1",
+            "max": "",
+            "id": "-LzIls0fyQT8RPnNT0rb"
+        },
+        {
+            "name": "global_skill_mod_flag",
+            "current": "1",
+            "max": "",
+            "id": "-LzIls0fyQT8RPnNT0rc"
+        },
+        {
+            "name": "global_attack_mod_flag",
+            "current": "1",
+            "max": "",
+            "id": "-LzIls0gwuNY1lnzpdhW"
+        },
+        {
+            "name": "global_damage_mod_flag",
+            "current": "1",
+            "max": "",
+            "id": "-LzIls0gwuNY1lnzpdhX"
+        },
+        {
+            "name": "charname_output",
+            "current": "{{charname=@{character_name}}}",
+            "max": "",
+            "id": "-LzIls0hN_t-NLRtlz5g"
+        },
+        {
+            "name": "npc_name_flag",
+            "current": "{{name=@{npc_name}}}",
+            "max": "",
+            "id": "-LzIls0iRPIeOnDaDFlr"
+        },
+        {
+            "name": "ammotracking",
+            "current": "on",
+            "max": "",
+            "id": "-LzIls0iRPIeOnDaDFls"
+        },
+        {
+            "name": "cd_bar2_m",
+            "current": "npc_ac",
+            "max": "",
+            "id": "-LzIls0iRPIeOnDaDFlt"
+        },
+        {
+            "name": "cd_bar3_m",
+            "current": "spell_save_dc",
+            "max": "",
+            "id": "-LzIls0kedsc-Exg2iyf"
+        },
+        {
+            "name": "cd_bar3_l",
+            "current": "spell_save_dc",
+            "max": "",
+            "id": "-LzIls0kedsc-Exg2iyg"
+        },
+        {
+            "name": "rtype",
+            "current": "@{advantagetoggle}",
+            "max": "",
+            "id": "-LzIls0kedsc-Exg2iyh"
+        },
+        {
+            "name": "npc_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LzIls0lNzgY61sHnLnj"
+        },
+        {
+            "name": "repeating_npctrait_-Lz3Vn2djjSzKfcJseTW_desc",
+            "current": "While within 10 feet of her wyvern, the rider has advantage on all Dexterity and Charisma saving throws. ",
+            "max": "",
+            "id": "-LzIls0lNzgY61sHnLnk"
+        },
+        {
+            "name": "repeating_npctrait_-Lz3Vn2djjSzKfcJseTW_name",
+            "current": "Bond of Beast and Man",
+            "max": "",
+            "id": "-LzIls0mfMQ_CDzaKAct"
+        },
+        {
+            "name": "repeating_npctrait_-Lz3Vn2djjSzKfcJseTW_npc_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LzIls0nr1NZgKIiWo-C"
+        },
+        {
+            "name": "repeating_npctrait_-Lz3WBZ-EUo4WMsHlUbY_desc",
+            "current": "If the rider's wyvern has taken damage since the rider's previous turn, the rider has advantage on her next attack.",
+            "max": "",
+            "id": "-LzIls0oPWHIiPr6FAtI"
+        },
+        {
+            "name": "repeating_npctrait_-Lz3WBZ-EUo4WMsHlUbY_name",
+            "current": "Feral Protector",
+            "max": "",
+            "id": "-LzIls0pzCemdfTcRz-x"
+        },
+        {
+            "name": "repeating_npctrait_-Lz3WBZ-EUo4WMsHlUbY_npc_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LzIls0pzCemdfTcRz-y"
+        },
+        {
+            "name": "repeating_npctrait_-Lz3WIQxH89v7BUYHuLY_name",
+            "current": "Mork of the Beast",
+            "max": "",
+            "id": "-LzIls0qS5qCldgXuuDj"
+        },
+        {
+            "name": "repeating_npctrait_-Lz3WIQxH89v7BUYHuLY_desc",
+            "current": "The wyvern rider can cast the spell hunter's mark as a bonus action, giving both her and her wyvern the benefits of the spell",
+            "max": "",
+            "id": "-LzIls0rx85Er6lAkjaq"
+        },
+        {
+            "name": "repeating_npctrait_-Lz3WIQxH89v7BUYHuLY_npc_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LzIls0rx85Er6lAkjar"
+        },
+        {
+            "name": "repeating_npctrait_-Lz3WdQcXmZyqhSh75GD_name",
+            "current": "Rage of Loss",
+            "max": "",
+            "id": "-LzIls0s4D7L0ZrjGaSa"
+        },
+        {
+            "name": "repeating_npctrait_-Lz3WdQcXmZyqhSh75GD_desc",
+            "current": "If the rider's wyvern dies, the rider transforms into a fallen rider. She gains an additional attack per round with both weapons but falls into an unconsoleable rage, attacking everything in sight.",
+            "max": "",
+            "id": "-LzIls0s4D7L0ZrjGaSb"
+        },
+        {
+            "name": "repeating_npctrait_-Lz3WdQcXmZyqhSh75GD_npc_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LzIls0s4D7L0ZrjGaSc"
+        },
+        {
+            "name": "drop_category",
+            "current": "",
+            "max": "",
+            "id": "-LzIls0s4D7L0ZrjGaSd"
+        },
+        {
+            "name": "drop_name",
+            "current": "",
+            "max": "",
+            "id": "-LzIls0uJ7jef9koi9kG"
+        },
+        {
+            "name": "drop_data",
+            "current": "",
+            "max": "",
+            "id": "-LzIls0uJ7jef9koi9kH"
+        },
+        {
+            "name": "drop_content",
+            "current": "",
+            "max": "",
+            "id": "-LzIls0uJ7jef9koi9kI"
+        },
+        {
+            "name": "npc_name",
+            "current": "Wyvern Rider",
+            "max": "",
+            "id": "-LzIls1BqQR-3wi-x0yC"
+        },
+        {
+            "name": "npc_type",
+            "current": "Medium Humanoid (half-elf), unaligned",
+            "max": "",
+            "id": "-LzIls1CF56skXM4RV3-"
+        },
+        {
+            "name": "npc_ac",
+            "current": "17",
+            "max": "17",
+            "id": "-LzIls1CF56skXM4RV30"
+        },
+        {
+            "name": "hp",
+            "current": "119",
+            "max": "119",
+            "id": "-LzIls1CF56skXM4RV31"
+        },
+        {
+            "name": "condition_health",
+            "current": 6,
+            "max": "",
+            "id": "-LzIls1DnTc_7VacYuYu"
+        },
+        {
+            "name": "npc_hpformula",
+            "current": "14d8+56",
+            "max": "",
+            "id": "-LzIls1DnTc_7VacYuYv"
+        },
+        {
+            "name": "npc_speed",
+            "current": "30 ft.",
+            "max": "",
+            "id": "-LzIls1EBf0tgvB6xxOl"
+        },
+        {
+            "name": "npc_actype",
+            "current": "studded leather",
+            "max": "",
+            "id": "-LzIls1EBf0tgvB6xxOm"
+        },
+        {
+            "name": "strength_base",
+            "current": "17",
+            "max": "",
+            "id": "-LzIls1FNFOugoISanV0"
+        },
+        {
+            "name": "strength_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzIls1FNFOugoISanV1"
+        },
+        {
+            "name": "strength",
+            "current": 17,
+            "max": "",
+            "id": "-LzIls1FNFOugoISanV2"
+        },
+        {
+            "name": "strength_mod",
+            "current": 3,
+            "max": "",
+            "id": "-LzIls1Hc9UyVUDCGHFx"
+        },
+        {
+            "name": "npc_str_negative",
+            "current": 0,
+            "max": "",
+            "id": "-LzIls1Hc9UyVUDCGHFy"
+        },
+        {
+            "name": "weighttotal",
+            "current": 0,
+            "max": "",
+            "id": "-LzIls1Iqfw-O9KN3O-1"
+        },
+        {
+            "name": "slotstotal",
+            "current": 0,
+            "max": "",
+            "id": "-LzIls1Iqfw-O9KN3O-2"
+        },
+        {
+            "name": "slotsmaximum",
+            "current": 21,
+            "max": "",
+            "id": "-LzIls1KZRvkRNmRAM-2"
+        },
+        {
+            "name": "encumberance",
+            "current": " ",
+            "max": "",
+            "id": "-LzIls1KZRvkRNmRAM-3"
+        },
+        {
+            "name": "spell_attack_bonus",
+            "current": "0",
+            "max": "",
+            "id": "-LzIls1KZRvkRNmRAM-4"
+        },
+        {
+            "name": "spell_save_dc",
+            "current": "0",
+            "max": "",
+            "id": "-LzIls1KZRvkRNmRAM-5"
+        },
+        {
+            "name": "strength_save_bonus",
+            "current": 3,
+            "max": "",
+            "id": "-LzIls1LKeApSeDVI44P"
+        },
+        {
+            "name": "athletics_bonus",
+            "current": 3,
+            "max": "",
+            "id": "-LzIls1LKeApSeDVI44Q"
+        },
+        {
+            "name": "dexterity_base",
+            "current": "20",
+            "max": "",
+            "id": "-LzIls1MlZnSqBXn5NBr"
+        },
+        {
+            "name": "dexterity_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzIls1NH_-M3n5NPUXW"
+        },
+        {
+            "name": "dexterity",
+            "current": 20,
+            "max": "",
+            "id": "-LzIls1OkJIo2hV_DPPz"
+        },
+        {
+            "name": "dexterity_mod",
+            "current": 5,
+            "max": "",
+            "id": "-LzIls1OkJIo2hV_DPQ-"
+        },
+        {
+            "name": "npc_dex_negative",
+            "current": 0,
+            "max": "",
+            "id": "-LzIls1PshAsTBFgq8Hl"
+        },
+        {
+            "name": "initiative_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-LzIls1PshAsTBFgq8Hm"
+        },
+        {
+            "name": "dexterity_save_bonus",
+            "current": 5,
+            "max": "",
+            "id": "-LzIls1Q38EpygKTclCh"
+        },
+        {
+            "name": "acrobatics_bonus",
+            "current": 5,
+            "max": "",
+            "id": "-LzIls1Q38EpygKTclCi"
+        },
+        {
+            "name": "sleight_of_hand_bonus",
+            "current": 5,
+            "max": "",
+            "id": "-LzIls1SxKDL-7tWblxh"
+        },
+        {
+            "name": "stealth_bonus",
+            "current": 5,
+            "max": "",
+            "id": "-LzIls1SxKDL-7tWblxi"
+        },
+        {
+            "name": "armorwarningflag",
+            "current": "hide",
+            "max": "",
+            "id": "-LzIls1SxKDL-7tWblxj"
+        },
+        {
+            "name": "customacwarningflag",
+            "current": "hide",
+            "max": "",
+            "id": "-LzIls1SxKDL-7tWblxk"
+        },
+        {
+            "name": "ac",
+            "current": 15,
+            "max": "",
+            "id": "-LzIls1TRsA83VLcLmNa"
+        },
+        {
+            "name": "constitution_base",
+            "current": "18",
+            "max": "",
+            "id": "-LzIls1UW6vsGMTm6zQU"
+        },
+        {
+            "name": "constitution_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzIls1UW6vsGMTm6zQV"
+        },
+        {
+            "name": "constitution",
+            "current": 18,
+            "max": "",
+            "id": "-LzIls1Vsl7nUH6fOiwR"
+        },
+        {
+            "name": "constitution_mod",
+            "current": 4,
+            "max": "",
+            "id": "-LzIls1Vsl7nUH6fOiwS"
+        },
+        {
+            "name": "npc_con_negative",
+            "current": 0,
+            "max": "",
+            "id": "-LzIls1WELtk_3NZadbw"
+        },
+        {
+            "name": "constitution_save_bonus",
+            "current": 4,
+            "max": "",
+            "id": "-LzIls1Xx4utei1jxigx"
+        },
+        {
+            "name": "intelligence_base",
+            "current": "12",
+            "max": "",
+            "id": "-LzIls1Yqe7HEutHApeg"
+        },
+        {
+            "name": "intelligence_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzIls1Yqe7HEutHApeh"
+        },
+        {
+            "name": "intelligence",
+            "current": 12,
+            "max": "",
+            "id": "-LzIls1ZlSB61J8Cl0Yv"
+        },
+        {
+            "name": "intelligence_mod",
+            "current": 1,
+            "max": "",
+            "id": "-LzIls1ZlSB61J8Cl0Yw"
+        },
+        {
+            "name": "npc_int_negative",
+            "current": 0,
+            "max": "",
+            "id": "-LzIls1_L6iyYSvCW-X_"
+        },
+        {
+            "name": "intelligence_save_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-LzIls1_L6iyYSvCW-Xa"
+        },
+        {
+            "name": "arcana_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-LzIls1a3IG5ywXMaMKI"
+        },
+        {
+            "name": "history_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-LzIls1a3IG5ywXMaMKJ"
+        },
+        {
+            "name": "investigation_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-LzIls1bvqLNfoGzYA_r"
+        },
+        {
+            "name": "nature_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-LzIls1c7T20i1dATPT5"
+        },
+        {
+            "name": "religion_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-LzIls1c7T20i1dATPT6"
+        },
+        {
+            "name": "wisdom_base",
+            "current": "15",
+            "max": "",
+            "id": "-LzIls1d3IZuVSHmfyY0"
+        },
+        {
+            "name": "wisdom_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzIls1d3IZuVSHmfyY1"
+        },
+        {
+            "name": "wisdom",
+            "current": 15,
+            "max": "",
+            "id": "-LzIls1fLAmG4Nikmfgm"
+        },
+        {
+            "name": "wisdom_mod",
+            "current": 2,
+            "max": "",
+            "id": "-LzIls1g285WRsmMpOP1"
+        },
+        {
+            "name": "npc_wis_negative",
+            "current": 0,
+            "max": "",
+            "id": "-LzIls1g285WRsmMpOP2"
+        },
+        {
+            "name": "wisdom_save_bonus",
+            "current": 2,
+            "max": "",
+            "id": "-LzIls1g285WRsmMpOP3"
+        },
+        {
+            "name": "animal_handling_bonus",
+            "current": 2,
+            "max": "",
+            "id": "-LzIls1h5VV2sm4BlTcS"
+        },
+        {
+            "name": "insight_bonus",
+            "current": 2,
+            "max": "",
+            "id": "-LzIls1h5VV2sm4BlTcT"
+        },
+        {
+            "name": "medicine_bonus",
+            "current": 2,
+            "max": "",
+            "id": "-LzIls1i_fpu6kf3ZBDg"
+        },
+        {
+            "name": "perception_bonus",
+            "current": 2,
+            "max": "",
+            "id": "-LzIls1j60hwAC3WtuDA"
+        },
+        {
+            "name": "survival_bonus",
+            "current": 2,
+            "max": "",
+            "id": "-LzIls1klTpVTNHAqj7W"
+        },
+        {
+            "name": "passive_wisdom",
+            "current": 12,
+            "max": "10",
+            "id": "-LzIls1klTpVTNHAqj7X"
+        },
+        {
+            "name": "charisma_base",
+            "current": "14",
+            "max": "",
+            "id": "-LzIls1lNbfH7lYQmdZv"
+        },
+        {
+            "name": "charisma_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzIls1mIRZBKqCuHVI0"
+        },
+        {
+            "name": "charisma",
+            "current": 14,
+            "max": "",
+            "id": "-LzIls1pP55cWwrynR48"
+        },
+        {
+            "name": "charisma_mod",
+            "current": 2,
+            "max": "",
+            "id": "-LzIls1qelrEbutkA6gm"
+        },
+        {
+            "name": "npc_cha_negative",
+            "current": 0,
+            "max": "",
+            "id": "-LzIls1qelrEbutkA6gn"
+        },
+        {
+            "name": "charisma_save_bonus",
+            "current": 2,
+            "max": "",
+            "id": "-LzIls1qelrEbutkA6go"
+        },
+        {
+            "name": "deception_bonus",
+            "current": 2,
+            "max": "",
+            "id": "-LzIls1refyZb2ScsHPt"
+        },
+        {
+            "name": "intimidation_bonus",
+            "current": 2,
+            "max": "",
+            "id": "-LzIls1refyZb2ScsHPu"
+        },
+        {
+            "name": "performance_bonus",
+            "current": 2,
+            "max": "",
+            "id": "-LzIls1sVeFdSH33fHzp"
+        },
+        {
+            "name": "persuasion_bonus",
+            "current": 2,
+            "max": "",
+            "id": "-LzIls1sVeFdSH33fHzq"
+        },
+        {
+            "name": "npc_str_save_base",
+            "current": "",
+            "max": "",
+            "id": "-LzIls1tFQg8mogy89l8"
+        },
+        {
+            "name": "npc_saving_flag",
+            "current": "69",
+            "max": "",
+            "id": "-LzIls1tFQg8mogy89l9"
+        },
+        {
+            "name": "npc_str_save",
+            "current": "",
+            "max": "",
+            "id": "-LzIls1tFQg8mogy89lA"
+        },
+        {
+            "name": "npc_str_save_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzIls1tFQg8mogy89lB"
+        },
+        {
+            "name": "npc_dex_save",
+            "current": 9,
+            "max": "",
+            "id": "-LzIls1u4PAJgyaVQL4o"
+        },
+        {
+            "name": "npc_dex_save_flag",
+            "current": 1,
+            "max": "",
+            "id": "-LzIls1u4PAJgyaVQL4p"
+        },
+        {
+            "name": "npc_con_save",
+            "current": "",
+            "max": "",
+            "id": "-LzIls1vWDcoaLko4gPZ"
+        },
+        {
+            "name": "npc_con_save_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzIls1vWDcoaLko4gP_"
+        },
+        {
+            "name": "npc_int_save",
+            "current": "",
+            "max": "",
+            "id": "-LzIls1vWDcoaLko4gPa"
+        },
+        {
+            "name": "npc_int_save_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzIls1wb3SeBMNAtnIu"
+        },
+        {
+            "name": "npc_wis_save",
+            "current": 6,
+            "max": "",
+            "id": "-LzIls1wb3SeBMNAtnIv"
+        },
+        {
+            "name": "npc_wis_save_flag",
+            "current": 2,
+            "max": "",
+            "id": "-LzIls1xpAdnveTPsrUq"
+        },
+        {
+            "name": "npc_cha_save",
+            "current": "",
+            "max": "",
+            "id": "-LzIls1xpAdnveTPsrUr"
+        },
+        {
+            "name": "npc_cha_save_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzIls1xpAdnveTPsrUs"
+        },
+        {
+            "name": "npc_dex_save_base",
+            "current": "9",
+            "max": "",
+            "id": "-LzIls1yEGM0MOaSa7B0"
+        },
+        {
+            "name": "npc_con_save_base",
+            "current": "",
+            "max": "",
+            "id": "-LzIls1zmzAN85SiSiva"
+        },
+        {
+            "name": "npc_int_save_base",
+            "current": "",
+            "max": "",
+            "id": "-LzIls1zmzAN85SiSivb"
+        },
+        {
+            "name": "npc_wis_save_base",
+            "current": "6",
+            "max": "",
+            "id": "-LzIls2-puOz-gApPPKK"
+        },
+        {
+            "name": "npc_cha_save_base",
+            "current": "",
+            "max": "",
+            "id": "-LzIls2-puOz-gApPPKL"
+        },
+        {
+            "name": "npc_senses",
+            "current": "darkvision 60 ft., passive Perception 16",
+            "max": "",
+            "id": "-LzIls2-puOz-gApPPKM"
+        },
+        {
+            "name": "npc_languages",
+            "current": "Common, Elvish",
+            "max": "",
+            "id": "-LzIls2-puOz-gApPPKN"
+        },
+        {
+            "name": "npc_challenge",
+            "current": "9",
+            "max": "",
+            "id": "-LzIls20UcjAWvHjOTGh"
+        },
+        {
+            "name": "npc_xp",
+            "current": "5000",
+            "max": "",
+            "id": "-LzIls20UcjAWvHjOTGi"
+        },
+        {
+            "name": "pb_custom",
+            "current": 4,
+            "max": "",
+            "id": "-LzIls20UcjAWvHjOTGj"
+        },
+        {
+            "name": "pb_type",
+            "current": "custom",
+            "max": "",
+            "id": "-LzIls21iWH4IeRDwsIq"
+        },
+        {
+            "name": "pb",
+            "current": 4,
+            "max": "",
+            "id": "-LzIls21iWH4IeRDwsIr"
+        },
+        {
+            "name": "jack",
+            "current": 2,
+            "max": "",
+            "id": "-LzIls23Fp4qudXM6lvh"
+        },
+        {
+            "name": "pbd_safe",
+            "current": "",
+            "max": "",
+            "id": "-LzIls23Fp4qudXM6lvi"
+        },
+        {
+            "name": "jack_bonus",
+            "current": "",
+            "max": "",
+            "id": "-LzIls23Fp4qudXM6lvj"
+        },
+        {
+            "name": "jack_attr",
+            "current": "",
+            "max": "",
+            "id": "-LzIls23Fp4qudXM6lvk"
+        },
+        {
+            "name": "death_save_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-LzIls23Fp4qudXM6lvl"
+        },
+        {
+            "name": "version",
+            "current": "2.8",
+            "max": "",
+            "id": "-LzIls2B-tSHrsdwT1MI"
+        },
+        {
+            "name": "mancer_confirm_flag",
+            "current": "",
+            "max": "",
+            "id": "-LzIls2CdLHMHRihF3ND"
+        },
+        {
+            "name": "mancer_npc",
+            "current": "on",
+            "max": "",
+            "id": "-LzIls2CdLHMHRihF3NE"
+        },
+        {
+            "name": "l1mancer_status",
+            "current": "completed",
+            "max": "",
+            "id": "-LzIls2CdLHMHRihF3NF"
+        },
+        {
+            "name": "npc_acrobatics_base",
+            "current": "9",
+            "max": "",
+            "id": "-LzIrU5mWZ3LMFdtfG10"
+        },
+        {
+            "name": "npc_skills_flag",
+            "current": "988",
+            "max": "",
+            "id": "-LzIrU7vxjDK6D4_lYzC"
+        },
+        {
+            "name": "npc_stealth_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzIrU806nzO5O4YvCN3"
+        },
+        {
+            "name": "npc_survival",
+            "current": "",
+            "max": "",
+            "id": "-LzIrU82Qt-q4Py6Q0qF"
+        },
+        {
+            "name": "npc_acrobatics",
+            "current": 9,
+            "max": "",
+            "id": "-LzIrU859cJBLjyWPdT7"
+        },
+        {
+            "name": "npc_acrobatics_flag",
+            "current": 1,
+            "max": "",
+            "id": "-LzIrU8Ase5h-X-Cqgtf"
+        },
+        {
+            "name": "npc_animal_handling",
+            "current": 8,
+            "max": "",
+            "id": "-LzIrU8FXWbBXIK4-SCf"
+        },
+        {
+            "name": "npc_animal_handling_flag",
+            "current": 1,
+            "max": "",
+            "id": "-LzIrU8IJnzFdyXiOuMa"
+        },
+        {
+            "name": "npc_arcana",
+            "current": "",
+            "max": "",
+            "id": "-LzIrU8M55DRdVHmb3eq"
+        },
+        {
+            "name": "npc_arcana_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzIrU8RWiHsbBEKm1AD"
+        },
+        {
+            "name": "npc_athletics",
+            "current": "",
+            "max": "",
+            "id": "-LzIrU8VaSz-zWM16n0z"
+        },
+        {
+            "name": "npc_athletics_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzIrU8XZEyM9vvnShpA"
+        },
+        {
+            "name": "npc_deception",
+            "current": "",
+            "max": "",
+            "id": "-LzIrU8_w0Z_UZ-lIWMd"
+        },
+        {
+            "name": "npc_deception_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzIrU8cG-8PzKe3rdCS"
+        },
+        {
+            "name": "npc_history",
+            "current": "",
+            "max": "",
+            "id": "-LzIrU8fgCHNYnmcLHWg"
+        },
+        {
+            "name": "npc_history_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzIrU8izfGoveovdnTs"
+        },
+        {
+            "name": "npc_insight",
+            "current": "",
+            "max": "",
+            "id": "-LzIrU8l94Z5LfsekZK0"
+        },
+        {
+            "name": "npc_insight_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzIrU8n2M0DfEitRPI6"
+        },
+        {
+            "name": "npc_intimidation",
+            "current": "",
+            "max": "",
+            "id": "-LzIrU8r1HL3HoFeTuI4"
+        },
+        {
+            "name": "npc_intimidation_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzIrU8tF7bpnUrR79Fq"
+        },
+        {
+            "name": "npc_investigation",
+            "current": "",
+            "max": "",
+            "id": "-LzIrU8wxsWpBZ47TKKp"
+        },
+        {
+            "name": "npc_investigation_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzIrU9-mKMCoTlSeOfM"
+        },
+        {
+            "name": "npc_medicine",
+            "current": "",
+            "max": "",
+            "id": "-LzIrU937A85I0fhj8ki"
+        },
+        {
+            "name": "npc_medicine_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzIrU95ZmEK0jp384ZU"
+        },
+        {
+            "name": "npc_nature",
+            "current": "",
+            "max": "",
+            "id": "-LzIrU99oiGu5YldX_sQ"
+        },
+        {
+            "name": "npc_nature_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzIrU9BiwMG7yorimQG"
+        },
+        {
+            "name": "npc_perception",
+            "current": 8,
+            "max": "",
+            "id": "-LzIrU9DsJjh2QHmQzST"
+        },
+        {
+            "name": "npc_perception_flag",
+            "current": 2,
+            "max": "",
+            "id": "-LzIrU9F3GB6WrkSFAKt"
+        },
+        {
+            "name": "npc_performance",
+            "current": "",
+            "max": "",
+            "id": "-LzIrU9IBMfVEsEB_l5u"
+        },
+        {
+            "name": "npc_performance_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzIrU9KuYGavXJdnSRn"
+        },
+        {
+            "name": "npc_persuasion",
+            "current": "",
+            "max": "",
+            "id": "-LzIrU9OIwI6eYlTRROf"
+        },
+        {
+            "name": "npc_persuasion_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzIrU9PG-dg8gWbR56d"
+        },
+        {
+            "name": "npc_religion",
+            "current": "",
+            "max": "",
+            "id": "-LzIrU9SBaB0SwdbeqEF"
+        },
+        {
+            "name": "npc_religion_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzIrU9UIUYzrwmvRDR_"
+        },
+        {
+            "name": "npc_sleight_of_hand",
+            "current": "",
+            "max": "",
+            "id": "-LzIrU9WE1hQxXHCQNXE"
+        },
+        {
+            "name": "npc_sleight_of_hand_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzIrU9ZGxIRUGHZpW87"
+        },
+        {
+            "name": "npc_stealth",
+            "current": "",
+            "max": "",
+            "id": "-LzIrU9aBJVIZGPYUppH"
+        },
+        {
+            "name": "npc_survival_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzIrU9d2002ClLHnxLK"
+        },
+        {
+            "name": "npc_animal_handling_base",
+            "current": "8",
+            "max": "",
+            "id": "-LzIrWCJCLu5CMokdHo8"
+        },
+        {
+            "name": "npc_perception_base",
+            "current": "8",
+            "max": "",
+            "id": "-LzIrWSOO-nmAmfkMydb"
+        },
+        {
+            "name": "repeating_npcaction_-LzIsT1AgOTCneJTCBNE_name",
+            "current": "Multiattack",
+            "max": "",
+            "id": "-LzIsUbwfmh-HSXVrHdv"
+        },
+        {
+            "name": "repeating_npcaction_-LzIsT1AgOTCneJTCBNE_description",
+            "current": "The wyvern rider can make two attacks with her lance and one attack with her whip",
+            "max": "",
+            "id": "-LzIsWFIcC-DiJTXjsbP"
+        },
+        {
+            "name": "repeating_npcaction_-LzIsT1AgOTCneJTCBNE_attack_tohitrange",
+            "current": "+0",
+            "max": "",
+            "id": "-LzIsWHcmwN50097gpLF"
+        },
+        {
+            "name": "repeating_npcaction_-LzIsT1AgOTCneJTCBNE_attack_onhit",
+            "current": "",
+            "max": "",
+            "id": "-LzIsWHgKmpbUN3AldZ4"
+        },
+        {
+            "name": "repeating_npcaction_-LzIsT1AgOTCneJTCBNE_damage_flag",
+            "current": "",
+            "max": "",
+            "id": "-LzIsWHiNNU1zBXU2a5M"
+        },
+        {
+            "name": "repeating_npcaction_-LzIsT1AgOTCneJTCBNE_attack_crit",
+            "current": "",
+            "max": "",
+            "id": "-LzIsWHlOmwr_8TwmIYt"
+        },
+        {
+            "name": "repeating_npcaction_-LzIsT1AgOTCneJTCBNE_attack_crit2",
+            "current": "",
+            "max": "",
+            "id": "-LzIsWHmSovCE0mM3f6b"
+        },
+        {
+            "name": "repeating_npcaction_-LzIsT1AgOTCneJTCBNE_rollbase",
+            "current": "@{wtype}&{template:npcaction} @{npc_name_flag} {{rname=@{name}}} {{description=@{show_desc}}} @{charname_output}",
+            "max": "",
+            "id": "-LzIsWHp3zBGVr6Sdj0I"
+        },
+        {
+            "name": "repeating_npcaction_-LzIsT1AgOTCneJTCBNE_npc_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LzIsWI9yagrT-48tX69"
+        },
+        {
+            "name": "repeating_npcaction_-LzIsZyEd6hVJQX3HabE_npc_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LzIsZyYUE4x3jtZm5H6"
+        },
+        {
+            "name": "repeating_npcaction_-LzIsZyEd6hVJQX3HabE_attack_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LzIsZych8yMKCEeDHOo"
+        },
+        {
+            "name": "repeating_npcaction_-LzIsZyEd6hVJQX3HabE_name",
+            "current": "Lance",
+            "max": "",
+            "id": "-LzIsZyg9Uoj3wzq6TPA"
+        },
+        {
+            "name": "repeating_npcaction_-LzIsZyEd6hVJQX3HabE_description",
+            "current": "Special: You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted.\n\n",
+            "max": "",
+            "id": "-LzIsZyjpKsyDobm60Jg"
+        },
+        {
+            "name": "repeating_npcaction_-LzIsZyEd6hVJQX3HabE_attack_display_flag",
+            "current": "{{attack=1}}",
+            "max": "",
+            "id": "-LzIsZyotpLHwdZJ5qtX"
+        },
+        {
+            "name": "repeating_npcaction_-LzIsZyEd6hVJQX3HabE_attack_options",
+            "current": "{{attack=1}}",
+            "max": "",
+            "id": "-LzIsZys77aeq2XKMPGH"
+        },
+        {
+            "name": "repeating_npcaction_-LzIsZyEd6hVJQX3HabE_attack_type",
+            "current": "Melee",
+            "max": "",
+            "id": "-LzIsZywA9vofdwKY3vy"
+        },
+        {
+            "name": "repeating_npcaction_-LzIsZyEd6hVJQX3HabE_attack_range",
+            "current": "10 ft",
+            "max": "",
+            "id": "-LzIsZyzFytMF_oZrpfz"
+        },
+        {
+            "name": "repeating_npcaction_-LzIsZyEd6hVJQX3HabE_attack_target",
+            "current": "one target",
+            "max": "",
+            "id": "-LzIsZz1Ta82joN4D4kh"
+        },
+        {
+            "name": "repeating_npcaction_-LzIsZyEd6hVJQX3HabE_attack_tohit",
+            "current": "7",
+            "max": "",
+            "id": "-LzIsZz4-S2zvNI-AKY3"
+        },
+        {
+            "name": "repeating_npcaction_-LzIsZyEd6hVJQX3HabE_attack_damage",
+            "current": "1d12+3",
+            "max": "",
+            "id": "-LzIsZz6Sm7S5NswM_it"
+        },
+        {
+            "name": "repeating_npcaction_-LzIsZyEd6hVJQX3HabE_attack_damagetype",
+            "current": "Piercing",
+            "max": "",
+            "id": "-LzIsZzAPKdiMdj4sEti"
+        },
+        {
+            "name": "repeating_npcaction_-LzIsZyEd6hVJQX3HabE_attack_tohitrange",
+            "current": "+7, Reach 10 ft, one target",
+            "max": "",
+            "id": "-LzIsc-UigMok6kwsdDC"
+        },
+        {
+            "name": "repeating_npcaction_-LzIsZyEd6hVJQX3HabE_attack_onhit",
+            "current": "9 (1d12+3) Piercing damage",
+            "max": "",
+            "id": "-LzIsc-ZsIeuoU7UlVu-"
+        },
+        {
+            "name": "repeating_npcaction_-LzIsZyEd6hVJQX3HabE_damage_flag",
+            "current": "{{damage=1}} {{dmg1flag=1}} ",
+            "max": "",
+            "id": "-LzIsc-bt-C9IsOZ0pnY"
+        },
+        {
+            "name": "repeating_npcaction_-LzIsZyEd6hVJQX3HabE_attack_crit",
+            "current": "1d12",
+            "max": "",
+            "id": "-LzIsc-f-9tKfN8xFw9x"
+        },
+        {
+            "name": "repeating_npcaction_-LzIsZyEd6hVJQX3HabE_attack_crit2",
+            "current": "",
+            "max": "",
+            "id": "-LzIsc-izgKG_PNKxaJs"
+        },
+        {
+            "name": "repeating_npcaction_-LzIsZyEd6hVJQX3HabE_rollbase",
+            "current": "@{wtype}&{template:npcatk} {{attack=1}} @{damage_flag} @{npc_name_flag} {{rname=[@{name}](~repeating_npcaction_npc_dmg)}} {{rnamec=[@{name}](~repeating_npcaction_npc_crit)}} {{type=[Attack](~repeating_npcaction_npc_dmg)}} {{typec=[Attack](~repeating_npcaction_npc_crit)}} {{r1=[[@{d20}+(@{attack_tohit}+0)]]}} @{rtype}+(@{attack_tohit}+0)]]}} {{description=@{show_desc}}} @{charname_output}",
+            "max": "",
+            "id": "-LzIsc-kT9ROhak8HDgt"
+        },
+        {
+            "name": "repeating_proficiencies_-LzIsn0QxS5zsOcdOJw-_prof_type",
+            "current": "WEAPON",
+            "max": "",
+            "id": "-LzIsn0_QCcA7WxO4-9J"
+        },
+        {
+            "name": "repeating_proficiencies_-LzIsn0QxS5zsOcdOJw-_name",
+            "current": "Whip",
+            "max": "",
+            "id": "-LzIsn0dnf-fqmCiNCLL"
+        },
+        {
+            "name": "repeating_proficiencies_-LzIsn0QxS5zsOcdOJw-_options-flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzIsn0g3NaY1uIzr57x"
+        },
+        {
+            "name": "repeating_npcaction_-LzIsp91WUm6ryq2aVFP_npc_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LzIsp98oRQZprDHMmPs"
+        },
+        {
+            "name": "repeating_npcaction_-LzIsp91WUm6ryq2aVFP_attack_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LzIsp9B81gWoom6nCmx"
+        },
+        {
+            "name": "repeating_npcaction_-LzIsp91WUm6ryq2aVFP_name",
+            "current": "Whip",
+            "max": "",
+            "id": "-LzIsp9EQ3MVROwpyyBs"
+        },
+        {
+            "name": "repeating_npcaction_-LzIsp91WUm6ryq2aVFP_attack_display_flag",
+            "current": "{{attack=1}}",
+            "max": "",
+            "id": "-LzIsp9HXOYVp2tA7kvt"
+        },
+        {
+            "name": "repeating_npcaction_-LzIsp91WUm6ryq2aVFP_attack_options",
+            "current": "{{attack=1}}",
+            "max": "",
+            "id": "-LzIsp9J9IRFn-1ANEg4"
+        },
+        {
+            "name": "repeating_npcaction_-LzIsp91WUm6ryq2aVFP_attack_type",
+            "current": "Melee",
+            "max": "",
+            "id": "-LzIsp9MxTBAg36OB6QK"
+        },
+        {
+            "name": "repeating_npcaction_-LzIsp91WUm6ryq2aVFP_attack_range",
+            "current": "10 ft",
+            "max": "",
+            "id": "-LzIsp9PrNnre_F0iQjX"
+        },
+        {
+            "name": "repeating_npcaction_-LzIsp91WUm6ryq2aVFP_attack_target",
+            "current": "one target",
+            "max": "",
+            "id": "-LzIsp9ROra2FftTj4Vv"
+        },
+        {
+            "name": "repeating_npcaction_-LzIsp91WUm6ryq2aVFP_attack_tohit",
+            "current": "9",
+            "max": "",
+            "id": "-LzIsp9U14bRT-714Fg-"
+        },
+        {
+            "name": "repeating_npcaction_-LzIsp91WUm6ryq2aVFP_attack_damage",
+            "current": "1d4+5",
+            "max": "",
+            "id": "-LzIsp9YggkmUTrrn7QR"
+        },
+        {
+            "name": "repeating_npcaction_-LzIsp91WUm6ryq2aVFP_attack_damagetype",
+            "current": "Slashing",
+            "max": "",
+            "id": "-LzIsp9_qfW_YVt0KOjy"
+        },
+        {
+            "name": "repeating_npcaction_-LzIsp91WUm6ryq2aVFP_attack_tohitrange",
+            "current": "+9, Reach 10 ft, one target",
+            "max": "",
+            "id": "-LzIstDuLTI4pH7M3ona"
+        },
+        {
+            "name": "repeating_npcaction_-LzIsp91WUm6ryq2aVFP_attack_onhit",
+            "current": "7 (1d4+5) Slashing damage",
+            "max": "",
+            "id": "-LzIstDxXqa01dJgK6iC"
+        },
+        {
+            "name": "repeating_npcaction_-LzIsp91WUm6ryq2aVFP_damage_flag",
+            "current": "{{damage=1}} {{dmg1flag=1}} ",
+            "max": "",
+            "id": "-LzIstE0lIjGiB_fYPlA"
+        },
+        {
+            "name": "repeating_npcaction_-LzIsp91WUm6ryq2aVFP_attack_crit",
+            "current": "1d4",
+            "max": "",
+            "id": "-LzIstE3Rrf2dZUlztHL"
+        },
+        {
+            "name": "repeating_npcaction_-LzIsp91WUm6ryq2aVFP_attack_crit2",
+            "current": "",
+            "max": "",
+            "id": "-LzIstE5r5ikFyLtMrQG"
+        },
+        {
+            "name": "repeating_npcaction_-LzIsp91WUm6ryq2aVFP_rollbase",
+            "current": "@{wtype}&{template:npcatk} {{attack=1}} @{damage_flag} @{npc_name_flag} {{rname=[@{name}](~repeating_npcaction_npc_dmg)}} {{rnamec=[@{name}](~repeating_npcaction_npc_crit)}} {{type=[Attack](~repeating_npcaction_npc_dmg)}} {{typec=[Attack](~repeating_npcaction_npc_crit)}} {{r1=[[@{d20}+(@{attack_tohit}+0)]]}} @{rtype}+(@{attack_tohit}+0)]]}} {{description=@{show_desc}}} @{charname_output}",
+            "max": "",
+            "id": "-LzIstE996am2LB9w7TA"
+        },
+        {
+            "name": "repeating_npctrait_-LzIuD1NrtloUyDZL6sF_name",
+            "current": "Darkvision",
+            "max": "",
+            "id": "-LzIuE4Ngt-xXT4eI0uD"
+        },
+        {
+            "name": "repeating_npctrait_-LzIuD1NrtloUyDZL6sF_desc",
+            "current": "The Wyvern Rider has superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+            "max": "",
+            "id": "-LzIuK2N2ASg5LaIUF_7"
+        },
+        {
+            "name": "repeating_npctrait_-LzIuD1NrtloUyDZL6sF_npc_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LzIuK3HkRv3TmPHsZd2"
+        }
+    ],
+    "abilities": []
+}

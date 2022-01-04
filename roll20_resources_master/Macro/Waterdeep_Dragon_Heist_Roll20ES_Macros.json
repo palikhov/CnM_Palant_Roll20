@@ -1,0 +1,313 @@
+{
+    "schema_version": 2,
+    "macros": [
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname= Emerald Enclave-2nd Level Mission }} {{name= Scarecrow Encounter Chance }} {{description= If the characters camp in a field for the better part of a day or night, they encounter one of the three scarecrows at a 10% chance (roll of 90 or better). [[1d100]]. For more information, see the ***[Emerald⁠ Enclave](http://journal.roll20.net/handout/-LJ6vk0rYIye8Yi_ni9T)*** handout. }}",
+                "istokenaction": false,
+                "name": "EmeraldEnclaveScarecrowEncounterChance",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname= Emerald Enclave-3rd Level Mission }} {{name= Skeleton Encounter Chance }} {{description= The characters have a cumulative 10% chance of encountering the skeletons each night they patrol and do so on a roll of 90 or better. [[ 1d100+[[?{Number of nights on patrol?|0}*10]] ]]. For more information, see the ***[Emerald⁠ Enclave](http://journal.roll20.net/handout/-LJ6vk0rYIye8Yi_ni9T)*** handout. }}",
+                "istokenaction": false,
+                "name": "EmeraldEnclaveSkeletonEncounterChance",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname= Harpers }} {{name= Is Mirt Home? }} {{description= There is only a 10% chance (roll of 90 or better) Mirt is home and someone will answer the door to his Sea Ward manor. [[1d100 ]] For more information, see the ***[Harpers⁠](http://journal.roll20.net/handout/-LJ6vyZzqdkumgb7HdSl)*** and ***[Mirt⁠](http://journal.roll20.net/character/-LIb4TYMF9AI4vKnUeaH)***  handouts. }}",
+                "istokenaction": false,
+                "name": "HarpersChanceOfMirtBeingHome",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname= Running A Business }} {{name= Profits/Losses }} {{description= [[ 1d100+10+?{GP spent on promotion?|0}-?{GP owed in debts?|0}+?{Any other modifiers?|0} ]]. For results, see the ***[Running⁠ A Business](http://journal.roll20.net/handout/-LJVCOKogKih_dEOqe-k)*** handout. For profits, use the Profit Margins macro. }}",
+                "istokenaction": false,
+                "name": "BusinessSuccess",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname= Running A Business }} {{name= Profit Margins }} {{description= The tavern makes [[ ?{Results from Profits/Losses roll?|61-80,[[1d6]]*5|81-90,[[2d8]]*5|91+,[[3d10]]*5}*?{Number of days run?|0} ]] gp this tenday. }}",
+                "istokenaction": false,
+                "name": "ProfitMargins",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname= City Watch Arrives }} {{name= Gralhund Villa }} {{description= The City Watch will arrive in [[ [[1d6+4]]*10 ]] combat rounds with a sergeant and five constables (**mage** and six **veterans**). For more information, see the ***[Gralhund⁠ Villa](http://journal.roll20.net/handout/-LJ6xiQi7h382RPtNOxg)*** handout and ***[Time](https://roll20.net/compendium/dnd5e/Rules:Time?expansion=0#content)*** in the compendium. }}",
+                "istokenaction": false,
+                "name": "RoundsUntilTheCityWatchArrives",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname= Villain's Timetable }} {{name= On Acquiring Stone }} {{description= If the villain(s) acquire the *Stone of Golorr*, they take [[ 2d6 ]] to find the Vault of Dragons and its keys and [[ 2d6 ]] days to defeat Aurinax and recover the gold before moving forward on their master plans. For more information, see the ***[Encounter⁠ Chains](http://journal.roll20.net/handout/-LJrOMvl2Cpbqp2iVc7K)*** handout as well as details on plans in their add-ons. }}",
+                "istokenaction": false,
+                "name": "VillainsTimetable",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname= Vault of Dragons }} {{name= Keys }} {{description= The first key is [[1t[VoD-First-Key]]]. The second key is [[1t[VoD-Second-Key]]]. The third key is [[1t[VoD-Third-Key]]]. For more information, see the ***[Vault⁠ Keys](http://journal.roll20.net/handout/-LJ71qc9QZp9O5_oz5VP)*** handout. }}",
+                "istokenaction": false,
+                "name": "CombinedVaultKeys",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname= Vault of Dragons }} {{name= First Key }} {{description= The first key is [[1t[VoD-First-Key]]]. For more information, see the ***[Vault⁠ Keys](http://journal.roll20.net/handout/-LJ71qc9QZp9O5_oz5VP)*** handout. }}",
+                "istokenaction": false,
+                "name": "FirstKey",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname= Vault of Dragons }} {{name= Keys }} {{description= The second key is [[1t[VoD-Second-Key]]]. For more information, see the ***[Vault⁠ Keys](http://journal.roll20.net/handout/-LJ71qc9QZp9O5_oz5VP)*** handout. }}",
+                "istokenaction": false,
+                "name": "SecondKey",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname= Vault of Dragons }} {{name= Keys }} {{description= The third key is [[1t[VoD-Third-Key]]]. For more information, see the ***[Vault⁠ Keys](http://journal.roll20.net/handout/-LJ71qc9QZp9O5_oz5VP)*** handout. }}",
+                "istokenaction": false,
+                "name": "ThirdKey",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname= Vault of Dragons }} {{name= Villain's Pursuit }} {{description= ?{Which season?|Spring,Xanathar sends [[ 1t[VoD-Spring-Pursuit] ]]|Summer,The Cassalanters send [[ 1t[VoD-Summer-Pursuit] ]]|Autumn,Jarlaxle Baenre sends **Fel’rekt Lafeen and Krebbyg Masq’il’yr (or two other Bregan D’aerthe drow gunslingers) and six drow**|Winter,Manshoon sends [[ 1t[VoD-Winter-Pursuit] ]]}. For more information, see the ***[Vault⁠ Keys](http://journal.roll20.net/handout/-LJ71qc9QZp9O5_oz5VP)*** handout. }}",
+                "istokenaction": false,
+                "name": "VillainsPursuers",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname=Faction Missions}} } {{description=[Emerald Enclave: Scarecrow Encounter Chance](!&#13;#EmeraldEnclaveScarecrowEncounterChance)\n[Emerald Enclave: Skeleton Encounter Chance](!&#13;#EmeraldEnclaveSkeletonEncounterChance)\n[Harpers: Chance of Mirt Being Home](!&#13;#HarpersChanceOfMirtBeingHome)}}",
+                "istokenaction": false,
+                "name": "FactionMissions",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "\n/w gm &{template:npcaction} {{rname=Faction Missions}} } {{description=[Faction Missions](!\n#FactionMissions)\n[Running A Business](!\n#RunningABusiness)\n[Gralhund Villa](!\n#GralhundVilla)\n[The Vault of Dragons](!\n#TheVaultOfDragons)\n[Spring Madness](!\n#SpringMadness)\n[Hell of a Summer](!\n#HellOfASummer)\n[Maestro's Fall](!\n#MaestrosFall)\n[Winter Wizardry](!\n#WinterWizardry)}}",
+                "istokenaction": false,
+                "name": "WaterdeepDragonHeist",
+                "visibleto": ""
+            },
+            "macrobar": {
+                "color": "#f9cb9c",
+                "name": "Waterdeep%3A%20Dragon%20Heist"
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname=Gralhund Villa}} } {{description=[Rounds Until the City Watch Arrives](!&#13;#RoundsUntilTheCityWatchArrives)}}",
+                "istokenaction": false,
+                "name": "GralhundVilla",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname=The Vault of Dragons}} } {{description=[Villain's Timetable](!&#13;#VillainsTimetable)\n[Combined Vault Keys](!&#13;#CombinedVaultKeys)\n[First Key](!&#13;#FirstKey)\n[Second Key](!&#13;#SecondKey)\n[Third Key](!&#13;#ThirdKey)\n[Villan's Pursuers](!&#13;#VillainsPursuers)}}",
+                "istokenaction": false,
+                "name": "TheVaultOfDragons",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname=Spring Madness}} } {{description=[Encounter 2: Mitshore-Grinda's Apparatus](!&#13;#Encounter2)\n[Encounter 4: Masoleum-Encountering Sir Everdawn](!&#13;#Encounter4)\n[Encounter 3: Street Chase-Complications](!&#13;#Encounter3)\n[Encounter 7: Old Tower-Treasure](!&#13;#Encounter7a)\n[Encounter 7: Old Tower-Potion Miscibility](!&#13;#Encounter7b)\n[Encounter 1: Alley-Store Goods](!&#13;#Encounter1)\n[Xanathar's Lair-Xanathar's Location](!&#13;#XanatharsLairXanatharsLocation)\n[Special Event: Trolltide Backup](!&#13;#SpecialEventTrolltideBackup)}}",
+                "istokenaction": false,
+                "name": "SpringMadness",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname=Hell of a Summer}} } {{description=[Encounter 4: Masoleum-Encountering Sir Everdawn](!&#13;#Encounter4)\n[Encounter 5: Rooftop Chase-Complications](!&#13;#Encounter5)\n[Encounter 1: Alley-Store Goods](!&#13;#Encounter1)\n[Encounter 3: Street Chase-Complications](!&#13;#Encounter3)\n[Encounter 7: Old Tower-Treasure](!&#13;#Encounter7a)\n[Encounter 7: Old Tower-Potion Miscibility](!&#13;#Encounter7b)\n[The Cassalanter Villa: Combined Family Locations](!&#13;#TheCassalanterVillaCombinedFamilyLocations)\n[The Cassalanter Villa: Ammalia's Location](!&#13;#TheCassalanterVillaAmmaliasLocation)\n[The Cassalanter Villa: Victoro's Location](!&#13;#TheCassalanterVillaVictorosLocation)\n[The Cassalanter Villa: The Children's Location](!&#13;#TheCassalanterVillaTheChildrensLocation)}}",
+                "istokenaction": false,
+                "name": "HellOfASummer",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname=Maestro's Fall}} } {{description=[Encounter 1: Alley-Store Goods](!&#13;#Encounter1)\n[Encounter 7: Old Tower-Treasure](!&#13;#Encounter7a)\n[Encounter 7: Old Tower-Potion Miscibility](!&#13;#Encounter7b)\n[Encounter 5: Rooftop Chase-Complications](!&#13;#Encounter5)\n[Encounter 2: Mitshore-Grinda's Apparatus](!&#13;#Encounter2)\n[Encounter 10: Converted Windmill-Attempted Break-In](!&#13;#Encounter10a)\n[Encounter 10: Converted Windmill-Painting Subjects](!&#13;#Encounter10b)\n[Sea Maiden's Faire: Chance of a Jailed Sailor](!&#13;#SeaMaidensFaireChanceOfAJailedSailor)}}",
+                "istokenaction": false,
+                "name": "MaestrosFall",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname=Winter Wizardry}} } {{description=[Encounter 1: Alley-Store Goods](!&#13;#Encounter1)\n[Encounter 5: Rooftop Chase-Complications](!&#13;#Encounter5)\n[Encounter 3: Street Chase-Complications](!&#13;#Encounter3)\n[Encounter 2: Mitshore-Grinda's Apparatus](!&#13;#Encounter2)\n[Encounter 7: Old Tower-Treasure](!&#13;#Encounter7a)\n[Encounter 7: Old Tower-Potion Miscibility](!&#13;#Encounter7b)\n[Encounter 4: Masoleum-Encountering Sir Everdawn](!&#13;#Encounter4)\n[Winter Wizardry-Digging Under The Tower Barrier](!&#13;#WinterWizardryDiggingUnderTheTowerBarrier)\n[Winter Wizardry-Lady Gondafrey's Alignment](!&#13;#WinterWizardryLadyGondafreysAlignment)}}",
+                "istokenaction": false,
+                "name": "WinterWizardry",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname= Mistshore }} {{name= Borrowing Grinda's Apparatus }} {{description= The characters search the harbor for a day. The pilot leads them to find [[ [[1d20+@{selected|investigation_prof}]]*10 ]] gp worth of treasure, which Grinda sells and takes half of. During the day, [[1t[MS-Shark-Attack]]]. For more information, see the ***[Areas⁠ of Mistshore](http://journal.roll20.net/handout/-LJBWw4EkoZrSv3tfCBZ)*** handout. }}",
+                "istokenaction": false,
+                "name": "Encounter2",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname= Mausoleum }} {{name= Encountering Sir Ambrose Everdawn }} {{description= [[1d100]]. On a roll of 70 or more between sunrise and sunset, the characters encounter the knight **[Sir Ambrose Everdawn](http://journal.roll20.net/character/-LIO1nRsDnPrwOtX7UUy)** while in the cemetary. He escorts them out and alerts the City Guard if they refuse to leave. For more information, see ***[Areas&#8288; of the Mausoleum](http://journal.roll20.net/handout/-LJBWCUJjbMbVL76LJd6)*** handout. }}",
+                "istokenaction": false,
+                "name": "Encounter4",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname= Street Chase }} {{name= Chase Complications }} {{description= [[1t[SC-Chase-Complications-Table]]] For more information, see the ***[Street&#8288; Chase](http://journal.roll20.net/handout/-LJQits8kCNt43eHuUQW)*** and ***[Urban&#8288; Chase Complications and Rules](http://journal.roll20.net/handout/-LJVIy6ohVpBjlnzqW03)*** handouts. }}",
+                "istokenaction": false,
+                "name": "Encounter3",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname= The Old Tower }} {{name= Treasure Table }} {{description= [[1t[OT-Treasure-Table]]] For more information, see the ***[Areas&#8288; of the Old Tower](http://journal.roll20.net/handout/-LJBX42UvASsJpJT7UnJ)*** handout. }}",
+                "istokenaction": false,
+                "name": "Encounter7a",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname= The Old Tower }} {{name= Potion Miscibility }} {{description= If the mixed *potion of healing* and *potion of flying* from the Old Tower is imbibed, [[1t[Potion-Miscibility-Table]]] For more information, see the ***[Potion&#8288; Miscibility](http://journal.roll20.net/handout/-LJVGQNxic5uX3g9nSwW)*** handout. }}",
+                "istokenaction": false,
+                "name": "Encounter7b",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname= Alley }} {{name= Store Goods }} {{description= The store in the Alley (area **L2**) sells [[1t[Alley-Store-Goods]]] For more information, see the ***[Areas&#8288; of the Alley](http://journal.roll20.net/handout/-LIi6HmI7Jb4KaH4XXkx)*** handout. }}",
+                "istokenaction": false,
+                "name": "Encounter1",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname= Facing Xanathar }} {{name= Xanathar's Location }} {{description= Within its lair, [[1t[SM-Xanathar-Location-Table]]] For more information, see the ***[Facing&#8288; Xanathar](http://journal.roll20.net/handout/-LJBXnGAJzFj7WAJV1IZ)*** handout. }}",
+                "istokenaction": false,
+                "name": "XanatharsLairXanatharsLocation",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname= Random Loot }} {{name= Name of Loot Table }} {{description= [[1d100]] On a roll of 80 or more on the initiative count of the City Watch **veterans**, another will arrive and join the fray. For more information, see the ***[Special&#8288; Events](http://journal.roll20.net/handout/-LJQqLGI60xV44BwL2Q8)*** handout. }}",
+                "istokenaction": false,
+                "name": "SpecialEventTrolltideBackup",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname= Rooftop Chase }} {{name= Chase Complications }} {{description= [[1t[RC-Chase-Complications-Table]]] For more information, see the ***[Rooftop&#8288; Chase](http://journal.roll20.net/handout/-LJA7R5NU0Sff4cknpEb)*** handout. }}",
+                "istokenaction": false,
+                "name": "Encounter5",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname= The Cassalanter Family }} {{name= The Family's Locations }} {{description= Ammalia Cassalanter is [[1t[HoaS-Ammalia-Location-Table]]] Victoro Cassalanter is [[1t[HoaS-Victoro-Location-Table]]] Terenzio and Elzerina Cassalanter are [[1t[HoaS-Terenzio-Elzerina-Location-Table]]] For more information, see the ***[Hell⁠ of a Summer](http://journal.roll20.net/handout/-LImXUR2BcQ_FouX99ph)*** handout. }}",
+                "istokenaction": false,
+                "name": "TheCassalanterVillaCombinedFamilyLocations",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname= The Cassalanter Family }} {{name= Ammalia's Location }} {{description= Ammalia Cassalanter is [[1t[HoaS-Ammalia-Location-Table]]] For more information, see the ***[Hell⁠ of a Summer](http://journal.roll20.net/handout/-LImXUR2BcQ_FouX99ph)*** handout. }}",
+                "istokenaction": false,
+                "name": "TheCassalanterVillaAmmaliasLocation",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname= The Cassalanter Family }} {{name= Victoro's Location }} {{description= Victoro Cassalanter is [[1t[HoaS-Victoro-Location-Table]]] For more information, see the ***[Hell&#8288; of a Summer](http://journal.roll20.net/handout/-LImXUR2BcQ_FouX99ph)*** handout. }}",
+                "istokenaction": false,
+                "name": "TheCassalanterVillaVictorosLocation",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname= The Cassalanter Family }} {{name= The Children's Location }} {{description= Terenzio and Elzerina Cassalanter are [[1t[HoaS-Terenzio-Elzerina-Location-Table]]] For more information, see the ***[Hell⁠ of a Summer](http://journal.roll20.net/handout/-LImXUR2BcQ_FouX99ph)*** handout. }}",
+                "istokenaction": false,
+                "name": "TheCassalanterVillaTheChildrensLocation",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname= Random Loot }} {{name= Name of Loot Table }} {{description= The subject of the painting in this room is a [[1t[CW-Painting-Subjects-Table]]]. For more information, see the ***[Converted&#8288; Windmill](http://journal.roll20.net/handout/-LKAob1V7NFyBx1Zo9Kl)*** handout. }}",
+                "istokenaction": false,
+                "name": "Encounter10a",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname= Random Loot }} {{name= Name of Loot Table }} {{description= The subject of the painting in this room is a [[1t[CW-Painting-Subjects-Table]]]. For more information, see the ***[Converted&#8288; Windmill](http://journal.roll20.net/handout/-LKAob1V7NFyBx1Zo9Kl)*** handout. }}",
+                "istokenaction": false,
+                "name": "Encounter10b",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname= Random Loot }} {{name= Name of Loot Table }} {{description= [[1d100]] On a roll of 76 or higher, a jailed **drow** sailor in the brig of the ship. For more information, see the ***[Areas&#8288; of the Ships](http://journal.roll20.net/handout/-LJBaTwZZonob11SgZSh)*** handout. }}",
+                "istokenaction": false,
+                "name": "SeaMaidensFaireChanceOfAJailedSailor",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname= Winter Wizardry }} {{name= Digging Under Kolat Towers }} {{description= When attempting to dig under the force field, [[1t[WW-Digging-Under-Chance]]] For more information, see the ***[Kolat&#8288; Towers](http://journal.roll20.net/handout/-LIm_KmcpJlD9GZHX8ex)*** handout. }}",
+                "istokenaction": false,
+                "name": "WinterWizardryDiggingUnderTheTowerBarrier",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcaction} {{rname= Winter Wizardry }} {{name= Lady Gondafrey's Allignment }} {{description= [[1t[WW-Lady-Gondafrey-Alignment]]] This is rerolled each day. For more information, see the ***[Kolat⁠ Towers](http://journal.roll20.net/handout/-LIm_KmcpJlD9GZHX8ex)*** handout. }}",
+                "istokenaction": false,
+                "name": "WinterWizardryLadyGondafreysAlignment",
+                "visibleto": ""
+            }
+        }
+    ]
+}

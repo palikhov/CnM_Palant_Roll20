@@ -1,0 +1,85 @@
+!import-table --CriticalHitEffects --hide
+!import-table-item --CriticalHitEffects --The target is pushed back 5 feet. --4 --
+!import-table-item --CriticalHitEffects --The target is pushed back 10 feet. --4 --
+!import-table-item --CriticalHitEffects --The target is pushed back 15 feet. --3 --
+!import-table-item --CriticalHitEffects --The target falls prone. --4 --
+!import-table-item --CriticalHitEffects --The target is pushed back 5 feet and falls prone. --4 --
+!import-table-item --CriticalHitEffects --The target is pushed back 10 feet and falls prone. --3 --
+!import-table-item --CriticalHitEffects --The target is pushed back 15 feet and falls prone. --3 --
+!import-table-item --CriticalHitEffects --The target drops whatever it is holding. --3 --
+!import-table-item --CriticalHitEffects --The target's drops whatever it is holding and any nonmagical objects it drops break. --3 --
+!import-table-item --CriticalHitEffects --A random item carried by the target (determined by the DM) drops out of the target's belt pouch, backpack, or other carrying equipment. --3 --
+!import-table-item --CriticalHitEffects --A random nonmagical item carried by the target (determined by the DM) drops out of the target's belt pouch, backpack, or other carrying equipment and breaks. --2 --
+!import-table-item --CriticalHitEffects --The target's armor or natural armor is damaged and it takes a –1 penalty to AC. This penalty lasts until the target's armor is repaired (for worn armor) or it is magically healed (for natural armor). --2 --
+!import-table-item --CriticalHitEffects --Your staggering blow causes the target to be blinded until the end of your next turn.  --3 --
+!import-table-item --CriticalHitEffects --Your staggering blow causes the target to be deafened until the end of your next turn. --4 --
+!import-table-item --CriticalHitEffects --You hit the target so hard it is frightened of you until the end of your next turn. --3 --
+!import-table-item --CriticalHitEffects --Your staggering blow causes the target to be incapacitated until the end of your next turn. --3 --
+!import-table-item --CriticalHitEffects --Your staggering blow makes the target nauseous and it is poisoned until the end of your next turn. --3 --
+!import-table-item --CriticalHitEffects --Your staggering blow causes the target to be stunned until the end of your next turn. --2 --
+!import-table-item --CriticalHitEffects --Your inspiring attack allows you to grant one ally who can see you an attack against any target as a reaction. --4 --
+!import-table-item --CriticalHitEffects --Your inspiring attack allows you to grant an ally who can see you and the target an attack against the target as a reaction. --3 --
+!import-table-item --CriticalHitEffects --Your inspiring attack allows any allies within reach of the target to make a melee attack against the target as a reaction. --3 --
+!import-table-item --CriticalHitEffects --The target has disadvantage on saving throws until the end of your next turn. --4 --
+!import-table-item --CriticalHitEffects --The target has disadvantage on attack rolls until the end of your next turn. --4 --
+!import-table-item --CriticalHitEffects --Roll all of the attack’s damage dice three times and add them together. --4 --
+!import-table-item --CriticalHitEffects --Use the maximum damage amount of all dice instead of rolling for this attack's damage. --3 --
+!import-table-item --CriticalHitEffects --The target can't make opportunity attacks until the end of its next turn. --4 --
+!import-table-item --CriticalHitEffects --The target can’t take an action on its next turn. --3 --
+!import-table-item --CriticalHitEffects --You can make a follow-up attack against the target as a bonus action. --3 --
+!import-table-item --CriticalHitEffects --If your attack was made with a spell or magic weapon, a shock wave is released from your attack. Creatures within 10 feet of the target (including the target and you) must succeed on a DC 15 Strength saving throw or fall prone. --2 --
+!import-table-item --CriticalHitEffects --If your attack was made with a spell or magic weapon, a massive shock wave is released from your attack. Creatures within 20 feet of the target (including the target and you) must succeed on a DC 15 Strength saving throw or fall prone. --2 --
+!import-table-item --CriticalHitEffects --If your attack was made with a spell or magic weapon, some of the magic goes awry in your favor. The target is charmed by you until the end of your next turn. --2 --
+!import-table-item --CriticalHitEffects --If your attack was made with a spell or magic weapon, some of the magic goes awry in your favor. The magic holds the target in place and it is restrained until the end of your next turn. --2 --
+!import-table-item --CriticalHitEffects --If your attack was made with a spell or magic weapon, some of the magic goes awry in your favor. You become invisible until the end of your next turn. This effect ends early if you make an attack or cast a spell. --1 --
+!import-table --CriticalFailures --hide
+!import-table-item --CriticalFailures --You drop your weapon or spellcasting focus and it sticks in the ground or a wall. You must use a bonus action to retrieve it. --3 --
+!import-table-item --CriticalFailures --You drop your weapon or spellcasting focus and it gets stuck deep into the ground or a wall. You must use an action to retrieve it. --3 --
+!import-table-item --CriticalFailures --You drop your weapon or spellcasting focus and it gets stuck very deep in the ground or a wall. You must make a successful DC 15 Strength check as an action to retrieve it. --1 --
+!import-table-item --CriticalFailures --You drop your weapons or spellcasting focus. If it is nonmagical, the item breaks. --1 --
+!import-table-item --CriticalFailures --A random nonmagical item (determined by the DM) falls from your backpack or belt pouch. --4 --
+!import-table-item --CriticalFailures --A random magical item (determined by the DM) falls from your backpack or belt pouch. --2 --
+!import-table-item --CriticalFailures --A random nonmagical item (determined by the DM) falls from your backpack or belt pouch and breaks. --2 --
+!import-table-item --CriticalFailures --A random consumable magical item (determined by the DM) falls from your back or belt pouch and breaks. --1 --
+!import-table-item --CriticalFailures --You hurl your weapon or spellcasting focus in a random direction and it lands 5 feet away. --3 --
+!import-table-item --CriticalFailures --You hurl your weapon or spellcasting focus in a random direction and it lands 10 feet away. --2 --
+!import-table-item --CriticalFailures --You hurl your weapon or spellcasting focus in a random direction and it lands 15 feet away. --2 --
+!import-table-item --CriticalFailures --You hurl your weapon or spellcasting focus in a random direction, it lands 15 feet away, and it sticks in the ground or a wall. You must use a bonus action to retrieve it. --2 --
+!import-table-item --CriticalFailures --You hurl your weapon or spellcasting focus in a random direction, it lands 15 feet away, and it gets stuck deep into the ground or a wall. You must use an action to retrieve it. --2 --
+!import-table-item --CriticalFailures --You hurl your weapon or spellcasting focus in a random direction, it lands 15 feet away, and it gets stuck very deep in the ground or a wall. You must make a successful DC 15 Strength check as an action to retrieve it. --1 --
+!import-table-item --CriticalFailures --If it is able to do so, your attack hits your closest ally to the intended target. --2 --
+!import-table-item --CriticalFailures --If it is able to do so, your attack hits your ally closest to you. --3 --
+!import-table-item --CriticalFailures --Your attack hits you.  --3 --
+!import-table-item --CriticalFailures --If it is able to do so, your attack hits your closest ally to the intended target. This attack counts as a critical hit against the new target. --1 --
+!import-table-item --CriticalFailures --If it is able to do so, your attack hits your ally closest to you. This attack counts as a critical hit against the new target. --1 --
+!import-table-item --CriticalFailures --Your attack hits you. This attack against you is a critical hit. --1 --
+!import-table-item --CriticalFailures --The miss creates an atmospheric disturbance (such as dust or smoke clouds) right in front of your face and you get this in your eyes. You are blinded until the end on your next turn. --2 --
+!import-table-item --CriticalFailures --The missed attack connects solidly with an object in front of you and makes a very loud noise. You are deafened until the end of your next turn. --2 --
+!import-table-item --CriticalFailures --You marvel at how poorly you missed. You are incapacitated until the end of your next turn. --2 --
+!import-table-item --CriticalFailures --In the process of executing your attack you hit yourself in the stomach rather hard. You are poisoned until the end of your next turn. --2 --
+!import-table-item --CriticalFailures --In the process of executing your attack you trip and fall prone. --2 --
+!import-table-item --CriticalFailures --In the process of executing your attack you trip and move forward 5 feet and fall prone. --2 --
+!import-table-item --CriticalFailures --In the process of executing your attack you trip and move forward 10 feet and fall prone. --2 --
+!import-table-item --CriticalFailures --In the process of executing your attack you trip and move forward 15 feet and fall prone. --2 --
+!import-table-item --CriticalFailures --In the process of executing your attack you trip and move back 5 feet and fall prone. --2 --
+!import-table-item --CriticalFailures --In the process of executing your attack you trip and move back 10 feet and fall prone. --2 --
+!import-table-item --CriticalFailures --In the process of executing your attack you trip and move back 15 feet and fall prone. --2 --
+!import-table-item --CriticalFailures --In the process of executing your attack you trip and move back 15 feet and fall prone. --2 --
+!import-table-item --CriticalFailures --In the process of executing your attack you trip and move forward 5 feet and fall prone and drop your weapon in the space where you made the attack. --2 --
+!import-table-item --CriticalFailures --In the process of executing your attack you trip and move forward 10 feet and fall prone and drop your weapon in the space where you made the attack. --2 --
+!import-table-item --CriticalFailures --In the process of executing your attack you trip and move forward 15 feet and fall prone and drop your weapon in the space where you made the attack. --2 --
+!import-table-item --CriticalFailures --In the process of executing your attack you trip and move back 5 feet and fall prone and drop your weapon in the space where you made the attack. --2 --
+!import-table-item --CriticalFailures --In the process of executing your attack you trip and move back 10 feet and fall prone and drop your weapon in the space where you made the attack. --2 --
+!import-table-item --CriticalFailures --In the process of executing your attack you trip and move back 15 feet and fall prone and drop your weapon in the space where you made the attack. --2 --
+!import-table-item --CriticalFailures --In the process of executing your attack you launch yourself hard into the ground. You take 1d4 bludgeoning damage and are prone. --2 --
+!import-table-item --CriticalFailures --In the process of executing your attack you launch yourself very hard into the ground. You take 1d8 bludgeoning damage and are prone. --2 --
+!import-table-item --CriticalFailures --In the process of executing your attack you launch yourself as hard as you can into the ground. You take 1d12 bludgeoning damage and are prone. --2 --
+!import-table-item --CriticalFailures --In the process of executing your attack you become restrained in your clothes and armor and must use an action to untangle yourself. --2 --
+!import-table-item --CriticalFailures --Your attack is so wild it takes a moment for you to recover. You have disadvantage on your next attack made before the end of your next turn. --3 --
+!import-table-item --CriticalFailures --Your attack is very wild and you need more than a moment to recover. You have disadvantage on all attacks you make before the end of your next turn. --2 --
+!import-table-item --CriticalFailures --You chip your weapon or arcane focus. You take a -1 penalty to attack rolls until you get it repaired.  --2 --
+!import-table-item --CriticalFailures --Your attack is wild and allows any enemy in melee range an opening. As a reaction enemies may make an opportunity attack against you. --3 --
+!import-table-item --CriticalFailures --Your attack is very wild and allows any enemy in melee range an opening. As a reaction enemies may make an opportunity attack against you with advantage. --2 --
+!import-table-item --CriticalFailures --If your attack is made with magic weapon or spell, your miss rends a spot where the barrier between planes is weak and accidentally summons an angry minor elemental (CR 1 or lower). This demon's turn takes place immediately after yours and it is hostile toward you. --1 --
+!import-table-item --CriticalFailures --If your attack is made with magic weapon or spell, your miss rends a spot where the barrier between planes is weak and accidentally summons an angry minor devil (CR 1 or lower). This demon's turn takes place immediately after yours and it is hostile toward you. --1 --
+!import-table-item --CriticalFailures --If your attack is made with magic weapon or spell, your miss rends a spot where the barrier between planes is weak and accidentally summons an angry minor demon (CR 1 or lower). This demon's turn takes place immediately after yours and it is hostile toward you. --1 --

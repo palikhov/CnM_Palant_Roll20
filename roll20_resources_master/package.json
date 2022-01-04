@@ -1,0 +1,25 @@
+{
+	"name": "roll20_resources",
+	"version": "1.0.0",
+	"description": "Resources for Roll20.",
+	"scripts": {
+		"test": "npm test",
+		"art": "node _node/ArtGrab.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/DMsGuild201/Roll20_resources.git"
+	},
+	"author": "Modnar",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/DMsGuild201/Roll20_resources/issues"
+	},
+	"homepage": "https://github.com/DMsGuild201/Roll20_resources#readme",
+	"dependencies": {
+		"axios": "^0.21.2",
+		"googleapis": "^80.1.0",
+		"minimist": "^1.2.5",
+		"sharp": "^0.28.3"
+	}
+}

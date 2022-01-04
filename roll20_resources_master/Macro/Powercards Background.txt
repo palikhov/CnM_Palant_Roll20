@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 !power {{ 
 
 --corners|10
@@ -35,4 +36,43 @@
 --Friends|~R [[ [TXT] 1t[BackStory_RelationshipFriends]]] ~R
 --Enemies|~R [[ [TXT] 1t[BackStory_RelationshipEnemies]]] ~R
 --Instructor|~R [[ [TXT] 1t[BackStory_RelationshipInstructors]]] ~R
+=======
+!power {{ 
+
+--corners|10
+--format|GM
+--titlefontshadow|none
+--name|Background
+^^Where are you from:
+--Climate|~R [[ [TXT] 1t[BackStory_HomeClimateTemperate]]] ~R
+--Terrain|~R [[ [TXT] 1t[BackStory_HomeClimateTerrain]]] ~R
+^^Family:
+--Economics|~R [[ [TXT] 1t[BackStory_FamilyEconomics]]] ~R
+--SocialStanding|~R [[ [TXT] 1t[BackStory_FamilySocialStanding]]] ~R
+--Preparedness|~R [[ [TXT] 1t[BackStory_FamilyDefenseReadiness]]] ~R
+--EthicsPrivate|~R [[ [TXT] 1t[BackStory_FamilyPrivateEthics]]] ~R
+--EthicsPublic|~R [[ [TXT] 1t[BackStory_FamilyPublicEthics]]] ~R
+--Religion|~R [[ [TXT] 1t[BackStory_FamilyReligiousCommitment]]] ~R
+--Reputation|~R [[ [TXT] 1t[BackStory_FamilyReputation]]] ~R
+--Politics|~R [[ [TXT] 1t[BackStory_FamilyPoliticalViews]]] ~R
+--Structure|~R [[ [TXT] 1t[BackStory_FamilyPowerStructure]]] ~R
+--Ancestry|~R [[ [TXT] 1t[BackStory_FamilyAncestorsOfNote]]] ~R
+
+^^Education:
+--Early|~R [[ [TXT] 1t[BackStory_EducationEarly]]] ~R
+--Formal|~R [[ [TXT] 1t[BackStory_EducationFormal]]] ~R
+--Profession|~R [[ [TXT] 1t[BackStory_EducationTrade]]] ~R
+^^Life Events:
+--Early|~R [[ [TXT] 1t[BackStory_LifeEventsEarly]]] ~R
+--Youth|~R [[ [TXT] 1t[BackStory_LifeEventsYouth]]] ~R
+--Pivotal|~R [[ [TXT] 1t[BackStory_LifeEventsPivotal]]] ~R
+^^Relationship
+--Parent|~R [[ [TXT] 1t[BackStory_RelationshipParent]]] ~R
+--Sibling|~R [[ [TXT] 1t[BackStory_RelationshipSiblings]]] ~R
+--Grandparents|~R [[ [TXT] 1t[BackStory_RelationshipGrandparents]]] ~R
+--Extended|~R [[ [TXT] 1t[BackStory_RelationshipExtendedFamily]]] ~R
+--Friends|~R [[ [TXT] 1t[BackStory_RelationshipFriends]]] ~R
+--Enemies|~R [[ [TXT] 1t[BackStory_RelationshipEnemies]]] ~R
+--Instructor|~R [[ [TXT] 1t[BackStory_RelationshipInstructors]]] ~R
+>>>>>>> a4bb8e45f456e6f0be4948a5bf3b731f06db9179
 }}

@@ -1,0 +1,29 @@
+{
+    "schema_version": 2,
+    "macros": [
+        {
+            "attributes": {
+                "action": "/w gm [[  1t[Minor_Injuries]  ]]",
+                "istokenaction": false,
+                "name": "Minor_Injuries",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm [[  1t[Major_Injuries]  ]]",
+                "istokenaction": false,
+                "name": "Major_Injuries",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm  &{template:default} {{name=Injury Rolls}} {{ [Minor](!\n#Minor_Injuries)}} {{ [Major](!\n#Major_Injuries)}}",
+                "istokenaction": false,
+                "name": "Minor&nbsp;and&nbsp;Major&nbsp;Injuries",
+                "visibleto": ""
+            }
+        }
+    ]
+}

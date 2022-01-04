@@ -1,7 +1,3 @@
-
-
-
-
 var bshields = bshields || {};
 bshields.flight = (function() {
     'use strict';

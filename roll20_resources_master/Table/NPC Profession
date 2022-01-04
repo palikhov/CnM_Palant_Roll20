@@ -1,0 +1,542 @@
+!import-table	--NPC-Profession	--hide			
+!import-table-item	--NPC-Profession	--	Government | 	bailiff	--1 --
+!import-table-item	--NPC-Profession	--	Government | 	catchpole	--1 --
+!import-table-item	--NPC-Profession	--	Government | 	chancellor	--1 --
+!import-table-item	--NPC-Profession	--	Government | 	constable	--1 --
+!import-table-item	--NPC-Profession	--	Government | 	diplomat	--1 --
+!import-table-item	--NPC-Profession	--	Government | 	exchequer	--1 --
+!import-table-item	--NPC-Profession	--	Government | 	hayward	--1 --
+!import-table-item	--NPC-Profession	--	Government | 	herald	--1 --
+!import-table-item	--NPC-Profession	--	Government | 	jailer	--1 --
+!import-table-item	--NPC-Profession	--	Government | 	judge	--1 --
+!import-table-item	--NPC-Profession	--	Government | 	knight	--1 --
+!import-table-item	--NPC-Profession	--	Government | 	lady	--1 --
+!import-table-item	--NPC-Profession	--	Government | 	liner	--1 --
+!import-table-item	--NPC-Profession	--	Government | 	master of the revels	--1 --
+!import-table-item	--NPC-Profession	--	Government | 	nobleman	--1 --
+!import-table-item	--NPC-Profession	--	Government | 	prince	--1 --
+!import-table-item	--NPC-Profession	--	Government | 	pursuivant	--1 --
+!import-table-item	--NPC-Profession	--	Government | 	reeve	--1 --
+!import-table-item	--NPC-Profession	--	Government | 	sherrif	--1 --
+!import-table-item	--NPC-Profession	--	Government | 	summoner	--1 --
+!import-table-item	--NPC-Profession	--	Government | 	watchman	--1 --
+!import-table-item	--NPC-Profession	--	Government | 	woodward	--1 --
+!import-table-item	--NPC-Profession	--	Military | 	Arbalestier	--1 --
+!import-table-item	--NPC-Profession	--	Military | 	archer	--1 --
+!import-table-item	--NPC-Profession	--	Military | 	bowman	--1 --
+!import-table-item	--NPC-Profession	--	Military | 	camp follower	--1 --
+!import-table-item	--NPC-Profession	--	Military | 	cannoneer	--1 --
+!import-table-item	--NPC-Profession	--	Military | 	crossbowman	--1 --
+!import-table-item	--NPC-Profession	--	Military | 	drummer	--1 --
+!import-table-item	--NPC-Profession	--	Military | 	engineer	--1 --
+!import-table-item	--NPC-Profession	--	Military | 	guardsman	--1 --
+!import-table-item	--NPC-Profession	--	Military | 	halberdier	--1 --
+!import-table-item	--NPC-Profession	--	Military | 	Knifeman	--1 --
+!import-table-item	--NPC-Profession	--	Military | 	mercenary	--1 --
+!import-table-item	--NPC-Profession	--	Military | 	pikeman	--1 --
+!import-table-item	--NPC-Profession	--	Military | 	pioneer	--1 --
+!import-table-item	--NPC-Profession	--	Military | 	sapper	--1 --
+!import-table-item	--NPC-Profession	--	Military | 	scout	--1 --
+!import-table-item	--NPC-Profession	--	Military | 	siege engineer	--1 --
+!import-table-item	--NPC-Profession	--	Military | 	sergeant	--1 --
+!import-table-item	--NPC-Profession	--	Military | 	sergeant-at-arms	--1 --
+!import-table-item	--NPC-Profession	--	Military | 	spearman	--1 --
+!import-table-item	--NPC-Profession	--	Military | 	spy	--1 --
+!import-table-item	--NPC-Profession	--	Criminal | 	boothaler	--1 --
+!import-table-item	--NPC-Profession	--	Criminal | 	burglar	--1 --
+!import-table-item	--NPC-Profession	--	Criminal | 	diver	--1 --
+!import-table-item	--NPC-Profession	--	Criminal | 	fence	--1 --
+!import-table-item	--NPC-Profession	--	Criminal | 	footpad	--1 --
+!import-table-item	--NPC-Profession	--	Criminal | 	outlaw	--1 --
+!import-table-item	--NPC-Profession	--	Criminal | 	pickpocket	--1 --
+!import-table-item	--NPC-Profession	--	Criminal | 	poacher	--1 --
+!import-table-item	--NPC-Profession	--	Criminal | 	silk-snatcher	--1 --
+!import-table-item	--NPC-Profession	--	Criminal | 	stewsman	--1 --
+!import-table-item	--NPC-Profession	--	Criminal | 	thimblerigger	--1 --
+!import-table-item	--NPC-Profession	--	Religious | 	abbess	--1 --
+!import-table-item	--NPC-Profession	--	Religious | 	abbot	--1 --
+!import-table-item	--NPC-Profession	--	Religious | 	almoner	--1 --
+!import-table-item	--NPC-Profession	--	Religious | 	archbishop	--1 --
+!import-table-item	--NPC-Profession	--	Religious | 	beadle	--1 --
+!import-table-item	--NPC-Profession	--	Religious | 	beguine	--1 --
+!import-table-item	--NPC-Profession	--	Religious | 	bishop	--1 --
+!import-table-item	--NPC-Profession	--	Religious | 	canon	--1 --
+!import-table-item	--NPC-Profession	--	Religious | 	cantor	--1 --
+!import-table-item	--NPC-Profession	--	Religious | 	cardinal	--1 --
+!import-table-item	--NPC-Profession	--	Religious | 	chantry priest	--1 --
+!import-table-item	--NPC-Profession	--	Religious | 	chaplain	--1 --
+!import-table-item	--NPC-Profession	--	Religious | 	clark	--1 --
+!import-table-item	--NPC-Profession	--	Religious | 	clerk	--1 --
+!import-table-item	--NPC-Profession	--	Religious | 	curate	--1 --
+!import-table-item	--NPC-Profession	--	Religious | 	friar	--1 --
+!import-table-item	--NPC-Profession	--	Religious | 	metropolitan	--1 --
+!import-table-item	--NPC-Profession	--	Religious | 	monk	--1 --
+!import-table-item	--NPC-Profession	--	Religious | 	nun	--1 --
+!import-table-item	--NPC-Profession	--	Religious | 	ostiary	--1 --
+!import-table-item	--NPC-Profession	--	Religious | 	palmer	--1 --
+!import-table-item	--NPC-Profession	--	Religious | 	pardoner	--1 --
+!import-table-item	--NPC-Profession	--	Religious | 	parish priest	--1 --
+!import-table-item	--NPC-Profession	--	Religious | 	pilgrim	--1 --
+!import-table-item	--NPC-Profession	--	Religious | 	pope	--1 --
+!import-table-item	--NPC-Profession	--	Religious | 	priest	--1 --
+!import-table-item	--NPC-Profession	--	Religious | 	primate	--1 --
+!import-table-item	--NPC-Profession	--	Religious | 	sacristan	--1 --
+!import-table-item	--NPC-Profession	--	Religious | 	sexton	--1 --
+!import-table-item	--NPC-Profession	--	Religious | 	summoner	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	acater	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	alewife	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	apothecary	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	banker	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	beer seller	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	boothman	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	chapman 	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	collier	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	colporteur	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	costermonger	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	drover	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	eggler	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	fishmonger	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	fruiterer	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	fruitier	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	fueller	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	glass seller	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	greengrocer	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	grocer	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	harberdasher	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	hay merchant	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	hetheleder	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	innkeeper	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	ironmonger	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	lighterman	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	linen-draper	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	mercer	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	merchant	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	milkmaid	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	oil merchant	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	old-clothes dealer	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	oynter	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	peddler	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	pie seller	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	plumer	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	poulter	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	shrimper	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	skinner	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	spice merchant	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	spicer	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	stationer	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	taverner	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	thresher	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	unguentary	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	waferer	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	waterseller	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	weirkeeper	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	wine seller	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	wood seller	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	woodmonger	--1 --
+!import-table-item	--NPC-Profession	--	Merchant | 	wool stapler	--1 --
+!import-table-item	--NPC-Profession	--	Artist/Entertainer | 	bard	--1 --
+!import-table-item	--NPC-Profession	--	Artist/Entertainer | 	barker	--1 --
+!import-table-item	--NPC-Profession	--	Artist/Entertainer | 	bear-ward	--1 --
+!import-table-item	--NPC-Profession	--	Artist/Entertainer | 	fiddler	--1 --
+!import-table-item	--NPC-Profession	--	Artist/Entertainer | 	fool	--1 --
+!import-table-item	--NPC-Profession	--	Artist/Entertainer | 	fresco painter	--1 --
+!import-table-item	--NPC-Profession	--	Artist/Entertainer | 	glasspainter	--1 --
+!import-table-item	--NPC-Profession	--	Artist/Entertainer | 	harper	--1 --
+!import-table-item	--NPC-Profession	--	Artist/Entertainer | 	illuminator	--1 --
+!import-table-item	--NPC-Profession	--	Artist/Entertainer | 	jester	--1 --
+!import-table-item	--NPC-Profession	--	Artist/Entertainer | 	limner	--1 --
+!import-table-item	--NPC-Profession	--	Artist/Entertainer | 	lutenist	--1 --
+!import-table-item	--NPC-Profession	--	Artist/Entertainer | 	minnesinger	--1 --
+!import-table-item	--NPC-Profession	--	Artist/Entertainer | 	mummer	--1 --
+!import-table-item	--NPC-Profession	--	Artist/Entertainer | 	musician	--1 --
+!import-table-item	--NPC-Profession	--	Artist/Entertainer | 	nakerer	--1 --
+!import-table-item	--NPC-Profession	--	Artist/Entertainer | 	organist	--1 --
+!import-table-item	--NPC-Profession	--	Artist/Entertainer | 	painter 	--1 --
+!import-table-item	--NPC-Profession	--	Artist/Entertainer | 	piper	--1 --
+!import-table-item	--NPC-Profession	--	Artist/Entertainer | 	player	--1 --
+!import-table-item	--NPC-Profession	--	Artist/Entertainer | 	playwright	--1 --
+!import-table-item	--NPC-Profession	--	Artist/Entertainer | 	poet	--1 --
+!import-table-item	--NPC-Profession	--	Artist/Entertainer | 	sculptor	--1 --
+!import-table-item	--NPC-Profession	--	Artist/Entertainer | 	singer	--1 --
+!import-table-item	--NPC-Profession	--	Artist/Entertainer | 	troubadour	--1 --
+!import-table-item	--NPC-Profession	--	Artist/Entertainer | 	tumbler	--1 --
+!import-table-item	--NPC-Profession	--	Artist/Entertainer | 	writer	--1 --
+!import-table-item	--NPC-Profession	--	Farming | 	ackerman(acreman)	--1 --
+!import-table-item	--NPC-Profession	--	Farming | 	falconer	--1 --
+!import-table-item	--NPC-Profession	--	Farming | 	farmer	--1 --
+!import-table-item	--NPC-Profession	--	Farming | 	fewterer	--1 --
+!import-table-item	--NPC-Profession	--	Farming | 	fisherman	--1 --
+!import-table-item	--NPC-Profession	--	Farming | 	forester	--1 --
+!import-table-item	--NPC-Profession	--	Farming | 	fowler	--1 --
+!import-table-item	--NPC-Profession	--	Farming | 	gamekeeper	--1 --
+!import-table-item	--NPC-Profession	--	Farming | 	goatherd	--1 --
+!import-table-item	--NPC-Profession	--	Farming | 	hawker	--1 --
+!import-table-item	--NPC-Profession	--	Farming | 	hayward	--1 --
+!import-table-item	--NPC-Profession	--	Farming | 	horse trainer	--1 --
+!import-table-item	--NPC-Profession	--	Farming | 	hunter	--1 --
+!import-table-item	--NPC-Profession	--	Farming | 	huntsman	--1 --
+!import-table-item	--NPC-Profession	--	Farming | 	master of hounds	--1 --
+!import-table-item	--NPC-Profession	--	Farming | 	molecatcher	--1 --
+!import-table-item	--NPC-Profession	--	Farming | 	ostler	--1 --
+!import-table-item	--NPC-Profession	--	Farming | 	oyster raker	--1 --
+!import-table-item	--NPC-Profession	--	Farming | 	oysterer	--1 --
+!import-table-item	--NPC-Profession	--	Farming | 	parker	--1 --
+!import-table-item	--NPC-Profession	--	Farming | 	plowman	--1 --
+!import-table-item	--NPC-Profession	--	Farming | 	rat catcher	--1 --
+!import-table-item	--NPC-Profession	--	Farming | 	reaper	--1 --
+!import-table-item	--NPC-Profession	--	Farming | 	sheepshearer	--1 --
+!import-table-item	--NPC-Profession	--	Farming | 	shepherd	--1 --
+!import-table-item	--NPC-Profession	--	Farming | 	swineherd	--1 --
+!import-table-item	--NPC-Profession	--	Farming | 	thresher	--1 --
+!import-table-item	--NPC-Profession	--	Farming | 	tillerman	--1 --
+!import-table-item	--NPC-Profession	--	Farming | 	trapper	--1 --
+!import-table-item	--NPC-Profession	--	Farming | 	woolcomber	--1 --
+!import-table-item	--NPC-Profession	--	Farming | 	woolman	--1 --
+!import-table-item	--NPC-Profession	--	Scholar | 	alchemist	--1 --
+!import-table-item	--NPC-Profession	--	Scholar | 	astrologer	--1 --
+!import-table-item	--NPC-Profession	--	Scholar | 	astronomer	--1 --
+!import-table-item	--NPC-Profession	--	Scholar | 	bearleader	--1 --
+!import-table-item	--NPC-Profession	--	Scholar | 	dean	--1 --
+!import-table-item	--NPC-Profession	--	Scholar | 	librarian	--1 --
+!import-table-item	--NPC-Profession	--	Scholar | 	mathematician	--1 --
+!import-table-item	--NPC-Profession	--	Scholar | 	philosopher	--1 --
+!import-table-item	--NPC-Profession	--	Scholar | 	professor	--1 --
+!import-table-item	--NPC-Profession	--	Scholar | 	scholar	--1 --
+!import-table-item	--NPC-Profession	--	Scholar | 	scrivener	--1 --
+!import-table-item	--NPC-Profession	--	Scholar | 	tutor	--1 --
+!import-table-item	--NPC-Profession	--	Scholar | 	theologian	--1 --
+!import-table-item	--NPC-Profession	--	Sailor | 	bargeman	--1 --
+!import-table-item	--NPC-Profession	--	Sailor | 	boatman	--1 --
+!import-table-item	--NPC-Profession	--	Sailor | 	canaller	--1 --
+!import-table-item	--NPC-Profession	--	Sailor | 	ferryman	--1 --
+!import-table-item	--NPC-Profession	--	Sailor | 	hobbler	--1 --
+!import-table-item	--NPC-Profession	--	Sailor | 	lighter man	--1 --
+!import-table-item	--NPC-Profession	--	Sailor | 	mariner	--1 --
+!import-table-item	--NPC-Profession	--	Sailor | 	navigator	--1 --
+!import-table-item	--NPC-Profession	--	Sailor | 	pilot	--1 --
+!import-table-item	--NPC-Profession	--	Sailor | 	sailor	--1 --
+!import-table-item	--NPC-Profession	--	Sailor | 	sea captain	--1 --
+!import-table-item	--NPC-Profession	--	Sailor | 	ship's captain	--1 --
+!import-table-item	--NPC-Profession	--	Sailor | 	shipchandler	--1 --
+!import-table-item	--NPC-Profession	--	Sailor | 	waterman	--1 --
+!import-table-item	--NPC-Profession	--	Unemployed | 	begger	--1 --
+!import-table-item	--NPC-Profession	--	Unemployed | 	buffoon	--1 --
+!import-table-item	--NPC-Profession	--	Unemployed | 	clown	--1 --
+!import-table-item	--NPC-Profession	--	Unemployed | 	crofter	--1 --
+!import-table-item	--NPC-Profession	--	Unemployed | 	dwarf	--1 --
+!import-table-item	--NPC-Profession	--	Unemployed | 	franklin	--1 --
+!import-table-item	--NPC-Profession	--	Unemployed | 	gardner	--1 --
+!import-table-item	--NPC-Profession	--	Unemployed | 	hermit	--1 --
+!import-table-item	--NPC-Profession	--	Unemployed | 	housewife	--1 --
+!import-table-item	--NPC-Profession	--	Unemployed | 	landlord	--1 --
+!import-table-item	--NPC-Profession	--	Unemployed | 	palmer	--1 --
+!import-table-item	--NPC-Profession	--	Unemployed | 	peasant	--1 --
+!import-table-item	--NPC-Profession	--	Unemployed | 	pilgrim	--1 --
+!import-table-item	--NPC-Profession	--	Unemployed | 	spinster	--1 --
+!import-table-item	--NPC-Profession	--	Unemployed | 	tenter	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	shoemaker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	furrier	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	tailor	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	jeweler	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	pastrycook	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	mason	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	carpenter	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	weaver	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	chandler	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	cooper	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	baker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	scabbard maker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	hatmaker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	saddler	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	chicken butcher	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	purse maker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	meat butcher	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	buckle maker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	blacksmith	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	roofer	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	locksmith	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	ropemaker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	tanner	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	rugmaker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	harness maker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	bleacher	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	cutler	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	glover	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	accoutrement maker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	alabasterer	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	architect	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	arkwright	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	armorer	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	balancemaker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	basketmaker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	beekeeper	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	beerbrewer	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	bellfounder	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	bellmaker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	besom maker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	billier	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	blockcutter	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	bodger	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	bonecarver	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	bookbinder	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	bookprinter	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	bottelier	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	bowyer	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	brazier	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	brewer	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	bricker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	bricker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	bricklayer	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	broderer	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	bronzefounder	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	broom-dasher	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	brushbinder	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	builder	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	buttonmaker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	cabinetmaker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	campaner	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	canvasser	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	carder	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	cardmaker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	cartwright	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	chainmaker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	charcoalburner	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	cheesemaker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	clockmaker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	clothier	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	cobbler	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	coiner	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	combmaker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	compasssmith	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	confectioner	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	coppersmith, redsmith	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	cordwainer	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	corsetier	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	currier	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	delver	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	diamantaire	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	disher	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	draper	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	drycooper	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	drywaller	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	dyer	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	embroiderer	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	engraver	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	fabricshearer	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	feltmaker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	fewtrer	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	fletcher	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	founder	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	fuller	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	fuller	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	furniture maker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	gemcutter	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	gilder	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	girdler	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	girdler	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	glassblower	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	glazier	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	goldbeater	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	goldsmith	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	gravedigger	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	grinder	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	gunsmith	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	gunstocker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	hacker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	hatter	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	horner	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	ivorist	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	joiner	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	knacker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	knapper	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	knifesmith	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	lacemaker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	lampwright	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	lancier	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	lanternmaker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	lapidary	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	latoner	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	leadworker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	lensgrinder	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	limner	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	linen-armorer	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	linener 	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	linenspinner	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	lorimer	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	lutemaker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	luthier	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	mailer - enameller	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	mailmaker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	malemaker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	mapmaker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	marler	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	marleywoman	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	master builder	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	merchant taylor	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	milliner	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	miner	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	miniaturist	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	minter, mintmaster, moneyer	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	mirrorer	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	nailmaker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	nedeller	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	netmaker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	oilmaker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	papermaker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	parchmenter	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	parchmenter	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	pasteler	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	pattenmaker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	perukier	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	pewterer	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	physician	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	pinmaker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	plasterer	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	plattner	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	plumber	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	pointer	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	poleturner	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	pot mender	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	potter	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	printer	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	purser	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	quarryman	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	quilter	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	rectifier	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	reedmaker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	roper	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	rugweaver	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	sailmaker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	saltboiler	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	salter	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	sawyer	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	scythesmith	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	seamstress	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	shingler	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	shipwright	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	siever	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	silkmaid, silkwoman 	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	silk-dresser, silk-maker, silk-mercer, silk-dyer, silk-carder	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	silversmith	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	smelter	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	smith	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	spectaclesmaker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	spooner	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	spurrer 	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	stonecarver	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	stonecutter	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	swordsmith	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	tallowchandler	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	tapestrymaker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	tapicer	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	tasseler	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	thacker, thatcher	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	thonger	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	threadmaker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	tile-burner	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	tiler, tile-theeker, tyler	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	tile maker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	tinker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	tinsmith	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	treen maker	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	turner	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	typefounder	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	upholder	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	vaginarius	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	vintner	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	waxchandler	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	webber	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	wheeler	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	wheelwright	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	wiredrawer	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	woodcarver	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	woodcutter	--1 --
+!import-table-item	--NPC-Profession	--	Craftperson | 	woodturner	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	maidservant	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	barber	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	restaurateur	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	water carrier	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	laundress	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	porter	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	doctor	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	bather	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	copyist	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	accomptant	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	accoucheur	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	accoucheus	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	accountant	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	actuary	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	attendent	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	bagger	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	bailiff	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	barrister	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	bath attendent	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	bather	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	bodyservant	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	butler	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	carman	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	carter	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	cartier	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	carver	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	ceiler	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	cellarer	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	chamberlain	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	chimney sweep	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	chirurgeon	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	clouter	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	cook	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	cowherd	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	currier	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	dairymaid	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	dapifer	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	dentist	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	ditcher	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	diver	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	dog trainer	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	drayman	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	dung carter	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	executioner	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	famulus	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	farrier	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	groom	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	harlot	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	horseleech	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	hurdle maker	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	lawyer	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	link boy	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	link man	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	maid	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	marshal	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	midwife	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	miller	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	napier	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	nurse	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	panter	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	paperer	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	pavior	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	pavyler	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	pissprophet	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	potboy	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	privycleaner	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	procurator	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	prostitute	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	quartermaster	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	ragpicker	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	raker	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	riveter	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	scullion	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	seneschal	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	solicitor	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	sperviter	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	stainer	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	stillroom maid	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	surgeon	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	tapster	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	teamster	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	trencherman	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	userer	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	wagoner	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	waller	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	wattler	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	weeper	--1 --
+!import-table-item	--NPC-Profession	--	Service | 	wetnurse	--1 --

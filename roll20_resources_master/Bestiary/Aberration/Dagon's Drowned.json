@@ -1,0 +1,975 @@
+{
+    "schema_version": 2,
+    "oldId": "-LSdEJemWrgPNifGDwLm",
+    "name": "Dagon's Drowned",
+    "avatar": "https://s3.amazonaws.com/files.d20.io/images/68124330/c3XNNnqnEsuNIuQDlEi8IQ/med.png?1543658334",
+    "bio": "%3Cp%3E%3Ci%3E%22Sea%20Fishin%27%20%27sa%20dang%27rous%20job.%20If%20ye%20ain%27t%20got%20te%20willin%27%20te%20die%20at%20sea%2C%20then%20thar%20ain%27t%20no%20sense%20livin%27%20on%20it%22%20%22%3C/i%3E%20-%20Ole%20Murphy%2C%20Fisherman.%3C/p%3E%3Cp%3E%20The%20sea%20can%20be%20a%20cruel%20mistress%2C%20and%20working%20on%20the%20sea%20puts%20sailors%20and%20fishermen%20at%20her%20mercy.%20Those%20lost%20overboard%20will%20often%20drown%2C%20though%20occasionally%20those%20drowning%20souls%20may%20let%20out%20a%20desperate%20prayer%20or%20plea%20for%20salvation.%20Dagon%20preys%20upon%20these%20souls%2C%20offering%20continued%20life%20for%20a%20small%20sacrifice.%20Their%20eyes%2C%20which%20then%20turn%20red%20and%20become%20part%20of%20his%20demonic%20visage.%20%3C/p%3E%3Cp%3E%3Cb%3EMan%20Becomes%20Monster.%3C/b%3E%20The%20false%20life%20granted%20to%20these%20marked%20men%20turns%20them%20into%20monsters%2C%20not%20dead%2C%20but%20no%20longer%20human%2C%20they%20become%20Dagon%27s%20drowned%2C%20servants%20of%20the%20demon%20prince%20used%20to%20drag%20other%20seafarers%20into%20the%20depths%20where%20they%20can%20meet%20their%20fate%2C%20or%20make%20a%20similar%20deal%20as%20the%20drowned.%20%3C/p%3E%3Cp%3E%3Cb%3EA%20Blessing%20and%20a%20Curse.%3C/b%3E%20Dagon%27s%20blessing%20warps%20his%20servants%20bodies%20into%20a%20cruel%20amalgamation%20of%20sea%20creature%20and%20man%2C%20with%20a%20palid%20grey%20skin%20and%20tentacles%20not%20unlike%20an%20octopus%20where%20there%20were%20once%20legs.%20These%20tentacles%20offer%20the%20drowned%20rapid%20ambulation%2C%20both%20in%20water%20and%20on%20land%2C%20though%20their%20speed%20truly%20shows%20when%20retreating%20to%20the%20depths%20to%20drown%20their%20victims.%3C/p%3E%3Chr%3E%3Cp%3E%3Ca%20href%3D%22https%3A//www.reddit.com/r/monsteraday/comments/a1ld2t/day_459_dagons_drowned/%22%3EMonster%20a%20day%20459%3C/a%3E%3C/p%3E%3Cp%3EArt%20Credit%3A%26nbsp%3B%3Ca%20href%3D%22https%3A//www.artstation.com/artwork/0Kb98%22%3EBogdan%20Rezunenko%26nbsp%3B%3C/a%3E%3C/p%3E",
+    "gmnotes": "",
+    "defaulttoken": "{\"left\":2310,\"top\":1750,\"width\":140,\"height\":140,\"imgsrc\":\"https://s3.amazonaws.com/files.d20.io/images/68124330/c3XNNnqnEsuNIuQDlEi8IQ/med.png?1543658334\",\"page_id\":\"-LG9tZivA-bOp9IpjVe_\",\"layer\":\"objects\",\"name\":\"Drowned\",\"represents\":\"-LSdEJemWrgPNifGDwLm\",\"bar1_value\":\"149\",\"bar1_max\":\"149\",\"bar2_value\":\"14\",\"bar3_value\":\"11\",\"showname\":true,\"lastmove\":\"2240,1820\"}",
+    "tags": "[]",
+    "controlledby": "",
+    "inplayerjournals": "",
+    "attribs": [
+        {
+            "name": "npc",
+            "current": "1",
+            "max": "",
+            "id": "-LSdATYrSzsFwcOQDuCC"
+        },
+        {
+            "name": "rtype",
+            "current": "@{advantagetoggle}",
+            "max": "",
+            "id": "-LSdATYxpya6NK-KFqyc"
+        },
+        {
+            "name": "wtype",
+            "current": "@{whispertoggle}",
+            "max": "",
+            "id": "-LSdATZ-1R1sEilcbwNU"
+        },
+        {
+            "name": "init_tiebreaker",
+            "current": "@{dexterity}/100",
+            "max": "",
+            "id": "-LSdATZ1MQc40_bo9-Il"
+        },
+        {
+            "name": "npc_name_flag",
+            "current": "0",
+            "max": "",
+            "id": "-LSdATZ3H8gk92bmRbbw"
+        },
+        {
+            "name": "initiative_bonus",
+            "current": 4.18,
+            "max": "",
+            "id": "-LSdAT_TaFxfmNLRQCHX"
+        },
+        {
+            "name": "version",
+            "current": "2.5",
+            "max": "",
+            "id": "-LSdCDWugCyXyj6gxJ32"
+        },
+        {
+            "name": "l1mancer_status",
+            "current": "completed",
+            "max": "",
+            "id": "-LSdCDWwRv1y0KfURyTR"
+        },
+        {
+            "name": "options-class-selection",
+            "current": "0",
+            "max": "",
+            "id": "-LSdCDWzCacl1oHllAPs"
+        },
+        {
+            "name": "hitdie_final",
+            "current": "@{hitdietype}",
+            "max": "",
+            "id": "-LSdCDX2Qa4zxNWQJm3h"
+        },
+        {
+            "name": "level",
+            "current": 1,
+            "max": "",
+            "id": "-LSdCDX3zBIdP0cPPSuI"
+        },
+        {
+            "name": "caster_level",
+            "current": 0,
+            "max": "",
+            "id": "-LSdCDX4dQoctMzUSrff"
+        },
+        {
+            "name": "class_display",
+            "current": " 1",
+            "max": "",
+            "id": "-LSdCDX5cpRvvOMYLfOx"
+        },
+        {
+            "name": "hit_dice",
+            "current": "",
+            "max": 1,
+            "id": "-LSdCDX6dmy6kk2qxfp4"
+        },
+        {
+            "name": "race_display",
+            "current": "",
+            "max": "",
+            "id": "-LSdCDX7SlkQ0iubZduL"
+        },
+        {
+            "name": "lvl1_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LSdCDXEH5cpccgKTJnn"
+        },
+        {
+            "name": "lvl2_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LSdCDXGvI3cxL5jM5Nm"
+        },
+        {
+            "name": "lvl3_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LSdCDXIK0k_4o29WQ2g"
+        },
+        {
+            "name": "lvl4_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LSdCDXKcGhk33fBTTje"
+        },
+        {
+            "name": "lvl5_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LSdCDXL8hrwI4gYPaYj"
+        },
+        {
+            "name": "lvl6_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LSdCDXN2FlFGAMt1TAH"
+        },
+        {
+            "name": "lvl7_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LSdCDXPO-lizncX_O-u"
+        },
+        {
+            "name": "lvl8_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LSdCDXRdHnEHSfiuqXP"
+        },
+        {
+            "name": "lvl9_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LSdCDXSQUuM8HQXqFtQ"
+        },
+        {
+            "name": "pb",
+            "current": 3,
+            "max": "",
+            "id": "-LSdCDXUNyTCDedxCLQ4"
+        },
+        {
+            "name": "jack",
+            "current": 1,
+            "max": "",
+            "id": "-LSdCDXUNyTCDedxCLQ5"
+        },
+        {
+            "name": "pbd_safe",
+            "current": "",
+            "max": "",
+            "id": "-LSdCDXWswwVXeZnnB67"
+        },
+        {
+            "name": "spell_attack_bonus",
+            "current": "0",
+            "max": "",
+            "id": "-LSdCDXezzkkfqzwBr8y"
+        },
+        {
+            "name": "spell_save_dc",
+            "current": "0",
+            "max": "",
+            "id": "-LSdCDXfK8DXYl49HZNV"
+        },
+        {
+            "name": "jack_bonus",
+            "current": "",
+            "max": "",
+            "id": "-LSdCDXghPLwACBQLthM"
+        },
+        {
+            "name": "jack_attr",
+            "current": "",
+            "max": "",
+            "id": "-LSdCDXiSPDaoPs_r8sB"
+        },
+        {
+            "name": "strength_save_bonus",
+            "current": 3,
+            "max": "",
+            "id": "-LSdCDXqy2CM7MCjZJqQ"
+        },
+        {
+            "name": "dexterity_save_bonus",
+            "current": 4,
+            "max": "",
+            "id": "-LSdCDXuDuhLa0HwfOlq"
+        },
+        {
+            "name": "constitution_save_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-LSdCDXvLrr1XZfHF7ih"
+        },
+        {
+            "name": "intelligence_save_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-LSdCDXxYghHcUY-gfil"
+        },
+        {
+            "name": "wisdom_save_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-LSdCDXzjQ9mn-I7-BA7"
+        },
+        {
+            "name": "charisma_save_bonus",
+            "current": -1,
+            "max": "",
+            "id": "-LSdCDY0vDreN1OmGQM3"
+        },
+        {
+            "name": "death_save_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-LSdCDY0vDreN1OmGQM4"
+        },
+        {
+            "name": "athletics_bonus",
+            "current": 3,
+            "max": "",
+            "id": "-LSdCDY3nChWf5MeeaqJ"
+        },
+        {
+            "name": "acrobatics_bonus",
+            "current": 4,
+            "max": "",
+            "id": "-LSdCDY5yCZFUP9p1GhN"
+        },
+        {
+            "name": "sleight_of_hand_bonus",
+            "current": 4,
+            "max": "",
+            "id": "-LSdCDY6IeCViAZ5JEit"
+        },
+        {
+            "name": "stealth_bonus",
+            "current": 4,
+            "max": "",
+            "id": "-LSdCDY7GUCL92JhmAmn"
+        },
+        {
+            "name": "arcana_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-LSdCDYA7pMfb6UcJOK3"
+        },
+        {
+            "name": "history_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-LSdCDYCH_yrMB9aSnJ6"
+        },
+        {
+            "name": "investigation_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-LSdCDYDNfCU2V8YnKGy"
+        },
+        {
+            "name": "nature_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-LSdCDYILOEVCqDnsBF2"
+        },
+        {
+            "name": "religion_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-LSdCDYJvR38IsUYNg2y"
+        },
+        {
+            "name": "animal_handling_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-LSdCDYKK6TgZ7VFTp-V"
+        },
+        {
+            "name": "insight_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-LSdCDYL961GRmIdb6WZ"
+        },
+        {
+            "name": "medicine_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-LSdCDYNxqpHQmjJw51E"
+        },
+        {
+            "name": "perception_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-LSdCDYPFgUDqiMUU6LF"
+        },
+        {
+            "name": "survival_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-LSdCDYRILI-w4O68XGs"
+        },
+        {
+            "name": "deception_bonus",
+            "current": -1,
+            "max": "",
+            "id": "-LSdCDYUTegh_E4SN8lB"
+        },
+        {
+            "name": "intimidation_bonus",
+            "current": -1,
+            "max": "",
+            "id": "-LSdCDYWBIOM-MUyKcwl"
+        },
+        {
+            "name": "performance_bonus",
+            "current": -1,
+            "max": "",
+            "id": "-LSdCDYZrIDw9nAniZdl"
+        },
+        {
+            "name": "persuasion_bonus",
+            "current": -1,
+            "max": "",
+            "id": "-LSdCDYalcyRapGU4WmH"
+        },
+        {
+            "name": "passive_wisdom",
+            "current": 11,
+            "max": "",
+            "id": "-LSdCDYnxsZIvznZ78MD"
+        },
+        {
+            "name": "global_skill_mod",
+            "current": "",
+            "max": "",
+            "id": "-LSdCDYsubFqHVexbL6Y"
+        },
+        {
+            "name": "global_save_mod",
+            "current": "",
+            "max": "",
+            "id": "-LSdCDZWtH2ADlH4J9Gy"
+        },
+        {
+            "name": "global_attack_mod",
+            "current": "",
+            "max": "",
+            "id": "-LSdCDd4l71MRIKkih4G"
+        },
+        {
+            "name": "global_damage_mod_roll",
+            "current": "",
+            "max": "",
+            "id": "-LSdCDdBPlu3RKWV-Jim"
+        },
+        {
+            "name": "global_damage_mod_crit",
+            "current": "",
+            "max": "",
+            "id": "-LSdCDdC47W1hxNjcJ0b"
+        },
+        {
+            "name": "global_damage_mod_type",
+            "current": "",
+            "max": "",
+            "id": "-LSdCDdDc5CkyZAaWBoV"
+        },
+        {
+            "name": "armorwarningflag",
+            "current": "hide",
+            "max": "",
+            "id": "-LSdCDdJ2naeroCLMMB_"
+        },
+        {
+            "name": "customacwarningflag",
+            "current": "hide",
+            "max": "",
+            "id": "-LSdCDdLK-hR2FKChrgG"
+        },
+        {
+            "name": "ac",
+            "current": 14,
+            "max": "",
+            "id": "-LSdCDdNDf38IgZ3EzHO"
+        },
+        {
+            "name": "npc_type",
+            "current": "Large monstrosity, chaotic evil",
+            "max": "",
+            "id": "-LSdCaBFsdcd8-dvNTUU"
+        },
+        {
+            "name": "npc_name",
+            "current": "Dagon's Drowned",
+            "max": "",
+            "id": "-LSdCbLtJrg-pUcma62C"
+        },
+        {
+            "name": "npc_ac",
+            "current": "14",
+            "max": "",
+            "id": "-LSdCcucevbtmv6jR0Nb"
+        },
+        {
+            "name": "hp",
+            "current": "",
+            "max": "149",
+            "id": "-LSdCeCXxlWCMKs9a5g6"
+        },
+        {
+            "name": "npc_hpformula",
+            "current": "23d10 + 23",
+            "max": "",
+            "id": "-LSdCg7360aXsvhHsYPe"
+        },
+        {
+            "name": "npc_speed",
+            "current": "50 ft., climb 50 ft., swim 50 ft.",
+            "max": "",
+            "id": "-LSdChaxnqHMIIqvweEr"
+        },
+        {
+            "name": "strength_base",
+            "current": "17",
+            "max": "",
+            "id": "-LSdCiDlBBh0yHsiGbyZ"
+        },
+        {
+            "name": "strength_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LSdCiFvW1pWu_lV_hfO"
+        },
+        {
+            "name": "strength",
+            "current": 17,
+            "max": "",
+            "id": "-LSdCiG0Z6Sz5HzIX_-q"
+        },
+        {
+            "name": "strength_mod",
+            "current": 3,
+            "max": "",
+            "id": "-LSdCiI8O4f-ET9Ct5mD"
+        },
+        {
+            "name": "npc_str_negative",
+            "current": 0,
+            "max": "",
+            "id": "-LSdCiIByt8pGL_ju2li"
+        },
+        {
+            "name": "weighttotal",
+            "current": 0,
+            "max": "",
+            "id": "-LSdCiIFZLjqFUWxq9ve"
+        },
+        {
+            "name": "encumberance",
+            "current": " ",
+            "max": "",
+            "id": "-LSdCiIIv_Oqb8S5h50M"
+        },
+        {
+            "name": "dexterity_base",
+            "current": "18",
+            "max": "",
+            "id": "-LSdCicMcw9s9jFtj2aD"
+        },
+        {
+            "name": "dexterity_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LSdCieTMpSAjsYP64xJ"
+        },
+        {
+            "name": "dexterity",
+            "current": 18,
+            "max": "",
+            "id": "-LSdCieaHz0LWOCXRSqr"
+        },
+        {
+            "name": "dexterity_mod",
+            "current": 4,
+            "max": "",
+            "id": "-LSdCigvK7YU9n18iURb"
+        },
+        {
+            "name": "npc_dex_negative",
+            "current": 0,
+            "max": "",
+            "id": "-LSdCigy3nnJd3IFEJfE"
+        },
+        {
+            "name": "constitution_base",
+            "current": "13",
+            "max": "",
+            "id": "-LSdCij6wRWgL26BbGE7"
+        },
+        {
+            "name": "constitution_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LSdCilHQ8u1iYGjfVno"
+        },
+        {
+            "name": "constitution",
+            "current": 13,
+            "max": "",
+            "id": "-LSdCilJ0CslSke3yLPq"
+        },
+        {
+            "name": "constitution_mod",
+            "current": 1,
+            "max": "",
+            "id": "-LSdCinbXsshGsH5lewe"
+        },
+        {
+            "name": "npc_con_negative",
+            "current": 0,
+            "max": "",
+            "id": "-LSdCinhHE2RRgdYybEc"
+        },
+        {
+            "name": "repeating_hpmod_-LSdCiphf-2tn-3axoU2_source",
+            "current": "CON",
+            "max": "",
+            "id": "-LSdCipjjZ3E7egvhjTu"
+        },
+        {
+            "name": "repeating_hpmod_-LSdCiphf-2tn-3axoU2_mod",
+            "current": "",
+            "max": "",
+            "id": "-LSdCipmZw54KvFOV1uT"
+        },
+        {
+            "name": "intelligence_base",
+            "current": "11",
+            "max": "",
+            "id": "-LSdCjP6mYI58SC-MqG8"
+        },
+        {
+            "name": "intelligence_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LSdCjSl-RleSGEq3L9L"
+        },
+        {
+            "name": "intelligence",
+            "current": 11,
+            "max": "",
+            "id": "-LSdCjSodW5pVMIah_3A"
+        },
+        {
+            "name": "wisdom_base",
+            "current": "12",
+            "max": "",
+            "id": "-LSdCjTCExoiiML7Ao3B"
+        },
+        {
+            "name": "intelligence_mod",
+            "current": 0,
+            "max": "",
+            "id": "-LSdCjVm4D2vE-vaHypJ"
+        },
+        {
+            "name": "npc_int_negative",
+            "current": 0,
+            "max": "",
+            "id": "-LSdCjVp1RHjmn9Oxvvl"
+        },
+        {
+            "name": "wisdom_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LSdCjW7H7FWaiviStr3"
+        },
+        {
+            "name": "wisdom",
+            "current": 12,
+            "max": "",
+            "id": "-LSdCjWA90EhlRnOH5ki"
+        },
+        {
+            "name": "wisdom_mod",
+            "current": 1,
+            "max": "",
+            "id": "-LSdCjZ7P7rTjkIEmDaK"
+        },
+        {
+            "name": "npc_wis_negative",
+            "current": 0,
+            "max": "",
+            "id": "-LSdCjZCctCI6o3dftyV"
+        },
+        {
+            "name": "charisma_base",
+            "current": "8",
+            "max": "",
+            "id": "-LSdCkMnrPGoppOTgVM8"
+        },
+        {
+            "name": "charisma_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LSdCkOWpeegRy8DiJQL"
+        },
+        {
+            "name": "charisma",
+            "current": 8,
+            "max": "",
+            "id": "-LSdCkOXWv_sUx8ePZ0l"
+        },
+        {
+            "name": "charisma_mod",
+            "current": -1,
+            "max": "",
+            "id": "-LSdCkQhuMxj2htGlHa4"
+        },
+        {
+            "name": "npc_cha_negative",
+            "current": 1,
+            "max": "",
+            "id": "-LSdCkQmAtST8Drkpnas"
+        },
+        {
+            "name": "npc_resistances",
+            "current": "cold",
+            "max": "",
+            "id": "-LSdCmoZXYXfj4hqmjzU"
+        },
+        {
+            "name": "npc_senses",
+            "current": "blindsight 60 ft., passive Perception 11",
+            "max": "",
+            "id": "-LSdCoex6bkVGyz9e5p4"
+        },
+        {
+            "name": "npc_languages",
+            "current": "abyssal, common",
+            "max": "",
+            "id": "-LSdCqEV-zkp7i2viMGU"
+        },
+        {
+            "name": "npc_challenge",
+            "current": "6",
+            "max": "",
+            "id": "-LSdCr5xHG5qfvsKbcHA"
+        },
+        {
+            "name": "npc_xp",
+            "current": "2300",
+            "max": "",
+            "id": "-LSdCr7g0CV8s0jgRNQY"
+        },
+        {
+            "name": "pb_custom",
+            "current": 3,
+            "max": "",
+            "id": "-LSdCr7jDQwiFGqw8t12"
+        },
+        {
+            "name": "pb_type",
+            "current": "custom",
+            "max": "",
+            "id": "-LSdCr7kGrMzPwHf02-d"
+        },
+        {
+            "name": "repeating_npctrait_-LSdCvHYD8NzK4d8T1cL_name",
+            "current": "Amphibious.",
+            "max": "",
+            "id": "-LSdCvWyL0Q8F1CYN2x4"
+        },
+        {
+            "name": "repeating_npctrait_-LSdCvHYD8NzK4d8T1cL_desc",
+            "current": "Dagon's drowned can breathe air and water.",
+            "max": "",
+            "id": "-LSdCy5Stj16ptuNZ8Lw"
+        },
+        {
+            "name": "repeating_npctrait_-LSdCzDfOhlFVtkJOl2L_name",
+            "current": "Dagon's Blessing.",
+            "max": "",
+            "id": "-LSdCzdSqy7qrK1Z7b7u"
+        },
+        {
+            "name": "repeating_npctrait_-LSdCzDfOhlFVtkJOl2L_desc",
+            "current": "While fully submerged in water\nDagon's drowned's speed is doubled, it ignores\ndifficult terrain, and and it suffers no speed penalty for moving a grappled creature.",
+            "max": "",
+            "id": "-LSdD-mhCtXQrAhXJGxu"
+        },
+        {
+            "name": "repeating_npctrait_-LSdD0pwLsopB1EZfeJc_name",
+            "current": "Grappler.",
+            "max": "",
+            "id": "-LSdD13wZllD_BaYiKyY"
+        },
+        {
+            "name": "repeating_npctrait_-LSdD0pwLsopB1EZfeJc_desc",
+            "current": "A creature grappled by Dagon's drowned\nhas disadvantage on Strength (Athletics) and\nDexterity (Acrobatics) checks made to escape the grapple.",
+            "max": "",
+            "id": "-LSdD2wiidfnS5EF_tM3"
+        },
+        {
+            "name": "repeating_npctrait_-LSdD4HfCKKNsZxK9srf_name",
+            "current": "Spider Climb.",
+            "max": "",
+            "id": "-LSdD4YQXTev7YGg0tWd"
+        },
+        {
+            "name": "repeating_npctrait_-LSdD4HfCKKNsZxK9srf_desc",
+            "current": "Dagon's drowned can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.",
+            "max": "",
+            "id": "-LSdD6XFVPT_0RCQtfb2"
+        },
+        {
+            "name": "repeating_npcaction_-LSdD7SHUWZtMtmtc6gR_name",
+            "current": "Multiattack",
+            "max": "",
+            "id": "-LSdD8Qd_lsjsw2M9Kz3"
+        },
+        {
+            "name": "repeating_npcaction_-LSdD7SHUWZtMtmtc6gR_description",
+            "current": "Dagon's drowned makes two attacks:\none with its fish hook and one with its tentacles.",
+            "max": "",
+            "id": "-LSdDA6DW_UO6rMDnGrF"
+        },
+        {
+            "name": "repeating_npcaction_-LSdD7SHUWZtMtmtc6gR_npc_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LSdDA7R8TM_MSFl0cad"
+        },
+        {
+            "name": "repeating_npcaction_-LSdD7SHUWZtMtmtc6gR_attack_tohitrange",
+            "current": "+0",
+            "max": "",
+            "id": "-LSdDA9logGm_5l19n32"
+        },
+        {
+            "name": "repeating_npcaction_-LSdD7SHUWZtMtmtc6gR_attack_onhit",
+            "current": "",
+            "max": "",
+            "id": "-LSdDA9osThhdKQ5KXyW"
+        },
+        {
+            "name": "repeating_npcaction_-LSdD7SHUWZtMtmtc6gR_damage_flag",
+            "current": "",
+            "max": "",
+            "id": "-LSdDA9pVLlkf3QqzoDH"
+        },
+        {
+            "name": "repeating_npcaction_-LSdD7SHUWZtMtmtc6gR_attack_crit",
+            "current": "",
+            "max": "",
+            "id": "-LSdDA9slc9uTYNdxIRH"
+        },
+        {
+            "name": "repeating_npcaction_-LSdD7SHUWZtMtmtc6gR_attack_crit2",
+            "current": "",
+            "max": "",
+            "id": "-LSdDA9tgzKQ6KpuP4PJ"
+        },
+        {
+            "name": "repeating_npcaction_-LSdD7SHUWZtMtmtc6gR_rollbase",
+            "current": "@{wtype}&{template:npcaction} @{npc_name_flag} {{rname=@{name}}} {{description=@{show_desc}}} @{charname_output}",
+            "max": "",
+            "id": "-LSdDA9vGgJ_7W2a96H_"
+        },
+        {
+            "name": "repeating_npcaction_-LSdDAPIXNy8UODnoZSr_name",
+            "current": "Fish Hook",
+            "max": "",
+            "id": "-LSdDBs_QDYbLILXu6Ha"
+        },
+        {
+            "name": "repeating_npcaction_-LSdDAPIXNy8UODnoZSr_attack_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LSdDCMfvv9gyvgVawtc"
+        },
+        {
+            "name": "repeating_npcaction_-LSdDAPIXNy8UODnoZSr_attack_tohitrange",
+            "current": "+6, Reach 5 ft., One target",
+            "max": "",
+            "id": "-LSdDCPYeYoo56houFh8"
+        },
+        {
+            "name": "repeating_npcaction_-LSdDAPIXNy8UODnoZSr_attack_onhit",
+            "current": "10 (2d6 +3) slashing damage",
+            "max": "",
+            "id": "-LSdDCPbCqX3YrGtr17X"
+        },
+        {
+            "name": "repeating_npcaction_-LSdDAPIXNy8UODnoZSr_damage_flag",
+            "current": "{{damage=1}} {{dmg1flag=1}} ",
+            "max": "",
+            "id": "-LSdDCPc7MiuF_CjyRbb"
+        },
+        {
+            "name": "repeating_npcaction_-LSdDAPIXNy8UODnoZSr_attack_crit",
+            "current": "2d6",
+            "max": "",
+            "id": "-LSdDCPfAiO7VXGgfwyN"
+        },
+        {
+            "name": "repeating_npcaction_-LSdDAPIXNy8UODnoZSr_attack_crit2",
+            "current": "",
+            "max": "",
+            "id": "-LSdDCPhlLJujFIHaBXZ"
+        },
+        {
+            "name": "repeating_npcaction_-LSdDAPIXNy8UODnoZSr_rollbase",
+            "current": "@{wtype}&{template:npcatk} {{attack=1}} @{damage_flag} @{npc_name_flag} {{rname=[@{name}](~repeating_npcaction_npc_dmg)}} {{rnamec=[@{name}](~repeating_npcaction_npc_crit)}} {{type=[Attack](~repeating_npcaction_npc_dmg)}} {{typec=[Attack](~repeating_npcaction_npc_crit)}} {{r1=[[@{d20}+(@{attack_tohit}+0)]]}} @{rtype}+(@{attack_tohit}+0)]]}} {{description=@{show_desc}}} @{charname_output}",
+            "max": "",
+            "id": "-LSdDCPkdSAP_IjtRQbh"
+        },
+        {
+            "name": "repeating_npcaction_-LSdDAPIXNy8UODnoZSr_attack_tohit",
+            "current": "6",
+            "max": "",
+            "id": "-LSdDD21XI6IIhXUCezC"
+        },
+        {
+            "name": "repeating_npcaction_-LSdDAPIXNy8UODnoZSr_attack_range",
+            "current": "5 ft.",
+            "max": "",
+            "id": "-LSdDEUscKXaJeqqXSHk"
+        },
+        {
+            "name": "repeating_npcaction_-LSdDAPIXNy8UODnoZSr_attack_target",
+            "current": "One target",
+            "max": "",
+            "id": "-LSdDFFxqZcTyKoHbMkq"
+        },
+        {
+            "name": "repeating_npcaction_-LSdDAPIXNy8UODnoZSr_attack_damage",
+            "current": "2d6 +3",
+            "max": "",
+            "id": "-LSdDHdKIlq3zs6TU0hX"
+        },
+        {
+            "name": "repeating_npcaction_-LSdDAPIXNy8UODnoZSr_attack_damagetype",
+            "current": "slashing",
+            "max": "",
+            "id": "-LSdDIUDn36LJLkNt3jQ"
+        },
+        {
+            "name": "repeating_npcaction_-LSdDAPIXNy8UODnoZSr_npc_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LSdDJ3IU1amn52DYX6x"
+        },
+        {
+            "name": "repeating_npcaction_-LSdDJXehM1dmDp9CCkL_name",
+            "current": "Tentacles",
+            "max": "",
+            "id": "-LSdDLCOh4vCCwmJRkiD"
+        },
+        {
+            "name": "repeating_npcaction_-LSdDJXehM1dmDp9CCkL_attack_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LSdDLLQs5iKKAMJzocJ"
+        },
+        {
+            "name": "repeating_npcaction_-LSdDJXehM1dmDp9CCkL_attack_tohitrange",
+            "current": "+6, Reach 15 ft., One target",
+            "max": "",
+            "id": "-LSdDLO7cyU2LHIPQPfX"
+        },
+        {
+            "name": "repeating_npcaction_-LSdDJXehM1dmDp9CCkL_attack_onhit",
+            "current": "12 (2d8 + 3) bludgeoning damage",
+            "max": "",
+            "id": "-LSdDLOAsuI81WGYIxUe"
+        },
+        {
+            "name": "repeating_npcaction_-LSdDJXehM1dmDp9CCkL_damage_flag",
+            "current": "{{damage=1}} {{dmg1flag=1}} ",
+            "max": "",
+            "id": "-LSdDLOFJghVg563wI3d"
+        },
+        {
+            "name": "repeating_npcaction_-LSdDJXehM1dmDp9CCkL_attack_crit",
+            "current": "2d8",
+            "max": "",
+            "id": "-LSdDLOGNC7mZDkjQKiA"
+        },
+        {
+            "name": "repeating_npcaction_-LSdDJXehM1dmDp9CCkL_attack_crit2",
+            "current": "",
+            "max": "",
+            "id": "-LSdDLOHVho4ufyQ6lpZ"
+        },
+        {
+            "name": "repeating_npcaction_-LSdDJXehM1dmDp9CCkL_rollbase",
+            "current": "@{wtype}&{template:npcatk} {{attack=1}} @{damage_flag} @{npc_name_flag} {{rname=[@{name}](~repeating_npcaction_npc_dmg)}} {{rnamec=[@{name}](~repeating_npcaction_npc_crit)}} {{type=[Attack](~repeating_npcaction_npc_dmg)}} {{typec=[Attack](~repeating_npcaction_npc_crit)}} {{r1=[[@{d20}+(@{attack_tohit}+0)]]}} @{rtype}+(@{attack_tohit}+0)]]}} {{description=@{show_desc}}} @{charname_output}",
+            "max": "",
+            "id": "-LSdDLOK4q8hnIZPiuGJ"
+        },
+        {
+            "name": "repeating_npcaction_-LSdDJXehM1dmDp9CCkL_attack_range",
+            "current": "15 ft.",
+            "max": "",
+            "id": "-LSdDNoXLsIo-5exqnC5"
+        },
+        {
+            "name": "repeating_npcaction_-LSdDJXehM1dmDp9CCkL_attack_damagetype",
+            "current": "bludgeoning",
+            "max": "",
+            "id": "-LSdDVe1Rk6LwUGifKBN"
+        },
+        {
+            "name": "repeating_npcaction_-LSdDJXehM1dmDp9CCkL_attack_damage",
+            "current": "2d8 + 3",
+            "max": "",
+            "id": "-LSdDXU-kAJOIPv3rrJr"
+        },
+        {
+            "name": "repeating_npcaction_-LSdDJXehM1dmDp9CCkL_attack_tohit",
+            "current": "6",
+            "max": "",
+            "id": "-LSdDXx8udXVnuKvjQbu"
+        },
+        {
+            "name": "repeating_npcaction_-LSdDJXehM1dmDp9CCkL_attack_target",
+            "current": "One target",
+            "max": "",
+            "id": "-LSdDZKw-dDCUt36Wj0n"
+        },
+        {
+            "name": "repeating_npcaction_-LSdDJXehM1dmDp9CCkL_description",
+            "current": "If the target is a Medium or smaller creature, it is grappled (escape DC 14). Until this grapple ends the target is restrained and takes 12 (2d8 +3) bludgeoning damage at the start of each of its turns. Dagon's drowned has many tentacles, but they can only grapple up to two creatures at a\ntime.",
+            "max": "",
+            "id": "-LSdDc-0z4pW0Jphd2lD"
+        },
+        {
+            "name": "repeating_npcaction_-LSdDJXehM1dmDp9CCkL_npc_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LSdDc0JOAZFHx9ZQpxX"
+        },
+        {
+            "name": "npc_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LSdDe9Rfw4nhP_tIIuY"
+        }
+    ],
+    "abilities": []
+}

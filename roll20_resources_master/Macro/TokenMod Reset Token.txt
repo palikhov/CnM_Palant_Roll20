@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 !token-mod {{
   --set bar1_link| bar2_link| bar3_link|
   --set bar1_value| bar2_value| bar3_value|
@@ -6,4 +7,14 @@
   --on showname showplayers_name showplayers_aura1 showplayers_aura2
   --off light_otherplayers light_hassight
   --set statusmarkers|=blue|-blue
+=======
+!token-mod {{
+  --set bar1_link| bar2_link| bar3_link|
+  --set bar1_value| bar2_value| bar3_value|
+  --set bar1_max| bar2_max| bar3_max|
+  --set tint_color|transparent layer|objects
+  --on showname showplayers_name showplayers_aura1 showplayers_aura2
+  --off light_otherplayers light_hassight
+  --set statusmarkers|=blue|-blue
+>>>>>>> a4bb8e45f456e6f0be4948a5bf3b731f06db9179
 }}

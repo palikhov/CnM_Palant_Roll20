@@ -1,0 +1,1848 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Tome of Horrors",
+				"abbreviation": "ToH (3pp)",
+				"full": "Tome of Horrors (3pp)",
+				"authors": [
+					"Frog God Games"
+				],
+				"version": "1.0",
+				"url": "https://www.froggodgames.com/tome-of-horrors",
+				"targetSchema": "1.3.4"
+			}
+		]
+	},
+	"monster": [
+		{
+			"source": "ToH (3pp)",
+			"page": 7,
+			"name": "Abyssal Harvester",
+			"size": "G",
+			"type": "aberration",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 370,
+				"formula": "20d20+160"
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 27,
+			"dex": 10,
+			"con": 26,
+			"int": 10,
+			"wis": 16,
+			"cha": 13,
+			"skill": {
+				"perception": "+9"
+			},
+			"resist": [
+				"acid",
+				"cold",
+				"fire"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned",
+				"prone"
+			],
+			"senses": "darkvision 120 ft.",
+			"passive": 19,
+			"languages": "Abyssal",
+			"cr": "20",
+			"trait": [
+				{
+					"name": "Far Reaching (3/Day)",
+					"entries": [
+						"An Abyssal Harvester can remain on its Abyssal plane and inject up to four of its tentacles across the dimensions and into the Ethereal Plane, Astral Plane, material planes, or Nine Hells.",
+						"All of its tentacles must be injected into the same plane, and all appear within the same 20-foot square. While using this ability, it uses sensory organs on its tentacles to see, hear, smell, and feel its surroundings. It can attack normally while using this ability, but it cannot move from its current location. It can withdraw its tentacles as an action and reinject them into the same plane (or a different plane) on its next turn.",
+						"The dismissal effect of a dispel evil or good spell causes an Abyssal Harvester to withdraw a single tentacle if it fails its Charisma saving throw. It cannot reinject that same tentacle into the same plane for one day.",
+						"A banishment spell forces an Abyssal harvester to withdraw all of its tentacles if it fails its Wisdom saving throw. It cannot reinject any tentacles that were banished into the same plane for one day."
+					]
+				},
+				{
+					"name": "Harvest",
+					"entries": [
+						"A target that has been grappled for 4 consecutive rounds must succeed on a DC 18 Wisdom saving throw or be drawn through an invisible planar gate (created around the Abyssal Harvester's tentacles) into the same plane where the AByssal Harvester currently resides. An opponent drawn into the same plane with the harvester is still grappled upon arrival. This ability can only be used when the Abyssal Harvester is on its Abyssal Plane and injects its tentacles into the Etheral Plane, Astral Plane, a material plane, or the Nine Hells."
+					]
+				},
+				{
+					"name": "Keen Hearing and Smell",
+					"entries": [
+						"The Abyssal Harvester has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The Abyssal Harvester's attacks are magical."
+					]
+				},
+				{
+					"name": "Tentacles",
+					"entries": [
+						"An Abyssal Harvester has 4 tentacles, each of which is 20 feet long, has an AC of 20, 30 hit points, resistance to acid, cold, and fire damage, immunity to poison and psychic damage, and the same senses and the Abyssal Harvester. A severed tentacle deals no damage to the Abyssal Harvester. A tentacle cannot be broken by mere feats of strengths. A tentacle regrows in 1 week."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The Abyssal Harvester's spellcasting ability is Wisdom (spell save DC 17. It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell plane shift} (functions in Astral Plane, the Abyss, the Nine Hells, or the Material Plane only)."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Abyssal Harvester makes four tentacle attacks."
+					]
+				},
+				{
+					"name": "Tentacles",
+					"entries": [
+						"The Abyssal Harvester makes an attack with its tentacles using one of the following options:"
+					]
+				},
+				{
+					"name": "Debilitating Slam",
+					"entries": [
+						"Melee Weapon Attack: {@hit +14} to hit, reach 20 ft., one target. Hit: 29 ({@dice 6d6+8}) bludgeoning damage and the target's maximum hit points are reduced by an equal amount. The target dies if this reduces its maximum hit points to 0. Otherwise, the reduction lasts until the target finishes a long rest."
+					]
+				},
+				{
+					"name": "Grapple",
+					"entries": [
+						"Melee Weapon Attack: {@hit +14} to hit, reach 20 ft., one target. Hit: 29 ({@dice 6d6+8}) bludgeoning damage and the target is grappled (escape DC 22). A grappled creature is restrained. An Abyssal Harvester can grapple one creature of Huge size or smaller for each tentacle it has remaining."
+					]
+				},
+				{
+					"name": "Constrict",
+					"entries": [
+						"Each creature the Abyssal Harvester has grappled takes 22 ({@dice 4d6+8}) bludgeoning damage at the start of the harvester's turn."
+					]
+				}
+			]
+		},
+		{
+			"source": "ToH (3pp)",
+			"page": 8,
+			"name": "Abyssal Larva",
+			"size": "M",
+			"type": "fiend",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 39,
+				"formula": "6d8+12"
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 10,
+			"dex": 13,
+			"con": 14,
+			"int": 3,
+			"wis": 10,
+			"cha": 7,
+			"skill": {
+				"perception": "+2",
+				"stealth": "+2"
+			},
+			"resist": [
+				"acid",
+				"cold",
+				"fire"
+			],
+			"immune": [
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			],
+			"senses": "darkvision 60 ft.",
+			"passive": 12,
+			"languages": "Abyssal",
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Tortured Mind",
+					"entries": [
+						"The mind of an Abyssal Larva cannot be read. If a creature attempts to read an Abyssal Larva's mind, it takes 7 ({@dice 2d6}) psychic damage and must succeed on a DC 12 Wisdom saving throw. On a failed saving throw, the creature is poisoned for 1 minute. While poisoned, the creature cannot take reactions and uses their action to Dash in a random direction, even if that leads them into dangerous areas."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"Melee Weapon Attack: {@hit +3} to hit, reach 5 ft., one target. Hit: 6 ({@dice 2d4+1}) piercing damage plus 5 ({@dice 2d4}) acid damage."
+					]
+				},
+				{
+					"name": "Maggot Spray",
+					"entries": [
+						"Ranged Spell Attack: {@hit +3} to hit, range 10 ft., one target. Hit: 1 poison damage and the target must succeed a DC 12 Dexterity saving throw or be poisoned for 1 minute. A poisoned creature can make a DC 12 Constitution saving throw at the end of each of its turns, ending the poisoned effect on a success."
+					]
+				}
+			]
+		},
+		{
+			"source": "ToH (3pp)",
+			"page": 9,
+			"name": "Aerial Assault Gnome",
+			"size": "S",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"gnome"
+				]
+			},
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"armored flight suit"
+					]
+				}
+			],
+			"hp": {
+				"average": 44,
+				"formula": "8d6+16"
+			},
+			"speed": {
+				"walk": 20,
+				"fly": 60
+			},
+			"str": 8,
+			"dex": 16,
+			"con": 14,
+			"int": 16,
+			"wis": 10,
+			"cha": 10,
+			"skill": {
+				"history": "+6",
+				"perception": "+6",
+				"investigation": "+6",
+				"acrobatics": "+8"
+			},
+			"senses": "darkvision 60 ft., tremorsense 120 ft.",
+			"passive": 12,
+			"languages": "Common, Gnome",
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Agile Flight",
+					"entries": [
+						"The gnome may use his mechawings to hover in place and may make hairpin turns, granting him an AC bonus of +2 while flying."
+					]
+				},
+				{
+					"name": "Gnome Cunning",
+					"entries": [
+						"The aerial assault gnome has advantage on all spells and magical effects that require and Intelligence, Wisdom, or Charisma saving throw."
+					]
+				},
+				{
+					"name": "Armored Flight Suit",
+					"entries": [
+						"The aerial assault gnome wears a futuristic suit of lightweight, yet extremely strong, mechanized armor that provides comfort and protection."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The aerial assault gnome can make two attacks: one with his cog thrower and one with Last Resort."
+					]
+				},
+				{
+					"name": "Cog Thrower",
+					"entries": [
+						"Ranged Weapon Attack: {@hit +8} to hit, range 80/320 ft., one target. Hit: 10 ({@dice 3d6}) slashing damage. A stream of razor-sharp cogs is propelled from the gnome's hollow metallic club."
+					]
+				},
+				{
+					"name": "Last Resort",
+					"entries": [
+						"Melee Weapon Attack: {@hit +4} to hit, range 5 ft., one target. Hit: 3 ({@dice 1d6}) bludgeoning damage. The gnome whips his enemy with the still hot metal barrels of his cog thrower."
+					]
+				},
+				{
+					"name": "Strafing Run (3/day)",
+					"entries": [
+						"Ranged Weapon Attack: {@hit +8} to hit, range 120/400 ft., one target. Hit: a point the gnome can see. A blast of fire emanates from the target point. Any creatures in a 20-foot radius of the target must succeed on a DC 16 Dexterity saving throw, taking 28 ({@dice 8d6}) fire damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Point Defense",
+					"entries": [
+						"Any creature moving within 20 feet of the aerial assault gnome is blasted by his point defense cannons for 7 ({@dice 3d4}) piercing damage."
+					]
+				}
+			]
+		},
+		{
+			"source": "ToH (3pp)",
+			"page": 10,
+			"name": "Allip",
+			"size": "M",
+			"type": "undead",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				11
+			],
+			"hp": {
+				"average": 33,
+				"formula": "6d8+6"
+			},
+			"speed": {
+				"fly": 30
+			},
+			"str": 6,
+			"dex": 13,
+			"con": 13,
+			"int": 11,
+			"wis": 11,
+			"cha": 16,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+3"
+			},
+			"senses": "darkvision 60 ft.",
+			"passive": 13,
+			"languages": "Common, Deep Speech",
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Babble",
+					"entries": [
+						"The allip incoherently mutters to itself, creating a hypnotic effect. All creatures within 30 ft. that aren't incapacitated must succeed on a DC 11 Wisdom saving throw. On a failed save, the creature becomes charmed for the duration. While charmed by this spell, the creature is incapacitated and has a speed of 0. The effect ends for an affected creature if it takes any damage or if someone else uses an action to shake the creature out of its stupor."
+					]
+				},
+				{
+					"name": "Madness",
+					"entries": [
+						"Anyone targeting an allip with a spell or effect that would make direct contact with its tortured mind must succeed on a DC 11 WIsdom saving throw or take 7 ({@dice 2d6}) psychic damage."
+					]
+				}
+			],
+			"action": [
+				{
+				"name": "Touch of Insanity",
+				"entries": [
+					"Melee Weapon Attack: {@hit +3} to hit, reach 5 ft., one target. Hit: 8 ({@dice 2d6+1}) psychic damage."
+					]
+				}
+			]
+		},
+		{
+			"source": "ToH (3pp)",
+			"page": 11,
+			"name": "Amalgamation",
+			"size": "G",
+			"type": "construct",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				16
+			],
+			"hp": {
+				"average": 435,
+				"formula": "30d20+120"
+			},
+			"speed": {
+				"walk": 10,
+				"fly": 50
+			},
+			"str": 23,
+			"dex": 10,
+			"con": 18,
+			"int": 2,
+			"wis": 15,
+			"cha": 1,
+			"immune": [
+				{
+					"immune": [
+						"fire",
+						"poison",
+						"psychic",
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical weapons that aren't adamantine"
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"senses": "darkvision 60 ft.",
+			"passive": 12,
+			"languages": "Understands the languages of its creator but can't speak",
+			"cr": "14",
+			"trait": [
+				{
+					"name": "Immutable Form",
+					"entries": [
+						"The amalgamation is immune to any spell or effect that would alter its form."
+					]
+				},
+				{
+					"name": "Item Use",
+					"entries": [
+						"The amalgamation can use any of the items contained within its bulk. Items with limited uses, such as potions, scrolls, or wands, are expended normally."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The amalgamation has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The amalgamation's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Swarm Attack",
+					"entries": [
+						"The amalgamation can occupy another creature's space and vice versa, damaging the creature with the flying weapons and objects composing its bulk. Any creature that starts their turn in the same space as the amalgamation must succeed on a DC 18 Dexterity saving throw or take 21 ({@dice 6d6}) slashing damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The amalgamation makes four melee attacks."
+					]
+				},
+				{
+					"name": "Sword",
+					"entries": [
+						"Melee Weapon Attack: {@hit +11} to hit, reach 10 ft., one target. Hit: 17 ({@dice 2d10+6}) slashing damage."
+					]
+				},
+				{
+					"name": "Mace",
+					"entries": [
+						"Melee Weapon Attack: {@hit +11} to hit, reach 10 ft., one target. Hit: 15 ({@dice 2d8+6}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"Melee Weapon Attack: {@hit +11} to hit, reach 5 ft., one target. Hit: 19 ({@dice 3d8+6}) bludgeoning damage."
+					]
+				}
+			]
+		},
+		{
+			"source": "ToH (3pp)",
+			"page": 12,
+			"name": "Amphisbaena",
+			"size": "L",
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 60,
+				"formula": "8d10+16"
+			},
+			"speed": {
+				"walk": 20,
+				"climb": 20,
+				"swim": 30
+			},
+			"str": 17,
+			"dex": 15,
+			"con": 14,
+			"int": 2,
+			"wis": 12,
+			"cha": 2,
+			"skill": {
+				"stealth": "+6"
+			},
+			"senses": "darkvision 60 ft.",
+			"passive": 11,
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Split",
+					"entries": [
+						"The amphisbaena functions normally even if cut in half. If dealt a critical hit with a slashing weapon, the creature is cut in half and continues to function as two separate creatures, each with half of the original amphisbaena's current hit points. The split amphisbaena can rejoin its two halves after completing a short or long rest. If one of the split creatures is slain, the amphisbaena can regrow the lost portion over the course of {@dice 1d4+2 }weeks."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The amphisbaena makes one bit attack with each of its two heads."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"Melee Weapon Attack: {@hit +5} to hit, reach 5 ft., one target. Hit: 12 ({@dice 2d8+3}) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or become poisoned for 1 hour."
+					]
+				}
+			]
+		},
+		{
+			"source": "ToH (3pp)",
+			"page": 13,
+			"name": "Chalkydri Angel",
+			"size": "M",
+			"type": "celestial",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 123,
+				"formula": "13d8+65"
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 90
+			},
+			"str": 23,
+			"dex": 16,
+			"con": 20,
+			"int": 18,
+			"wis": 18,
+			"cha": 19,
+			"save": {
+				"con": "+9",
+				"wis": "+8",
+				"cha": "+8"
+			},
+			"skill": {
+				"intimidation": "+8",
+				"perception": "+8"
+			},
+			"resist": [
+				"radiant",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical weapons"
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened"
+			],
+			"senses": "darkvision 120 ft.",
+			"passive": 18,
+			"languages": "all, telepathy 120 ft.",
+			"cr": "12",
+			"trait": [
+				{
+					"name": "Angelic Weapons",
+					"entries": [
+						"The chalkdri's weapon attacks are magical. When the chalkydri hits with any weapon, the weapon deals an extra {@dice 4d8} radiant damage (included in the attack)."
+					]
+				},
+				{
+					"name": "Divine Awareness",
+					"entries": [
+						"The chalkydri knows if it hears a lie."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The chalkydri has advantage on saving throws against spells and other magic effects."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The chalkydri's spellcasting ability is Charisma (spell save DC 16, {@hit +8} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell detect evil and good}"
+					],
+					"daily": {
+						"1": [
+							"{@spell commune}",
+							"{@spell raise dead}"
+						],
+						"3": [
+							"{@spell dispel evil and good}",
+							"{@spell flame strike}"
+						]
+					}
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The chalkydri attacks twice with its glaive."
+					]
+				},
+				{
+					"name": "Glaive",
+					"entries": [
+						"Melee Weapon Attack: {@hit +10} to hit, reach 10 ft., one target. Hit: 22 ({@dice 3d10+6}) slashing damage plus 18 ({@dice 4d8}) radiant damage."
+					]
+				},
+				{
+					"name": "Javelin",
+					"entries": [
+						"Ranged Weapon Attack: {@hit +10} to hit, range 30/120 ft., target. Hit: 13 ({@dice 2d6+6}) slashing damage plus 18 ({@dice 4d8}) radiant damage."
+					]
+				}
+			]
+		},
+		{
+			"source": "ToH (3pp)",
+			"page": 14,
+			"name": "Fallen Empyreal Angel",
+			"size": "L",
+			"type": "celestial",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 157,
+				"formula": "115d10+75"
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 70
+			},
+			"str": 23,
+			"dex": 18,
+			"con": 20,
+			"int": 18,
+			"wis": 18,
+			"cha": 20,
+			"save": {
+				"dex": "+8",
+				"con": "+9"
+			},
+			"skill": {
+				"insight": "+8",
+				"intimidation": "+9",
+				"perception": "+8"
+			},
+			"resist": [
+				"lightning",
+				"fire",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical weapons"
+				}
+			],
+			"immune": [
+				"acid",
+				"cold",
+				"necrotic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned"
+			],
+			"senses": "darkvision 60 ft., blindsight 30 ft.",
+			"passive": 18,
+			"languages": "all, telepathy 120 ft.",
+			"cr": "12",
+			"trait": [
+				{
+					"name": "Aura of Hopelessness",
+					"entries": [
+						"The fallen empyreal can activate or deactivate this feature as a bonus action. While active, all creatures within 30 feet of it suffer 10 ({@dice 3d6}) necrotic damage at the beginning of each of the fallen empyreal's turns. The first time a creature enters or starts its turn in the area it must succeed on a DC 16 Wisdom saving throw or be frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effeect on itself on a success."
+					]
+				},
+				{
+					"name": "Demonic Weapons",
+					"entries": [
+						"The empyreal's weapon attacks are magical. When the empyreal hits with any weapon, the weapon deals an extra {@dice 4d8} necrotic damage (included in the attack)."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The empyreal has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The empyreal's spellcasting ability is Charisma (spell save DC 17, {@hit +9} to hit with spell attacks). The empyreal can innately cast the following spells, requiring only verbal components:"
+					],
+					"will": [
+						"{@spell detect evil and good}",
+						"{@spell dispel magic}",
+						"{@spell fear}",
+						"{@spell invisibility}",
+						"{@spell plane shift}"
+					],
+					"daily": {
+						"5e": [
+							"{@spell bestow curse}",
+							"{@spell inflict wounds}"
+						],
+						"3e": [
+							"{@spell blade barrier}",
+							"{@spell flame strike}",
+							"{@spell scorching ray}"
+						],
+						"1e": [
+							"{@spell circle of death}",
+							"{@spell create undead}"
+						]
+					}
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The fallen empyreal makes three attacks with its flaming longsword."
+					]
+				},
+				{
+					"name": "Flaming Longsword",
+					"entries": [
+						"Melee Weapon Attack: {@hit +10} to hit, reach 10 ft., one target. Hit: 15 ({@dice 2d8+6}) slashing damage plus 18 ({@dice 4d8}) necrotic damage."
+					]
+				},
+				{
+					"name": "Necrotic Blast (Recharge 5-6)",
+					"entries": [
+						"A fallen empyreal can unleash a blast of necrotic energy in a 30-foot radius centered on itself. All creatures in the area must make a DC 16 Dexterity saving throw, taking 28 ({@dice 8d6}) necrotic damage on a failed save, or half as much on a successful one."
+					]
+				}
+			]
+		},
+		{
+			"source": "ToH (3pp)",
+			"page": 15,
+			"name": "Woods Ape",
+			"size": "M",
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				11,
+				{
+					"ac": 16,
+					"condition": "with {@spell barkskin}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 82,
+				"formula": "11d8+33"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 17,
+			"dex": 13,
+			"con": 16,
+			"int": 11,
+			"wis": 18,
+			"cha": 7,
+			"skill": {
+				"nature": "+6",
+				"perception": "+7",
+				"stealth": "+7",
+				"survival": "+10"
+			},
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"senses": "darkvision 60 ft.",
+			"passive": 17,
+			"languages": "Druidic",
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Land's Stride",
+					"entries": [
+						"The woods ape can move through nonmagical difficult terrain without using extra movement and can pass through nonmagical plants without being slowed by them and without taking damage if they have thorns, spines, or a similar hazard. In addition, the woods ape has advantage on saving throws against plants that are magically created or manipulated to impede movement."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The woods ape's innate spellcasting ability is Wisdom (spell save DC 15, {@hit +7} to hit with spell attacks). It can cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell guidance}",
+						"{@spell mending}",
+						"{@spell create or destroy water}",
+						"{@spell detect poison and disease}",
+						"{@spell entangle}",
+						"{@spell speak with animals}",
+						"{@spell speak with plants}",
+						"{@spell tree stride}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell animal messenger}",
+							"{@spell barkskin}",
+							"{@spell call lightning}",
+							"{@spell locate animals or plants}",
+							"{@spell pass without trace}"
+						],
+						"1e": [
+							"{@spell awaken}",
+							"{@spell commune with nature}",
+							"{@spell conjure animals}",
+							"{@spell plant growth}"
+						]
+					}
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The woods ape makes two claw attacks."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"Melee Weapon Attack: {@hit +6} to hit, reach 5 ft., one target. Hit: 10 ({@dice 2d6+3}) slashing damage."
+					]
+				}
+			]
+		},
+		{
+			"source": "ToH (3pp)",
+			"page": 16,
+			"name": "Archer Bush",
+			"size": "S",
+			"type": "plant",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 78,
+				"formula": "12d6+36"
+			},
+			"speed": {
+				"walk": 10
+			},
+			"str": 11,
+			"dex": 15,
+			"con": 16,
+			"int": 2,
+			"wis": 11,
+			"cha": 9,
+			"skill": {
+				"stealth": "+4"
+			},
+			"senses": "tremorsense 60 ft.",
+			"passive": 10,
+			"languages": "-",
+			"cr": "1",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The archer bush makes two attacks with its thorns."
+					]
+				},
+				{
+					"name": "Thorns",
+					"entries": [
+						"Melee or Ranged Weapon Attack: {@hit +4} to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 6 ({@dice 1d8+2}) piercing damage."
+					]
+				},
+				{
+					"name": "Bloodsuck",
+					"entries": [
+						"A creature within 5 ft. of the archer bush that has 0 hit points is drained of blood. The creature automatically fails a death saving throw."
+					]
+				}
+			]
+		},
+		{
+			"source": "ToH (3pp)",
+			"page": 17,
+			"name": "Asrai",
+			"size": "T",
+			"type": "fey",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 7,
+				"formula": "2d4+2"
+			},
+			"speed": {
+				"walk": 20,
+				"swim": 50
+			},
+			"str": 5,
+			"dex": 18,
+			"con": 13,
+			"int": 10,
+			"wis": 13,
+			"cha": 14,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+6"
+			},
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical weapons"
+				}
+			],
+			"immune": [
+				"cold"
+			],
+			"senses": "darkvision 60 ft.",
+			"passive": 13,
+			"languages": "Common, Sylvan",
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Limited Amphibious",
+					"entries": [
+						"The asrai can breathe both air and water, but it needs to be submerged at least once every 2 hours to avoid suffocating."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The asrai's spellcasting ability is Charisma (spell save DC 12, {@hit +4} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
+					],
+					"daily": {
+						"1": [
+							"{@spell control water}"
+						],
+						"3": [
+							"{@spell fog cloud}"
+						]
+					}
+				},
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The asrai is a 5th level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, {@hit +4} to hit with spell attacks). The asrai can cast the following spells:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell dancing lights}",
+								"{@spell ray of frost}",
+								"{@spell resistance}",
+								"{@spell thaumaturgy}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell charm person}",
+								"{@spell create or destroy water}",
+								"{@spell detect magic}",
+								"{@spell thunderwave}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell tasha's hideous laughter}",
+								"{@spell misty step}"
+							]
+						},
+						"3": {
+							"slots": 2,
+							"spells": [
+								"{@spell hypnotic pattern}"
+							]
+						}
+					}
+				}
+			],
+			"action": [
+				{
+					"name": "Cold Touch",
+					"entries": [
+						"Melee Weapon Attack: {@hit +6} to hit, reach 5 ft., one target. Hit: 7 ({@dice 1d6+4}) cold damage."
+					]
+				}
+			]
+		},
+		{
+			"source": "ToH (3pp)",
+			"page": 18,
+			"name": "Prehistoric Honey Badger",
+			"size": "M",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 51,
+				"formula": "6d8+24"
+			},
+			"speed": {
+				"walk": 30,
+				"burrow": 30
+			},
+			"str": 20,
+			"dex": 12,
+			"con": 18,
+			"int": 7,
+			"wis": 11,
+			"cha": 5,
+			"skill": {
+				"survival": "+2"
+			},
+			"resist": [
+				"poison",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical weapons"
+				}
+			],
+			"conditionImmune": [
+				"frightened"
+			],
+			"senses": "darkvision 60 ft.",
+			"passive": 10,
+			"languages": "-",
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Keen Hearing and Smell",
+					"entries": [
+						"The prehistoric honey badger has advantage on Wisdom (Perception) checks based on hearing or smell."
+					]
+				},
+				{
+					"name": "Relentless (Recharges after a Short or Long Rest)",
+					"entries": [
+						"If the badger takes 14 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The prehistoric honey badger makes one bite attack and one crunch attack."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"Melee Weapon Attack: {@hit +7} to hit, reach 5 ft., one target. Hit: 16 ({@dice 2d10+5}) piercing damage, and the target must make a DC 15 Strength saving throw or be grappled (escape DC 15)."
+					]
+				},
+				{
+					"name": "Crunch",
+					"entries": [
+						"Melee Weapon Attack: {@hit +7} to hit, reach 5 ft., one grappled creature. Hit: The target suffers from broken bones and must make a DC 15 Constitution saving throw at the beginning of each of its turns. On a failed saving throw, the target cannot take any actions or reactions during that turn. If the target recieves magical healing or takes a long rest, the effect ends."
+					]
+				}
+			]
+		},
+		{
+			"source": "ToH (3pp)",
+			"page": 19,
+			"name": "Barbegazi (Ice Gnome)",
+			"size": "S",
+			"type": "humanoid",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 13,
+				"formula": "3d6+3"
+			},
+			"speed": {
+				"walk": 20,
+				"burrow": 20
+			},
+			"str": 10,
+			"dex": 13,
+			"con": 13,
+			"int": 11,
+			"wis": 11,
+			"cha": 8,
+			"skill": {
+				"stealth": "+3"
+			},
+			"vulnerable": [
+				"fire"
+			],
+			"immune": [
+				"cold"
+			],
+			"senses": "darkvision 60 ft.",
+			"passive": 10,
+			"languages": "Common, Gnome (Barbegazi dialect)",
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Snow Walk",
+					"entries": [
+						"The barbegazi can move across and climb icy or snowy surfaces without needing to make an ability check."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The bargegazi's innate spellcasting ability is Wisdom (spell save DC 10, {@hit +2} to hit with spell attacks). The barbegazi can innately cast the following spells, requiring no material components:"
+					],
+					"daily": {
+						"1": [
+							"{@spell hold person}"
+						],
+						"3": [
+							"{@spell ray of frost}"
+						]
+					}
+				}
+			],
+			"action": [
+				{
+					"name": "Shortsword",
+					"entries": [
+						"Melee Weapon Attack: {@hit +3} to hit, reach 5 ft., one target. Hit: 4 ({@dice 1d6+1}) piercing damage plus 3 ({@dice 1d6}) cold damage."
+					]
+				},
+				{
+					"name": "Dagger",
+					"entries": [
+						"Melee Weapon Attack: {@hit +3} to hit, reach 5 ft., one target. Hit: 3 ({@dice 1d4+1}) piercing damage plus 3 ({@dice 1d6}) cold damage."
+					]
+				},
+				{
+					"name": "Dagger",
+					"entries": [
+						"Ranged Weapon Attack: {@hit +3} to hit, range 20/60 ft., one target. Hit: 3 ({@dice 1d4+1}) piercing damage."
+					]
+				}
+			]
+		},
+		{
+			"source": "ToH (3pp)",
+			"page": 20,
+			"name": "Basilisk, Crimson",
+			"size": "M",
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 67,
+				"formula": "9d8+27"
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 16,
+			"dex": 10,
+			"con": 16,
+			"int": 2,
+			"wis": 12,
+			"cha": 10,
+			"skill": {
+				"perception": "+5"
+			},
+			"senses": "darkvision 60 ft.",
+			"passive": 15,
+			"languages": "-",
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Blood Frenzy",
+					"entries": [
+						"The crimson basilisk has advantage on attack rolls against any creature that doesn't have all its hit points."
+					]
+				},
+				{
+					"name": "Wounded Gaze",
+					"entries": [
+						"If a target starts its turn within 30 feet of the basilisk and the two of them can see each other, the basilisk can force the target to make a DC 12 Constitution saving throw if the basilisk isn't incapcitated. On a failed save, the target takes 7 ({@dice 2d6}) necrotic damage as blood weeps from the victim's eyes, ears, nose, and mouth. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the target takes and additional 7 ({@dice 2d6}) necrotic damage and will continue to take recurring damage at the end of each of its turns (without further chance to save) unless the basilisk is incapacitated or the effect is ended by the greater restoration spell or other magic.",
+						"A creature that isn't surprised can avert its eyes to avoid the saving throw at the start of its turn. If it does so, it can't see the creature until the start of its next turn, when it can avert its eyes again. If it looks at the basilisk in the meantime, it must immediately make the save."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"Melee Weapon Attack: {@hit +5} to hit, reach 5 ft., one target. Hit: 10 ({@dice 2d6+3}) piercing damage and 7 ({@dice 2d6}) acid damage. In addition, nonmagical armor or a shield being worn or carried is partly dissolved and takes a permanent and cumulative -1 to the AC it offers. Armor reduced to an AC of 10 or a shield that drops to a +0 bonus is destroyed."
+					]
+				}
+			]
+		},
+		{
+			"source": "ToH (3pp)",
+			"page": 21,
+			"name": "Doombat",
+			"size": "L",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				15
+			],
+			"hp": {
+				"average": 59,
+				"formula": "7d10+21"
+			},
+			"speed": {
+				"walk": 10,
+				"fly": 50
+			},
+			"str": 17,
+			"dex": 18,
+			"con": 16,
+			"int": 2,
+			"wis": 12,
+			"cha": 6,
+			"skill": {
+				"perception": "+3"
+			},
+			"senses": "blindsight 60 ft.",
+			"passive": 13,
+			"languages": "-",
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Yip",
+					"entries": [
+						"Doombats constantly yip while in combat, and the noise interferes with the concentration of those attempting to cast spells. All creatures within a 30-foot radius that are maintaining concentration on a spell when the doombat yips must succeed on a DC 10 Constitution saving throw or lose concentration on that spell."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The doombat makes one bite attack and one tail attack."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"Melee Weapon Attack: {@hit +6} to hit, reach 5 ft., one target. Hit: 13 ({@dice 2d8+4}) piercing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"Melee Weapon Attack: {@hit +6} to hit, reach 10 ft., one target. Hit: 8 ({@dice 1d8+4}) bludeoning damage."
+					]
+				},
+				{
+					"name": "Shriek (Recharge 5-6)",
+					"entries": [
+						"The doombat emits a piercing shriek. All creatures within a 60-foot radius must succeed on a DC 13 Wisdom saving throw or be poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				}
+			]
+		},
+		{
+			"source": "ToH (3pp)",
+			"page": 22,
+			"name": "Mobat",
+			"size": "L",
+			"type": "monstrosity",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 51,
+				"formula": "6d10+18"
+			},
+			"speed": {
+				"walk": 20,
+				"fly": 40
+			},
+			"str": 17,
+			"dex": 15,
+			"con": 16,
+			"int": 6,
+			"wis": 13,
+			"cha": 6,
+			"skill": {
+				"perception": "+3"
+			},
+			"senses": "blindsight 60 ft.",
+			"passive": 15,
+			"languages": "-",
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Echolocation",
+					"entries": [
+						"The mobat can't use its blindsight while deafened."
+					]
+				},
+				{
+					"name": "Flyby",
+					"entries": [
+						"The mobat doesn't provoke an opportunity attack when it flies out of an enemy's reach."
+					]
+				},
+				{
+					"name": "Keen Hearing",
+					"entries": [
+						"The mobat has advantage on Wisdom (Perception) checks that rely on hearing."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"Melee Weapon Attack: {@hit +5} to hit, reach 5 ft., one target. Hit: 13 ({@dice 3d6+3}) piercing damage."
+					]
+				},
+				{
+					"name": "Stunning Screech (Recharge 5-6)",
+					"entries": [
+						"The mobat emits a piercing screech. All creatures within 30 feet of it that can hear it must make a DC 12 Constitution saving throw or stunned for 1 minute. A stunned target can repeat the saving throw at the end of each of its turns, ending the effect on a success."
+					]
+				}
+			]
+		},
+		{
+			"source": "ToH (3pp)",
+			"page": 23,
+			"name": "Armor-Plated Beaver",
+			"size": "M",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 27,
+				"formula": "5d8+5"
+			},
+			"speed": {
+				"walk": 20,
+				"swim": 30
+			},
+			"str": 14,
+			"dex": 11,
+			"con": 13,
+			"int": 5,
+			"wis": 11,
+			"cha": 4,
+			"skill": {
+				"survival": "+2"
+			},
+			"senses": "",
+			"passive": 10,
+			"languages": "-",
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Hold Breath",
+					"entries": [
+						"The armor-plated beaver can hold its breath for up to 20 minutes."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"Melee Weapon Attack: {@hit +4} to hit,  reach 5 ft., one target. Hit: 6 ({@dice 1d8+2}) piercing damage."
+					]
+				}
+			]
+		},
+		{
+			"source": "ToH (3pp)",
+			"page": 24,
+			"name": "Prehistoric Beaver",
+			"size": "L",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 52,
+				"formula": "7d8+21"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 40
+			},
+			"str": 20,
+			"dex": 12,
+			"con": 17,
+			"int": 3,
+			"wis": 11,
+			"cha": 5,
+			"skill": {
+				"survival": "+2"
+			},
+			"senses": "",
+			"passive": 10,
+			"languages": "-",
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Hold Breath",
+					"entries": [
+						"The prehistoric beaver can hold its breath for up to 20 minutes."
+					]
+				},
+				{
+					"name": "Siege Monster",
+					"entries": [
+						"The prehistoric beaver deals double damage to objects and structures."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"Melee Weapon Attack: {@hit +7} to hit,  reach 5 ft., one target. Hit: 27 ({@dice 4d10+5}) piercing damage."
+					]
+				}
+			]
+		},
+		{
+			"source": "ToH (3pp)",
+			"page": 25,
+			"name": "Bedlam",
+			"size": "L",
+			"type": "aberration",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 112,
+				"formula": "15d10+30"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 50,
+					"condition": "(hover)"
+				}
+			},
+			"str": 17,
+			"dex": 20,
+			"con": 15,
+			"int": 15,
+			"wis": 15,
+			"cha": 12,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical weapons"
+				}
+			],
+			"conditionImmune": [
+				"petrification"
+			],
+			"senses": "darkvision 60 ft.",
+			"passive": 12,
+			"languages": "Common, choice of two others",
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Chaotic Resonance",
+					"entries": [
+						"The bedlam emanates an aura of pure chaos. The aura deals 7 ({@dice 2d6}) psychic damage to any creautre that ends its turn within 30 feet of the bedlam. Creatures attempting to cast a spell or use a magic item have a 50% chance of the spell fizzling or the item not functioning. Creatures that are chaotic in nature ignore the effect of the bedlam's chaotic resonance."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The bedlam has advantage on saving throws against spells and other magic effects."
+					]
+				},
+				{
+					"name": "Sense Law",
+					"entries": [
+						"The bedlam can sense the presence and location of any creature within 120 feet of it that is lawfully aligned, regardless of interposing barries, unless the creautre is protected by a spell such as nondetection."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The bedlam makes two slam attacks."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"Melee Weapon Attack: {@hit +8} to hit, reach 10 ft., one target. Hit: 14 ({@dice 2d8+5}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Chaos Burst (Recharge 5-6)",
+					"entries": [
+						"The bedlam releases a burst of crackling gray energy in a 20-foot radius. Creatures in this area must make a DC 14 Wisdom saving throw, taking 22 ({@dice 5d8}) psychic damage on a failed save, and half as much damage on a successful one. Creatures that are chaotic in nature ignore the bedlam's chaos burst."
+					]
+				}
+			]
+		},
+		{
+			"source": "ToH (3pp)",
+			"page": 26,
+			"name": "Blister Beetle",
+			"size": "S",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 13,
+				"formula": "3d6+3"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 10,
+			"con": 12,
+			"int": 1,
+			"wis": 10,
+			"cha": 7,
+			"immune": [
+				"acid",
+				"poison"
+			],
+			"senses": "darkvision 60 ft., tremorsense 60 ft.",
+			"passive": 10,
+			"languages": "-",
+			"cr": "1",
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"Melee Weapon Attack: {@hit +2} to hit, reach 5 ft., one target. Hit: 3 ({@dice 1d6}) piercing damage plus 3 ({@dice 1d6}) acid damage."
+					]
+				},
+				{
+					"name": "Blister Spray (Recharge 5-6)",
+					"entries": [
+						"The beetle exhales a 15-foot cone of caustic acid, causing painful blisters to form on the skin of any creature caught in the spray. Creatures in the area must make a DC 12 Dexterity saving throw, taking 10 ({@dice 3d6}) acid damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			]
+		},
+		{
+			"source": "ToH (3pp)",
+			"page": 26,
+			"name": "Cave Beetle",
+			"size": "S",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 31,
+				"formula": "7d6+7"
+			},
+			"speed": {
+				"walk": 20,
+				"fly": 30,
+				"burrow": 20
+			},
+			"str": 12,
+			"dex": 14,
+			"con": 13,
+			"int": 1,
+			"wis": 11,
+			"cha": 2,
+			"skill": {
+				"perception": "+2"
+			},
+			"senses": "blindsight 60 ft. (blind beyond this radius), tremorsense 120 ft.",
+			"passive": 12,
+			"languages": "-",
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Death Throes",
+					"entries": [
+						"When a giant cave beetle reaches 0 hit points, it releases a strong acidic cloud in a 5-foot radius. Creatures within this area must make a DC 11 Constitution saving throw, taking 7 ({@dice 2d6}) acid damage on a failed saving throw, or half as much damage on a successful saving throw. Every giant cave beetle in 500 feet is capable of detecting the smell of this acid."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"Melee Weapon Attack: {@hit +4} to hit, reach 5 ft., one target. Hit: 6 ({@dice 1d8+2}) slashing damage."
+					]
+				}
+			]
+		},
+		{
+			"source": "ToH (3pp)",
+			"page": 27,
+			"name": "Death Watch Beetle",
+			"size": "M",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 75,
+				"formula": "10d8+30"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 20,
+			"dex": 10,
+			"con": 16,
+			"int": 1,
+			"wis": 10,
+			"cha": 9,
+			"immune": [
+				"necrotic"
+			],
+			"senses": "darkvision 60 ft.",
+			"passive": 10,
+			"languages": "-",
+			"cr": "5",
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"Melee Weapon Attack: {@hit +8} to hit, reach 5 ft., one target. Hit: 12 ({@dice 2d6+5}) piercing damage."
+					]
+				},
+				{
+					"name": "Death Rattle (Recharge 5-6)",
+					"entries": [
+						"The death watch beetle emits a clicking noise with a resonance frequency that affects creatures within 30 feet of it. Creatures in this area must make a DC 13 Constitution saving throw, taking 10 ({@dice 3d6}) thunder damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,1233 @@
+{
+    "schema_version": 2,
+    "oldId": "-LzX16aMHPzSOYhe5NlO",
+    "name": "SOLDIER01_Queen_Adria_Durron",
+    "avatar": "https://i.imgur.com/w1Z5SrC.png",
+    "bio": "%3Cp%3E%3Ca%20href%3D%22https%3A//www.reddit.com/r/UnearthedArcana/comments/3piisk/pack_the_kings_army_complete_monster_pack/%22%3EThe%20King%20And%20the%20Queen%3C/a%3E%3Cbr%3E%3C/p%3EKing%20Paul%20Shapechanger%20and%20Queen%20Adria%20Durron%20lead%20the%20kingdom.%20Though%20Paul%20is%20King%2C%20he%20is%20actually%20not%20a%20royal%2C%20having%20married%20then%20Princess%20Adria%20Durron%20many%20years%20ago.%20Since%20the%20death%20of%20Adria%u2019s%20father%2C%20King%20Patil%20took%20the%20throne%20besides%20his%20wife.%3Cbr%3E%3Cbr%3EQUEEN%20ADRIA%20DURRON%3Cbr%3E%3Cbr%3EThe%20Queen%2C%20a%20born%20royal%2C%20spent%20most%20of%20her%20youth%20living%20the%20life%20of%20a%20princess.%20Though%20she%20excelled%20at%20nuances%20and%20mannerisms%20expected%20of%20a%20royal%20princess%2C%20she%20thirsted%20for%20adventure.%20When%20she%20met%20the%20adventurer%20Paul%20Shapechanger%2C%20she%20was%20enchanted%20by%20his%20stories%20and%20his%20adventuring%20nature.%3Cbr%3E%3Cbr%3ERuler%20of%20the%20People.%20%3Cbr%3EThough%20her%20husband%20is%20the%20ruler%20of%20the%20kingdom%2C%20it%20would%20not%20run%20without%20Queen%20Adria.%20Her%20many%20classes%20as%20a%20child%20taught%20her%20how%20to%20be%20a%20good%20ruler%2C%20tough%20yet%20kind.%20However%2C%20her%20greatest%20strength%20lies%20in%20her%20ability%20to%20inspire%20people%20with%20her%20words%20and%20small%20smiles.%20Queen%20Adria%u2019s%20natural%20leadership%20allows%20her%20to%20sit%20in%20the%20background%2C%20helping%20and%20guiding%20the%20King%20as%20he%20rules%20the%20people%20of%20her%20family%u2019s%20kingdom.%3Cbr%3E%3Cp%3E%3Cbr%3E%3C/p%3E",
+    "gmnotes": "",
+    "defaulttoken": "{\"left\":525,\"top\":595,\"width\":70,\"height\":70,\"imgsrc\":\"https://i.imgur.com/w1Z5SrC.png\",\"page_id\":\"-Ly_bGp8M1ckoe8Ju7HQ\",\"layer\":\"objects\",\"name\":\"SOLDIER01_Queen_Adria_Durron\",\"represents\":\"-LzX16aMHPzSOYhe5NlO\",\"bar1_value\":65,\"bar1_max\":65,\"bar1_link\":\"-LzX16faJLzba_ShbpoR\",\"bar2_value\":18,\"bar2_max\":18,\"bar2_link\":\"-LzX16faJLzba_ShbpoQ\",\"bar3_value\":\"15\",\"bar3_max\":\"15\",\"showname\":true,\"light_radius\":\"60\",\"light_dimradius\":\"20\",\"adv_fow_view_distance\":\"60\",\"lastmove\":\"501,587\"}",
+    "tags": "[\"Humanoid\",\"Half-Elf\"]",
+    "controlledby": "",
+    "inplayerjournals": "",
+    "attribs": [
+        {
+            "name": "npc",
+            "current": "1",
+            "max": "",
+            "id": "-LzX16fQxoeSDk7KL_f0"
+        },
+        {
+            "name": "wtype",
+            "current": "@{whispertoggle}",
+            "max": "",
+            "id": "-LzX16fQxoeSDk7KL_f1"
+        },
+        {
+            "name": "global_save_mod_flag",
+            "current": "1",
+            "max": "",
+            "id": "-LzX16fRBdmkVIpU7Zgg"
+        },
+        {
+            "name": "global_skill_mod_flag",
+            "current": "1",
+            "max": "",
+            "id": "-LzX16fRBdmkVIpU7Zgh"
+        },
+        {
+            "name": "global_attack_mod_flag",
+            "current": "1",
+            "max": "",
+            "id": "-LzX16fSkDSXtsLu0N4V"
+        },
+        {
+            "name": "global_damage_mod_flag",
+            "current": "1",
+            "max": "",
+            "id": "-LzX16fSkDSXtsLu0N4W"
+        },
+        {
+            "name": "charname_output",
+            "current": "{{charname=@{character_name}}}",
+            "max": "",
+            "id": "-LzX16fTe40lxG-0mnyK"
+        },
+        {
+            "name": "npc_name_flag",
+            "current": "{{name=@{npc_name}}}",
+            "max": "",
+            "id": "-LzX16fUSpAXkQ4Hjcns"
+        },
+        {
+            "name": "ammotracking",
+            "current": "on",
+            "max": "",
+            "id": "-LzX16fVeu-uPkLHdBo5"
+        },
+        {
+            "name": "cd_bar2_m",
+            "current": "npc_ac",
+            "max": "",
+            "id": "-LzX16fVeu-uPkLHdBo6"
+        },
+        {
+            "name": "cd_bar3_m",
+            "current": "spell_save_dc",
+            "max": "",
+            "id": "-LzX16fWuBbAFotHGnRE"
+        },
+        {
+            "name": "cd_bar3_l",
+            "current": "spell_save_dc",
+            "max": "",
+            "id": "-LzX16fXABJ4rHBAaT_Z"
+        },
+        {
+            "name": "rtype",
+            "current": "@{advantagetoggle}",
+            "max": "",
+            "id": "-LzX16fYquFz-HHdW5G4"
+        },
+        {
+            "name": "npc_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LzX16fYquFz-HHdW5G5"
+        },
+        {
+            "name": "drop_category",
+            "current": "",
+            "max": "",
+            "id": "-LzX16fYquFz-HHdW5G6"
+        },
+        {
+            "name": "drop_name",
+            "current": "",
+            "max": "",
+            "id": "-LzX16fZWoh41i1bTrB3"
+        },
+        {
+            "name": "drop_data",
+            "current": "",
+            "max": "",
+            "id": "-LzX16fZWoh41i1bTrB4"
+        },
+        {
+            "name": "drop_content",
+            "current": "",
+            "max": "",
+            "id": "-LzX16fZWoh41i1bTrB5"
+        },
+        {
+            "name": "npc_name",
+            "current": "King Paul",
+            "max": "",
+            "id": "-LzX16f_Z8sdfGTNMAuR"
+        },
+        {
+            "name": "npc_type",
+            "current": "Medium Humanoid (half-helf), unaligned",
+            "max": "",
+            "id": "-LzX16f_Z8sdfGTNMAuS"
+        },
+        {
+            "name": "npc_ac",
+            "current": "18",
+            "max": "18",
+            "id": "-LzX16faJLzba_ShbpoQ"
+        },
+        {
+            "name": "hp",
+            "current": "65",
+            "max": "65",
+            "id": "-LzX16faJLzba_ShbpoR"
+        },
+        {
+            "name": "condition_health",
+            "current": 5,
+            "max": "",
+            "id": "-LzX16fb2Ga-HE7LQonQ"
+        },
+        {
+            "name": "npc_hpformula",
+            "current": "10d8+20",
+            "max": "",
+            "id": "-LzX16fcRHyDQlh2TMeX"
+        },
+        {
+            "name": "npc_speed",
+            "current": "30 ft.",
+            "max": "",
+            "id": "-LzX16fcRHyDQlh2TMeY"
+        },
+        {
+            "name": "npc_actype",
+            "current": "plate",
+            "max": "",
+            "id": "-LzX16fcRHyDQlh2TMeZ"
+        },
+        {
+            "name": "strength_base",
+            "current": "14",
+            "max": "",
+            "id": "-LzX16fdN9VsgrLCrZBW"
+        },
+        {
+            "name": "strength_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzX16fdN9VsgrLCrZBX"
+        },
+        {
+            "name": "strength",
+            "current": 14,
+            "max": "",
+            "id": "-LzX16feqqz1hx9JqvME"
+        },
+        {
+            "name": "strength_mod",
+            "current": 2,
+            "max": "",
+            "id": "-LzX16ffQyOqe8ihHue0"
+        },
+        {
+            "name": "npc_str_negative",
+            "current": 0,
+            "max": "",
+            "id": "-LzX16ffQyOqe8ihHue1"
+        },
+        {
+            "name": "weighttotal",
+            "current": 0,
+            "max": "",
+            "id": "-LzX16fi2C-QyC-a21hP"
+        },
+        {
+            "name": "slotstotal",
+            "current": 0,
+            "max": "",
+            "id": "-LzX16fjyaaVFalI76Tw"
+        },
+        {
+            "name": "slotsmaximum",
+            "current": 20,
+            "max": "",
+            "id": "-LzX16fjyaaVFalI76Tx"
+        },
+        {
+            "name": "encumberance",
+            "current": " ",
+            "max": "",
+            "id": "-LzX16fkWcjzGnB5Qk23"
+        },
+        {
+            "name": "spell_attack_bonus",
+            "current": "0",
+            "max": "",
+            "id": "-LzX16fkWcjzGnB5Qk24"
+        },
+        {
+            "name": "spell_save_dc",
+            "current": "0",
+            "max": "",
+            "id": "-LzX16fkWcjzGnB5Qk25"
+        },
+        {
+            "name": "strength_save_bonus",
+            "current": 2,
+            "max": "",
+            "id": "-LzX16flwLRlBwhEgCEC"
+        },
+        {
+            "name": "athletics_bonus",
+            "current": 2,
+            "max": "",
+            "id": "-LzX16fmVJg5Qpa8tSUz"
+        },
+        {
+            "name": "dexterity_base",
+            "current": "13",
+            "max": "",
+            "id": "-LzX16fmVJg5Qpa8tSV-"
+        },
+        {
+            "name": "dexterity_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzX16fmVJg5Qpa8tSV0"
+        },
+        {
+            "name": "dexterity",
+            "current": 13,
+            "max": "",
+            "id": "-LzX16fmVJg5Qpa8tSV1"
+        },
+        {
+            "name": "dexterity_mod",
+            "current": 1,
+            "max": "",
+            "id": "-LzX16foRftJZP5--ikP"
+        },
+        {
+            "name": "npc_dex_negative",
+            "current": 0,
+            "max": "",
+            "id": "-LzX16foRftJZP5--ikQ"
+        },
+        {
+            "name": "initiative_bonus",
+            "current": 2,
+            "max": "",
+            "id": "-LzX16fpUsrduwyatEZi"
+        },
+        {
+            "name": "dexterity_save_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-LzX16fpUsrduwyatEZj"
+        },
+        {
+            "name": "acrobatics_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-LzX16fqUvhoECkg2euq"
+        },
+        {
+            "name": "sleight_of_hand_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-LzX16fqUvhoECkg2eur"
+        },
+        {
+            "name": "stealth_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-LzX16fqUvhoECkg2eus"
+        },
+        {
+            "name": "armorwarningflag",
+            "current": "hide",
+            "max": "",
+            "id": "-LzX16fskeTlRU48wrlH"
+        },
+        {
+            "name": "customacwarningflag",
+            "current": "hide",
+            "max": "",
+            "id": "-LzX16fskeTlRU48wrlI"
+        },
+        {
+            "name": "ac",
+            "current": 11,
+            "max": "",
+            "id": "-LzX16fskeTlRU48wrlJ"
+        },
+        {
+            "name": "constitution_base",
+            "current": "14",
+            "max": "",
+            "id": "-LzX16ftK1rdv6MM-pEr"
+        },
+        {
+            "name": "constitution_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzX16ftK1rdv6MM-pEs"
+        },
+        {
+            "name": "constitution",
+            "current": 14,
+            "max": "",
+            "id": "-LzX16ftK1rdv6MM-pEt"
+        },
+        {
+            "name": "constitution_mod",
+            "current": 2,
+            "max": "",
+            "id": "-LzX16ftK1rdv6MM-pEu"
+        },
+        {
+            "name": "npc_con_negative",
+            "current": 0,
+            "max": "",
+            "id": "-LzX16ftK1rdv6MM-pEv"
+        },
+        {
+            "name": "constitution_save_bonus",
+            "current": 2,
+            "max": "",
+            "id": "-LzX16fuRJidTZGGhLew"
+        },
+        {
+            "name": "intelligence_base",
+            "current": "14",
+            "max": "",
+            "id": "-LzX16fuRJidTZGGhLex"
+        },
+        {
+            "name": "intelligence_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzX16fuRJidTZGGhLey"
+        },
+        {
+            "name": "intelligence",
+            "current": 14,
+            "max": "",
+            "id": "-LzX16fvhnIVmyDwXVhr"
+        },
+        {
+            "name": "intelligence_mod",
+            "current": 2,
+            "max": "",
+            "id": "-LzX16fvhnIVmyDwXVhs"
+        },
+        {
+            "name": "npc_int_negative",
+            "current": 0,
+            "max": "",
+            "id": "-LzX16fwYKX2ssfLVIkf"
+        },
+        {
+            "name": "intelligence_save_bonus",
+            "current": 2,
+            "max": "",
+            "id": "-LzX16fwYKX2ssfLVIkg"
+        },
+        {
+            "name": "arcana_bonus",
+            "current": 2,
+            "max": "",
+            "id": "-LzX16fwYKX2ssfLVIkh"
+        },
+        {
+            "name": "history_bonus",
+            "current": 2,
+            "max": "",
+            "id": "-LzX16fwYKX2ssfLVIki"
+        },
+        {
+            "name": "investigation_bonus",
+            "current": 2,
+            "max": "",
+            "id": "-LzX16fwYKX2ssfLVIkj"
+        },
+        {
+            "name": "nature_bonus",
+            "current": 2,
+            "max": "",
+            "id": "-LzX16fwYKX2ssfLVIkk"
+        },
+        {
+            "name": "religion_bonus",
+            "current": 2,
+            "max": "",
+            "id": "-LzX16fxaEZKVYgVcu1d"
+        },
+        {
+            "name": "wisdom_base",
+            "current": "17",
+            "max": "",
+            "id": "-LzX16fy59QvsADVjsQR"
+        },
+        {
+            "name": "wisdom_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzX16fy59QvsADVjsQS"
+        },
+        {
+            "name": "wisdom",
+            "current": 17,
+            "max": "",
+            "id": "-LzX16fy59QvsADVjsQT"
+        },
+        {
+            "name": "wisdom_mod",
+            "current": 3,
+            "max": "",
+            "id": "-LzX16fzn-aUH7LhxTSO"
+        },
+        {
+            "name": "npc_wis_negative",
+            "current": 0,
+            "max": "",
+            "id": "-LzX16fzn-aUH7LhxTSP"
+        },
+        {
+            "name": "wisdom_save_bonus",
+            "current": 3,
+            "max": "",
+            "id": "-LzX16fzn-aUH7LhxTSQ"
+        },
+        {
+            "name": "animal_handling_bonus",
+            "current": 3,
+            "max": "",
+            "id": "-LzX16g0ES_ZcPSWsdbn"
+        },
+        {
+            "name": "insight_bonus",
+            "current": 3,
+            "max": "",
+            "id": "-LzX16g0ES_ZcPSWsdbo"
+        },
+        {
+            "name": "medicine_bonus",
+            "current": 3,
+            "max": "",
+            "id": "-LzX16g2gSDBvTc_YPmj"
+        },
+        {
+            "name": "perception_bonus",
+            "current": 3,
+            "max": "",
+            "id": "-LzX16g2gSDBvTc_YPmk"
+        },
+        {
+            "name": "survival_bonus",
+            "current": 3,
+            "max": "",
+            "id": "-LzX16g3zghtYreX6D3g"
+        },
+        {
+            "name": "passive_wisdom",
+            "current": 13,
+            "max": "10",
+            "id": "-LzX16g4GlmQIs8V7-yB"
+        },
+        {
+            "name": "charisma_base",
+            "current": "12",
+            "max": "",
+            "id": "-LzX16g4GlmQIs8V7-yC"
+        },
+        {
+            "name": "charisma_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzX16g4GlmQIs8V7-yD"
+        },
+        {
+            "name": "charisma",
+            "current": 12,
+            "max": "",
+            "id": "-LzX16g5i9YoBcWcs6Br"
+        },
+        {
+            "name": "charisma_mod",
+            "current": 1,
+            "max": "",
+            "id": "-LzX16g5i9YoBcWcs6Bs"
+        },
+        {
+            "name": "npc_cha_negative",
+            "current": 0,
+            "max": "",
+            "id": "-LzX16g5i9YoBcWcs6Bt"
+        },
+        {
+            "name": "charisma_save_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-LzX16g6Cc1HfaNIXnFN"
+        },
+        {
+            "name": "deception_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-LzX16g6Cc1HfaNIXnFO"
+        },
+        {
+            "name": "intimidation_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-LzX16g77LYohlglb4rf"
+        },
+        {
+            "name": "performance_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-LzX16g77LYohlglb4rg"
+        },
+        {
+            "name": "persuasion_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-LzX16g77LYohlglb4rh"
+        },
+        {
+            "name": "npc_str_save_base",
+            "current": "",
+            "max": "",
+            "id": "-LzX16g8pZZFx3ZB1c1_"
+        },
+        {
+            "name": "npc_saving_flag",
+            "current": "46",
+            "max": "",
+            "id": "-LzX16g8pZZFx3ZB1c1a"
+        },
+        {
+            "name": "npc_str_save",
+            "current": "",
+            "max": "",
+            "id": "-LzX16g8pZZFx3ZB1c1b"
+        },
+        {
+            "name": "npc_str_save_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzX16g8pZZFx3ZB1c1c"
+        },
+        {
+            "name": "npc_dex_save",
+            "current": "",
+            "max": "",
+            "id": "-LzX16g9oTMHup_AzXc8"
+        },
+        {
+            "name": "npc_dex_save_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzX16g9oTMHup_AzXc9"
+        },
+        {
+            "name": "npc_con_save",
+            "current": "",
+            "max": "",
+            "id": "-LzX16g9oTMHup_AzXcA"
+        },
+        {
+            "name": "npc_con_save_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzX16gADlMM8dryMoMb"
+        },
+        {
+            "name": "npc_int_save",
+            "current": "",
+            "max": "",
+            "id": "-LzX16gADlMM8dryMoMc"
+        },
+        {
+            "name": "npc_int_save_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzX16gADlMM8dryMoMd"
+        },
+        {
+            "name": "npc_wis_save",
+            "current": 6,
+            "max": "",
+            "id": "-LzX16gADlMM8dryMoMe"
+        },
+        {
+            "name": "npc_wis_save_flag",
+            "current": 1,
+            "max": "",
+            "id": "-LzX16gCWnspiA7xS9Ms"
+        },
+        {
+            "name": "npc_cha_save",
+            "current": 4,
+            "max": "",
+            "id": "-LzX16gCWnspiA7xS9Mt"
+        },
+        {
+            "name": "npc_cha_save_flag",
+            "current": 2,
+            "max": "",
+            "id": "-LzX16gCWnspiA7xS9Mu"
+        },
+        {
+            "name": "npc_dex_save_base",
+            "current": "",
+            "max": "",
+            "id": "-LzX16gDVDEhLU86qJEA"
+        },
+        {
+            "name": "npc_con_save_base",
+            "current": "",
+            "max": "",
+            "id": "-LzX16gDVDEhLU86qJEB"
+        },
+        {
+            "name": "npc_int_save_base",
+            "current": "",
+            "max": "",
+            "id": "-LzX16gDVDEhLU86qJEC"
+        },
+        {
+            "name": "npc_wis_save_base",
+            "current": "6",
+            "max": "",
+            "id": "-LzX16gEcXjT3zs3rnS3"
+        },
+        {
+            "name": "npc_cha_save_base",
+            "current": "4",
+            "max": "",
+            "id": "-LzX16gEcXjT3zs3rnS4"
+        },
+        {
+            "name": "npc_senses",
+            "current": "darkvision 60 ft., passive Perception 16",
+            "max": "",
+            "id": "-LzX16gEcXjT3zs3rnS5"
+        },
+        {
+            "name": "npc_languages",
+            "current": "Common, Elvish , Orc",
+            "max": "",
+            "id": "-LzX16gFqZwSvyKNq3T4"
+        },
+        {
+            "name": "npc_challenge",
+            "current": "7",
+            "max": "",
+            "id": "-LzX16gG8PGQm1uxVMNb"
+        },
+        {
+            "name": "npc_xp",
+            "current": "2900",
+            "max": "",
+            "id": "-LzX16gG8PGQm1uxVMNc"
+        },
+        {
+            "name": "pb_custom",
+            "current": 3,
+            "max": "",
+            "id": "-LzX16gG8PGQm1uxVMNd"
+        },
+        {
+            "name": "pb_type",
+            "current": "custom",
+            "max": "",
+            "id": "-LzX16gHijUXbNCQvoOB"
+        },
+        {
+            "name": "pb",
+            "current": 3,
+            "max": "",
+            "id": "-LzX16gI5F4m7Kd5KlBt"
+        },
+        {
+            "name": "jack",
+            "current": 1,
+            "max": "",
+            "id": "-LzX16gKv8gbbO99QtMD"
+        },
+        {
+            "name": "pbd_safe",
+            "current": "",
+            "max": "",
+            "id": "-LzX16gLxGqjb_h2lSvS"
+        },
+        {
+            "name": "jack_bonus",
+            "current": "",
+            "max": "",
+            "id": "-LzX16gLxGqjb_h2lSvT"
+        },
+        {
+            "name": "jack_attr",
+            "current": "",
+            "max": "",
+            "id": "-LzX16gLxGqjb_h2lSvU"
+        },
+        {
+            "name": "death_save_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-LzX16gLxGqjb_h2lSvV"
+        },
+        {
+            "name": "version",
+            "current": "2.8",
+            "max": "",
+            "id": "-LzX16gLxGqjb_h2lSvW"
+        },
+        {
+            "name": "mancer_confirm_flag",
+            "current": "",
+            "max": "",
+            "id": "-LzX16gMhr3c5HnlMXXl"
+        },
+        {
+            "name": "mancer_npc",
+            "current": "on",
+            "max": "",
+            "id": "-LzX16gN45gGwT-hnts7"
+        },
+        {
+            "name": "l1mancer_status",
+            "current": "completed",
+            "max": "",
+            "id": "-LzX16gN45gGwT-hnts8"
+        },
+        {
+            "name": "npc_perception_base",
+            "current": "6",
+            "max": "",
+            "id": "-LzX16gN45gGwT-hnts9"
+        },
+        {
+            "name": "npc_skills_flag",
+            "current": "76",
+            "max": "",
+            "id": "-LzX16gN45gGwT-hntsA"
+        },
+        {
+            "name": "npc_stealth_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzX16gOhkiYdYdVKvoW"
+        },
+        {
+            "name": "npc_survival",
+            "current": "",
+            "max": "",
+            "id": "-LzX16gOhkiYdYdVKvoX"
+        },
+        {
+            "name": "npc_acrobatics",
+            "current": "",
+            "max": "",
+            "id": "-LzX16gOhkiYdYdVKvoY"
+        },
+        {
+            "name": "npc_acrobatics_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzX16gOhkiYdYdVKvoZ"
+        },
+        {
+            "name": "npc_animal_handling",
+            "current": "",
+            "max": "",
+            "id": "-LzX16gP1mD-GME4tYfP"
+        },
+        {
+            "name": "npc_animal_handling_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzX16gP1mD-GME4tYfQ"
+        },
+        {
+            "name": "npc_arcana",
+            "current": "",
+            "max": "",
+            "id": "-LzX16gP1mD-GME4tYfR"
+        },
+        {
+            "name": "npc_arcana_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzX16gP1mD-GME4tYfS"
+        },
+        {
+            "name": "npc_athletics",
+            "current": "",
+            "max": "",
+            "id": "-LzX16gQPM7D_ck4_J31"
+        },
+        {
+            "name": "npc_athletics_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzX16gQPM7D_ck4_J32"
+        },
+        {
+            "name": "npc_deception",
+            "current": "",
+            "max": "",
+            "id": "-LzX16gQPM7D_ck4_J33"
+        },
+        {
+            "name": "npc_deception_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzX16gQPM7D_ck4_J34"
+        },
+        {
+            "name": "npc_history",
+            "current": "",
+            "max": "",
+            "id": "-LzX16gRVxPLo3kD_oNE"
+        },
+        {
+            "name": "npc_history_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzX16gRVxPLo3kD_oNF"
+        },
+        {
+            "name": "npc_insight",
+            "current": "",
+            "max": "",
+            "id": "-LzX16gRVxPLo3kD_oNG"
+        },
+        {
+            "name": "npc_insight_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzX16gS-CGSBoKaEazt"
+        },
+        {
+            "name": "npc_intimidation",
+            "current": 7,
+            "max": "",
+            "id": "-LzX16gS-CGSBoKaEazu"
+        },
+        {
+            "name": "npc_intimidation_flag",
+            "current": 1,
+            "max": "",
+            "id": "-LzX16gS-CGSBoKaEazv"
+        },
+        {
+            "name": "npc_investigation",
+            "current": "",
+            "max": "",
+            "id": "-LzX16gTIV5W2HSTkaEB"
+        },
+        {
+            "name": "npc_investigation_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzX16gTIV5W2HSTkaEC"
+        },
+        {
+            "name": "npc_medicine",
+            "current": "",
+            "max": "",
+            "id": "-LzX16gUmRE24DFANHLX"
+        },
+        {
+            "name": "npc_medicine_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzX16gUmRE24DFANHLY"
+        },
+        {
+            "name": "npc_nature",
+            "current": "",
+            "max": "",
+            "id": "-LzX16gUmRE24DFANHLZ"
+        },
+        {
+            "name": "npc_nature_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzX16gUmRE24DFANHL_"
+        },
+        {
+            "name": "npc_perception",
+            "current": 6,
+            "max": "",
+            "id": "-LzX16gVCjhtZikll1cr"
+        },
+        {
+            "name": "npc_perception_flag",
+            "current": 2,
+            "max": "",
+            "id": "-LzX16gW5Tf7uOiXajPl"
+        },
+        {
+            "name": "npc_performance",
+            "current": "",
+            "max": "",
+            "id": "-LzX16gW5Tf7uOiXajPm"
+        },
+        {
+            "name": "npc_performance_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzX16gW5Tf7uOiXajPn"
+        },
+        {
+            "name": "npc_persuasion",
+            "current": "",
+            "max": "",
+            "id": "-LzX16gW5Tf7uOiXajPo"
+        },
+        {
+            "name": "npc_persuasion_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzX16gW5Tf7uOiXajPp"
+        },
+        {
+            "name": "npc_religion",
+            "current": "",
+            "max": "",
+            "id": "-LzX16gXL52cHlR9PYIF"
+        },
+        {
+            "name": "npc_religion_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzX16gXL52cHlR9PYIG"
+        },
+        {
+            "name": "npc_sleight_of_hand",
+            "current": "",
+            "max": "",
+            "id": "-LzX16gYTN8jeUf_e3D1"
+        },
+        {
+            "name": "npc_sleight_of_hand_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzX16gYTN8jeUf_e3D2"
+        },
+        {
+            "name": "npc_stealth",
+            "current": "",
+            "max": "",
+            "id": "-LzX16gYTN8jeUf_e3D3"
+        },
+        {
+            "name": "npc_survival_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LzX16gYTN8jeUf_e3D4"
+        },
+        {
+            "name": "npc_intimidation_base",
+            "current": "7",
+            "max": "",
+            "id": "-LzX16gYTN8jeUf_e3D5"
+        },
+        {
+            "name": "repeating_npctrait_-LzWeOpT6gJwNeetgnRk_desc",
+            "current": "\nQueen Adria has advantage on saving throws against being charmed, and magic can't put her to sleep.",
+            "max": "",
+            "id": "-LzX16gYTN8jeUf_e3D6"
+        },
+        {
+            "name": "repeating_npctrait_-LzWeOpT6gJwNeetgnRk_name",
+            "current": "Fey Ancestry",
+            "max": "",
+            "id": "-LzX16gZc2EGMNN68-BR"
+        },
+        {
+            "name": "repeating_npctrait_-LzWeOpT6gJwNeetgnRk_npc_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LzX16gZc2EGMNN68-BS"
+        },
+        {
+            "name": "repeating_npctrait_-LzWeQpaH9bHoVLJ5MPY_name",
+            "current": " Disarming Smile",
+            "max": "",
+            "id": "-LzX16g_l9X94FPsiQS5"
+        },
+        {
+            "name": "repeating_npctrait_-LzWeQpaH9bHoVLJ5MPY_desc",
+            "current": "Queen Adria is well versed in royal politics. She has advantage on all Charisma checks and saving throws.",
+            "max": "",
+            "id": "-LzX16g_l9X94FPsiQS6"
+        },
+        {
+            "name": "repeating_npctrait_-LzWeQpaH9bHoVLJ5MPY_npc_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LzX16g_l9X94FPsiQS7"
+        },
+        {
+            "name": "repeating_npcaction_-LzWeXt4QTgy7rwl8Z1u_name",
+            "current": "Multiattack",
+            "max": "",
+            "id": "-LzX16gap7p9lv5rwvxe"
+        },
+        {
+            "name": "repeating_npcaction_-LzWeXt4QTgy7rwl8Z1u_description",
+            "current": "Queen Adria makes two attacks with her rapier, Whisper",
+            "max": "",
+            "id": "-LzX16gap7p9lv5rwvxf"
+        },
+        {
+            "name": "repeating_npcaction_-LzWeXt4QTgy7rwl8Z1u_npc_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LzX16gbNG4c00KnxPVW"
+        },
+        {
+            "name": "repeating_npcaction_-LzWeXt4QTgy7rwl8Z1u_attack_tohitrange",
+            "current": "+0",
+            "max": "",
+            "id": "-LzX16gbNG4c00KnxPVX"
+        },
+        {
+            "name": "repeating_npcaction_-LzWeXt4QTgy7rwl8Z1u_attack_onhit",
+            "current": "",
+            "max": "",
+            "id": "-LzX16gbNG4c00KnxPVY"
+        },
+        {
+            "name": "repeating_npcaction_-LzWeXt4QTgy7rwl8Z1u_damage_flag",
+            "current": "",
+            "max": "",
+            "id": "-LzX16gcQVvVQN0Xm0Xz"
+        },
+        {
+            "name": "repeating_npcaction_-LzWeXt4QTgy7rwl8Z1u_attack_crit",
+            "current": "",
+            "max": "",
+            "id": "-LzX16gcQVvVQN0Xm0Y-"
+        },
+        {
+            "name": "repeating_npcaction_-LzWeXt4QTgy7rwl8Z1u_attack_crit2",
+            "current": "",
+            "max": "",
+            "id": "-LzX16gcQVvVQN0Xm0Y0"
+        },
+        {
+            "name": "repeating_npcaction_-LzWeXt4QTgy7rwl8Z1u_rollbase",
+            "current": "@{wtype}&{template:npcaction} @{npc_name_flag} {{rname=@{name}}} {{description=@{show_desc}}} @{charname_output}",
+            "max": "",
+            "id": "-LzX16gdfQpccWhPw1Hn"
+        },
+        {
+            "name": "repeating_npcaction_-LzWeaU0Df7mkXpr-S3R_name",
+            "current": "Whisper",
+            "max": "",
+            "id": "-LzX16gdfQpccWhPw1Ho"
+        },
+        {
+            "name": "repeating_npcaction_-LzWeaU0Df7mkXpr-S3R_attack_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LzX16geBSHJDesjMYhM"
+        },
+        {
+            "name": "repeating_npcaction_-LzWeaU0Df7mkXpr-S3R_attack_tohitrange",
+            "current": "+6, Reach 5 ft., one target",
+            "max": "",
+            "id": "-LzX16geBSHJDesjMYhN"
+        },
+        {
+            "name": "repeating_npcaction_-LzWeaU0Df7mkXpr-S3R_attack_onhit",
+            "current": "10 (1d8+6) poison damage",
+            "max": "",
+            "id": "-LzX16geBSHJDesjMYhO"
+        },
+        {
+            "name": "repeating_npcaction_-LzWeaU0Df7mkXpr-S3R_damage_flag",
+            "current": "{{damage=1}} {{dmg1flag=1}} ",
+            "max": "",
+            "id": "-LzX16geBSHJDesjMYhP"
+        },
+        {
+            "name": "repeating_npcaction_-LzWeaU0Df7mkXpr-S3R_attack_crit",
+            "current": "1d8",
+            "max": "",
+            "id": "-LzX16gfTHwni4F3XFqQ"
+        },
+        {
+            "name": "repeating_npcaction_-LzWeaU0Df7mkXpr-S3R_attack_crit2",
+            "current": "",
+            "max": "",
+            "id": "-LzX16gfTHwni4F3XFqR"
+        },
+        {
+            "name": "repeating_npcaction_-LzWeaU0Df7mkXpr-S3R_rollbase",
+            "current": "@{wtype}&{template:npcatk} {{attack=1}} @{damage_flag} @{npc_name_flag} {{rname=[@{name}](~repeating_npcaction_npc_dmg)}} {{rnamec=[@{name}](~repeating_npcaction_npc_crit)}} {{type=[Attack](~repeating_npcaction_npc_dmg)}} {{typec=[Attack](~repeating_npcaction_npc_crit)}} {{r1=[[@{d20}+(@{attack_tohit}+0)]]}} @{rtype}+(@{attack_tohit}+0)]]}} {{description=@{show_desc}}} @{charname_output}",
+            "max": "",
+            "id": "-LzX16ggWtYleKTnH1ZM"
+        },
+        {
+            "name": "repeating_npcaction_-LzWeaU0Df7mkXpr-S3R_attack_tohit",
+            "current": "6",
+            "max": "",
+            "id": "-LzX16ggWtYleKTnH1ZN"
+        },
+        {
+            "name": "repeating_npcaction_-LzWeaU0Df7mkXpr-S3R_attack_damage",
+            "current": "1d8+6",
+            "max": "",
+            "id": "-LzX16ggWtYleKTnH1ZO"
+        },
+        {
+            "name": "repeating_npcaction_-LzWeaU0Df7mkXpr-S3R_attack_target",
+            "current": "one target",
+            "max": "",
+            "id": "-LzX16ghv991yEEnKL6Q"
+        },
+        {
+            "name": "repeating_npcaction_-LzWeaU0Df7mkXpr-S3R_attack_range",
+            "current": "5 ft.",
+            "max": "",
+            "id": "-LzX16ghv991yEEnKL6R"
+        },
+        {
+            "name": "repeating_npcaction_-LzWeaU0Df7mkXpr-S3R_attack_damagetype",
+            "current": "poison",
+            "max": "",
+            "id": "-LzX16ghv991yEEnKL6S"
+        },
+        {
+            "name": "repeating_npcaction_-LzWeaU0Df7mkXpr-S3R_npc_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LzX16giQ5wH8BMVwPvs"
+        },
+        {
+            "name": "repeating_npcaction_-LzWeoyhHHsN2-Q466G0_name",
+            "current": "Inspire! (5/Day}",
+            "max": "",
+            "id": "-LzX16giQ5wH8BMVwPvt"
+        },
+        {
+            "name": "repeating_npcaction_-LzWeoyhHHsN2-Q466G0_description",
+            "current": "The Queen inspires one of her loyal subjects, giving them advantage on their next attack roll with a bonus d8 to hit.",
+            "max": "",
+            "id": "-LzX16giQ5wH8BMVwPvu"
+        },
+        {
+            "name": "repeating_npcaction_-LzWeoyhHHsN2-Q466G0_npc_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LzX16gj4b1tht8xeZMY"
+        },
+        {
+            "name": "repeating_npcaction_-LzWeoyhHHsN2-Q466G0_attack_tohitrange",
+            "current": "+0",
+            "max": "",
+            "id": "-LzX16gj4b1tht8xeZMZ"
+        },
+        {
+            "name": "repeating_npcaction_-LzWeoyhHHsN2-Q466G0_attack_onhit",
+            "current": "",
+            "max": "",
+            "id": "-LzX16gj4b1tht8xeZM_"
+        },
+        {
+            "name": "repeating_npcaction_-LzWeoyhHHsN2-Q466G0_damage_flag",
+            "current": "",
+            "max": "",
+            "id": "-LzX16gj4b1tht8xeZMa"
+        },
+        {
+            "name": "repeating_npcaction_-LzWeoyhHHsN2-Q466G0_attack_crit",
+            "current": "",
+            "max": "",
+            "id": "-LzX16gkf2hJW08e-Rfn"
+        },
+        {
+            "name": "repeating_npcaction_-LzWeoyhHHsN2-Q466G0_attack_crit2",
+            "current": "",
+            "max": "",
+            "id": "-LzX16gkf2hJW08e-Rfo"
+        },
+        {
+            "name": "repeating_npcaction_-LzWeoyhHHsN2-Q466G0_rollbase",
+            "current": "@{wtype}&{template:npcaction} @{npc_name_flag} {{rname=@{name}}} {{description=@{show_desc}}} @{charname_output}",
+            "max": "",
+            "id": "-LzX16glHqk1C0TxKFkI"
+        }
+    ],
+    "abilities": []
+}

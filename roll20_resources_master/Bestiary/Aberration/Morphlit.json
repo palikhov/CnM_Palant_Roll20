@@ -1,0 +1,939 @@
+{
+    "schema_version": 2,
+    "oldId": "-LJpG_CE4GKznIffR9YL",
+    "name": "Morphlit",
+    "avatar": "https://s3.amazonaws.com/files.d20.io/images/60470914/XAiAFEl-VSBXsNNOUwcOXw/med.png?1534237818",
+    "bio": "%3Cbr%3E",
+    "gmnotes": "%3Cp%3E%3Ci%3EA%20morphlit%20is%20small%2C%20weak%20and%20above%20all%20resilient.%3C/i%3E%3C/p%3E%3Cp%3ECreations%20of%20forgotten%20experiments%2C%20morphlits%20adapt%20perfectly%20with%20their%20environment.%20They%20are%20wild%2C%20cunning%20creatures%20notorious%20for%20never%20failing%20to%20reach%20their%20victim.%20They%20embody%20a%20sense%20of%20brilliance%20long%20forgotten.%3C/p%3E%3Cp%3E%3Cb%3EEver-changing%20Packs.%3C/b%3E%20Smarter%20than%20their%20small%20size%20indicates%2C%20morphlits%20often%20join%20together%20to%20hunt%20larger%20prey.%20An%20instinctual%20understanding%20allows%20morphlits%20to%20switch%20into%20the%20form%20most%20needed%20for%20their%20environment%20as%20well%20as%20vary%20their%20forms%20while%20in%20a%20pack%20to%20gain%20the%20most%20success%20during%20a%20hunt.%20Large%20foreclaws%20or%20bat-like%20wings%20grow%20along%20morphlits%20as%20they%20travel%2C%20granting%20them%20easy%20access%20to%20even%20the%20most%20difficult%20of%20terrain.%20Morphlits%20share%20a%20complex%20hivemind%2C%20which%20was%20given%20to%20them%20at%20their%20creation.%20Small%20hierarchies%20concerning%20shape%20and%20personality%20emerge%20from%20each%20form%20a%20morphlit%20takes.%3C/p%3E%3Cp%3EWinged%20morphlits%20take%20on%20an%20observer%20role%20in%20their%20society.%20Burrowing%20morphlits%20are%20more%20aggressive%2C%20prone%20to%20competing%20against%20one%20another%20over%20a%20kill.%20Aquatic%20morphlits%20tend%20to%20be%20more%20passive%20unless%20provoked%20or%20agitated.%3C/p%3E%3Cp%3E%3Cb%3ESpawn%20of%20Ancients.%3C/b%3E%20Long%20before%20the%20rise%20and%20fall%20of%20great%20empires%2C%20the%20upheaval%20of%20the%20earth%20and%20even%20before%20the%20pantheon%20of%20gods%2C%20morphlits%20emerged%20as%20creations%20of%20great%20and%20mighty%20magic%2C%20formed%20to%20be%20durable%20test%20subjects%20to%20darker%20experiments.%20Seen%20as%20failures%20by%20their%20great%20masters%2C%20morphlits%20were%20cast%20away%2C%20marked%20as%20inadequate.%20Throughout%20the%20dynamic%20changes%20of%20the%20world%2C%20morphlits%20thrived%3B%20the%20great%20magic%20that%20formed%20them%20acting%20as%20a%20shield%20against%20change.%20Still%20products%20of%20a%20deep%20desire%2C%20morphlits%20continue%20to%20act%20in%20accordance%20to%20long%20imbued%20commands%20from%20their%20former%20creators.%3C/p%3E%3Cp%3E%3Ca%20href%3D%22https%3A//www.reddit.com/r/monsteraday/comments/3hlub7/day_3_morphlit/%22%3EMonster%20a%20Day%20S003%20by%20StoneStrix%3C/a%3E%3Cbr%3ETome%20of%20Madness%20Vol1%2C%20p361%3C/p%3E",
+    "defaulttoken": "{\"left\":875,\"top\":735,\"width\":70,\"height\":70,\"imgsrc\":\"https://s3.amazonaws.com/files.d20.io/images/55503046/wL-8ksVL0ujy2sZ8PeBslw/med.png?1528297812\",\"page_id\":\"-LHr_mGeGVpU1htc_tYN\",\"layer\":\"objects\",\"name\":\"Morphit\",\"represents\":\"-LJpG_CE4GKznIffR9YL\",\"bar1_value\":\"14\",\"bar2_value\":\"10\",\"bar3_value\":\"18\",\"bar3_max\":\"18\",\"showname\":true,\"lastmove\":\"859,731\"}",
+    "tags": "[]",
+    "controlledby": "",
+    "inplayerjournals": "",
+    "attribs": [
+        {
+            "name": "npc",
+            "current": "1",
+            "max": "",
+            "id": "-LEJ7HKzi8KXBR4TRAHq"
+        },
+        {
+            "name": "rtype",
+            "current": "@{advantagetoggle}",
+            "max": "",
+            "id": "-LEJ7HL1Volh73VhytiP"
+        },
+        {
+            "name": "wtype",
+            "current": "@{whispertoggle}",
+            "max": "",
+            "id": "-LEJ7HL2j0VHloofe2cj"
+        },
+        {
+            "name": "init_tiebreaker",
+            "current": "@{dexterity}/100",
+            "max": "",
+            "id": "-LEJ7HL4DvunDv8_FpRj"
+        },
+        {
+            "name": "npc_name_flag",
+            "current": "0",
+            "max": "",
+            "id": "-LEJ7HL6FZq_eMY7N9Dc"
+        },
+        {
+            "name": "ammotracking",
+            "current": "on",
+            "max": "",
+            "id": "-LEJ7HL8iufXBn_25Ai4"
+        },
+        {
+            "name": "initiative_bonus",
+            "current": 4.18,
+            "max": "",
+            "id": "-LEJ7HM2KDQHcdAGp5sh"
+        },
+        {
+            "name": "npcspell_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LEJAJHC1HLptG2jw5RU"
+        },
+        {
+            "name": "missing_info",
+            "current": 0,
+            "max": "",
+            "id": "-LEJAJHFwAuKjT-VvPdq"
+        },
+        {
+            "name": "npc_name",
+            "current": "Morphlit",
+            "max": "",
+            "id": "-LEKftVQuGM0oLyC4i0V"
+        },
+        {
+            "name": "npc_type",
+            "current": "Small aberration, chaotic neutral",
+            "max": "",
+            "id": "-LEKfwsWDyngELBu21Ks"
+        },
+        {
+            "name": "npc_ac",
+            "current": "14",
+            "max": "",
+            "id": "-LEKfxWnJdFhUgqPQiWQ"
+        },
+        {
+            "name": "hp",
+            "current": "",
+            "max": "18",
+            "id": "-LEKfyqlFFnxM0YCZk78"
+        },
+        {
+            "name": "npc_hpformula",
+            "current": "4d6+4",
+            "max": "",
+            "id": "-LEKg-w02ZCdDvnoTE2F"
+        },
+        {
+            "name": "npc_speed",
+            "current": "40 ft., climb 40 ft.",
+            "max": "",
+            "id": "-LEKg3UhTwfy0YccoRmt"
+        },
+        {
+            "name": "strength_base",
+            "current": "7",
+            "max": "",
+            "id": "-LEKg4FXuD6KLRglynv5"
+        },
+        {
+            "name": "strength_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LEKg4HXhjq7Of-UzdxK"
+        },
+        {
+            "name": "strength",
+            "current": 7,
+            "max": "",
+            "id": "-LEKg4Hc_Yh5wP8SszSC"
+        },
+        {
+            "name": "strength_mod",
+            "current": -2,
+            "max": "",
+            "id": "-LEKg4K9UQmxFhIY0iPj"
+        },
+        {
+            "name": "npc_str_negative",
+            "current": 1,
+            "max": "",
+            "id": "-LEKg4KBrq5byzwVCgSk"
+        },
+        {
+            "name": "weighttotal",
+            "current": 0,
+            "max": "",
+            "id": "-LEKg4KGJYflv_IRokpY"
+        },
+        {
+            "name": "encumberance",
+            "current": " ",
+            "max": "",
+            "id": "-LEKg4KK86sUVyzoQk2r"
+        },
+        {
+            "name": "dexterity_base",
+            "current": "18",
+            "max": "",
+            "id": "-LEKg4L3-6Nk5JFiuQVE"
+        },
+        {
+            "name": "spell_attack_bonus",
+            "current": "0",
+            "max": "",
+            "id": "-LEKg4NCwbnrIBvf8Z6D"
+        },
+        {
+            "name": "spell_save_dc",
+            "current": "0",
+            "max": "",
+            "id": "-LEKg4NEIogswrjVbmqj"
+        },
+        {
+            "name": "strength_save_bonus",
+            "current": -2,
+            "max": "",
+            "id": "-LEKg4NILVJtfSTnqBMA"
+        },
+        {
+            "name": "athletics_bonus",
+            "current": -2,
+            "max": "",
+            "id": "-LEKg4NKNc_LMWFrEBg5"
+        },
+        {
+            "name": "dexterity_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LEKg4NN0FcvH--kgiIa"
+        },
+        {
+            "name": "dexterity",
+            "current": 18,
+            "max": "",
+            "id": "-LEKg4NPOt3c5J5bhcFe"
+        },
+        {
+            "name": "dexterity_mod",
+            "current": 4,
+            "max": "",
+            "id": "-LEKg4QEwzrDMNFTPUE2"
+        },
+        {
+            "name": "npc_dex_negative",
+            "current": 0,
+            "max": "",
+            "id": "-LEKg4QGAfq8UWI7cRr-"
+        },
+        {
+            "name": "dexterity_save_bonus",
+            "current": 4,
+            "max": "",
+            "id": "-LEKg4San5W5hDoC92f_"
+        },
+        {
+            "name": "acrobatics_bonus",
+            "current": 4,
+            "max": "",
+            "id": "-LEKg4Sdg9ougfd5LHqB"
+        },
+        {
+            "name": "sleight_of_hand_bonus",
+            "current": 4,
+            "max": "",
+            "id": "-LEKg4Sg4uX9fDYfpOAT"
+        },
+        {
+            "name": "stealth_bonus",
+            "current": 4,
+            "max": "",
+            "id": "-LEKg4SjEURhRz2TWIXE"
+        },
+        {
+            "name": "armorwarningflag",
+            "current": "hide",
+            "max": "",
+            "id": "-LEKg4SpJ6tv5VhDARz3"
+        },
+        {
+            "name": "armorwarning",
+            "current": "0",
+            "max": "",
+            "id": "-LEKg4SsisuGmqKkas0f"
+        },
+        {
+            "name": "ac",
+            "current": 14,
+            "max": "",
+            "id": "-LEKg4SvUTKeSo3HQ1kI"
+        },
+        {
+            "name": "constitution_base",
+            "current": "12",
+            "max": "",
+            "id": "-LEKg57TeOmYgQPkVj6j"
+        },
+        {
+            "name": "constitution_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LEKg59Oo6XhqcCI6_Nj"
+        },
+        {
+            "name": "constitution",
+            "current": 12,
+            "max": "",
+            "id": "-LEKg59PxEgXexHjGx-Y"
+        },
+        {
+            "name": "constitution_mod",
+            "current": 1,
+            "max": "",
+            "id": "-LEKg5BWjCiyhDsTld_J"
+        },
+        {
+            "name": "npc_con_negative",
+            "current": 0,
+            "max": "",
+            "id": "-LEKg5BZeqfQ7WRPwooz"
+        },
+        {
+            "name": "constitution_save_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-LEKg5DoH3rvirZxk3uQ"
+        },
+        {
+            "name": "intelligence_base",
+            "current": "13",
+            "max": "",
+            "id": "-LEKg61G1cusuTHiUZVF"
+        },
+        {
+            "name": "intelligence_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LEKg63Gr3vQhrz6ry0E"
+        },
+        {
+            "name": "intelligence",
+            "current": 13,
+            "max": "",
+            "id": "-LEKg63Lc47hwxZN_nJ7"
+        },
+        {
+            "name": "intelligence_mod",
+            "current": 1,
+            "max": "",
+            "id": "-LEKg66lOcKf7FpY_9N8"
+        },
+        {
+            "name": "npc_int_negative",
+            "current": 0,
+            "max": "",
+            "id": "-LEKg66qr08epxoCaPYj"
+        },
+        {
+            "name": "intelligence_save_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-LEKg69Ab4gK6ZqMGoyz"
+        },
+        {
+            "name": "arcana_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-LEKg69DKmS6AXd7epPq"
+        },
+        {
+            "name": "history_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-LEKg69G7mTVk5SQxIOo"
+        },
+        {
+            "name": "investigation_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-LEKg69HpWnrA48bG4dA"
+        },
+        {
+            "name": "nature_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-LEKg69JRxn9_3z6ZugZ"
+        },
+        {
+            "name": "religion_bonus",
+            "current": 1,
+            "max": "",
+            "id": "-LEKg69LepSUrvsXuYgQ"
+        },
+        {
+            "name": "wisdom_base",
+            "current": "11",
+            "max": "",
+            "id": "-LEKg6CGu5jektCGBIRC"
+        },
+        {
+            "name": "wisdom_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LEKg6EGjB0hnw2ZaQXE"
+        },
+        {
+            "name": "wisdom",
+            "current": 11,
+            "max": "",
+            "id": "-LEKg6EMMmHIK76fqDXM"
+        },
+        {
+            "name": "wisdom_mod",
+            "current": 0,
+            "max": "",
+            "id": "-LEKg6GdUDKr0w2KHMkw"
+        },
+        {
+            "name": "npc_wis_negative",
+            "current": 0,
+            "max": "",
+            "id": "-LEKg6GiPRsND15n3nB5"
+        },
+        {
+            "name": "charisma_base",
+            "current": "6",
+            "max": "",
+            "id": "-LEKg6I0lkJ2xFYwoXTv"
+        },
+        {
+            "name": "wisdom_save_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-LEKg6JpRinIhg7QBLUh"
+        },
+        {
+            "name": "animal_handling_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-LEKg6JqJY8XQYd51lTO"
+        },
+        {
+            "name": "insight_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-LEKg6Jr32mqPEBn8Kff"
+        },
+        {
+            "name": "medicine_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-LEKg6JssRNggL0pa74Y"
+        },
+        {
+            "name": "perception_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-LEKg6JtMPkbNCKeUCP8"
+        },
+        {
+            "name": "survival_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-LEKg6Jv819Ckvow9L6P"
+        },
+        {
+            "name": "charisma_flag",
+            "current": 0,
+            "max": "",
+            "id": "-LEKg6Jy8qHyxMMwU48g"
+        },
+        {
+            "name": "charisma",
+            "current": 6,
+            "max": "",
+            "id": "-LEKg6K3WkORxmAhgskN"
+        },
+        {
+            "name": "passive_wisdom",
+            "current": 10,
+            "max": "",
+            "id": "-LEKg6KBAQsCE9gD5dS4"
+        },
+        {
+            "name": "charisma_mod",
+            "current": -2,
+            "max": "",
+            "id": "-LEKg6MObppMN8-boyJn"
+        },
+        {
+            "name": "npc_cha_negative",
+            "current": 1,
+            "max": "",
+            "id": "-LEKg6MRztx6cMYpbjO6"
+        },
+        {
+            "name": "charisma_save_bonus",
+            "current": -2,
+            "max": "",
+            "id": "-LEKg6Oo4eNJH-JF6n9w"
+        },
+        {
+            "name": "deception_bonus",
+            "current": -2,
+            "max": "",
+            "id": "-LEKg6OsrbZSezoomK0h"
+        },
+        {
+            "name": "intimidation_bonus",
+            "current": -2,
+            "max": "",
+            "id": "-LEKg6OvxJfvJsh1TJed"
+        },
+        {
+            "name": "performance_bonus",
+            "current": -2,
+            "max": "",
+            "id": "-LEKg6OySi1pL1F-bFid"
+        },
+        {
+            "name": "persuasion_bonus",
+            "current": -2,
+            "max": "",
+            "id": "-LEKg6P0KKpBLEUQ0vbq"
+        },
+        {
+            "name": "npc_resistances",
+            "current": "bludgeoning, piercing, and slashing from nonmagical weapons",
+            "max": "",
+            "id": "-LEKgA1ok1OFAf-q5vIO"
+        },
+        {
+            "name": "npc_senses",
+            "current": "darkvision 60 ft., passive Perception 10",
+            "max": "",
+            "id": "-LEKgDivxsk4b_UgLE4C"
+        },
+        {
+            "name": "repeating_npctrait_-LEKgGhaffbW9X-lP2pg_name",
+            "current": "Shapechanger. ",
+            "max": "",
+            "id": "-LEKgHeyeS3iUWRT0IWT"
+        },
+        {
+            "name": "repeating_npctrait_-LEKgGhaffbW9X-lP2pg_desc",
+            "current": "The morphlit can use its bonus action to polymorph into a form with wings (speed 10 ft., fly 30 ft.) a form with fins (speed 10 ft., swim 30 ft.) or a form with digging claws (speed 30 ft., burrow 30 ft.), or back to its natural form. Its statistics are the same in each form, except for the speed changes noted.",
+            "max": "",
+            "id": "-LEKgLlEG1lwkGlLTocB"
+        },
+        {
+            "name": "repeating_npctrait_-LEKgQn4-yU4x7AkgV-A_name",
+            "current": "Defensive Adaptation. ",
+            "max": "",
+            "id": "-LEKgRC78Yn1Zs2_gC9B"
+        },
+        {
+            "name": "repeating_npctrait_-LEKgQn4-yU4x7AkgV-A_desc",
+            "current": "The morphlit can use its bonus action to polymorph and gain immunity to any single damage type. The damage immunity remains until the morphlit uses this ability again. The morphlit also deals an extra 4 (1d8) damage of the chosen type when it hits with its bite attack.",
+            "max": "",
+            "id": "-LEKgVdEiEdDsNsrp88R"
+        },
+        {
+            "name": "repeating_npcaction_-LEKgl-pDWLRVxqr9HDT_name",
+            "current": "Multiattack",
+            "max": "",
+            "id": "-LEKgmSDlz6NUbHr2u_P"
+        },
+        {
+            "name": "repeating_npcaction_-LEKgl-pDWLRVxqr9HDT_description",
+            "current": "The morphlit makes two bite attacks.",
+            "max": "",
+            "id": "-LEKgoJ8CypIRYYOOxXv"
+        },
+        {
+            "name": "repeating_npcaction_-LEKgl-pDWLRVxqr9HDT_npc_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LEKgoKM0Q-Qm5jj7JCj"
+        },
+        {
+            "name": "repeating_npcaction_-LEKgl-pDWLRVxqr9HDT_attack_tohitrange",
+            "current": "+0",
+            "max": "",
+            "id": "-LEKgoMcd4B6qrVDGpOa"
+        },
+        {
+            "name": "repeating_npcaction_-LEKgl-pDWLRVxqr9HDT_attack_onhit",
+            "current": "",
+            "max": "",
+            "id": "-LEKgoMezIn7QkyvQFrg"
+        },
+        {
+            "name": "repeating_npcaction_-LEKgl-pDWLRVxqr9HDT_damage_flag",
+            "current": "",
+            "max": "",
+            "id": "-LEKgoMgLGBfv7yI5J6b"
+        },
+        {
+            "name": "repeating_npcaction_-LEKgl-pDWLRVxqr9HDT_attack_crit",
+            "current": "",
+            "max": "",
+            "id": "-LEKgoMhpjavWFPmNeP8"
+        },
+        {
+            "name": "repeating_npcaction_-LEKgl-pDWLRVxqr9HDT_attack_crit2",
+            "current": "",
+            "max": "",
+            "id": "-LEKgoMjt0Epvj797C4Q"
+        },
+        {
+            "name": "repeating_npcaction_-LEKgl-pDWLRVxqr9HDT_rollbase",
+            "current": "@{wtype}&{template:npcaction} @{npc_name_flag} {{rname=@{name}}} {{description=@{show_desc}}} @{charname_output}",
+            "max": "",
+            "id": "-LEKgoMkvHu7wDhcM7RY"
+        },
+        {
+            "name": "repeating_npcaction_-LEKgomTvSM-2EJadjmK_attack_flag",
+            "current": "on",
+            "max": "",
+            "id": "-LEKgp9TSwyn7pZkQWcs"
+        },
+        {
+            "name": "repeating_npcaction_-LEKgomTvSM-2EJadjmK_attack_tohitrange",
+            "current": "+6",
+            "max": "",
+            "id": "-LEKgpCGpt0cEil9a7rd"
+        },
+        {
+            "name": "repeating_npcaction_-LEKgomTvSM-2EJadjmK_attack_onhit",
+            "current": "4 (1d4+2) piercing damage plus 4 (1d8) variable damage",
+            "max": "",
+            "id": "-LEKgpCKpz5WSkN9S5H9"
+        },
+        {
+            "name": "repeating_npcaction_-LEKgomTvSM-2EJadjmK_damage_flag",
+            "current": "{{damage=1}} {{dmg1flag=1}} {{dmg2flag=1}} ",
+            "max": "",
+            "id": "-LEKgpCMyG_QAHvjR7Jz"
+        },
+        {
+            "name": "repeating_npcaction_-LEKgomTvSM-2EJadjmK_attack_crit",
+            "current": "1d4",
+            "max": "",
+            "id": "-LEKgpCPkVqd4kfrIcW0"
+        },
+        {
+            "name": "repeating_npcaction_-LEKgomTvSM-2EJadjmK_attack_crit2",
+            "current": "1d8",
+            "max": "",
+            "id": "-LEKgpCSVyeKWyEiaiB2"
+        },
+        {
+            "name": "repeating_npcaction_-LEKgomTvSM-2EJadjmK_rollbase",
+            "current": "@{wtype}&{template:npcatk} {{attack=1}} @{damage_flag} @{npc_name_flag} {{rname=[@{name}](~repeating_npcaction_npc_dmg)}} {{rnamec=[@{name}](~repeating_npcaction_npc_crit)}} {{type=[Attack](~repeating_npcaction_npc_dmg)}} {{typec=[Attack](~repeating_npcaction_npc_crit)}} {{r1=[[@{d20}+(@{attack_tohit}+0)]]}} @{rtype}+(@{attack_tohit}+0)]]}} {{description=@{show_desc}}} @{charname_output}",
+            "max": "",
+            "id": "-LEKgpCVQ3yYcn9ELHvj"
+        },
+        {
+            "name": "repeating_npcaction_-LEKgomTvSM-2EJadjmK_name",
+            "current": "Bite",
+            "max": "",
+            "id": "-LEKgqBYpr8mLKw9Rk2p"
+        },
+        {
+            "name": "repeating_npcaction_-LEKgomTvSM-2EJadjmK_attack_tohit",
+            "current": "6",
+            "max": "",
+            "id": "-LEKgrr1lg6KwE7T4Fcd"
+        },
+        {
+            "name": "repeating_npcaction_-LEKgomTvSM-2EJadjmK_attack_damage",
+            "current": "1d4+2",
+            "max": "",
+            "id": "-LEKgtop5iHVlvhW_apa"
+        },
+        {
+            "name": "repeating_npcaction_-LEKgomTvSM-2EJadjmK_attack_damagetype",
+            "current": "piercing",
+            "max": "",
+            "id": "-LEKh3YP1m5fXA2i7YKq"
+        },
+        {
+            "name": "repeating_npcaction_-LEKgomTvSM-2EJadjmK_attack_damage2",
+            "current": "1d8",
+            "max": "",
+            "id": "-LEKh8yGckoUc4X_6_uu"
+        },
+        {
+            "name": "repeating_npcaction_-LEKgomTvSM-2EJadjmK_description",
+            "current": "The second damage type is given by the type of Defensive Adaptation chosen by the Morphit.",
+            "max": "",
+            "id": "-LEKhR-A3ulkcR6UBLAd"
+        },
+        {
+            "name": "repeating_npcaction_-LEKgomTvSM-2EJadjmK_npc_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LEKiE_PKH6uh7-244yS"
+        },
+        {
+            "name": "npc_challenge",
+            "current": "2",
+            "max": "",
+            "id": "-LEKiKD0Y01zmwOkrz7r"
+        },
+        {
+            "name": "npc_xp",
+            "current": "450",
+            "max": "",
+            "id": "-LEKiKFS5kPKyhn_8BAY"
+        },
+        {
+            "name": "pb_custom",
+            "current": 2,
+            "max": "",
+            "id": "-LEKiKFWRHudy7ePMFb9"
+        },
+        {
+            "name": "pb_type",
+            "current": "custom",
+            "max": "",
+            "id": "-LEKiKFZAges-VyVIXl6"
+        },
+        {
+            "name": "pb",
+            "current": 2,
+            "max": "",
+            "id": "-LEKiKFef1jqm6e7eG1_"
+        },
+        {
+            "name": "jack",
+            "current": 1,
+            "max": "",
+            "id": "-LEKiKFh5Qo_4rzpE442"
+        },
+        {
+            "name": "pbd_safe",
+            "current": "",
+            "max": "",
+            "id": "-LEKiKFk_q2uwgPffKb-"
+        },
+        {
+            "name": "jack_bonus",
+            "current": "",
+            "max": "",
+            "id": "-LEKiKFs8cwZvrn42Pp5"
+        },
+        {
+            "name": "jack_attr",
+            "current": "",
+            "max": "",
+            "id": "-LEKiKFv9TzyR4WFqaKu"
+        },
+        {
+            "name": "death_save_bonus",
+            "current": 0,
+            "max": "",
+            "id": "-LEKiKGELWVaihsLWCoa"
+        },
+        {
+            "name": "npc_options-flag",
+            "current": "0",
+            "max": "",
+            "id": "-LEKiTGnuEluAJ66imRu"
+        },
+        {
+            "name": "whispertoggle",
+            "current": "",
+            "max": "",
+            "id": "-LEKioftS2YzUAEQrLME"
+        },
+        {
+            "name": "repeating_npcaction_-LEKgomTvSM-2EJadjmK_show_desc",
+            "current": " ",
+            "max": "",
+            "id": "-LEKj2jRuJBsR3XwMBUZ"
+        },
+        {
+            "name": "repeating_npcaction_-LEKgomTvSM-2EJadjmK_attack_damagetype2",
+            "current": "variable",
+            "max": "",
+            "id": "-LEKjENXic2fneila8tU"
+        },
+        {
+            "name": "version",
+            "current": "2.5",
+            "max": "",
+            "id": "-LGErinLYxdvHPq5ZYeu"
+        },
+        {
+            "name": "l1mancer_status",
+            "current": "completed",
+            "max": "",
+            "id": "-LGErinM1CrB_hB30C4v"
+        },
+        {
+            "name": "options-class-selection",
+            "current": "0",
+            "max": "",
+            "id": "-LGErinPWTmCDloit-uJ"
+        },
+        {
+            "name": "hitdietype",
+            "current": 6,
+            "max": "",
+            "id": "-LGErinWb-N0negXywIJ"
+        },
+        {
+            "name": "spellcasting_ability",
+            "current": "0*",
+            "max": "",
+            "id": "-LGErinXBnD9v1L1tUmt"
+        },
+        {
+            "name": "strength_save_prof",
+            "current": 0,
+            "max": "",
+            "id": "-LGErinZELmtN1HwOIEE"
+        },
+        {
+            "name": "dexterity_save_prof",
+            "current": 0,
+            "max": "",
+            "id": "-LGErinaUSmY9yv4gnhO"
+        },
+        {
+            "name": "constitution_save_prof",
+            "current": 0,
+            "max": "",
+            "id": "-LGErincQcI1UU_jIBt2"
+        },
+        {
+            "name": "intelligence_save_prof",
+            "current": 0,
+            "max": "",
+            "id": "-LGErincQcI1UU_jIBt3"
+        },
+        {
+            "name": "wisdom_save_prof",
+            "current": 0,
+            "max": "",
+            "id": "-LGErind-s2mmFJWwkBb"
+        },
+        {
+            "name": "charisma_save_prof",
+            "current": 0,
+            "max": "",
+            "id": "-LGErinfZGAxOoreOMAd"
+        },
+        {
+            "name": "class_resource_name",
+            "current": "",
+            "max": "",
+            "id": "-LGEring-jzuajueiSYk"
+        },
+        {
+            "name": "hitdie_final",
+            "current": "@{hitdietype}",
+            "max": "",
+            "id": "-LGErinyzf-LW_VyeNS2"
+        },
+        {
+            "name": "level",
+            "current": 1,
+            "max": "",
+            "id": "-LGErio-4w9LcdtDObiR"
+        },
+        {
+            "name": "caster_level",
+            "current": 0,
+            "max": "",
+            "id": "-LGErio0OToidvGEvvMF"
+        },
+        {
+            "name": "class_display",
+            "current": " 1",
+            "max": "",
+            "id": "-LGErio27RQ1xKshfNS-"
+        },
+        {
+            "name": "hit_dice",
+            "current": "",
+            "max": 1,
+            "id": "-LGErio4jxU90jKF3ekA"
+        },
+        {
+            "name": "race_display",
+            "current": "",
+            "max": "",
+            "id": "-LGErio5ytWhgKnkiO3J"
+        },
+        {
+            "name": "lvl1_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LGErio7muHGjs38upcm"
+        },
+        {
+            "name": "lvl2_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LGErioAJyh2JOGfb_RZ"
+        },
+        {
+            "name": "lvl3_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LGErioCjuFf7h_wYbVp"
+        },
+        {
+            "name": "lvl4_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LGErioEQl3Kj0hCIKCv"
+        },
+        {
+            "name": "lvl5_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LGErioGs8tqb_6tGKcd"
+        },
+        {
+            "name": "lvl6_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LGErioHaS85k5PHov78"
+        },
+        {
+            "name": "lvl7_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LGErioIZT3Ld0JwPPrL"
+        },
+        {
+            "name": "lvl8_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LGErioIZT3Ld0JwPPrM"
+        },
+        {
+            "name": "lvl9_slots_total",
+            "current": 0,
+            "max": "",
+            "id": "-LGErioKI1D9RcKXZElv"
+        },
+        {
+            "name": "global_skill_mod",
+            "current": "",
+            "max": "",
+            "id": "-LJrWwMHZHYjTpcb5LK7"
+        },
+        {
+            "name": "global_save_mod",
+            "current": "",
+            "max": "",
+            "id": "-LJrWwMHZHYjTpcb5LK8"
+        },
+        {
+            "name": "global_attack_mod",
+            "current": "",
+            "max": "",
+            "id": "-LJrWwMJoD9VxUiw9uxX"
+        },
+        {
+            "name": "global_damage_mod_roll",
+            "current": "",
+            "max": "",
+            "id": "-LJrWwMJoD9VxUiw9uxY"
+        },
+        {
+            "name": "global_damage_mod_crit",
+            "current": "",
+            "max": "",
+            "id": "-LJrWwMLt6YD60TsWeYx"
+        },
+        {
+            "name": "global_damage_mod_type",
+            "current": "",
+            "max": "",
+            "id": "-LJrWwMLt6YD60TsWeYy"
+        },
+        {
+            "name": "customacwarningflag",
+            "current": "hide",
+            "max": "",
+            "id": "-LRQVwqD-YCDEvnaSRAA"
+        }
+    ],
+    "abilities": []
+}
