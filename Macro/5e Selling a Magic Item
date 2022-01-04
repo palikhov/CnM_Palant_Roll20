@@ -1,0 +1,133 @@
+<?--- Ordering of the Queries --->
+!?{Name of Item} 
+
+!?{Settlement Size | Thorpe,?{Rarity. &#124; Common&#44;yes&#124; Minor Uncommon&#44;yes&#124; Major Uncommon&#44;no&#124; Minor Rare&#44;no&#124; Major Rare&#44;no&#124; Minor Very Rare&#44;no&#124; Major Very Rare&#44;no&#124; Minor Legendary&#44;no&#124; Major Legendary&#44;no&#125; | Hamlet,?{Rarity. &#124; Common&#44;yes&#124; Minor Uncommon&#44;yes&#124; Major Uncommon&#44;yes&#124; Minor Rare&#44;no&#124; Major Rare&#44;no&#124; Minor Very Rare&#44;no&#124; Major Very Rare&#44;no&#124; Minor Legendary&#44;no&#124; Major Legendary&#44;no&#125; | Village,?{Rarity. &#124; Common&#44;yes&#124; Minor Uncommon&#44;yes&#124; Major Uncommon&#44;yes&#124; Minor Rare&#44;yes&#124; Major Rare&#44;no&#124; Minor Very Rare&#44;no&#124; Major Very Rare&#44;no&#124; Minor Legendary&#44;no&#124; Major Legendary&#44;no&#125; | Village,?{Rarity. &#124; Common&#44;yes&#124; Minor Uncommon&#44;yes&#124; Major Uncommon&#44;yes&#124; Minor Rare&#44;yes&#124; Major Rare&#44;no&#124; Minor Very Rare&#44;no&#124; Major Very Rare&#44;no&#124; Minor Legendary&#44;no&#124; Major Legendary&#44;no&#125; | Small Town,?{Rarity. &#124; Common&#44;yes&#124; Minor Uncommon&#44;yes&#124; Major Uncommon&#44;yes&#124; Minor Rare&#44;yes&#124; Major Rare&#44;yes&#124; Minor Very Rare&#44;no&#124; Major Very Rare&#44;no&#124; Minor Legendary&#44;no&#124; Major Legendary&#44;no&#125; | Large Town,?{Rarity. &#124; Common&#44;yes&#124; Minor Uncommon&#44;yes&#124; Major Uncommon&#44;yes&#124; Minor Rare&#44;yes&#124; Major Rare&#44;yes&#124; Minor Very Rare&#44;yes&#124; Major Very Rare&#44;no&#124; Minor Legendary&#44;no&#124; Major Legendary&#44;no&#125; | Small City,?{Rarity. &#124; Common&#44;yes&#124; Minor Uncommon&#44;yes&#124; Major Uncommon&#44;yes&#124; Minor Rare&#44;yes&#124; Major Rare&#44;yes&#124; Minor Very Rare&#44;yes&#124; Major Very Rare&#44;yes&#124; Minor Legendary&#44;no&#124; Major Legendary&#44;no&#125; | Large City,?{Rarity. &#124; Common&#44;yes&#124; Minor Uncommon&#44;yes&#124; Major Uncommon&#44;yes&#124; Minor Rare&#44;yes&#124; Major Rare&#44;yes&#124; Minor Very Rare&#44;yes&#124; Major Very Rare&#44;yes&#124; Minor Legendary&#44;yes&#124; Major Legendary&#44;no&#125; | Metropolis,?{Rarity. &#124; Common&#44;yes&#124; Minor Uncommon&#44;yes&#124; Major Uncommon&#44;yes&#124; Minor Rare&#44;yes&#124; Major Rare&#44;yes&#124; Minor Very Rare&#44;yes&#124; Major Very Rare&#44;yes&#124; Minor Legendary&#44;yes&#124; Major Legendary&#44;yes&#125;} 
+
+!?{Rarity,| Common,50+1d50| Minor Uncommon,100+1d200| Major Uncommon,300+1d200| Minor Rare,500+1d2250| Major Rare,2750+1d2250| Minor Very Rare,5000+1d10000| Major Very Rare,15000+1d10000| Minor Legendary,25000+1d12500| Major Legendary,37500+1d12500} )
+
+!?{Type|Potions scrolls and other consumables with all their uses intact, 0.5[consumable]*(55+1d20)[potion scroll etc]|Amulets rings rods wands staffs and other wondrous items, (65+1d20)[amulet ring rod etc]|Weapons and armor, (70+1d20)[weapons and armor]} 
+
+!?{Base Price of mundane version (if any) in GP|0}
+
+!?{What economy modifier did the GM give you?|low price,.75[low price economy]|normal price,1[normal price economy]|high price,1.25[high price economy]} )
+
+
+<?--- The Actual Macro --->
+&{template:npcaction} {{rname=Selling ?{Name of Item} }} {{name=[Click here for in depth rules](https://docs.google.com/document/d/1fmjkjCjPFb0n6jLsVZ7xyEPHFL6r-VD9jwZMlRBr83s/edit#bookmark=id.uo0z4896va49) }} {{description=**Can you sell it here?** ?{Settlement Size | 
+
+Thorpe,?{Rarity. &#124;
+Common&#44;yes&#124; 
+Minor Uncommon&#44;yes&#124; 
+Major Uncommon&#44;no&#124; 
+Minor Rare&#44;no&#124;
+Major Rare&#44;no&#124; 
+Minor Very Rare&#44;no&#124;
+Major Very Rare&#44;no&#124; 
+Minor Legendary&#44;no&#124;
+Major Legendary&#44;no&#125; |
+
+Hamlet,?{Rarity. &#124;
+Common&#44;yes&#124; 
+Minor Uncommon&#44;yes&#124; 
+Major Uncommon&#44;yes&#124; 
+Minor Rare&#44;no&#124;
+Major Rare&#44;no&#124; 
+Minor Very Rare&#44;no&#124;
+Major Very Rare&#44;no&#124; 
+Minor Legendary&#44;no&#124;
+Major Legendary&#44;no&#125; |
+
+Village,?{Rarity. &#124;
+Common&#44;yes&#124; 
+Minor Uncommon&#44;yes&#124; 
+Major Uncommon&#44;yes&#124; 
+Minor Rare&#44;yes&#124;
+Major Rare&#44;no&#124; 
+Minor Very Rare&#44;no&#124;
+Major Very Rare&#44;no&#124; 
+Minor Legendary&#44;no&#124;
+Major Legendary&#44;no&#125; |
+
+Village,?{Rarity. &#124;
+Common&#44;yes&#124; 
+Minor Uncommon&#44;yes&#124; 
+Major Uncommon&#44;yes&#124; 
+Minor Rare&#44;yes&#124;
+Major Rare&#44;no&#124; 
+Minor Very Rare&#44;no&#124;
+Major Very Rare&#44;no&#124; 
+Minor Legendary&#44;no&#124;
+Major Legendary&#44;no&#125; |
+
+Small Town,?{Rarity. &#124;
+Common&#44;yes&#124; 
+Minor Uncommon&#44;yes&#124; 
+Major Uncommon&#44;yes&#124; 
+Minor Rare&#44;yes&#124;
+Major Rare&#44;yes&#124; 
+Minor Very Rare&#44;no&#124;
+Major Very Rare&#44;no&#124; 
+Minor Legendary&#44;no&#124;
+Major Legendary&#44;no&#125; |
+
+Large Town,?{Rarity. &#124;
+Common&#44;yes&#124; 
+Minor Uncommon&#44;yes&#124; 
+Major Uncommon&#44;yes&#124; 
+Minor Rare&#44;yes&#124;
+Major Rare&#44;yes&#124; 
+Minor Very Rare&#44;yes&#124;
+Major Very Rare&#44;no&#124; 
+Minor Legendary&#44;no&#124;
+Major Legendary&#44;no&#125; |
+
+Small City,?{Rarity. &#124;
+Common&#44;yes&#124; 
+Minor Uncommon&#44;yes&#124; 
+Major Uncommon&#44;yes&#124; 
+Minor Rare&#44;yes&#124;
+Major Rare&#44;yes&#124; 
+Minor Very Rare&#44;yes&#124;
+Major Very Rare&#44;yes&#124; 
+Minor Legendary&#44;no&#124;
+Major Legendary&#44;no&#125; |
+
+Large City,?{Rarity. &#124;
+Common&#44;yes&#124; 
+Minor Uncommon&#44;yes&#124; 
+Major Uncommon&#44;yes&#124; 
+Minor Rare&#44;yes&#124;
+Major Rare&#44;yes&#124; 
+Minor Very Rare&#44;yes&#124;
+Major Very Rare&#44;yes&#124; 
+Minor Legendary&#44;yes&#124;
+Major Legendary&#44;no&#125; |
+
+Metropolis,?{Rarity. &#124;
+Common&#44;yes&#124; 
+Minor Uncommon&#44;yes&#124; 
+Major Uncommon&#44;yes&#124; 
+Minor Rare&#44;yes&#124;
+Major Rare&#44;yes&#124; 
+Minor Very Rare&#44;yes&#124;
+Major Very Rare&#44;yes&#124; 
+Minor Legendary&#44;yes&#124;
+Major Legendary&#44;yes&#125;}
+
+**Offer:** [[ ( (?{Base Price of mundane version (if any) in GP|0}[mundane price]+?{Rarity,|
+Common,50+1d50[common]|
+Minor Uncommon,100+1d200[minor uncommon]|
+Major Uncommon,300+1d200[major uncommon]|
+Minor Rare,500+1d2250[minor rare]|
+Major Rare,2750+1d2250[major rare]|
+Minor Very Rare,5000+1d10000[minor very rare]|
+Major Very Rare,15000+1d10000[major very rare]|
+Minor Legendary,25000+1d12500[minor legendary]|
+Major Legendary,37500+1d12500[major legendary]})*?{What economy modifier did the GM give you?|
+low price,.75[low price economy]|
+normal price,1[normal price economy]|
+high price,1.25[high price economy]} )*0.01[percent]*?{Type|
+Potions scrolls and other consumables with all their uses intact, 0.5[consumable]*(55+1d20)[potion scroll etc]|
+Amulets rings rods wands staffs and other wondrous items, (65+1d20)[amulet ring rod etc]|
+Weapons and armor, (70+1d20)[weapons and armor]}]] gp
+}}

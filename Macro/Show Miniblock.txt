@@ -1,0 +1,1 @@
+&{template:default} {{name=Stats}} {{Armor Class= @{selected|npc_AC} (@{selected|npc_actype})}} {{Hit Dice= @{selected|npc_hpformula} | [[@{selected|npc_hpformula}]]}} {{Speed= @{selected|npc_speed}}} {{Senses=@{selected|npc_senses}}}

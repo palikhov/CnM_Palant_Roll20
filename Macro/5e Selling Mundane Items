@@ -1,0 +1,40 @@
+&{template:npcaction} {{rname=Selling ?{Name of Item}}} {{name=[Click here for in depth rules](https://docs.google.com/document/d/1fmjkjCjPFb0n6jLsVZ7xyEPHFL6r-VD9jwZMlRBr83s/edit#bookmark=id.rg9ba432grqx)}} {{description=**Can you sell it here?** ?{Settlement Size |
+Thorpe,
+Value Limit: 50 gp
+Total Sale Limit: 500 gp |
+Hamlet,
+Value Limit: 200 gp
+Total Sale Limit: 1000 gp |
+Village,
+Value Limit: 500 gp
+Total Sale Limit: 2500 gp |
+Small Town,
+Value Limit: 1000 gp
+Total Sale Limit: 5000 gp |
+Large Town,
+Value Limit: 2000 gp
+Total Sale Limit: 10.000 gp |
+Small City,
+Value Limit: 4000 gp
+Total Sale Limit: 25.000 gp |
+Large City,
+Value Limit: 8000 gp
+Total Sale Limit: 50.000 gp |
+Metropolis,
+Value limit: 16.000 gp
+Total Sale Limit: 100.000 gp}
+
+**Offered Price:** ?{Item Type | 
+Art Objects Gems Trade Goods, [[ceil( (70 + 1d20)*0.01*?{Book Price in GP&#125; ) ]] gp | 
+Mundane items <= 25 gp, [[ceil( (70 + 1d20)*0.01*?{Book Price in GP&#125; ) ]] gp | 
+Mundane items > 25 gp, [[ceil( (70 + 1d20)*0.01*?{Book Price in GP&#125;*?{What economy modifier did the GM give you?&#124;
+low price&#44;.5&#124;
+normal price&#44;1&#124;
+high price&#44;1.5&#125 ) ]] gp |
+Masterwork armor or weapon, [[ ceil( ( (70+1d20)*0.01*(?{Book Price of non-masterwork version in GP&#125;+?{What kind of masterwork  item?&#124;
+Light or Medium Armor&#44;100+5d20&#124;
+Heavy Armor or Weapon&#44;250+5d20&#125;) )*?{What economy modifier did the GM give you?&#124;
+low price&#44;.75&#124;
+normal price&#44;1&#124;
+high price&#44;1.25&#125 ) ]] gp}
+}}

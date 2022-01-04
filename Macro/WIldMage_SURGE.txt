@@ -1,0 +1,108 @@
+!power {{
+--name|Wild Magic Surge!
+--Rolled a|[[ [$R] 1d100 + 6 + 3 + (?{Level of Spell Slot Expended|—, 0|1|2|3|4|5|6|7|8|9}*5) ]]
+-- ?? ?{Level of Spell Slot Expended} >= 1 ?? !|Character Name expends a Level ?{Level of Spell Slot Expended} Spell Slot!
+
+-- ?? $R == 1 ?? |(@{target|name} explodes, dealing [[@{target|level}d6]] Fire damage to every thing within 30ft of (@{target|name} goes immediately go to 0 HP), death saves are at disadvantage.
+-- ?? $R == 2 ?? |You instead create an explosion around yourself It functions like fireball except you’re a target too and damage is [[9d4]] piercing and slashing damage.
+-- ?? $R == 3 ?? |You cast Fireball 3rd level spell slot centered on you, [[8d6]] fire damage.
+-- ?? $R == 4 ?? |Caster loses [[1d10]] maximum hit points until long rest.
+-- ?? $R == 5 ?? |All of your spell slots are instantly spent for the day.
+-- ?? $R == 6 ?? |half of total party wealth vanishes for 1d6 days.
+-- ?? $R == 7 ?? |Spell effectiveness (range, duration, area of effect, damage, etc.) is halved.
+-- ?? $R == 8 ?? |If the original spell has a saving throw, target automatically succeeds.
+-- ?? $R == 9 ?? |You cast Full Polymorph on yourself and turn into a creature of your choosing. The spell automatically acts as Concentrated. It cannot be made permanent.
+-- ?? $R == 10 ?? |If your spell does damage, it will do the minimum.
+-- ?? $R == 11 ?? |Your spell’s duration will be minimum.
+-- ?? $R == 12 ?? |Roll on the table twice (no advantage possible on next roll).
+-- ?? $R == 13 ?? |Anti-Magic field centered on caster (wastes spell) for 1 round; dispels all magic centered on caster, including own spells.
+-- ?? $R == 14 ?? |You take [[2d8]] radiant damage and the ally closest to you regains hit points equal to the damage you took.
+-- ?? $R == 15 ?? |Your spell fails, but the spell slot is not expended (if this applies).
+-- ?? $R == 16 ?? |Original spell targets caster instead.
+-- ?? $R == 17 ?? |Everyone in 30 ft hit with Inflict Wounds spell instead ([[d8]] per spell slot).
+-- ?? $R == 18 ?? |Caster held (as if failing against Hold Person spell), no spell is cast.
+-- ?? $R == 19 ?? |You become allergic to magic items until dispel magic or lesser restore is casted on you. Every time you have a magic item on you, you itch everywhere and sneeze a lot. (Concentration every time you cast a spell or lose spell.)
+-- ?? $R == 20 ?? |Each creature with 30 ft of you takes [[1d6]] necrotic damage. You gain HP equal to the sum of necrotic damage dealt.
+-- ?? $R == 21 ?? |Target's clothes itch (-4 to initiative).
+-- ?? $R == 22 ?? |You are encumbered. You can only move half of your total speed for 1 minute.
+-- ?? $R == 23 ?? |You panic and try to flee! You must run away from your target.
+-- ?? $R == 24 ?? |You are enraged! The next time your spell fails or your attack misses during the same encounter, you must take a bonus action to attack the closest target to you.
+-- ?? $R == 25 ?? |The caster’s biological sex is changed.
+-- ?? $R == 26 ?? |You are the target of a Charm Person spell. Failure = charmed by enemy creature.
+-- ?? $R == 27 ?? |You are the target of Bestow Curse spell.
+-- ?? $R == 28 ?? |Caster smells like a skunk for spell duration (stinking cloud).
+-- ?? $R == 29 ?? |You have become mute for the next minute.
+-- ?? $R == 30 ?? |You feel horribly dizzy; must roll concentrate to cast; roll Dexterity saving throw or fall prone. Lasts 2 rounds.
+-- ?? $R == 31 ?? |Instead of words, colorful bubbles come out of your mouth when you try to speak for 1 round.
+-- ?? $R == 32 ?? |Your hair falls out (But regrows after the next long rest).
+-- ?? $R == 33 ?? |roll a [[d10]] your age changes (even increases, odd decreases).
+-- ?? $R == 34 ?? |Roll a [[d10]] Your height changes by a number of inches equal to the roll (Even you grow, odd you shrink).
+-- ?? $R == 35 ?? |A bright light flashes. (wisdom save or become blinded for [[1d6]] turns.)
+-- ?? $R == 36 ?? |Original spell targets ally of the DM’s choosing.
+-- ?? $R == 37 ?? |Spell target changes biological sex.
+-- ?? $R == 38 ?? |Target must save or become petrified.
+-- ?? $R == 39 ?? |You suffer the same effect as your target
+.
+-- ?? $R == 40 ?? |You cast detect thoughts on the target you chose. If you didn’t target a creature, you instead take 1d6 psychic damage.
+-- ?? $R == 41 ?? |For the next minute any flammable object you touch that isnt' being worn or carried by a creature.
+-- ?? $R == 42 ?? |You instead cast Goodberry.
+-- ?? $R == 43 ?? |Grass grows on the ground in a 60-foot radius centered on the target. If grass is already there, it grows to ten times its normal size and remains overgrown for 1 minute.
+-- ?? $R == 44 ?? |A cloud of 600 oversized butterflies fills a 30-foot-radius centered on the target. The area becomes heavily obscured. The butterflies remain for 10 minutes.
+-- ?? $R == 45 ?? |Heavy rain falls in a 60-foot radius centered on the target. The area becomes lightly obscured. The rain falls until the start of your next turn.
+-- ?? $R == 46 ?? |An animal appears in the unoccupied space nearest the target at the start of each of their rounds. The animal isn’t under your control and acts as it normally would.
+-- ?? $R == 47 ?? |Your spell turns into a burst of flowers. This does nothing.
+-- ?? $R == 48 ?? |A burst of colorful shimmering light extends from you in a 30-foot radius. You and each creature in the area that can see must succeed on a DC 15 Constitution saving throw or become blinded for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+-- ?? $R == 49 ?? |Hold Person cast on everyone in 60 ft radius
+
+-- ?? $R == 50 ?? |You sound off a magical alarm, can be heard clearly for 60 ft., heard faintly another 60 ft.
+-- ?? $R == 51 ?? |You are immune to being intoxicated for [[5d6]] days
+-- ?? $R == 52 ?? |Leaves grow from the target. If you chose a point in space as the target, leaves sprout from the creature nearest to that point. Unless they are picked off, the leaves turn brown and fall off after 24 hours.
+-- ?? $R == 53 ?? |Caster's limbs are invisible
+-- ?? $R == 54 ?? |All cloth on target crumbles to dust
+-- ?? $R == 55 ?? |All doors, windows, chests, and anything locked within 60 ft. of you instantly unlocks
+-- ?? $R == 56 ?? |The target’s skin turns bright blue for [[1d10]] days. If you chose a point in space, the creature nearest to that point is affected.
+-- ?? $R == 57 ?? |Everyone randomly switches places with each other.
+-- ?? $R == 58 ?? |Sparkling motes dance about the caster's head until dawn
+-- ?? $R == 59 ?? |The caster glows with a bright light (Creatures ending their turn within 5ft of you is blinded until the end of its next turn.
+-- ?? $R == 60 ?? |You feel energetic and antsy (+4 to initiative)
+-- ?? $R == 61 ?? |You grow an eye in the middle of your forehead. For the next day you can see as if with True Seeing, but Charisma skills are disadvantages.
+-- ?? $R == 62 ?? |You shrink 1 size for 1 minute.
+-- ?? $R == 63 ?? |A Modron chosen and controlled by the DM appears in an unoccupied space.
+-- ?? $R == 64 ?? |You grow 1 size for 1 minute
+-- ?? $R == 65 ?? |[[5d20]] gold pieces materialize on your person
+-- ?? $R == 66 ?? |Random item/treasure created on target's person.
+-- ?? $R == 67 ?? |A stream of [[1d6-1]] × 10 gems, each worth 1 gp, shoots from your finger's tip in a line 30 feet long and 5 feet wide. Each gem deals 1 bludgeoning damage, and the total damage of the gems is divided equally among all creatures in the line.
+-- ?? $R == 68 ?? |You cast Bless on yourself instead (no concentration; lasts 1 minute).
+-- ?? $R == 69 ?? |You cast Sanctuary on yourself without spending a spell slot (last 1 minute).
+-- ?? $R == 70 ?? |The next creature to die will automatically be brought back to full hit points and lose all status effects/conditions.
+-- ?? $R == 71 ?? |Target gains the benefits of Mirror Image.
+-- ?? $R == 72 ?? |You teleport up to 60 ft away from your current position.
+-- ?? $R == 73 ?? |Target becomes prone. If there is not a target, the caster is immediately prone.
+-- ?? $R == 74 ?? |Target becomes in encumbered for 1 minute. Its movement is cut in half.
+-- ?? $R == 75 ?? |You create a temporary double of target instead; lasts until next round. Double will follow and mimic same action. (if no target, you are the target).
+-- ?? $R == 76 ?? |You instead cast Sleep, centered on you.
+-- ?? $R == 77 ?? |A small black rain cloud forms over the target for 10 minute {Recharge 1,2} a bolt of lightning strikes 2d4 Lightening damage.
+-- ?? $R == 78 ?? |Target must make a Wisdom save or fall madly in love with the caster. Creatures get a new save every minute.
+-- ?? $R == 79 ?? |All creatures with 30ft of caster make a Constitution Save or start to hiccup for 1 hour.
+-- ?? $R == 80 ?? |You gain resistance to all but Pyschic damage for the next minute.
+-- ?? $R == 81 ?? |Everyone in 30 ft hit with Cure Wounds ([[1d8]] per slot spent).
+-- ?? $R == 82 ?? |[[1d4]] local guardsmen emerge from nowhere and fight by your side for up to 5 turns.
+-- ?? $R == 83 ?? |Caster is transported to the Astral Plane until the end of their next turn, reappearing in the same square or the nearest adjance one.
+-- ?? $R == 84 ?? |Your AC goes up by 2 for 1 minute, and become immune to Magic Missile.
+-- ?? $R == 85 ?? |Your maximum HP goes up by [[1d10]] for 1 minute.
+-- ?? $R == 86 ?? |Caster regains 5 hit points every turn for 1 minute.
+-- ?? $R == 87 ?? |You cast Full Polymorph on yourself and turn into a creature of your choosing. The spell automatically acts as Concentrated. You keep this form until someone dispels its magic. You gain the form’s stats and abilities.
+-- ?? $R == 88 ?? |You Polymorph randomly at the end of each round for 1 minute.
+-- ?? $R == 89 ?? |A random creature within 60 feet of you becomes poisoned for [[d4]] hours.
+-- ?? $R == 90 ?? |You regain your caster level of spell slots.
+-- ?? $R == 91 ?? |A random creature appears and begins following the target and singing until the end of your next turn.
+-- ?? $R == 92 ?? |Everyone in 20ft radius of you is Hasted.
+-- ?? $R == 93 ?? |If you die within the next minute, you immediately come back to life as if by Reincarnate spell.
+-- ?? $R == 94 ?? |Your spell goes off as normal, but the spell slot is not expended (if this applies).
+-- ?? $R == 95 ?? |Spell Effect goes off as normal. For the next minute your 1 Action spells only require a bonus action to cast.
+-- ?? $R == 96 ?? |Spell Effect goes off as normal. If the original spell has a saving throw, target automatically fails.
+-- ?? $R == 97 ?? |Spell Effect goes off as normal. Your spell’s duration will be maximum without concentration.
+-- ?? $R == 98 ?? |Your spell goes off as normal. If your spell does damage, it will do the maximum
+-- ?? $R == 99 ?? |Spell Effect goes off as normal. Spell effectiveness (range, duration, area of effect, damage, etc.) is doubled.
+-- ?? $R == 100 ?? |Spell Effect goes off as normal.
+}}

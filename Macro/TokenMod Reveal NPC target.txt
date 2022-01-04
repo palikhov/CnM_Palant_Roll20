@@ -1,0 +1,6 @@
+!token-mod {{
+  --on showname showplayers_name showplayers_bar3
+  --set bar2_link|@{selected|npc_ac} bar2_link|
+  --set bar3_value|@{selected|hp|max} bar3_max|@{selected|hp|max} bar3_link| 
+  --set layers|objects
+}}
