@@ -1,0 +1,25 @@
+```!power {{
+--emote|@{selected|token_name} is struck with an itch socially.
+
+--name|Carousing!
+--leftsub|Resist
+--rightsub|Save
+
+--Results:|[! [^Save] !] vs. DC [[ 8 + ?{Negative Modifier|—, 0|2|4|6|8|10|12|14} ]]
+
+-- ?? $Days <= 0 ?? !Success|@{selected|token_name} wastes no time carousing.
+
+-- ?? $Days >= 1 ?? !Failure|@{selected|token_name} spends [[ [$Days] floor(( 8 + ?{Negative Modifier} - ([$Save] 1d20 + @{selected|wisdom_saving_throw_mod}) ) / 4) ]] day(s) carousing!
+    -- ?? $Days >= 1 ?? Rolled a|[[ [$R] 1d100 + @{selected|level} - ?{Negative Modifier} ]]
+    -- ?? $Days >= 1 AND $R <= 10 ?? |@{selected|token_name} is jailed for [[ 2d4 + ?{Negative Modifier} ]] Day, at the end of the Carousing. Pay a fine of 10gp per days to be released, or remain in [Debtors Prison] until resolved.
+    -- ?? $Days >= 1 AND $R > 10 AND $R <= 15 ?? |@{selected|token_name} regains conciousness in a very strange place, with no memory of how they go there, robbed of all equipment on them normally.
+    -- ?? $Days >= 1 AND $R > 15 AND $R <= 25 ?? |@{selected|token_name} regains conciousness in a very strange place, with no memory of how they go there, robbed of [[ 3d6 * 5 ]]gp in coins or equipment.
+    -- ?? $Days >= 1 AND $R > 25 AND $R <= 35 ?? |@{selected|token_name} makes an enemy. This person is now -35 RP with them. DM determines the Group, Player Determines the Infraction.
+    -- ?? $Days >= 1 AND $R > 45 AND $R <= 55 ?? |@{selected|token_name} Is caught up in a whirlwind romance. SUBROLL based off d20 during which they are unavailible. 
+    -- ?? $Days >= 1 AND $R > 55 AND $R <= 75 ?? |@{selected|token_name} Is caught up in a ill concieved venture. SUBROLL for [[1d20]] days, they are unavailible on this unfufilling adventure.
+    -- ?? $Days >= 1 AND $R > 75 AND $R <= 90 ?? |@{selected|token_name} earns your lifesytle costs for the time spent carousing.
+    -- ?? $Days >= 1 AND $R > 90 AND $R <= 95 ?? |@{selected|token_name} earns gaining your lifestyle costs and [[ 1d20 * 4 ]]gp.
+    -- ?? $Days >= 1 AND $R > 95 ?? |@{selected|token_name} makes a small fortune gambling.  Recuperate your lifestyle expenses for this Month (to date), and gain [[ 4d6 * 10 ]]gp. @{selected|token_name}'s Exploits are now legend and urban myth.
+
+}}
+```

@@ -1,0 +1,176 @@
+<?--- Ordering of the Queries --->
+!?{Name of Item} 
+
+!?{How might your character know about the item?|I've heard hearsay and rumors about it,@{selected|charisma_mod}|I've read about it in books or learned about it from my mentor,@{selected|intelligence_mod}|Intuitively I'm pretty sure an item like it must exist,@{selected|wisdom_mod}} 
+
+!?{Are you proficent in Arcana?|Yes,@{selected|pb}|No,0|Expertise,2*@{selected|pb}|Jack of All Trades,floor(@{selected|pb}/2) } 
+
+!?{Do you want to use Investigation or Persuasion to find the item?|Investigation,@{selected|investigation_bonus}|Persuasion,@{selected|persuasion_bonus}} 
+
+!?{Settlement Size | Thorpe, [[1d100cs<?{Rarity-&#124; Common&#44;49&#124; Minor Uncommon&#44;24&#125;cf>?{Rarity-&#124; Common&#44;49&#124; Minor Uncommon&#44;24&#125;]] | Hamlet, [[1d100cs<?{Rarity- &#124; Common&#44;74&#124; Minor Uncommon&#44;44&#124; Major Uncommon&#44;24&#125;cf>?{Rarity- &#124; Common&#44;74&#124; Minor Uncommon&#44;44&#124; Major Uncommon&#44;24&#125;]] | Village, [[1d100cs<?{Rarity- &#124; Common&#44;79&#124; Minor Uncommon&#44;54&#124; Major Uncommon&#44;44&#124; Minor Rare&#44;24&#125;cf>?{Rarity- &#124; Common&#44;79&#124; Minor Uncommon&#44;54&#124; Major Uncommon&#44;44&#124; Minor Rare&#44;24&#125;]] | Small Town, [[1d100cs<?{Rarity- &#124; Common&#44;84&#124; Minor Uncommon&#44;64&#124; Major Uncommon&#44;54&#124; Minor Rare&#44;34&#124; Major Rare&#44;24&#125;cf>?{Rarity- &#124; Common&#44;84&#124; Minor Uncommon&#44;64&#124; Major Uncommon&#44;54&#124; Minor Rare&#44;34&#124; Major Rare&#44;24&#125;]] | Large Town, [[1d100cs<?{Rarity- &#124; Common&#44;89&#124; Minor Uncommon&#44;74&#124; Major Uncommon&#44;64&#124; Minor Rare&#44;44&#124; Major Rare&#44;34&#124; Minor Very Rare&#44;24&#125;cf>?{Rarity- &#124; Common&#44;89&#124; Minor Uncommon&#44;74&#124; Major Uncommon&#44;64&#124; Minor Rare&#44;44&#124; Major Rare&#44;34&#124; Minor Very Rare&#44;24&#125;]] | Small City, [[1d100cs<?{Rarity- &#124; Common&#44;94&#124; Minor Uncommon&#44;84&#124; Major Uncommon&#44;74&#124; Minor Rare&#44;54&#124; Major Rare&#44;44&#124; Minor Very Rare&#44;34&#124; Major Very Rare&#44;24&#125;cf>{Rarity- &#124; Common&#44;94&#124; Minor Uncommon&#44;84&#124; Major Uncommon&#44;74&#124; Minor Rare&#44;54&#124; Major Rare&#44;44&#124; Minor Very Rare&#44;34&#124; Major Very Rare&#44;24&#125;]] | Large City, [[1d100cs<?{Rarity- &#124; Common&#44;94&#124; Minor Uncommon&#44;94&#124; Major Uncommon&#44;84&#124; Minor Rare&#44;64&#124; Major Rare&#44;54&#124; Minor Very Rare&#44;44&#124; Major Very Rare&#44;34&#124; Minor Legendary&#44;4&#125;cf>?{Rarity- &#124; Common&#44;94&#124; Minor Uncommon&#44;94&#124; Major Uncommon&#44;84&#124; Minor Rare&#44;64&#124; Major Rare&#44;54&#124; Minor Very Rare&#44;44&#124; Major Very Rare&#44;34&#124; Minor Legendary&#44;4&#125;]] | Metropolis, [[1d100cs<?{Rarity- &#124; Common&#44;100&#124; Minor Uncommon&#44;94&#124; Major Uncommon&#44;94&#124; Minor Rare&#44;74&#124; Major Rare&#44;64&#124; Minor Very Rare&#44;54&#124; Major Very Rare&#44;44&#124; Minor Legendary&#44;24&#124; Major Legendary&#44;5&#125;cf>?{Rarity- &#124; Common&#44;100&#124; Minor Uncommon&#44;94&#124; Major Uncommon&#44;94&#124; Minor Rare&#44;74&#124; Major Rare&#44;64&#124; Minor Very Rare&#44;54&#124; Major Very Rare&#44;44&#124; Minor Legendary&#44;24&#124; Major Legendary&#44;4&#125;]] }
+
+!?{Rarity.| Common,5| Minor Uncommon,8| Major Uncommon,10| Minor Rare,12| Major Rare,15| Minor Very Rare,17| Major Very Rare,20| Minor Legendary,22| Major Legendary,25| Artifact,30} 
+
+!?{Rarity,| Common,50+1d50[common]| Minor Uncommon,100+1d200[minor uncommon]| Major Uncommon,300+1d200[major uncommon]| Minor Rare,500+1d2250[minor rare]| Major Rare,2750+1d2250[major rare]| Minor Very Rare,5000+1d10000[minor very rare]| Major Very Rare,15000+1d10000[major very rare]| Minor Legendary,25000+1d12500[minor legendary]| Major Legendary,37500+1d12500[major legendary]} 
+
+!?{Is this item consumeable?| Yes,.5[consumable]| No,1[not consumable]} 
+
+!?{What economy modifier did the GM give you?| low price,.75[low price economy]| normal price,1[normal price economy]| high price,1.25[high price economy]} 
+
+!?{Base Price of mundane version (if any) in GP|0}[mundane price]
+
+
+<?--- The Actual Macro --->
+&{template:npcaction} {{rname=Shopping for ?{Name of Item}}} {{name=[Click her for in depth rules](https://docs.google.com/document/d/1fmjkjCjPFb0n6jLsVZ7xyEPHFL6r-VD9jwZMlRBr83s/edit#bookmark=id.11ixkfarfntp)}} {{description=**Do you know about the item?** [[1d20+?{How might your character know about the item?|
+I've heard hearsay and rumors about it,@{selected|charisma_mod}|
+I've read about it in books or learned about it from my mentor,@{selected|intelligence_mod}|
+Intuitively I'm pretty sure an item like it must exist,@{selected|wisdom_mod}}+?{Are you proficent in Arcana?|
+Yes,@{selected|pb}|
+No,0|
+Expertise,2*@{selected|pb}|
+Jack of All Trades,floor(@{selected|pb}/2) } ]]vs DC ?{Rarity.|
+Common,5|
+Minor Uncommon,8|
+Major Uncommon,10|
+Minor Rare,12|
+Major Rare,15|
+Minor Very Rare,17|
+Major Very Rare,20|
+Minor Legendary,22|
+Major Legendary,25|
+Artifact,30}
+
+**Is it available?** ?{Settlement Size |
+
+Thorpe, [[1d100cs<?{Rarity-&#124;
+Common&#44;49&#124;
+Minor Uncommon&#44;24&#125;cf>?{Rarity-&#124;
+Common&#44;49&#124;
+Minor Uncommon&#44;24&#125;]] |
+
+Hamlet, [[1d100cs<?{Rarity- &#124; 
+Common&#44;74&#124; 
+Minor Uncommon&#44;44&#124; 
+Major Uncommon&#44;24&#125;cf>?{Rarity- &#124; 
+Common&#44;74&#124; 
+Minor Uncommon&#44;44&#124; 
+Major Uncommon&#44;24&#125;]] |
+
+Village, [[1d100cs<?{Rarity- &#124;
+Common&#44;79&#124; 
+Minor Uncommon&#44;54&#124; 
+Major Uncommon&#44;44&#124; 
+Minor Rare&#44;24&#125;cf>?{Rarity- &#124;
+Common&#44;79&#124; 
+Minor Uncommon&#44;54&#124; 
+Major Uncommon&#44;44&#124; 
+Minor Rare&#44;24&#125;]] |
+
+Small Town, [[1d100cs<?{Rarity- &#124;
+Common&#44;84&#124; 
+Minor Uncommon&#44;64&#124; 
+Major Uncommon&#44;54&#124; 
+Minor Rare&#44;34&#124;
+Major Rare&#44;24&#125;cf>?{Rarity- &#124;
+Common&#44;84&#124; 
+Minor Uncommon&#44;64&#124; 
+Major Uncommon&#44;54&#124; 
+Minor Rare&#44;34&#124;
+Major Rare&#44;24&#125;]] |
+
+Large Town, [[1d100cs<?{Rarity- &#124;
+Common&#44;89&#124; 
+Minor Uncommon&#44;74&#124; 
+Major Uncommon&#44;64&#124; 
+Minor Rare&#44;44&#124;
+Major Rare&#44;34&#124; 
+Minor Very Rare&#44;24&#125;cf>?{Rarity- &#124;
+Common&#44;89&#124; 
+Minor Uncommon&#44;74&#124; 
+Major Uncommon&#44;64&#124; 
+Minor Rare&#44;44&#124;
+Major Rare&#44;34&#124; 
+Minor Very Rare&#44;24&#125;]] |
+
+Small City, [[1d100cs<?{Rarity- &#124;
+Common&#44;94&#124; 
+Minor Uncommon&#44;84&#124; 
+Major Uncommon&#44;74&#124; 
+Minor Rare&#44;54&#124;
+Major Rare&#44;44&#124; 
+Minor Very Rare&#44;34&#124;
+Major Very Rare&#44;24&#125;cf>{Rarity- &#124;
+Common&#44;94&#124; 
+Minor Uncommon&#44;84&#124; 
+Major Uncommon&#44;74&#124; 
+Minor Rare&#44;54&#124;
+Major Rare&#44;44&#124; 
+Minor Very Rare&#44;34&#124;
+Major Very Rare&#44;24&#125;]] |
+
+Large City, [[1d100cs<?{Rarity- &#124;
+Common&#44;94&#124; 
+Minor Uncommon&#44;94&#124; 
+Major Uncommon&#44;84&#124; 
+Minor Rare&#44;64&#124;
+Major Rare&#44;54&#124; 
+Minor Very Rare&#44;44&#124;
+Major Very Rare&#44;34&#124; Minor Legendary&#44;4&#125;cf>?{Rarity- &#124;
+Common&#44;94&#124; 
+Minor Uncommon&#44;94&#124; 
+Major Uncommon&#44;84&#124; 
+Minor Rare&#44;64&#124;
+Major Rare&#44;54&#124; 
+Minor Very Rare&#44;44&#124;
+Major Very Rare&#44;34&#124; Minor Legendary&#44;4&#125;]] |
+
+Metropolis, [[1d100cs<?{Rarity- &#124;
+Common&#44;100&#124; 
+Minor Uncommon&#44;94&#124; 
+Major Uncommon&#44;94&#124; 
+Minor Rare&#44;74&#124;
+Major Rare&#44;64&#124; 
+Minor Very Rare&#44;54&#124;
+Major Very Rare&#44;44&#124; 
+Minor Legendary&#44;24&#124;
+Major Legendary&#44;5&#125;cf>?{Rarity- &#124;
+Common&#44;100&#124; 
+Minor Uncommon&#44;94&#124; 
+Major Uncommon&#44;94&#124; 
+Minor Rare&#44;74&#124;
+Major Rare&#44;64&#124; 
+Minor Very Rare&#44;54&#124;
+Major Very Rare&#44;44&#124; 
+Minor Legendary&#44;24&#124;
+Major Legendary&#44;4&#125;]]
+} 
+*Green is available, red is not.*
+
+**Can you find it?**[[1d20+?{Do you want to use Investigation or Persuasion to find the item?|Investigation,@{selected|investigation_bonus}|Persuasion,@{selected|persuasion_bonus}}]]vs DC ?{Rarity.|
+Common,5|
+Minor Uncommon,8|
+Major Uncommon,10|
+Minor Rare,12|
+Major Rare,15|
+Minor Very Rare,17|
+Major Very Rare,20|
+Minor Legendary,22|
+Major Legendary,25|
+Artifact,30}
+
+**Price:** [[ floor( (?{Base Price of mundane version (if any) in GP|0}[mundane price]+?{Rarity,|
+Common,50+1d50[common]|
+Minor Uncommon,100+1d200[minor uncommon]|
+Major Uncommon,300+1d200[major uncommon]|
+Minor Rare,500+1d2250[minor rare]|
+Major Rare,2750+1d2250[major rare]|
+Minor Very Rare,5000+1d10000[minor very rare]|
+Major Very Rare,15000+1d10000[major very rare]|
+Minor Legendary,25000+1d12500[minor legendary]|
+Major Legendary,37500+1d12500[major legendary]})*?{Is this item consumeable?|
+Yes,.5[consumable]|
+No,1[not consumable]}*?{What economy modifier did the GM give you?|
+low price,.75[low price economy]|
+normal price,1[normal price economy]|
+high price,1.25[high price economy]} ) ]] gp
+}}

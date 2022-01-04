@@ -1,0 +1,47 @@
+!power {{
+--emote|Starting Money.
+
+--name|Starting Money!
+--leftsub|Level
+--rightsub|Wealth
+--soundfx|_play|chaching
+
+--hroll|[[ [$WotLevel] ?{Level|1-4,0d0+1|5-10,0d0+2|11-16,0d0+3|17-20,0d0+4}
+--hroll|[[ [$WotMagic] ?{Magic|Low,0d0+1|Standard,0d0+2|High,0d0+3} 
+
+    -- ?? Level $WotLevel.total == 1 and $WotMagic == 1  ??
+!Result1|level 1-4 Low magic Normal starting equipment
+
+    -- ?? Level $WotLevel.total == 2 and $WotMagic == 1  ??
+!Result1|Level 5-10 Low magic [[ [[1d10*25]]+ 500]] with normal starting equipment
+
+    -- ?? Level $WotLevel.total == 3 and $WotMagic == 1  ??
+!Result1|Level 11-16 Low Magic [[ [[1d10*250]]+ 5000]] with normal starting equipment & one uncommon magic item
+
+    -- ?? Level $WotLevel.total == 4 and $WotMagic == 1  ??
+!Result1|Level 17-20	Low Magic  [[[[1d10*250]]+ 20000]] two uncommon magic item & normal starting equipment.
+
+    -- ?? Level $WotLevel.total == 1 and $WotMagic == 2  ??
+!Result1|level 1-4 Low magic Normal starting equipment
+
+    -- ?? Level $WotLevel.total == 2 and $WotMagic == 2  ??
+!Result1|Level 5-10 Low magic [[ [[1d10*25]]+ 500]] with normal starting equipment
+
+    -- ?? Level $WotLevel.total == 3 and $WotMagic == 2  ??
+!Result1|Level 11-16 Low Magic [[ [[1d10*250]]+ 5000]] with normal starting equipment, two uncommon magic items
+
+    -- ?? Level $WotLevel.total == 4 and $WotMagic == 2  ??
+!Result1|Level 17-20	Low Magic  [[[[1d10*250]]+ 20000]] two uncommon magic item, one rare, & normal starting equipment.
+
+    -- ?? Level $WotLevel.total == 1 and $WotMagic == 3  ??
+!Result1|level 1-4 Low magic Normal starting equipment
+
+    -- ?? Level $WotLevel.total == 2 and $WotMagic == 3  ??
+!Result1|Level 5-10 Low magic [[ [[1d10*25]]+ 500]] with one uncommon magic item, & normal starting equipment
+
+    -- ?? Level $WotLevel.total == 3 and $WotMagic == 3  ??
+!Result1|Level 11-16 Low Magic [[ [[1d10*250]]+ 5000]] with normal starting equipment, three uncommon magic items,and one Rare one
+
+    -- ?? Level $WotLevel.total == 4 and $WotMagic == 3  ??
+!Result1|Level 17-20	Low Magic  [[[[1d10*250]]+ 20000]] normal starting equipment, three uncommon magic items,and two Rare items, and one very rare one.
+}}

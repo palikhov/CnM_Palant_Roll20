@@ -1,0 +1,41 @@
+&{template:npcaction} {{rname=Shopping for ?{Name of Item}}} {{name=[Click here for in depth rules](https://docs.google.com/document/d/1fmjkjCjPFb0n6jLsVZ7xyEPHFL6r-VD9jwZMlRBr83s/edit#bookmark=id.atwfsxh25vcp)}} {{description=**Availability:** ?{Settlement Size |
+Thorpe,
+Price Limit: 50 gp
+Total Purchase Limit: 500 gp |
+Hamlet,
+Price Limit: 200 gp
+Total Purchase Limit: 1000 gp |
+Village,
+Price Limit: 500 gp
+Total Purchase Limit: 2500 gp |
+Small Town,
+Price Limit: 1000 gp
+Total Purchase Limit: 5000 gp |
+Large Town,
+Price Limit: 2000 gp
+Total Purchase Limit: 10.000 gp |
+Small City,
+Price Limit: 4000 gp
+Total Purchase Limit: 25.000 gp |
+Large City,
+Price Limit: 8000 gp
+Total Purchase Limit: 50.000 gp |
+Metropolis,
+Price limit: 16.000 gp
+Total Purchase Limit: 100.000 gp}
+
+**Price:** [[floor( ?{Item Type | 
+Art Objects Gems Trade Goods, ?{Book Price in GP} | 
+Mundane items <= 25 gp, ?{Book Price in GP} | 
+Mundane items > 25 gp, ?{Book Price in GP}*?{What economy modifier did the GM give you?|
+low price,.5|
+normal price,1|
+high price,1.5} |
+Masterwork armor or weapon, (?{Book Price of non-masterwork version in GP}+?{What kind of masterwork  item?|
+Light or Medium Armor,100+5d20|
+Heavy Armor or Weapon,250+5d20})*?{What economy modifier did the GM give you?|
+low price,.75|
+normal price,1|
+high price,1.25}
+} ) ]] gp
+}}
