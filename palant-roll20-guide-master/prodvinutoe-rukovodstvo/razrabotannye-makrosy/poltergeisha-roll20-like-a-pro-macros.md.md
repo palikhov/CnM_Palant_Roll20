@@ -4,49 +4,47 @@
 
 I also have a set of macros that I use with my custom shopping rules. You can find those here: [https://gist.github.com/poltergeisha/41fb953a21c32323b66f6beb0bce2c21](https://gist.github.com/poltergeisha/41fb953a21c32323b66f6beb0bce2c21)
 
-## How to Organize Macros
+## Как организовать макросы
 
-The easiest way to organize macros is to _put them in the Attributes and Abilities tab of character sheets._ Create a new character sheet for each categroy of macro, and put all your macros in. This has the added bonus of not fucking up any html character replacement in the macros. Then you can use the checkboxes under each ability macro to put it in your bar.
+Самый простой способ организовать макросы - поместить их во вкладку "Атрибуты и способности" таблицы персонажей. Создайте новую таблицу персонажей для каждой категории макросов и поместите туда все ваши макросы. Это дает дополнительный бонус: вы не испортите html-замену символов в макросах. Затем вы можете использовать флажки под каждым макросом способностей, чтобы поместить его в свой бар.
 
-If you want to share macros with players, share the character sheet with them, and instruct them to put the macros in their macro bars and name them however they want.
+Если вы хотите поделиться макросами с игроками, поделитесь с ними листом персонажа и поручите им поместить макросы в свои макробары и назвать их так, как они хотят.
 
-The exception is macros that you want to use by typing insteaad of clicking a macro button. Then you should make them as regular macros so you can type \#whatever to call the macro in chat.
+Исключение составляют макросы, которые вы хотите использовать, набирая текст вместо того, чтобы нажимать кнопку макроса. Тогда их следует сделать обычными макросами, чтобы можно было набрать \#как угодно, чтобы вызвать макрос в чате.
 
-#### Naming Macros
+#### Именование макросов
 
-Macros can take up a lot of space on your macro bar! The easiest way to fix this is to use emoji to name them. When renaming a macro in your macro bar, you can either copy-paste an emoji from [https://emojipedia.org/](https://emojipedia.org/) or if you have the newest version of windows you can type Windows Key + . to bring up an emoji picker in any text box.
+Макросы могут занимать много места на панели макросов! Самый простой способ решить эту проблему - использовать для их названия эмодзи. При переименовании макроса в панели макросов вы можете либо скопировать-вставить эмодзи из [https://emojipedia.org/](https://emojipedia.org/), либо, если у вас самая новая версия windows, набрать Windows Key + ., чтобы вызвать панель выбора эмодзи в любом текстовом поле.
 
-You can also use colors to organize macros by type. Here's what my macro bar looks like: ![My Macro Bar](https://i.imgur.com/lpkw7AJ.png)
+Вы также можете использовать цвета, чтобы упорядочить макросы по типу. Вот как выглядит моя панель макросов:  ![My Macro Bar](https://i.imgur.com/lpkw7AJ.png)
 
-You can recolor and rename macro buttons by right-clicking them.
+Макрокнопки можно перекрашивать и переименовывать, щелкая на них правой кнопкой мыши.
 
-#### Bars
+#### Бары
 
-All these macros assume the following bar configuration:
+Все эти макросы предполагают следующую конфигурацию баров:
 
-Bar 1: AC
+Бар 1: КЗ
 
 Bar 2: Other\_Resource
 
-Bar 3: HP
+Бар 3: HP
 
-I use Bar 3 for HP because it sits on top of the upper edge of the token, which means that having tokens stacked above each other doesn't hide the health bar accidentally. In the settings page I recolor Bar 1 to blue, Bar 2 to red, and Bar 3 to green.
+Я использую полосу 3 для HP, потому что она находится над верхним краем жетона, а это значит, что если жетоны сложены друг над другом, то полоса здоровья не будет случайно сыромятным доспехом. На странице настроек я изменил цвет Bar 1 на синий, Bar 2 на красный, а Bar 3 на зеленый.
 
-## GM Macros
+## Макросы GM
 
-I've got these organized in the saame way I have them organized in the picture above, organized by color, with the emoji I use \(if you want to copy me outright.\) **All macros below are stored in a character sheet called "GM" unless otherwise noted.**
+У меня они организованы так же, как на картинке выше, по цветам, с эмодзи, которые я использую \(если вы хотите скопировать меня прямо.\) **Все макросы ниже хранятся в листе персонажа под названием "GM", если не указано иное.**
 
-### Pink \(Tables & Generators\)
+### Розовый \(Таблицы и генераторы\)
 
-#### NPC Generator 👤
+#### Генератор НИПов 👤
 
-Coming soon!
+Скоро будет!
 
-#### Treasure 💰
+#### Сокровища 💰
 
-Rolls treasure based on enemies.
-
-_Uses: Robin Kueper's Treasure_
+Бросает сокровища, основываясь на врагах.
 
 ```text
 !treasure ?{Selected or manual?|
@@ -54,19 +52,19 @@ Selected,s ?{Individual or Hoard?&#124;individual&#124;hoard&#125;|
 Manual,?{Individual or Hoard?&#124;individual&#124;hoard &#125; ?{CR &#125; ?{How many?&#125; }
 ```
 
-#### Wild Magic Surge 💥
+#### Wild Magic Surge 💥.
 
-Rolls on the Wild Magic table. Requires a table called Wild-Magic. This macro should be stored in the **PC Macro Sheet** because PCs can also use it, but the GM should also keep it in their bar.
-
+Бросается по таблице "Дикая магия". Требуется таблица Wild-Magic. Этот макрос должен храниться в **Листе макросов ПИ**, потому что ПИ также могут его использовать, но ГМ также должен держать его в своем баре.
 ```text
 !rt &{template:npcaction} {{rname=Wild Magic Surge}} {{description=[[1t[Wild-Magic]]]}}
 ```
 
-### Blue \(Movement\)
+### Синий \(Движение\)
 
-#### Marching Order 🏃‍♂️
+#### Маршевый порядок 🏃‍♂️
 
-This is just the marching order menu.
+Это просто меню маршевого порядка.
+
 
 _Uses: Marching Order_
 
@@ -519,13 +517,14 @@ Refills four class resources + button to roll hit dice.
 !setattr --replace --sel --other_resource|@{selected|other_resource|max} --repeating_resource_$0_resource_left|@{selected|repeating_resource_$0_resource_left|max} --repeating_resource_$0_resource_right|@{selected|repeating_resource_$0_resource_right|max} --repeating_resource_$1_resource_left|@{selected|repeating_resource_$1_resource_left|max} --fb-header You took a short rest. --fb-content Refilled @{selected|other_resource_name}, @{selected|repeating_resource_$0_resource_left_name}, @{selected|repeating_resource_$0_resource_right_name}, and @{selected|repeating_resource_$1_resource_left_name}. [Roll Hit Dice](~selected|hit_dice)
 ```
 
-## Chat Macros for Everyone
+## Макросы чата для всех
 
-These macros can be found in the collection tab or by typing \# in chat. Not important enough to clutter things up with buttons. Players can add these to their macro bar if they want.
+Эти макросы можно найти на вкладке коллекции или набрав \# в чате. Не настолько важны, чтобы загромождать их кнопками. Игроки могут добавить их в свою панель макросов, если захотят.
 
 #### Update-Token-Actions
 
-Create token actions.
+Создание действий с токенами.
+
 
 _Uses: Token Macro-Book Generator_
 
@@ -537,15 +536,14 @@ _Uses: Token Macro-Book Generator_
 
 #### calc
 
-Calculator.
-
+Калькулятор.
 ```text
-**=** [[?{Calculator}]]
+**=** [[?{Калькулятор}]]
 ```
 
 #### img
 
-Post image to chat.
+Отправьте картинку в чат.
 
 ```text
 [Image](?{Image URL})
@@ -553,7 +551,7 @@ Post image to chat.
 
 #### link
 
-Post link to chat.
+Опубликуйте ссылку В чатЕ.
 
 ```text
 Link: **[?{Link Title}](?{Link URL})**
@@ -561,7 +559,7 @@ Link: **[?{Link Title}](?{Link URL})**
 
 #### roll
 
-Make a pretty, formatted d20 roll.
+Сделайте красивый, отформатированный бросок d20.
 
 ```text
 /me rolls a [[1d20+?{modifier|0}]] for ?{reason|no reason}.
@@ -569,7 +567,7 @@ Make a pretty, formatted d20 roll.
 
 #### ttms
 
-Shortens talktomyself
+Сокращает talktomyself
 
 ```text
 /talktomyself
