@@ -1,72 +1,71 @@
-# Расширенная логика обработки бросков
+Поскольку в этом варианте игроки бросают гораздо больше костей, чем в обычном, им важно знать модификаторы бросков для этих новых бросков. Поэтому было бы полезно иметь инструмент для игроков, позволяющий им в любой момент посмотреть все модификаторы бросков\ (как макро-действие, доступное всем игрокам\). Аналогично, вы захотите, чтобы инструмент рассказывал вам, какие "показатели" у различных НИП/монстров, которые противостоят этим броскам, чтобы вычислить простое число, которое игроку нужно побить.
 
-Because players roll a lot more dice using this variant than normal, it's important for them to know their roll modifiers for those new rolls. As such, it's be useful to have a tool for your players that allows them to look up all of their roll modifiers at any time \(as a macro token action accessible by all players\). Likewise, you'd want the tool to tell you what all of the various NPC/monster "scores" are that oppose those rolls, so you'd needed it to calculate the simple number which a player would need to beat.
+То есть, вам нужно что-то, что выдавало бы примерно следующее:
 
-That is, you'd need something that would output something like this:
+КЗ для Боба: +4 = 14\(Вычтите потерянный бонус за уклонение\).
 
-Flat-Footed AC for Bob: +4 = 14 \(Subtract lost Dodge bonus\)
-
-A number of these values have "conditionals" in them. For example, for Flat-Footed AC, you lose your Dex bonus \(if you had one\), but keep a Dex penalty. You'd need to represent these conditions in your tool, but the only tool you normally have available is macros/abilities unless you can afford Pro level \(for custom character sheets\). As-is, you can't do conditional math like the following because there's no "conditional" syntax available in macros/abilities.
+Некоторые из этих значений содержат "состояния". Например, при КЗ на плоских ногах вы теряете бонус Лов.\(если он у вас был.\), но сохраняете штраф Лов.\. Вам нужно будет представить эти состояния в вашем инструменте, но единственным доступным инструментом обычно являются макросы/способности, если только вы не можете позволить себе уровень Pro\(для пользовательских листов персонажа\). На самом деле, вы не можете сделать условную математику, подобную следующей, потому что в макросах/способностях нет "условного" синтаксиса.
 
 ```text
 [[ @{selected|dexmod} < 1 ? @{selected|dexmod} : 0 ]]
 ```
-
-That means that you'll have to use Dice Representation to display all of these modifiers and all of their innate conditionals, and display them through a GM whisper so no one but you and the GM can see that information.
+Это значит, что вам придется использовать представление костей, чтобы отобразить все эти модификаторы и все их врожденные состояния, и отображать их через шепот ГМа, чтобы никто, кроме вас и ГМа, не мог видеть эту информацию.
 
 ```text
 /w gm Flat-Footed AC for @{selected|character_name}: +[[ @{selected|modifier} ]] = [[ @{selected|modifier} +10 ]] (Subtract lost Dodge bonus)
 ```
 
-The following formulas allow you to create very simple inequality-based conditionals using only Dice Representation. Assume that in the formulas all ALL\_CAPS variables are integers that you plan on replacing with actual integers \(or attributes that are integers\) when you implement them. \(Note: If you replace a variable with an explicit negative number, Roll20 Order of Operations must have that negative number in parentheses.\) Greater Than or Equal To
 
-The formula below returns a 1 for all integers MINIMUM\_VALID\_NUMBER or more, and returns 0 for all other integers.
+Следующие формулы позволяют создавать очень простые состояния, основанные на неравенствах, используя только представление Кости. Предположим, что в формулах все переменные ALL\_CAPS являются целыми числами, которые вы планируете заменить на реальные целые числа \(или атрибуты, которые являются целыми числами\), когда будете их реализовывать. \(Примечание: Если вы заменяете переменную явным отрицательным числом, порядок операций Roll20 должен содержать это отрицательное число в круглых скобках.\) Больше, чем или равно
+
+Формула ниже возвращает 1 для всех целых чисел MINIMUM\_VALID\_NUMBER или больше, и возвращает 0 для всех остальных целых чисел.
 
 ```text
 [[ ( 1 - ( floor( ( MINIMUM_VALID_NUMBER - 1 - ATTRIBUTE ) / ( abs( MINIMUM_VALID_NUMBER - 1 - ATTRIBUTE ) + 0.001 ) ) + 1 ) ) ]]
 ```
 
-The formula below returns ATTRIBUTE when it's an integer that is greater than or equal to the MINIMUM\_VALID\_NUMBER and will be 0 for all other integers.
+Формула ниже возвращает ATTRIBUTE, если это целое число, которое больше или равно MINIMUM\_VALID\_NUMBER, и будет равна 0 для всех остальных целых чисел.
+
 
 ```text
 [[ ATTRIBUTE * ( 1 - ( floor( ( MINIMUM_VALID_NUMBER - 1 - ATTRIBUTE ) / ( abs( MINIMUM_VALID_NUMBER - 1 - ATTRIBUTE ) + 0.001 ) ) + 1 ) ) ]]
 ```
 
-### Less Than or Equal To
+### Больше или равно
 
-The formula below returns a 1 for all integers MAXIMUM\_VALID\_NUMBER or less, and return 0 for all other integers. This is useful for situations where above a certain maximum you should ignore that value \(such as ignoring a Dex Bonus when flatfooted but keeping a penalty\).
+Приведенная ниже формула возвращает 1 для всех целых чисел MAXIMUM\_VALID\_NUMBER или меньше, и возвращает 0 для всех остальных целых чисел. Это полезно для ситуаций, когда при превышении определенного максимума нужно игнорировать это значение\ (например, игнорировать бонус Лов при плоскостопии, но сохранять штраф\).
 
 ```text
 [[ ( floor( ( MAXIMUM_VALID_NUMBER - ATTRIBUTE ) / ( abs( MAXIMUM_VALID_NUMBER - ATTRIBUTE ) + 0.001 ) ) + 1 ) ]]
 ```
 
-The formula below returns ATTRIBUTE when it's an integer that is less than or equal to the MAXIMUM\_VALID\_NUMBER and will be 0 for all other integers.
+Формула ниже возвращает ATTRIBUTE, если это целое число, которое меньше или равно MAXIMUM\_VALID\_NUMBER, и будет равна 0 для всех остальных целых чисел.
 
 ```text
 [[ ATTRIBUTE * ( floor( ( MAXIMUM_VALID_NUMBER - ATTRIBUTE ) / ( abs( MAXIMUM_VALID_NUMBER - ATTRIBUTE ) + 0.001 ) ) + 1 ) ]]
 ```
 
-#### Full Example In-Use
+### Полный пример использования
 
-Thus, to accomplish ignoring a Dex Bonus but keeping a Dex Penalty, you can write the following default template to a macro token action visible to all players:
+Таким образом, чтобы игнорировать бонус Лов, но сохранить пенальти Лов, вы можете записать следующий шаблон по умолчанию в макрос действия токена, видимый всем игрокам:
 
 ```text
 /w gm &{template:default} {{name=AC Roll Modifiers for @{selected|character_name} }} {{Flat-Footed=+[[ @{selected|acitembonus} + @{selected|shieldbonus} + @{selected|size} + @{selected|armorclassnaturalarmor} + @{selected|armorclassdeflectionmod} + @{selected|armorclassmiscmod} + @{selected|dexmod} * ( floor( ( (-1) - @{selected|dexmod} ) / ( abs( (-1) - @{selected|dexmod} ) + 0.001 ) ) + 1 ) ]] = [[ @{selected|acitembonus} + @{selected|shieldbonus} + @{selected|size} + @{selected|armorclassnaturalarmor} + @{selected|armorclassdeflectionmod} + @{selected|armorclassmiscmod} + @{selected|dexmod} * ( floor( ( (-1) - @{selected|dexmod} ) / ( abs( (-1) - @{selected|dexmod} ) + 0.001 ) ) + 1 ) +10 ]] (Subtract lost Dodge bonus)}}
 ```
 
-### Booleans
+### Булевые числа
 
-Say you run a version of the Defense Bonus variant where immaterial armor stacks with the Defense Bonus. You can't just use the @{selected\|acitembonus} attribute to determine whether the Defense Bonus applies, but if you have a custom attribute for all creatures called "Is Wearing Physical Armor?", you can make it a boolean 1 or 0 depending on whether or not that's the case.
+Допустим, вы используете вариант бонуса к защите, в котором нематериальный доспех складывается с бонусом к защите. Вы не можете просто использовать атрибут @{selected\|acitembonus}, чтобы определить, применяется ли бонус к защите, но если у вас есть пользовательский атрибут для всех существ под названием "Носит ли физический доспех?", вы можете сделать его булевой 1 или 0 в зависимости от того, так это или нет.
 
 ```text
 [[ @{selected|DefenseBonus}-(@{selected|DefenseBonus}*@{selected|Is Wearing Physical Armor?}) ]]
 ```
 
-Admittedly, the formula could be made simpler if the attribute was "Is NOT Wearing Physical Armor".
+Конечно, формулу можно было бы упростить, если бы атрибутом было "Не носит физических доспехов".
 
 ```text
 [[ @{selected|DefenseBonus}*@{selected|Is NOT Wearing Physical Armor?} ]]
 ```
 
-However, when looking at a character's attributes list it's easier to wrap your head around the logic of a "1" affirming a positive rather than affirming a negative.
+Однако, глядя на список атрибутов персонажа, легче понять логику, согласно которой "1" подтверждает положительное, а не отрицательное.
 
