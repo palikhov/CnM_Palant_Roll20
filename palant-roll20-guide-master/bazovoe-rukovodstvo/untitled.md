@@ -1,1957 +1,4 @@
-# Untitled
-
-  
-&lt;!--  
- /\* Font Definitions \*/  
- @font-face  
-	{font-family:Wingdings;  
-	panose-1:5 0 0 0 0 0 0 0 0 0;  
-	mso-font-charset:2;  
-	mso-generic-font-family:auto;  
-	mso-font-pitch:variable;  
-	mso-font-signature:0 268435456 0 0 -2147483648 0;}  
-@font-face  
-	{font-family:"Cambria Math";  
-	panose-1:2 4 5 3 5 4 6 3 2 4;  
-	mso-font-charset:204;  
-	mso-generic-font-family:roman;  
-	mso-font-pitch:variable;  
-	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}  
-@font-face  
-	{font-family:Calibri;  
-	panose-1:2 15 5 2 2 2 4 3 2 4;  
-	mso-font-charset:204;  
-	mso-generic-font-family:swiss;  
-	mso-font-pitch:variable;  
-	mso-font-signature:-536858881 -1073732485 9 0 511 0;}  
-@font-face  
-	{font-family:"Palatino Linotype";  
-	panose-1:2 4 5 2 5 5 5 3 3 4;  
-	mso-font-charset:204;  
-	mso-generic-font-family:roman;  
-	mso-font-pitch:variable;  
-	mso-font-signature:-536870265 1073741843 0 0 415 0;}  
-@font-face  
-	{font-family:Verdana;  
-	panose-1:2 11 6 4 3 5 4 4 2 4;  
-	mso-font-charset:204;  
-	mso-generic-font-family:swiss;  
-	mso-font-pitch:variable;  
-	mso-font-signature:-1610610945 1073750107 16 0 415 0;}  
-@font-face  
-	{font-family:Cambria;  
-	panose-1:2 4 5 3 5 4 6 3 2 4;  
-	mso-font-charset:204;  
-	mso-generic-font-family:roman;  
-	mso-font-pitch:variable;  
-	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}  
-@font-face  
-	{font-family:"Segoe UI";  
-	panose-1:2 11 5 2 4 2 4 2 2 3;  
-	mso-font-charset:204;  
-	mso-generic-font-family:swiss;  
-	mso-font-pitch:variable;  
-	mso-font-signature:-469750017 -1073683329 9 0 511 0;}  
-@font-face  
-	{font-family:Asul;  
-	panose-1:0 0 0 0 0 0 0 0 0 0;  
-	mso-font-alt:"Times New Roman";  
-	mso-font-charset:0;  
-	mso-generic-font-family:roman;  
-	mso-font-format:other;  
-	mso-font-pitch:auto;  
-	mso-font-signature:0 0 0 0 0 0;}  
- /\* Style Definitions \*/  
- p.MsoNormal, li.MsoNormal, div.MsoNormal  
-	{mso-style-unhide:no;  
-	mso-style-qformat:yes;  
-	mso-style-parent:"";  
-	margin:0cm;  
-	margin-bottom:.0001pt;  
-	mso-pagination:widow-orphan;  
-	font-size:12.0pt;  
-	font-family:"Times New Roman",serif;  
-	mso-fareast-font-family:"Times New Roman";  
-	mso-fareast-theme-font:minor-fareast;  
-	mso-ansi-language:UK;  
-	mso-fareast-language:UK;}  
-a:link, span.MsoHyperlink  
-	{mso-style-noshow:yes;  
-	mso-style-priority:99;  
-	color:blue;  
-	text-decoration:underline;  
-	text-underline:single;}  
-a:visited, span.MsoHyperlinkFollowed  
-	{mso-style-noshow:yes;  
-	mso-style-priority:99;  
-	color:purple;  
-	text-decoration:underline;  
-	text-underline:single;}  
-p  
-	{mso-style-noshow:yes;  
-	mso-style-priority:99;  
-	mso-margin-top-alt:auto;  
-	margin-right:0cm;  
-	mso-margin-bottom-alt:auto;  
-	margin-left:0cm;  
-	mso-pagination:widow-orphan;  
-	font-size:12.0pt;  
-	font-family:"Times New Roman",serif;  
-	mso-fareast-font-family:"Times New Roman";  
-	mso-fareast-theme-font:minor-fareast;  
-	mso-ansi-language:UK;  
-	mso-fareast-language:UK;}  
-p.msonormal0, li.msonormal0, div.msonormal0  
-	{mso-style-name:msonormal;  
-	mso-style-unhide:no;  
-	mso-margin-top-alt:auto;  
-	margin-right:0cm;  
-	mso-margin-bottom-alt:auto;  
-	margin-left:0cm;  
-	mso-pagination:widow-orphan;  
-	font-size:12.0pt;  
-	font-family:"Times New Roman",serif;  
-	mso-fareast-font-family:"Times New Roman";  
-	mso-fareast-theme-font:minor-fareast;  
-	mso-ansi-language:UK;  
-	mso-fareast-language:UK;}  
-.MsoChpDefault  
-	{mso-style-type:export-only;  
-	mso-default-props:yes;  
-	font-size:10.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	mso-bidi-font-size:10.0pt;  
-	mso-ansi-language:UK;  
-	mso-fareast-language:UK;}  
-@page WordSection1  
-	{size:612.0pt 792.0pt;  
-	margin:2.0cm 42.5pt 2.0cm 3.0cm;  
-	mso-header-margin:36.0pt;  
-	mso-footer-margin:36.0pt;  
-	mso-paper-source:0;}  
-div.WordSection1  
-	{page:WordSection1;}  
- /\* List Definitions \*/  
- @list l0  
-	{mso-list-id:143357370;  
-	mso-list-template-ids:1260411030;}  
-@list l0:level1  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:36.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l0:level2  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:72.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l0:level3  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:108.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l0:level4  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:144.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l0:level5  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:180.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l0:level6  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:216.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l0:level7  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:252.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l0:level8  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:288.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l0:level9  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:324.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l1  
-	{mso-list-id:204298319;  
-	mso-list-template-ids:155890476;}  
-@list l1:level1  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:36.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l1:level2  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:72.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l1:level3  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:108.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l1:level4  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:144.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l1:level5  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:180.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l1:level6  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:216.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l1:level7  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:252.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l1:level8  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:288.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l1:level9  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:324.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l2  
-	{mso-list-id:222566775;  
-	mso-list-template-ids:1160039976;}  
-@list l2:level1  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:36.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l2:level3  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:108.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l2:level4  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:144.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l2:level5  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:180.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l2:level6  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:216.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l2:level7  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:252.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l2:level8  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:288.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l2:level9  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:324.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l3  
-	{mso-list-id:277957002;  
-	mso-list-template-ids:-926496650;}  
-@list l3:level1  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:36.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l3:level2  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:72.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l3:level3  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:108.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l3:level4  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:144.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l3:level5  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:180.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l3:level6  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:216.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l3:level7  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:252.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l3:level8  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:288.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l3:level9  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:324.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l4  
-	{mso-list-id:308218442;  
-	mso-list-template-ids:-965416014;}  
-@list l4:level1  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:36.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l4:level3  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:108.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l4:level4  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:144.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l4:level5  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:180.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l4:level6  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:216.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l4:level7  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:252.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l4:level8  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:288.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l4:level9  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:324.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l5  
-	{mso-list-id:342712308;  
-	mso-list-template-ids:-510351490;}  
-@list l6  
-	{mso-list-id:453133896;  
-	mso-list-template-ids:-66312986;}  
-@list l6:level1  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:36.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l6:level2  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:72.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l6:level3  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:108.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l6:level4  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:144.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l6:level5  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:180.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l6:level6  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:216.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l6:level7  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:252.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l6:level8  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:288.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l6:level9  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:324.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l7  
-	{mso-list-id:487095568;  
-	mso-list-template-ids:1391624382;}  
-@list l7:level1  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:36.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l7:level2  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:72.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l7:level3  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:108.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l7:level4  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:144.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l7:level5  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:180.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l7:level6  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:216.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l7:level7  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:252.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l7:level8  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:288.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l7:level9  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:324.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l8  
-	{mso-list-id:626935382;  
-	mso-list-type:hybrid;  
-	mso-list-template-ids:1199061732 -871052582 -1496157918 -1432029256 163221384 -66171832 -929795064 -65477532 1511656262 -251255448;}  
-@list l8:level1  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:36.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l8:level2  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:72.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l8:level3  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:108.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l8:level4  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:144.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l8:level5  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:180.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l8:level6  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:216.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l8:level7  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:252.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l8:level8  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:288.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l8:level9  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:324.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l9  
-	{mso-list-id:653921893;  
-	mso-list-template-ids:-895339828;}  
-@list l9:level1  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:36.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l9:level2  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:72.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l9:level3  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:108.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l9:level4  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:144.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l9:level5  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:180.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l9:level6  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:216.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l9:level7  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:252.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l9:level8  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:288.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l9:level9  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:324.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l10  
-	{mso-list-id:715861348;  
-	mso-list-template-ids:626825094;}  
-@list l10:level1  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:36.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l10:level2  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:72.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l10:level3  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:108.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l10:level4  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:144.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l10:level5  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:180.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l10:level6  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:216.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l10:level7  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:252.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l10:level8  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:288.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l10:level9  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:324.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l11  
-	{mso-list-id:876086447;  
-	mso-list-template-ids:-1063714886;}  
-@list l11:level1  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:36.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l11:level2  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:72.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l11:level3  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:108.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l11:level4  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:144.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l11:level5  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:180.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l11:level6  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:216.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l11:level7  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:252.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l11:level8  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:288.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l11:level9  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:324.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l12  
-	{mso-list-id:967009438;  
-	mso-list-template-ids:-1779238800;}  
-@list l12:level1  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:36.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l12:level2  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:72.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l12:level3  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:108.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l12:level4  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:144.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l12:level5  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:180.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l12:level6  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:216.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l12:level7  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:252.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l12:level8  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:288.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l12:level9  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:324.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l13  
-	{mso-list-id:973750805;  
-	mso-list-template-ids:-1392872338;}  
-@list l13:level1  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:36.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l13:level2  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:72.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l13:level3  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:108.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l13:level4  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:144.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l13:level5  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:180.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l13:level6  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:216.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l13:level7  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:252.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l13:level8  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:288.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l13:level9  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:324.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l14  
-	{mso-list-id:1108428528;  
-	mso-list-template-ids:1625738186;}  
-@list l14:level1  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:36.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l14:level2  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:72.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l14:level3  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:108.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l14:level4  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:144.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l14:level5  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:180.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l14:level6  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:216.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l14:level7  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:252.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l14:level8  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:288.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l14:level9  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:324.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l15  
-	{mso-list-id:1171410480;  
-	mso-list-template-ids:-1508975178;}  
-@list l15:level1  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:36.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l15:level2  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:72.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l15:level3  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:108.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l15:level4  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:144.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l15:level5  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:180.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l15:level6  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:216.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l15:level7  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:252.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l15:level8  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:288.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l15:level9  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:324.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l16  
-	{mso-list-id:1282691995;  
-	mso-list-template-ids:1943963998;}  
-@list l16:level1  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:36.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l16:level2  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:72.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l16:level3  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:108.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l16:level4  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:144.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l16:level5  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:180.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l16:level6  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:216.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l16:level7  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:252.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l16:level8  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:288.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l16:level9  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:324.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l17  
-	{mso-list-id:1289355539;  
-	mso-list-template-ids:-841598656;}  
-@list l17:level1  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:36.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l17:level2  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:72.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l17:level3  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:108.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l17:level4  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:144.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l17:level5  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:180.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l17:level6  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:216.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l17:level7  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:252.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l17:level8  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:288.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l17:level9  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:324.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l18  
-	{mso-list-id:1580946520;  
-	mso-list-template-ids:-721415736;}  
-@list l18:level1  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:36.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l18:level2  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:72.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l18:level3  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:108.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l18:level4  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:144.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l18:level5  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:180.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l18:level6  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:216.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l18:level7  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:252.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l18:level8  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:288.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l18:level9  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:324.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l19  
-	{mso-list-id:1715733403;  
-	mso-list-template-ids:-528560612;}  
-@list l19:level1  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:36.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l19:level2  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:72.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l19:level3  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:108.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l19:level4  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:144.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l19:level5  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:180.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l19:level6  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:216.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l19:level7  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:252.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l19:level8  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:288.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l19:level9  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:324.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l20  
-	{mso-list-id:1762336704;  
-	mso-list-template-ids:-1631391322;}  
-@list l20:level1  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:36.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l20:level3  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:108.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l20:level4  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:144.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l20:level5  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:180.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l20:level6  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:216.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l20:level7  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:252.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l20:level8  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:288.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l20:level9  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:324.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l21  
-	{mso-list-id:1875997715;  
-	mso-list-template-ids:-1810617838;}  
-@list l21:level1  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:36.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l21:level2  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:72.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l21:level3  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:108.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l21:level4  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:144.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l21:level5  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:180.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l21:level6  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:216.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l21:level7  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:252.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l21:level8  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:288.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l21:level9  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:324.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l22  
-	{mso-list-id:1895510105;  
-	mso-list-template-ids:247858618;}  
-@list l22:level1  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:36.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l22:level2  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:72.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l22:level3  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:108.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l22:level4  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:144.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l22:level5  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:180.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l22:level6  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:216.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l22:level7  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:252.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l22:level8  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:288.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l22:level9  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:324.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l23  
-	{mso-list-id:1938515752;  
-	mso-list-template-ids:1523595598;}  
-@list l23:level1  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:36.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l23:level2  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:72.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l23:level3  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:108.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l23:level4  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:144.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l23:level5  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:180.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l23:level6  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:216.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l23:level7  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:252.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l23:level8  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:288.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l23:level9  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:324.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l24  
-	{mso-list-id:1996953694;  
-	mso-list-template-ids:364954644;}  
-@list l24:level1  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:36.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l24:level2  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:72.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Symbol;}  
-@list l24:level3  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:108.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l24:level4  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:144.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l24:level5  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:180.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l24:level6  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:216.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l24:level7  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:252.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l24:level8  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:288.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l24:level9  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:324.0pt;  
-	mso-level-number-position:left;  
-	text-indent:-18.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	font-family:Wingdings;}  
-@list l20:level2 lfo16  
-	{mso-level-start-at:2;}  
-@list l20:level2 lfo18  
-	{mso-level-start-at:3;}  
-@list l20:level2 lfo20  
-	{mso-level-start-at:4;}  
-@list l20:level2 lfo22  
-	{mso-level-start-at:5;}  
-@list l20:level2 lfo24  
-	{mso-level-start-at:6;}  
-@list l20:level2 lfo26  
-	{mso-level-start-at:7;}  
-@list l20:level2 lfo28  
-	{mso-level-start-at:8;}  
-@list l20:level2 lfo30  
-	{mso-level-start-at:9;}  
-@list l20:level2 lfo35  
-	{mso-level-start-at:2;}  
-@list l2:level2 lfo49  
-	{mso-level-start-at:2;}  
-@list l2:level2 lfo50  
-	{mso-level-start-at:3;}  
-@list l2:level2 lfo51  
-	{mso-level-start-at:5;}  
-@list l2:level2 lfo52  
-	{mso-level-start-at:6;}  
-@list l2:level2 lfo53  
-	{mso-level-start-at:7;}  
-@list l2:level2 lfo54  
-	{mso-level-start-at:9;}  
-@list l2:level2 lfo55  
-	{mso-level-start-at:10;}  
-ol  
-	{margin-bottom:0cm;}  
-ul  
-	{margin-bottom:0cm;}  
---&gt;  
-
-
-**DM Tools 5e D&D**
+# **DM Tools 5e D&D**
 
 8 червня 2017 р.
 
