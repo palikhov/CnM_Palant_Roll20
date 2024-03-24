@@ -1,38 +1,35 @@
 # Советы по поводу настройки бросков костей в Roll20
 
-Conditional Statements \(Math Only\) Using the multiplicative properties of 0\(absorption\) and 1\(identity\) you can write conditional statements for integer values\(and to some extent floating point values too\) An example of this is the formula "if x greater than or equal to A, then T; else F," where T and F are some values. If x or A are dice rolls, surround them with \[\[\]\] inside these formulas. This can be written as a macro with
+Условные операторы \(только математика\) Используя мультипликативные свойства 0\(поглощение\) и 1\(тождество\), вы можете писать условные операторы для целых значений\(и в некоторой степени для значений с плавающей точкой тоже\) Примером может служить формула "если x больше или равно A, то T; иначе F", где T и F - некоторые значения. Если x или A - это броски костей, обведите их \[\[\[\]\] в этих формулах. Это можно записать в виде макроса с
 
 ```text
 
 [[{{x,something-less-than-A}>A}*(T-F) + F]]
 ```
 
- Example 1:
+ Пример 1:
 
 ```text
 
 [[{{3,0}>2}*(4) + 3]]
 ```
-
- Example 2:
-
+ Пример 2:
 ```text
 
 [[{{[[1d4]],0}>2}*(4) + 3]]
 ```
 
- The above examples will multiply \(4\) with however many times the statement '{X}&gt;2' was true and add +3 to the result. For example 1 that is true 1 time, since 3 &gt; 2, but 0  
+ В приведенных выше примерах \(4\) умножается на то, сколько раз утверждение '{X}&gt;2' было истинным, и к результату прибавляется +3. Например, 1 будет верно 1 раз, так как 3 &gt; 2, но 0  
 \[\[{{x,something-less-than-A}&gt;\[\[A+1\]\]}\*\(T-F\) + F\]\]  
- \(Assuming A is an integer\)  
- Alternatively, you can multiply one minus the \(x==A\) check below with the \(x&gt;=A\) check above, like so:
+ \(Предполагается, что A - целое число\)  
+ В качестве альтернативы, вы можете умножить один минус \(x==A\) проверки ниже на \(x&gt;=A\) проверки выше, как показано ниже:
 
 ```text
 
 [[({{x,something-less-than-A}>A})*(1-{0,floor(1-abs(x-A))}dl1)*(T-F)+F]]
 ```
 
- "x equals A" is simpler.
-
+ "x equals A" ПРОЩЕ.
 ```text
 
 [[({0,floor(1-abs(x-A))}dl1)*(T-F) +F]]
