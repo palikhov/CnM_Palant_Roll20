@@ -1,11 +1,19 @@
 # Горячие клавиши в Roll20
 
-Advanced keyboard shortcuts are a new Roll20 feature for power users which provides a greatly extended set of keyboard shortcuts from the default. You can turn on advanced shortcuts under the My Settings tab, check the box next to "Use advanced keyboard shortcuts."
+Расширенные сочетания клавиш - это новая функция Roll20 для опытных пользователей, которая позволяет значительно расширить набор сочетаний клавиш по сравнению со стандартным. Включить расширенные сочетания клавиш можно в разделе "Мои настройки", установив флажок напротив пункта "Использовать расширенные сочетания клавиш".
 
-These advanced shortcuts are simple keystrokes, and for the most part do not use modifier keys such as Ctrl or Alt. Some of them are sequence shortcuts. For example the shortcut for the Shape Tool is "f r", which means pressing the "F" key followed immediately by the "R" key one after the other. Also note that these shortcuts are only active when you aren't typing in a textfield (such as the chat input box). You can press "Esc" at any time to de-select any active text boxes.
+Эти расширенные сочетания клавиш представляют собой простые сочетания клавиш, в большинстве своем не использующие клавиши-модификаторы, такие как Ctrl или Alt. Некоторые из них представляют собой последовательные сочетания клавиш. Например, для инструмента "Фигура" используется сочетание "f r", что означает нажатие клавиши "F", за которой сразу же следует клавиша "R", одна за другой. Также обратите внимание, что эти сочетания клавиш активны только тогда, когда вы не набираете текст в текстовом поле (например, в поле ввода чата). Вы можете в любой момент нажать "Esc", чтобы снять выделение с активных текстовых полей.
 
-Command Shortcut Switch to Map layer m Switch to Tokens layer o Switch to GM layer k Switch to Dynamic Lighting layer , Move selected object(s) to Map layer l m Move selected object(s) to Tokens layer l o Move selected object(s) to GM layer l k Move selected object(s) to Dynamic Lighting layer l , Select tool s Pan a Shape Drawing f r Freehand Drawing f f Polygon Drawing f g Text Tool f d Measure q Fog of War Reveal r r Fog of War Polygon Reveal r g Fog of War Hide r t Show Turn Tracker y Add Turn for Selected Token(s) u Show Dice Rolling GUI d Show/Hide Page Toolbar p
+Переключение на слой карты m Переключение на слой маркеров o Переключение на слой GM k Переключение на слой динамического освещения , Переместить выбранный объект на слой карты l m Переместить выбранный объект на слой маркеров l o Переместить выбранный объект на слой GM l k Переместить выбранный объект на слой динамического освещения l , Выберите инструмент s Pan a Рисование фигур f r Рисование от руки f f Рисование полигонов f g Текстовый инструмент f d Измерение q Раскрыть туман войны r r Раскрыть полигоны тумана войны r g Скрыть туман войны r t Показать трекер хода y Добавить ход для выбранного жетона(ов) u Показать графический интерфейс броска Кости d Показать/скрыть панель инструментов страницы p
 
-Right Sidebar
+Правая боковая панель
 
-Command Shortcut Show/Hide Right Sidebar w Chat Tab c Focus Chat Input c c Art Tab i Journal Tab j Focus Journal Search Box / Jukebox n Pause All Jukebox Tracks N p Collection Tab ; (Semicolon) Settings Tab \[ (Left Bracket) De-Focus Active Textfields Escape
+Командный ярлык Показать/скрыть правую боковую панель w Вкладка чата c Фокус ввода чата c c Вкладка искусства i Вкладка журнала j Фокус поиска журнала / музыкального автомата n Приостановить все треки музыкального автомата N p Вкладка коллекции ; (точка с запятой) Вкладка настроек \[ (левая скобка) Снять фокус активных текстовых полей Escape
+
+---
+
+Подпишитесь на наш [Телеграм канал](https://t.me/cyborgs_and_mages), присоединитесь к нашему [Дискорд сообществу](https://discord.gg/yrJqvCqU3w) и поддерживайте нас на [Boosty](https://boosty.to/cyborgsandmages) или [Patreon](https://www.patreon.com/palikhov).
+
+[Актуальная версия руководства по Roll20](https://cyborgsandmages.com/roll20-guide)
+
+[Старая версия руководства](https://cyborgsandmages.gitbook.io/palant-roll20-guide)
