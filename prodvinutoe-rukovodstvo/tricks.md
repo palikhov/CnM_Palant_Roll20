@@ -1,107 +1,107 @@
-# Tricks
+#Трюки
 
-### Mood Lighting Tokens
+### Жетоны освещения настроения
 
-Sometimes you have the perfect map, but you are not sure at what time of day the characters will get there. It can hurt immersion if that forest ambush you had planned for noon instead had to go off at midnight because the PCs wanted to finish carousing at the local inn until last call. Your brightly lit woodland scene doesn't work as a spooky old forest at night. But you run with it and remind the players that it's really nighttime.
+Иногда у вас есть идеальная карта, но вы не уверены, в какое время суток персонажи доберутся до нее. Это может повредить погружению, если лесная засада, которую вы запланировали на полдень, вместо этого будет устроена в полночь, потому что ПИ захотели порезвиться в местном трактире до последнего звонка. Ваша ярко освещенная лесная сцена не работает как жуткий старый лес ночью. Но вы бежите с этим и напоминаете игрокам, что сейчас действительно ночь.
 
-Enter mood lighting. This trick requires an invisible character token. I use one I call Info, that is normally employed to sprinkle notes around on the map. Use a blank transparent png as your token, and mark its place with a GM-visible-only aura. The one in my example is yellow. The name plate is also invisible to players, so they see nothing of it.
+Введите освещение настроения. Для этого трюка нужен невидимый жетон персонажа. Я использую его под названием "Инфо", который обычно используется для разбрасывания записок по карте. Используйте пустой прозрачный png в качестве маркера и пометьте его место аурой, видимой только ГМу. В моем примере она желтая. Табличка с именем также невидима для игроков, поэтому они ничего не видят.
 
-To set lighting, give it a second aura, large enough to easily cover the entire map. This will add a tint/shade to the entire VTT play area. If you use black for instance, you have now made it night time. The amount of black may not be quite enough to give the effect you want, so you can simply copy and paste a second instance of the token. The auras will multiply, making it as dark as you like. By using color, you can simulate moonlight, being underwater, lit by the faerie fire of a drow city and so forth. Different maps will have different saturation and brightness, so some experimentation is often necessary to achieve the right effect. If you have the API and can use Token-Mod, you can even save the most common ones to token macros, for quick and dirty lighting control.
+Чтобы настроить освещение, создайте вторую ауру, достаточно большую, чтобы с легкостью укрыть всю карту. Это добавит оттенок/затенение на всю игровую зону VTT. Если вы используете, например, черный цвет, то теперь на карте наступила ночь. Количество черного цвета может оказаться недостаточным для достижения нужного эффекта, поэтому вы можете просто скопировать и вставить второй экземпляр жетона. Ауры умножатся и станут настолько темными, насколько вы захотите. Используя цвет, вы можете имитировать лунный свет, пребывание под водой, освещенный огнем фейри город дроу и так далее. Разные карты будут иметь разную насыщенность и яркость, поэтому для достижения нужного эффекта часто приходится экспериментировать. Если у вас есть API и вы умеете использовать Token-Mod, вы даже можете сохранить самые обычные макросы для токенов, чтобы быстро и без лишних усилий управлять освещением.
 
-Sample Token Settings:
+Примеры настроек токенов:
 
-Examples:
+Примеры:
 
-Normal
+Обычный
 
-Night Time
+Ночное время
 
-Dark Night (two tokens)
+Темная ночь (два токена)
 
-Moonlight You can also use the tint to add environmental effects. For example, you might use a fog overlay on a map:
+Лунный свет Вы также можете использовать оттенок для добавления эффектов окружающей среды. Например, вы можете использовать наложение тумана на карту:
 
-And then use the tint on the fog to create an acidic cloud effect: Creating a Dummy Account (and why)
+А затем использовать оттенок для тумана, чтобы создать эффект кислотного облака: Создание фиктивного аккаунта (и зачем)
 
-This is a tip primarily for streamers, but is useful to anybody who wants to verify a player view. I think it qualifies as a Stupid Trick, since it's using account creation for a purpose other than simply playing a game.
+Это совет в первую очередь для стримеров, но он пригодится любому, кто хочет проверить вид игрока. Я считаю, что это можно отнести к "глупым трюкам", поскольку создание учетной записи используется не только для игры.
 
-If you find yourself wishing to stream or record your game, you often run into the problem that if you are also the DM, your view shows the DM layer, otherwise invisible notes you've left on the table top, or things hiding behind dynamic lighting. You might find yourself in a situation in which you want viewers to only see what the players see. If you can give the recording task to a player, that's good, but it still has some drawbacks. The recording only shows things the characters they control would see. If Shiela the Thief and Bobby the Barbarian on on opposite sides of a wall, the recording software can only record what one of them sees, not both. If you are doing it yourself, a simple solution presents itself.
+Если вы захотите транслировать или записывать свою игру, то часто столкнетесь с проблемой, что если вы еще и ГМ, то в вашем представлении будет виден слой ГМ, невидимые в других случаях заметки, оставленные вами на столешнице, или вещи, скрытые за динамическим освещением. Вы можете оказаться в ситуации, когда хотите, чтобы зрители видели только то, что видят игроки. Если вы можете дать задание на запись игроку, это хорошо, но у этого есть некоторые недостатки. Запись показывает только то, что видели бы персонажи, которыми они управляют. Если воровка Шиэла и варвар Бобби находятся по разные стороны стены, программа записи сможет записать только то, что видит один из них, но не оба. Если вы занимаетесь этим самостоятельно, есть простое решение.
 
-Create a second dummy account and use that as a player connection. There are several benefits to doing this:
+Создайте второй фиктивный аккаунт и используйте его для подключения игроков. В этом есть несколько преимуществ:
 
-1\) You can set up your streaming/recording software (I use OBS) to record the action from the camera feed. Make sure that the dummy account can control all the PCs, and if they can see it, it shows on the recording.
+1\) Вы можете настроить свое программное обеспечение для стриминга/записи (я использую OBS) для записи действий с камеры. Убедитесь, что фиктивный аккаунт может контролировать все ПИ, и если они видят его, это будет видно на записи.
 
-2\) You can test out techniques to see how they will appear to players. Yes, you can rejoin your campaign as a player, but then you can't see how you DM actions appear to a player. In other words, perhaps you have set up a monster that you want to pull from the GM Layer with a Script that also invoke a Special Effect, or you want to set up Matt's Doors script and verify that they work for the PCs without having to repeatedly rejoin as DM to fine tune things.
+2\) Вы можете протестировать приемы, чтобы понять, как они покажутся игрокам. Да, вы можете вернуться в кампанию в качестве игрока, но тогда вы не сможете увидеть, как ваши действия ГМ будут выглядеть для игрока. Другими словами, возможно, вы создали монстра, которого хотите вытащить из слоя ГМ с помощью скрипта, вызывающего спецэффект, или хотите настроить скрипт "Двери Мэтта" и проверить, как он работает для ПИ, не прибегая к повторному вхождению в ГМ для точной настройки.
 
-3\) You have a macro with a public portion and some GM whispered content and want to verify that it is appearing correctly for players.
+3\) У вас есть макрос с публичной частью и некоторым содержимым, написанным шепотом ГМом, и вы хотите проверить, правильно ли он отображается для игроков.
 
-In these cases, being able to switch from your GM window to a player window needs to be quick since it can require cordinated action (do something as GM and see what the players see)
+В таких случаях переключение из окна ГМа в окно игрока должно быть быстрым, так как это может потребовать согласованных действий (сделать что-то от имени ГМа и посмотреть, что увидят игроки).
 
-So create a dummy account. How to do this?
+Поэтому создайте фиктивный аккаунт. Как это сделать?
 
-1\) Sign up for Roll20 again under a different email address. BIG HINT FOR GMAIL USERS: Gmail allows you to put a "+" after your user name, so that it looks like a different address, yet resolves to the same account. For example EricTheCavalier@gmail.com looks like a different email than EricTheCavalier+Shield@gmail.com to most every site on the web, including Roll20, but any mails sent to the second will also go to the first. It looks different to everyone else, but is treated the same for you. So you don't need to maintain a second email address. Do give it a unique user name (I call mine Camera).
+1\) Зарегистрируйтесь на Roll20 снова под другим адресом электронной почты. БОЛЬШАЯ ПОДСКАЗКА ДЛЯ ПОЛЬЗОВАТЕЛЕЙ GMAIL: Gmail позволяет поставить "+" после вашего имени пользователя, чтобы оно выглядело как другой адрес, но при этом разрешалось в тот же самый аккаунт. Например, EricTheCavalier@gmail.com выглядит как другой адрес, нежели EricTheCavalier+Shield@gmail.com на большинстве сайтов в Интернете, включая Roll20, но все письма, отправленные на второй адрес, придут и на первый. Для всех остальных это выглядит по-разному, но для вас это одно и то же. Поэтому вам не нужно держать второй адрес электронной почты. Дайте ему уникальное имя пользователя (я называю свой Camera).
 
-2\) (Important) Send your dummy account an invite. :)
+2\) (Важно) Отправьте приглашение своему фиктивному учету. :)
 
-3\) When signing on, use either a different browser, or preferably a Private Browsing window of the same browser. If you are logged on to two different games in regular browser windows of the same browser, and need to refresh one, it will always refresh to the latest account joined. This will leave you logged into two windows with the same account. So open a private browsing window and log into your second account with that. Final Hint: Remember to sign out of your dummy account if you come here to post on the forums. Not that I've done that...
+3\) При входе в систему используйте либо другой браузер, либо, лучше всего, окно Private Browsing того же браузера. Если вы вошли в две разные игры в обычных окнах одного и того же браузера, и вам нужно обновить одно из них, оно всегда будет обновляться до последнего присоединенного аккаунта. В результате вы окажетесь залогиненным в двух окнах с одним и тем же учетом. Поэтому откройте окно приватного просмотра и войдите в свой второй аккаунт через него. Последняя подсказка: не забудьте выйти из своего фиктивного аккаунта, если вы пришли сюда писать на форумах. Не то чтобы я это делал...
 
-### Query ordering without affecting functionality
+### Упорядочивание запросов без ущерба для функциональности
 
-Sometimes you may have a macro that asks a series of questions to the user but due to the mechanics of the system they may get asked in an undesirable order. I know, first world problem but still a problem. The answer: API command syntax! Accessible to all users regardless of subscription level you can prefix anything with a humble '!' to prevent it from writing to the chat. For example; you have a macro that asks for the answer to 3 queries but due to the order of operations of the game your macro would ask for them in reverse order which can be confusing, annoying or both. To get around this you can format your macro as below and the queries will get asked in the right order but the values will be used where needed:
+Иногда у вас может быть макрос, который задает пользователю ряд вопросов, но из-за механики системы они могут быть заданы в нежелательном порядке. Знаю, проблема первого мира, но все же проблема. Ответ: Синтаксис команд API! Доступный всем пользователям независимо от уровня подписки, вы можете снабдить любую команду скромным символом '!', чтобы предотвратить ее запись в чат. Например, у вас есть макрос, который запрашивает ответ на 3 запроса, но из-за порядка операций в игре ваш макрос будет запрашивать их в обратном порядке, что может сбивать с толку, раздражать или делать и то, и другое. Чтобы обойти это, вы можете оформить макрос следующим образом, и запросы будут задаваться в правильном порядке, но значения будут использоваться там, где это необходимо:
 
-! ?{Query1} ?{Query2} ?{Query3} /em Player 1 does something... \[\[ 1d20 + ?{Query3} ]] vs \[\[ 1d20 - ?{Query2} ]] for \[\[ 1d8 + ?{Query1} ]] damage!
+! ?{Query1} ?{Query2} ?{Query3} /em Игрок 1 делает что-то... \[\[ 1к20 + ?{Query3} ]] против \[\[ 1к20 - ?{Query2} ]] за \[\[ 1к8 + ?{Query1} ]] урона!
 
-But wait, theres more! Who doesn't love the clack and clatter of 3d dice... someone with a migraine probably... but anyway... There are many systems out there that use non-standard dice mechanics, strange polyhedrons with arcane symbols instead of numbers or other such blasphemy. As it stands there is no way to have 3d dice with those rolls, even just for the aesthetic/auditory reasons. Using an exclamation mark you can have all the dice you want... as long as you don't expect the results to be meaningful ;) Turn on 3d dice and use something like the following:
+Но подождите, это еще не все! Кто не любит лязг и стук 3д костей... кто-то с мигренью, наверное... но в любом случае... Существует множество систем, использующих нестандартную механику костей, странные многогранники с арканными символами вместо цифр или другие подобные кощунства. В нынешнем виде нет возможности использовать 3d кости с такими бросками, даже из эстетических/слуховых соображений. Используя восклицательный знак, вы можете бросать сколько угодно костей... если не ожидаете, что результаты будут значимыми ;) Включите 3d-кости и используйте что-то вроде следующего:
 
-! ?{Number of dice}d10 /em Player 1 rolls ?{Number of dice} d11s: \[\[ ?{Number of dice}d11 ]]
+! ?{Количество костей}d10 /em Игрок 1 бросает ?{Количество костей}d11s: \[\[ ?{Количество костей}d11 ]]
 
-Its a niche market for sure but as long as you ignore the numbers on the dice you can still benefit from that digital bone throwing experience =D
+Это, конечно, нишевый рынок, но если вы не обращаете внимания на цифры на костях, вы все равно можете извлечь выгоду из этого цифрового опыта бросания костей =D
 
-### Keyboard Macro Shortcuts
+### Ярлыки клавиатурных макросов
 
-With thanks to the Aaron for the basic Javascript Note: This method does not work with the current (as of this writing) version of Firefox Quantum, which does not support Javascript bookmarklets
+С благодарностью Аарону за базовый Javascript Примечание: Этот метод не работает с текущей (на момент написания статьи) версией Firefox Quantum, которая не поддерживает букмарклеты Javascript.
 
-If you are a person who prefers hotkeys rather than menus or on-screen buttons, here's a cool little tip for assigning macros to hotkeys. Note that I am writing this from a Macintosh user's perspective, but hopefully a Windows or other user will come along to suggest the easiest way to do the keybinding on that platform.
+Если вы предпочитаете горячие клавиши, а не меню или экранные кнопки, вот небольшой совет по назначению макросов на горячие клавиши. Обратите внимание, что я пишу это с точки зрения пользователя Macintosh, но надеюсь, что пользователь Windows или другой платформы подскажет, как проще всего сделать привязку клавиш на этой платформе.
 
-The basic idea is that anything that you can type into the chat box can be entered via a javascript bookmarklet. The basic syntax is:
+Основная идея заключается в том, что все, что вы можете ввести в поле чата, может быть введено с помощью букмарклета javascript. Основной синтаксис следующий:
 
 javascript:(function(){$('#textchat-input textarea').val('SOMETEXT');$('#textchat-input button').click();})();
 
-The only thing you need to replace in this bookmarklet is "SOMETEXT". Anything you place in between the single quotes will be sent to the chat window input box.
+Единственное, что вам нужно заменить в этом букмарклете, это "SOMETEXT". Все, что вы поместите между одинарными кавычками, будет отправлено в поле ввода окна чата.
 
-So, for instance,
+Например,
 
 javascript:(function(){$('#textchat-input textarea').val('%{Macros|Game}');$('#textchat-input button').click();})();
 
-...will invoke the ability macro 'Game' on the character 'Macros'. This can be saved to a bookmarklet in Chrome. (it should work in any browser that supports javascript in the URL bar). Basically, create a blank bookmark, and assign the code to it. It must start with "javascript:". Some browsers blank that out unless you specifically type it, so make sure it's there at the beginning. Give the Bookmarklet a unique name. For the one above, I used 'JMGame', for Javascript Menu Game. You can also put in API commands, boilerplate text, or anything you could physically type.
+...вызовет макрос способности 'Game' на персонаже 'Macros'. Это можно сохранить в букмарклет в Chrome. (это должно работать в любом браузере, который поддерживает javascript в строке URL). В общем, создайте пустую закладку и присвойте ей код. Он должен начинаться с "javascript:". В некоторых браузерах это слово отсутствует, если вы не введете его специально, поэтому убедитесь, что оно есть в самом начале. Дайте букмарклету уникальное имя. Для приведенного выше букмарклета я использовал 'JMGame', что означает Javascript Menu Game. Вы также можете вводить команды API, шаблонный текст или все, что вы физически можете набрать.
 
-The next bit will vary from platform to platform. On the Mac, open up System Prefs from the Apple menu and select the Shortcuts Tab of the Keyboard pane. select "App Shortcuts" fromt eh menu on the left and add a shortcut specific to Chrome that is spelled exactly the same as the menu item in Chrome. Assign it a keystroke, Say "F3". You may need to actually choose it once manually from the Chrome menu just to make sure it has built all of the sub menus. Now, whenever I press the F3 key, it invokes the Game Menu.
+Следующий шаг зависит от платформы. На Mac откройте System Prefs в меню Apple и выберите вкладку Shortcuts на панели клавиатуры. Выберите "App Shortcuts" в меню слева и добавьте ярлык для Chrome, заклинание которого точно такое же, как у пункта меню в Chrome. Назначьте ему нажатие клавиши, например "F3". Возможно, вам придется один раз выбрать его вручную из меню Chrome, чтобы убедиться, что он создал все подменю. Теперь, когда я нажимаю клавишу F3, вызывается меню игры.
 
-You can build up a whole library of these.
+Вы можете создать целую библиотеку таких меню.
 
-This bookmarklet is smart enough that it will enter items into the chat window, even if it is not displayed. So if you have a macro that sends tokens to the tracker, you can select them and send them there even if you are currently browsing the Jukebox or the Compendium. It will not work if the chat box is popped out into its own window, though. The JM1..JM4 entries are blanks that are awaiting me to assign them text and a title.
+Этот букмарклет достаточно умен, чтобы вводить элементы в окно чата, даже если оно не отображается. Так что если у вас есть макрос, который отправляет жетоны в трекер, вы можете выбрать их и отправить туда, даже если в данный момент просматриваете Jukebox или Compendium. Однако это не сработает, если окно чата выведено в отдельное окно. Записи JM1...JM4 - это пустые места, которые ждут, когда я назначу им текст и название.
 
-For anyone who is wondering what all the other bookmarklets are, most of them come also from the Aaron and can be found in the Aaron's Roll20 Enhancement pack, maintained by Vince.
+Для тех, кто интересуется, что представляют собой все остальные букмарклеты, скажу, что большинство из них также пришли от Аарона и находятся в пакете Aaron's Roll20 Enhancement, который поддерживает Винс.
 
-I hinted at this in the first post, but thought I might elaborate a little. The macro bar at the bottom of the screen can become a little crowded, especially if you are a GM. It's built to wrap around, but that eats up more screen real estate and can crowd into the avatar area. Emojis can help relieve this problem.
+Я намекнул на это в первом сообщении, но решил немного рассказать. Панель макросов в нижней части экрана может стать немного тесноватой, особенно если вы ГМ. Она сделана так, что ее можно обернуть вокруг, но это съедает больше площади экрана и может затеснить область аватара. Эмодзи могут помочь решить эту проблему.
 
-If you have a commonly used macro, such as passive perception in 5e, you have several choices if you want to want to keep a button donw in that bottom bar. You are unlikely to want to name it "Passive Perception", since that would make a huge button. "Pass-Perc" is much shorter, but we can get it even smaller that that. Emojis can be your friend here. You can replace all of those characters with a single eye-catching glyph: ️
+Если у вас есть часто используемый макрос, например пассивное восприятие в 5e, у вас есть несколько вариантов, если вы хотите сохранить кнопку donw в этой нижней панели. Вряд ли вы захотите назвать ее "Пассивное восприятие", поскольку в этом случае кнопка будет огромной. "Pass-Perc" гораздо короче, но мы можем сделать ее еще меньше. Эмодзи могут стать вашим другом. Вы можете заменить все эти символы одним привлекающим внимание глифом: ️.
 
-Here is an example of my own macro bar. Some of the buttons are words, some are emojis. Sometimes the brain finds a word more quickly than a picture, you can season to taste.
+Вот пример моей собственной панели макросов. Некоторые из кнопок - слова, некоторые - эмодзи. Иногда мозг быстрее находит слово, чем картинку, можно приправить по вкусу.
 
-Skipping the English word buttons, the emoji-entitled macros here show:
+Если пропустить кнопки с английскими словами, то здесь показаны макросы с названиями эмодзи:
 
- My Soundboard ️ NPC Portraits  Healing Potions  Group-Initiative
+ Моя звуковая панель ️ Портреты НИПов  Зелья излечения  Групповая инициатива
 
- The chat macro for displaying a 5e Shaped character, with attacks, spells and GM Notes  The chat macro for displaying a 5e Shaped base character ⚔️ The chat macro for displaying a 5e Shaped character's attacks only  The chat macro for displaying a 5e Shaped character' spells only
+ Макрос чата для отображения персонажа в форме 5e, с атаками, заклинаниями и заметками ГМа  Макрос чата для отображения базового персонажа в форме 5e ⚔️ Макрос чата для отображения только атак персонажа в форме 5e  Макрос чата для отображения только заклинаний персонажа в форме 5e
 
- A macro that marks a token as using concentration  A macro that displays GM Notes
+ Макрос, отмечающий жетон как использующий концентрацию  Макрос, отображающий заметки ГМа
 
-️ Passive Perception
+️ Пассивное восприятие
 
-The links are to macros or scripts or sheets that facilitate these functions. Or at least how I do it.
+Ссылки даны на макросы, скрипты или листы, которые облегчают выполнение этих функций. Или, по крайней мере, как это делаю я.
 
-Of course, since emojis aren't really a font, but a collection of glyphs called by Unicode calls, they will display differently on different systems. The ones in my bar are a screen capture as they display on an Apple Macintosh. If you are reading this post on a Windows PC or Chromebook, you will see slightly different renderings. You may want to choose your emojis carefully if you work on multiple platforms.
+Конечно, поскольку emojis - это не шрифт, а набор глифов, вызываемых с помощью Unicode, они будут отображаться по-разному на разных системах. Те, что в моем баре, - это снимок экрана, как они отображаются на Apple Macintosh. Если вы читаете этот пост на ПИ с Windows или Chromebook, то увидите немного другое отображение. Если вы работаете на нескольких платформах, возможно, вам стоит тщательно выбирать эмодзи.
 
-Also note that you can still name the macro in your collection "Passive Perception" to make the intent clear. Once it is in you bar, you can right click on it to change the display name to an emoji or an abbreviation, as well as change the color. You can also change the order they display in.
+Также обратите внимание, что вы можете назвать макрос в своей коллекции "Пассивное восприятие", чтобы сделать намерение ясным. Как только макрос появится в панели, вы можете щелкнуть на нем правой кнопкой мыши, чтобы изменить отображаемое имя на эмодзи или аббревиатуру, а также изменить цвет. Вы также можете изменить порядок их отображения.
 
 [https://app.roll20.net/forum/post/5899495/stupid-roll20-tricks-and-some-clever-ones/?pagenum=1](https://app.roll20.net/forum/post/5899495/stupid-roll20-tricks-and-some-clever-ones/?pagenum=1)
