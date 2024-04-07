@@ -10,74 +10,83 @@ Shift + клик левой кнопкой мыши на точке и заде�
 
 #### Выключать видео-чат в Roll20 <a href="#vyklyuchat-video-chat-v-roll20" id="vyklyuchat-video-chat-v-roll20"></a>
 
-GM’s who use Discord, Skype, Hangouts, or simply if you don’t use the Roll20 audio-video: Change Chat-Tech setting to “NONE” under Settings tab in the game tabletop.
+ГМы, которые используют Discord, Skype, Hangouts или просто если вы не используете аудио-видео Roll20: Измените настройку Chat-Tech на "NONE" во вкладке Settings на игровом столе.
 
-I mean don’t just turn “Send and Receive: Voice / Video” off — that’s a setting that both Players and GM’s have. As GM, scroll down the Settings more and find the Chat Tech setting to truly disable it (WebRTC) from using any resources.
+Я имею в виду не просто ход "Отправка и получение: Voice / Video" - это настройка, которая есть как у игроков, так и у ГМов. Как ГМ, прокрутите вниз "Настройки" и найдите настройку "Техника чата", чтобы действительно отключить ее (WebRTC) от использования каких-либо ресурсов.
 
-As player I’ve been invited into a few games where Video/Voice was not being used, but it was still loading in the browser (showing camera icon in Chrome browser) because the GM hadn’t turned it fully off in the settings.
+Как игрок, я был приглашен в несколько игр, где видео/голос не использовался, но он все еще загружался в браузере (показывая значок камеры в браузере Chrome), потому что ГМ не отключил его полностью в настройках.
 
-Not sure if this is an unconventional tip per-se, just the first Dummy’s Guide tip that came to mind.
+Не уверен, что это нетрадиционный совет, просто первый совет из Руководства для манекенов, который пришел на ум.
 
 #### Как сделать темную карту в Roll20 <a href="#kak-sdelat-temnuyu-kartu-v-roll20" id="kak-sdelat-temnuyu-kartu-v-roll20"></a>
 
-a tip i came across if you want to make a night or dark themed map without using fog of war. you can use a token on the lighting layer give it a black arua the covers the map. all players see the darkness you can even stack more tokens to get a darker area.
+Если вы хотите сделать ночную или темную тематическую карту без использования тумана войны, вы можете использовать жетон на слое освещения, дать ему черную ару, которая будет покрывать карту. Все игроки видят темноту, вы можете даже сложить больше жетонов, чтобы получить более темную область.
 
-This works for Shaded areas or even moving areas as well.
+Это работает и для затененных областей или даже движущихся областей.
 
 #### Пробелы в макросах <a href="#probely-v-makrosakh" id="probely-v-makrosakh"></a>
 
-Spacing: Spacing inside a roll rarely matters, as it does not generally effect the results of a roll. When I make macros I space everything far apart so its easier to see where I might have made an error, and to make it easier to adjust later on as needed.
+Расстояние: Расстояния внутри рулона редко имеют значение, поскольку в целом они не влияют на результаты рулона. Когда я создаю макросы, я расставляю все на большом расстоянии друг от друга, чтобы было легче увидеть, где я мог допустить ошибку, и чтобы было легче внести коррективы в дальнейшем при необходимости.
 
-When figuring out result spacing in the chat window, I try to get things to fit on as few lines as possible. I can be a bit obsessive about this, but it makes for cleaner macros and speeds the game along if you can see and comprehend the results easily.
+При определении расстояния между результатами в окне чата я стараюсь, чтобы все помещалось в как можно меньшем количестве строк. Я могу быть немного навязчивым в этом вопросе, но это делает макросы чище и ускоряет игру, если вы можете легко увидеть и понять результаты.
 
-#### Journal Command Buttons <a href="#journal-command-buttons" id="journal-command-buttons"></a>
+#### Командные кнопки журнала <a href="#journal-command-buttons" id="journal-command-buttons"></a>
 
-Within the Bio & Info and GM Notes text fields of a Character, or the Description & Notes and GM Notes text fields of a Handout, you can create Journal Command Buttons; special hyperlinks that can output macros to the Text Chat when clicked. Here’s how to create a Journal Command Button within one of the aforementioned fields:
+В текстовых полях Bio & Info и GM Notes персонажа или Description & Notes и GM Notes раздаточного материала можно создать кнопки Journal Command Buttons - специальные гиперссылки, которые при нажатии выводят макросы в текстовый чат. Вот как создать командную кнопку журнала в одном из вышеупомянутых полей:
 
-1. Insert a link using the link button on the redactor toolbar.
-2. At the very start of the “URL” field of the Link Window, type !
-3. Add in your macro code after the !
-4. Give your Journal Command Button a label using the “Text” field.
-5. Press the “Insert” button and Save Changes; you have created a Journal Command Button! Note: opening the Link Window converts HTML Entities; it’s necessary to restore the ! (and any other HTML entities) before saving changes to a Journal Command Button via the Link Window. Another way to create Journal Command Buttons is to copy and paste an API Command Button or Ability Command Button from the Text Chat into one of the aforementioned text fields. Note: Journal Command Buttons will not work if you have the Use Window Popouts for Characters option enabled.
+1. Вставьте ссылку с помощью кнопки "Ссылка" на панели инструментов редактора.
+2. В самом начале поля "URL" окна ссылки введите !
+3. Добавьте код макроса после !
+4. В поле "Текст" присвойте командной кнопке журнала ярлык.
+5. Нажмите кнопку "Вставить" и сохраните изменения; вы создали командную кнопку журнала! Примечание: открытие окна ссылок преобразует HTML-сущности; необходимо восстановить ! (и любые другие HTML-сущности) перед сохранением изменений в командной кнопке журнала через окно ссылок. Другой способ создания командных кнопок журнала - скопировать и вставить командную кнопку API или командную кнопку способности из текстового чата в одно из вышеупомянутых текстовых полей. Примечание: Кнопки команд журнала не будут работать, если у вас включена опция Use Window Popouts for Characters.
 
-#### Link Between Journal Entries <a href="#link-between-journal-entries" id="link-between-journal-entries"></a>
+#### Связь между записями журнала <a href="#link-between-journal-entries" id="link-between-journal-entries"></a>.
 
-You can easily link your journal entries together inside the game. Just put single brackets around the name of a character or handout (for example: “\[Mr. Bearington] is most-known for his long, flowing hair”), and when you save the entry we’ll automatically create a clickable link that will open that other journal entry.
+Вы можете легко связать свои записи в журнале внутри игры. Просто поставьте одинарные скобки вокруг имени персонажа или раздаточного материала (например, "\[Мистер Берингтон] наиболее известен своими длинными, струящимися волосами"), и когда вы сохраните запись, мы автоматически создадим кликабельную ссылку, которая откроет другую запись в журнале.
 
-It works both inside and outside the app, and it’s smart enough to obey player permissions as well (so a player can’t open a handout they don’t have access to, even if they see a link to that handout). You can use the links in character bios, GM notes (both for characters and tokens), and handout notes fields. Use links to tie entries together, or even create a “table of contents” page for your game to quickly access your most-used journal items Roll20Wiki- https://wiki.roll20.net/Journal#Reorganizing\_Journal\_Items
+Это работает как внутри, так и вне приложения, и достаточно умно, чтобы подчиняться разрешениям игроков (так что игрок не сможет открыть раздаточный материал, к которому у него нет доступа, даже если увидит ссылку на него). Вы можете использовать ссылки в биографиях персонажей, заметках ГМа (как для персонажей, так и для жетонов) и в полях заметок раздач. Используйте ссылки, чтобы связать записи вместе, или даже создайте страницу "оглавления" для вашей игры, чтобы быстро получить доступ к наиболее используемым элементам журнала Roll20Wiki- https://wiki.roll20.net/Journal#Reorganizing\_Journal\_Items
 
-#### Link Between Journal Entries <a href="#link-between-journal-entries-1" id="link-between-journal-entries-1"></a>
+#### Ссылка между записями журнала <a href="#link-between-journal-entries-1" id="link-between-journal-entries-1"></a>.
 
-You can easily link your journal entries together inside the game. Just put single brackets around the name of a character or handout (for example: “\[Mr. Bearington] is most-known for his long, flowing hair”), and when you save the entry we’ll automatically create a clickable link that will open that other journal entry.
+Вы можете легко связать свои записи в журнале внутри игры. Просто поставьте одинарные скобки вокруг имени персонажа или раздаточного материала (например, "\[Мистер Берингтон] наиболее известен своими длинными, струящимися волосами"), и когда вы сохраните запись, мы автоматически создадим кликабельную ссылку, которая откроет другую запись в журнале.
 
-It works both inside and outside the app, and it’s smart enough to obey player permissions as well (so a player can’t open a handout they don’t have access to, even if they see a link to that handout). You can use the links in character bios, GM notes (both for characters and tokens), and handout notes fields. Use links to tie entries together, or even create a “table of contents” page for your game to quickly access your most-used journal items Roll20Wiki-
+Это работает как внутри, так и вне приложения, и достаточно умно, чтобы подчиняться разрешениям игроков (так что игрок не сможет открыть раздаточный материал, к которому у него нет доступа, даже если увидит ссылку на него). Вы можете использовать ссылки в биографиях персонажей, заметках ГМа (как для персонажей, так и для жетонов) и в полях заметок раздач. Используйте ссылки, чтобы связать записи вместе, или даже создайте страницу "оглавления" для вашей игры, чтобы быстро получить доступ к наиболее используемым элементам журнала Roll20Wiki-
 
-#### How to make your D\&D5 OGL Character Sheet shine like a Pro <a href="#how-to-make-your-dd5-ogl-character-sheet-shine-like-a-pro" id="how-to-make-your-dd5-ogl-character-sheet-shine-like-a-pro"></a>
+#### Как сделать так, чтобы ваш лист персонажа D\&D5 OGL сиял как у профи <a href="#how-to-make-your-dd5-ogl-character-sheet-shine-like-a-pro" id="how-to-make-your-dd5-ogl-character-sheet-shine-like-a-pro"></a>
 
 ```
-	Tired of your character sheet that is hard to read ? Did you try to find how to text format in the Wiki and found that it is sadly impossible ? Well, there's a way I found a few days ago, and I want to share it for those of you that are not already aware of this. Here's a tip for you 
+	Устали от трудночитаемого листа персонажа? Вы пытались найти в Вики, как отформатировать текст, и обнаружили, что это, к сожалению, невозможно? Есть способ, который я нашел несколько дней назад, и я хочу поделиться им с теми из вас, кто еще не знает об этом. Вот подсказка для вас 
 ```
 
-Use Unicode converters ! Unicode converters allows you to change the font of your text in a large variety of styles compatible with a lot of websites, including Roll20. Be aware that I only tested this with fonts and that some custom symbols might be replaced by empty squares on some devices (according to Scott. C just below). There are plenty available online for free, so just google for them (or look at SkyCaptainXIII’s post just below).
+Используйте конвертеры Юникода! Конвертеры Unicode позволяют изменять шрифт вашего текста в большом количестве стилей, совместимых со многими сайтами, включая Roll20. Имейте в виду, что я тестировал это только со шрифтами и что некоторые пользовательские символы могут быть заменены пустыми квадратами на некоторых устройствах (согласно Скотту. C чуть ниже). В сети есть множество бесплатных программ, так что просто поищите их в Google (или посмотрите пост SkyCaptainXIII чуть ниже).
 
-You can copy/paste a converted text on your D\&D5 Roll20 OGL Sheets, Page names, Handout Names, Jukebox’s Music Titles, and so on ! Here are some of the fonts you can get using this method : (I personally recommend using Math Bold and Math Bold Italic for D\&D5 Sheets, see the examples above)
+Вы можете скопировать/вставить преобразованный текст на свои листы D\&D5 Roll20 OGL, названия страниц, названия раздаточных материалов, названия музыки в музыкальном автомате и так далее! Вот некоторые из шрифтов, которые вы можете получить, используя этот метод: (я лично рекомендую использовать Math Bold и Math Bold Italic для листов D\&D5, см. примеры выше)
 
-Alright ! I hope you liked it and I hope to share this find for people like me that like clean, easy to read character sheets ! :p
+Хорошо! Надеюсь, вам понравилось, и я надеюсь поделиться этой находкой для людей вроде меня, которые любят чистые, легко читаемые листы персонажей! :p
 
-#### Using more then one shot of ammo in OGL <a href="#using-more-then-one-shot-of-ammo-in-ogl" id="using-more-then-one-shot-of-ammo-in-ogl"></a>
+#### Использование более одного патрона в OGL <a href="#using-more-then-one-shot-of-ammo-in-ogl" id="using-more-then-one-shot-of-ammo-in-ogl"></a>
 
-Resource\_name,amount Arrows,2
+Ресурс\_имя,количество стрел,2
 
 #### Горячие клавиши на карте <a href="#goryachie-klavishi-na-karte" id="goryachie-klavishi-na-karte"></a>
 
-Holding the “alt” key while dropping an image from your library to retain it’s original aspect ratio and keep it from snapping to the grid.
+Удерживайте клавишу "alt", опуская изображение из библиотеки, чтобы сохранить его исходное соотношение сторон и не привязывать к сетке.
 
 #### Увеличение токена <a href="#uvelichenie-tokena" id="uvelichenie-tokena"></a>
 
-Shift-z while selecting a token to zoom it for all your players.
+Нажмите Shift-z при выборе жетона, чтобы увеличить его для всех игроков.
 
 \###
 
 #### Где найти ссылку на библиотеку загруженных в Ролл20 изображений? <a href="#gde-naiti-ssylku-na-biblioteku-zagruzhennykh-v-roll20-izobrazhenii" id="gde-naiti-ssylku-na-biblioteku-zagruzhennykh-v-roll20-izobrazhenii"></a>
 
 Ответ - [здесь](https://marketplace.roll20.net/library/)
+
+---
+
+Подпишитесь на наш [Телеграм канал](https://t.me/cyborgs_and_mages), присоединитесь к нашему [Дискорд сообществу](https://discord.gg/yrJqvCqU3w) и поддерживайте нас на [Boosty](https://boosty.to/cyborgsandmages) или [Patreon](https://www.patreon.com/palikhov).
+
+[Актуальная версия руководства по Roll20](https://cyborgsandmages.com/roll20-guide)
+
+[Старая версия руководства](https://cyborgsandmages.gitbook.io/palant-roll20-guide)
+
