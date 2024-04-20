@@ -2,6 +2,6 @@
 
 VTT Enhanced Suite
 
-Tampermonkey
+[Tampermonkey](https://chromewebstore.google.com/detail/tampermonkey)
 
 BetterR20 script
