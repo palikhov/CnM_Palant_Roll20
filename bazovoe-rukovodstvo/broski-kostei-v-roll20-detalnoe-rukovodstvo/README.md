@@ -1,392 +1,400 @@
-# Броски костей в Roll20   детальное руководство
+# Броски костей в Roll20 детальное руководство
 
-### How to Roll Dice
+## Как бросать кости
 
-Rolling dice in Roll20 is easy. Just type the /roll command into the text chat box, followed by a formula. In most cases, the formula is the same as the one that's printed in your game's instructions. For example, you might know that to roll an attack roll you need to roll a "D20 plus your attack modifier". In Roll20, you would just type /roll d20+5. If you hit and you need to roll 3d6+2 damage, you would just type /roll 3d6+2. Finally, you can also string multiple rolls together. If you have an attack that does two types of damage, you might do /roll 2d6+5 + d8.
+Бросать кости в Roll20 очень просто. Просто введите команду /roll в поле текстового чата, а затем формулу. В большинстве случаев формула совпадает с той, что написана в инструкции к вашей игре. Например, вы можете знать, что для броска атаки нужно бросить "D20 плюс ваш модификатор атаки". В Roll20 вы просто напечатаете /roll d20+5. Если вы попали в цель и вам нужно бросить 3d6+2 урона, вы просто напечатаете /roll 3d6+2. Наконец, вы также можете объединить несколько бросков. Если у вас есть атака, наносящая два типа урона, вы можете сделать /roll 2d6+5 + к8.
 
 `/roll 1d20+5`
 
-After the roll is performed, you'll see the results of the roll in the text chat area. Notice that for each group of dice that were rolled, there will be a group of numbers in parentheses, representing the result of each individual dice that was rolled. (The number sits on an outline of the dice type rolled, and this outline is in the same color as the square of color in the dice-roller's player portrait in the Player Area.) You'll also see the total of all the dice values plus modifiers to the right of the equal sign. Rolling in Secret
+После выполнения броска вы увидите его результаты в текстовом чате. Обратите внимание, что для каждой группы брошенных костей будет группа чисел в скобках, представляющая собой результат каждого отдельного броска. (Число расположено на контуре типа брошенной кости, и этот контур имеет тот же цвет, что и цветной квадрат на портрете игрока, бросающего кости, в области игрока). Справа от знака равенства вы также увидите сумму всех значений костей плюс модификаторы. Тайные броски
 
-By default, any rolls that you make are seen by everyone in the game with you (including all players). If you want to roll in secret, you can use the /gmroll command to perform a roll that only the GM and the original player who made the roll can see. So if you're the GM, doing a /gmroll will only be visible to you. It's a great way to perform skill checks in secret. Including Additional Information
+По умолчанию все броски, которые вы делаете, видны всем, кто находится с вами в игре (включая всех игроков). Если вы хотите сделать бросок в тайне, вы можете использовать команду /gmroll, чтобы выполнить бросок, который могут видеть только ГМ и игрок, сделавший бросок. Так что если вы ГМ, то команда /gmroll будет видна только вам. Это отличный способ тайной проверки навыков. Включение дополнительной информации
 
-You can also include non-formula text in your roll to indicate what that roll is for. For example, when rolling for initiative you might enter /roll 1d20+5 Roll for Initiative. The extra text won't affect your roll in any way, but it's included in the chat log so that others can see what you're rolling for. It's entirely optional to do this, by the way, but some GMs find it helps keep everything organized a little better.
+Вы также можете включить в свой бросок текст, не относящийся к формуле, чтобы указать, для чего нужен этот бросок. Например, при броске на инициативу вы можете написать /roll 1к20+5 Roll for Initiative. Дополнительный текст никак не повлияет на ваш бросок, но он будет включен в журнал чата, чтобы другие могли видеть, для чего вы бросаете. Кстати, это совершенно необязательно, но некоторые ГМы считают, что это помогает лучше организовать все действия.
 
 `/roll 1d20+5 Roll for Initiative`
 
-If you want to include any numbers, parentheses, or +, -, \*, /, or % in your additional text, you can preface it with a  to separate the formula from the text and keep the roller from getting confused. So for example you can do /roll 1d20+5  +5 Roll for Initiative.
+Если вы хотите включить в дополнительный текст какие-либо числа, скобки, +, -, \*, / или %, вы можете поставить перед ними знак a, чтобы отделить формулу от текста и не дать роллеру запутаться. Например, вы можете написать /roll 1к20+5+5 Roll for Initiative.
 
-If you want to include additional comments before the end of the roll (we call them "inline labels"), use square brackets. For example, /roll 2d20+5\[Fire Damage] + 3d6+5\[Ice Damage]. When these comments are applied directly after a die roll they show up as tool-tips on the dice:
+Если вы хотите включить дополнительные комментарии до конца броска (мы называем их "встроенными метками"), используйте квадратные скобки. Например, /roll 2d20+5\[Огонь урон] + 3d6+5\[Лед урон]. Когда эти комментарии применяются непосредственно после броска кубика, они отображаются в виде всплывающих подсказок на костях:
 
-`/roll 2d10+2d6[crit]+5` Critical Hit! Inline Dice Rolls
+`/roll 2d10+2d6[crit]+5` Critical Hit!
 
-If you want a more compact roll representation, you can take advantage of inline dice rolls. Inline rolls are just like regular rolls, with the following exceptions:
+## Строчные броски костей
+
+Если вам нужно более компактное представление бросков, воспользуйтесь преимуществом линейных бросков костей. Строчные броски - это такие же броски, как и обычные, за следующими исключениями:
 
 ```
-You can use them in any chat message, not just a roll. For example, you can do a regular chat message, an emote, or a whisper, with an inline roll included.
-They are evaluated completely before any /roll commands, so you can use them as "random variables" in your rolls.
-You will only see the result of the total roll, and you can hover over the result to see the individual dice rolls.
-If an inline roll contains a crit success, it will be highlighted with a green box. If there's a crit failure, it's highlighted in red. If it has both (because there was more than one roll), it's in blue. Also when you mouse-over the inline roll to see the details of the roll, it'll show red and green highlights for the rolls themselves for crits/fumbles. 
+Вы можете использовать их в любом сообщении чата, а не только в броске. Например, вы можете сделать обычное сообщение в чате, эмоцию или шепот с включенным в него броском.
+Они оцениваются полностью перед любыми командами /roll, поэтому вы можете использовать их в качестве "случайных переменных" в своих бросках.
+Вы увидите только результат общего броска, но можете навести курсор на результат, чтобы увидеть отдельные броски костей.
+Если в броске есть успех крита, он будет выделен зеленым квадратом. Если крит провален, он будет выделен красным цветом. Если есть и то, и другое (потому что бросков было несколько), он будет выделен синим цветом. Также, когда вы наводите курсор на строку броска, чтобы увидеть детали броска, он будет показывать красные и зеленые выделения для самих бросков критов/провалов. 
 ```
 
-To do an inline roll, just include two brackets in any chat message or roll, like so:
+Чтобы сделать инлайн-ролл, просто включите две скобки в любое сообщение чата или ролл, например:
 
 `/em Riley is filled with [[3d6]] points of anger! /roll [[2d6]]d5`
 
-You can also nest inline rolls, one inside the other, like so:
+Вы также можете вложить роллы в строку, один в другой, например:
 
 `/em Steve gets slapped with [[ 3d6>[[1+3]] ]] carp!`&#x20;
 
-### Roll Queries
+### Запросы бросков
 
-Sometimes you may have a roll (or a macro) which you want to change every time it is rolled. For example, you may want to roll a variable number of dice, or add a different modifier onto the roll each time you perform the action. Roll Queries allow you to prompt whoever is performing the roll to fill in a value when the roll is made. The syntax for a roll query is:
+Иногда у вас может быть бросок (или макрос), который вы хотите изменять при каждом броске. Например, вы можете бросить переменное количество костей или добавлять разные модификаторы к броску каждый раз, когда выполняете действие. Запросы на бросок позволяют предложить тому, кто выполняет бросок, ввести значение при броске. Синтаксис запроса броска следующий:
 
-`?{Prompt Message} //Example: /roll ?{Number of Dice}d20 //You can also include a default value: /roll ?{Number of Dice|1}d20 // 1 would be the default`
+?{Prompt Message} //Example: /roll ?{Number of Dice}d20 //You can also include a default value: /roll ?{Number of Dice|1}d20 // 1 would be the default`
 
-You can use Roll Queries in rolls, macros, abilities, emotes, whispers -- pretty much anywhere in the app. Note that if you use the same exact wording for a Query, Roll20 will only ask for the value the first time it's encountered in the roll. So in this example:
+Запросы на бросок можно использовать в бросках, макросах, способностях, эмоциях, шепотах - практически везде в приложении. Обратите внимание, что если вы используете одну и ту же формулировку для запроса, Roll20 будет запрашивать значение только в первый раз, когда оно встречается в броске. Так что в этом примере:
 
 `/roll 1d20 + ?{Bonus1} vs ?{MinToSucceed} + ?{Bonus1}`
 
-Roll20 will ask for "Bonus1" only once and use it in both places. Math-Only Rolls
+Roll20 запросит "Bonus1" только один раз и использует его в обоих местах. Только математические броски
 
-You can do math-only rolls by adding a math expression after the roll command.
+Вы можете выполнять только математические броски, добавляя математическое выражение после команды roll.
 
-For example, if you want Roll20 to do a simple addition like 5 + 3, you'd enter the following:
+Например, если вы хотите, чтобы Roll20 выполнил простое сложение, например 5 + 3, введите следующее:
 
 `/roll 5+3`
 
-Or if you want to do this in an inline roll you'd use:
+Или если вы хотите сделать это в инлайн-ролле, вы можете использовать:
 
 `[[5+3]]`
 
-### Exploding Dice
 
-Roll20 supports exploding dice -- you may also know it as "rule of 6", "rule of 10s", or "acing" depending on your game system. With exploding dice, if you roll the maximum number on the dice (a 6 with a d6, a 10 with a d10, etc.) you get to re-roll again and add the additional roll to your total for that roll. If the additional roll is also a maximum number, you get to keep rolling!
+### Взрывающиеся кости
 
-To perform a roll with exploding dice, just add an exclamation point after the number of sides in the formula. For example, /roll 3d6! would roll 3 d6 dice with exploding re-rolls. You can also define the exploding point for the dice using the greater-than and less-than symbols. For example, /roll 3d6!>4 would explode on any dice greater-than or equal-to 4. /roll 3d6!3 would explode only if a 3 is rolled.
+Roll20 поддерживает взрывающиеся кости - вы также можете знать это как "правило 6", "правило 10s" или "acing", в зависимости от вашей игровой системы. При использовании взрывающихся костей, если вы выкинули максимальное число на кубике (6 на к6, 10 на к10 и т. д.), вы можете повторить бросок и добавить дополнительный бросок к общему числу за этот бросок. Если дополнительный бросок также является максимальным числом, вы можете продолжить бросок!
+
+Чтобы сделать бросок с помощью взрывающихся костей, просто добавьте восклицательный знак после числа сторон в формуле. Например, /roll 3d6! бросит 3 кости к6 со взрывающимися повторными бросками. Вы также можете определить точку взрыва для костей с помощью символов "больше-меньше". Например, /roll 3d6!>4 взорвется на любой кости, которая больше или равна 4. /roll 3d6!3 взорвется только при выпадении 3.
 
 `/roll 10d6!`
 
-Compounding Exploding Dice (Shadowrun-Style Exploding Dice)
+Усложнение взрывающихся костей (Взрывающиеся кости в стиле Shadowrun)
 
-Shadowrun (and some other systems) use a special style of exploding dice where the the additional rolls for each dice are added together as a single "roll". To do this, just use two exclamation marks instead of one. So for example to roll 5 d6's, you would do /roll 5d6!!. A common Shadowrun roll would be exploding dice compared to a target number, for example /roll {5d6!!}>8 (notice the use of the brackets to show that we don't mean "explode on anything greater than 8", but rather "explode on 6's compounding, then compare to 8 for successes). Even though the target number (8) is higher than the possible roll from a single die, with the compounding exploding rolls a single roll can be infinitely high!
+В Shadowrun (и некоторых других системах) используется особый стиль взрывающихся костей, когда дополнительные броски для каждой кости складываются в один "бросок". Чтобы сделать это, просто используйте два восклицательных знака вместо одного. Так, например, чтобы бросить 5 к6, вы должны сделать /roll 5d6!!! Обычный бросок в Shadowrun - это взрыв костей по сравнению с целевым числом, например, /roll {5d6!!}>8 (обратите внимание на скобки, чтобы показать, что мы не имеем в виду "взорваться при любом числе больше 8", а скорее "взорваться при сложении 6, а затем сравнить с 8 для достижения успеха). Хотя целевое число (8) больше, чем возможный бросок одного кубика, с усложняющимися взрывающимися бросками один бросок может быть бесконечно высоким!
 
 `/roll {5d6!!}>8`
 
-Penetrating Exploding Dice (Hackmaster-Style Exploding Dice)
+Проникающие взрывающиеся кости (Взрывающиеся кости в стиле Хакмастера)
 
-HackMaster (and some other systems) use a special style of exploding dice where the the additional rolls for each dice have 1 subtracted from the roll. To do this, add a p after the exclamation mark. So for example to roll 5 d6's, you would do /roll 5d6!p.
+В системе HackMaster (и некоторых других системах) используется особый стиль взрывающихся костей, в котором при дополнительных бросках за каждую кость из броска вычитается 1. Чтобы сделать это, добавьте p после восклицательного знака. Например, чтобы бросить 5 К6, вы должны сделать /roll 5d6!p.
 
 /roll 5d6!p Drop/Keep
 
-Some game systems ask you to roll a large number of dice, and then either drop a certain number of the lowest rolls, or keep only a certain number of the highest rolls. Roll20 supports this type of roll through the d and k commands, respectively.
+Некоторые игровые системы просят вас бросить большое количество костей, а затем либо отбросить определенное количество самых низких бросков, либо оставить только определенное количество самых высоких. Roll20 поддерживает этот тип бросков с помощью команд d и k соответственно.
 
-For example, you might roll 8 d100 dice and only be allowed to keep the top 4 rolls. In Roll20 this would be expressed with /roll 8d100k4. When Roll20 prints the output from that roll, you'll see each individual d100's rolled value, and all but the top 4 rolls will be greyed out. Roll20 will then give you the total of the top 4 rolls. Doing a roll to drop the 3 lowest rolls would be very similar: /roll 8d100d3. Again, the value of each dice rolled will be displayed, with the 3 lowest rolls greyed out.
+Например, вы можете бросить 8 костей d100 и оставить только 4 верхних броска. В Roll20 это будет выражено командой /roll 8d100k4. Когда Roll20 выведет результаты этого броска, вы увидите значение каждого отдельного броска d100, а все броски, кроме четырех лучших, будут закрашены серым цветом. Затем Roll20 выдаст вам общую сумму 4 верхних бросков. Выполнить бросок, чтобы отбросить 3 самых низких броска, будет очень похоже: /roll 8d100d3. Опять же, будет показано значение каждого брошенного костя, а 3 самых низких броска будут выделены серым цветом.
 
 `/roll 8d100d3`
 
-The d and k commands are shortcuts for the full dl and kh commands. If you need to drop the highest dice use dh and if you need to keep the lowest dice use kl. For example /roll 8d100dh3 would drop the highest three rolls and keep the lowest 5 and /roll 8d100kl3 would keep the lowest three rolls and drop the highest 5. Target Number (Successes)
+Команды d и k - это ярлыки для полноценных команд dl и kh. Если вам нужно сбросить самые высокие кости, используйте dh, а если нужно оставить самые низкие - kl. Например, /roll 8d100dh3 отбросит три самых высоких броска и оставит 5 самых низких, а /roll 8d100kl3 оставит три самых низких броска и отбросит 5 самых высоких. Количество целей (Успехов)
 
-Normally when you perform a roll, Roll20 reports back the total value of all the dice rolled, plus any modifiers. Some game systems, though, work by rolling a set of dice versus a target number, and then adding up the total number of successes instead. Roll20 uses the greater-than symbol > to indicate when the roll is greater-than or equal-to >= the target number. The less-than symbol < is used to indicate when the roll is less-than or equal-to <= the target number.
+Обычно, когда вы выполняете бросок, Roll20 сообщает общее значение всех брошенных костей плюс любые модификаторы. Однако некоторые игровые системы используют броски костей против целевого числа, а затем суммируют общее количество успехов. В Roll20 используется символ больше > для обозначения того, что бросок больше или равен >= целевому числу. Символ "меньше" < используется для обозначения того, что бросок меньше или равен <= целевому числу.
 
-For example, you might be performing an action that requires a target number of 3, and you get to roll 3 d6's to see how many successes you have. In Roll20, you would do /roll 3d6>3. Note the inclusion of the greater-than symbol to indicate that this is a target roll versus 3. Roll20 will show you each dice that was rolled, and then tell you the number of dice with a value of 3 or greater (note that ties with the target number count as a success!). You can also roll less-than target numbers, for example /roll 10d6<4, which would give you a success for each dice rolled that is equal to 4 or less.
+Например, вы выполняете действие, требующее целевого числа 3, и бросаете 3 кубика К6, чтобы узнать, сколько успехов у вас будет. В Roll20 вы сделаете /roll 3d6>3. Обратите внимание на символ "больше", указывающий на то, что это бросок цели против 3. Roll20 покажет вам каждую брошенную кость, а затем сообщит количество костей со значением 3 или больше (обратите внимание, что совпадение с целевым числом засчитывается как успех!) Вы также можете бросить меньше целевого числа, например /roll 10d6<4, что даст вам успех за каждый брошенный кубик, равный 4 или меньше.
 
-You can also add modifiers onto your target rolls, and the modifier will be added to each individual dice roll before it is compared to the target number. However, if you're going to do so, it's recommended that you use a group just to make sure the parser fully understands what you want to do. So, /roll {3d6+1}<3 would roll 3 d6 dice, and for each dice roll add on 1, then compare it versus the target number of 3.
+Вы также можете добавлять модификаторы к броскам цели, и модификатор будет добавлен к каждому отдельному броску костей, прежде чем он будет сравнен с целевым числом. Однако если вы собираетесь сделать это, рекомендуется использовать группу, чтобы убедиться, что парсер полностью понимает, что вы хотите сделать. Так, /roll {3d6+1}<3 бросит 3 кости К6, и к каждому броску добавит 1, а затем сравнит его с целевым числом 3.
 
 `/roll 3d6>3`&#x20;
 
-### Critical Success and Fumble Points
+### Критический Успех и Очки Неудачи
 
-You can also modify your dice rolls to allow you to specify set at which point a roll is considered to be a "Critical Success" or "Critical Failure (Fumble)".
+Вы также можете модифицировать свои броски костей, чтобы указать, в какой момент бросок считается "Критическим Успехом" или "Критическим Провалом (Fumble)".
 
-To show any roll equal to 10 or greater as a critical success, just do /roll 1d20cs>10. To show any roll equal to or less than 3 as a critical failure, just do /roll 1d20cf<3. To show any roll equal to 20 or 10 exactly as a critical success, just do /roll 1d20cs20cs10.
+Чтобы показать любой бросок, равный 10 или больше, как критический успех, просто сделайте /roll 1d20cs>10. Чтобы показать любой бросок, равный или меньше 3, как критический провал, просто сделайте /roll 1d20cf<3. Чтобы показать любой бросок, равный 20 или 10, как критический успех, просто сделайте /roll 1d20cs20cs10.
 
-Note: These values will not affect other things that by default work on max roll value (including exploding, penetrating, etc.). It only affects the display of the roll result to the player. For example, if you want dice to explode on 18 or higher, and you want to show an 18 or higher as a critical, you would need to do /roll 1d20!>18cs>18.
+Примечание: Эти значения не влияют на другие вещи, которые по умолчанию работают на максимальном значении броска (в том числе на взрывы, пробивание и т. д.). Они влияют только на отображение результата броска игроку. Например, если вы хотите, чтобы кости взрывались на 18 или выше, и вы хотите показать 18 или выше как критическое значение, вам нужно сделать /roll 1к20!>18cs>18.
 
 `/roll 1d20cs>10`&#x20;
 
-### Rerolling Dice
+### Переброс костей
 
-Several systems require that certain dice be reroll, for example brutal weapons in D\&D 4e require any 1s or 2s to be re-rolled and the orignal die value ignored.
+Некоторые системы требуют, чтобы определенные кости были переброшены, например, жестокое оружие в D\&D 4e требует, чтобы все 1 или 2 были переброшены, а оригинальное значение кубика игнорировалось.
 
-To use reroll, just do /roll 2d8r and < can be used as comparisons and the r suffix can be specified multiple times. /roll 2d8r1r3r5r7 would roll 2d8 and re-roll any odd number.
+Чтобы использовать повторный бросок, просто сделайте /roll 2d8r и < можно использовать в качестве сравнения, а суффикс r можно указать несколько раз. /roll 2d8r1r3r5r7 бросит 2d8 и повторно бросит любое нечетное число.
 
-/roll 2d8r<2 FATE Dice
+/roll 2d8r<2 
 
-Roll20 also supports FATE dice (used for FATE, FUDGE, and other systems). Roll20 accurately simulates FATE dice as 6-sided dice in which two sides are 0, two sides are +1, and two sides are -1.
+## FATE Dice
 
-To roll 4 FATE dice, just do /roll 4dF. Roll20 will show you the result of each individual FATE dice roll, then give you the total of all the dice rolls added up together. You can also add a modifier onto the total, with /roll 4dF+1.
+Roll20 также поддерживает кости FATE (используемые в FATE, FUDGE и других системах). Roll20 точно моделирует кости FATE как 6-гранные кости, в которых две стороны равны 0, две стороны равны +1, а две стороны равны -1.
+
+Чтобы бросить 4 кости FATE, просто выполните команду /roll 4dF. Roll20 покажет вам результат каждого отдельного броска костей FATE, а затем выдаст общую сумму всех бросков костей, сложенных вместе. Вы также можете добавить модификатор к итоговому результату, используя команду /roll 4dF+1.
 
 `/roll 4dF`&#x20;
 
-### Rounding Rolls and Math Functions
+### Округление бросков и математические функции
 
-You may want to use rounding in your roll formulas to emulate mechanics such as "half a level, rounded down to the nearest level." Roll20 provides several functions to accomplish this: floor() which will always round the number down (e.g. 5.7 becomes 5), ceil() which will always round the number up (e.g. 5.1 becomes 6), and round() which will always round to the nearest whole number (e.g. 4.4 becomes 4 and 4.5 becomes 5). You can use these functions almost anywhere in your roll formulas (around a single math expression, groups of math expressions, or even the entire roll). For example:
+Вы можете захотеть использовать округление в формулах бросков, чтобы эмулировать такие механики, как "половина уровня, округленная до ближайшего уровня". Roll20 предоставляет несколько функций для этого: floor(), которая всегда округляет число вниз (например, 5.7 становится 5), ceil(), которая всегда округляет число вверх (например, 5.1 становится 6), и round(), которая всегда округляет до ближайшего целого числа (например, 4.4 становится 4 и 4.5 становится 5). Вы можете использовать эти функции практически везде в формулах бросков (вокруг одного математического выражения, группы математических выражений или даже всего броска). Например:
 
 `/roll floor(7/2) + 2d6`
 
-We also provide other Math functions:
+
+Мы также предоставляем другие математические функции:
 
 ```
 abs() will calculate the absolute value of the roll 
 ```
 
-### Grouping Rolls
+### Группировка бросков
 
-Sometimes you may want to perform a series of rolls, and then compare each roll to a common check (like a success roll). Roll20 provides a "grouped rolls" functionality for this purpose. For example, you can roll two different pools of dice, then keep the highest dice roll across any of the pools:
+Иногда вы можете захотеть выполнить серию бросков, а затем сравнить каждый бросок с общей проверкой (например, с проверкой на Успех). Roll20 предоставляет функцию "сгруппированные броски" для этой цели. Например, вы можете бросить два разных пула костей, а затем сохранить самый высокий бросок в любом из пулов:
 
 `/roll {4d6+3d8}kh1`
 
-If you separate the rolls inside the group with a comma, then we'll sum each individual dice expression in the group before applying any modifiers. For example, if we change the above example to use a comma, instead of keeping the highest single roll, it will instead keep the highest group total:
+Если разделить броски внутри группы запятой, то перед применением модификаторов мы просуммируем каждое отдельное выражение на одну кость в группе. Например, если мы изменим приведенный выше пример, чтобы использовать запятую, вместо того, чтобы сохранять наибольший одиночный бросок, он будет сохранять наибольший групповой итог:
 
 `/roll {4d6,3d8}kh1`
 
-This is needed in games based on the Savage Worlds system, where important characters roll a "wild die" in parallel with their main die and choose the highest roll.
+Это необходимо в играх, основанных на системе Savage Worlds, где важные персонажи бросают "дикий кубик" параллельно с основным кубиком и выбирают наибольший бросок.
 
-Grouped rolls can be a very powerful features in Roll20. See more detail about them in the full dice specification below.
+Группированные броски могут быть очень мощной функцией в Roll20. Подробнее о них вы можете прочитать в полной спецификации костей ниже.
 
-Below you'll find the entire Roll20 dice engine specification. This is the "advanced" documentation. If you're looking to do something totally crazy with Roll20 dice, this is a great place to see if we can support it. Roll To Initiative
+Ниже вы найдете полную спецификацию движка костей Roll20. Это "продвинутая" документация. Если вы хотите сделать что-то совершенно безумное с костями Roll20, это отличное место, чтобы проверить, сможем ли мы это поддержать. Бросок к инициативе
 
-To add a roll directly into Roll20's Turn Track (Rolling for Initiative), you'll need to incorporate a "roll option". A roll option is a special Roll20 flag that you can set anywhere in a roll to tell the roll system you'd like to do special things with the roll. For adding an initiative number to the turn track, you'll first need to select the token you wish to roll for and use this formula:
+Чтобы добавить бросок непосредственно в ход Roll20 (бросок для инициативы), вам нужно включить "опцию броска". Опция броска - это специальный флаг Roll20, который вы можете установить в любом месте броска, чтобы сообщить системе бросков, что вы хотите сделать с этим броском что-то особенное. Чтобы добавить число инициативы на трек хода, сначала нужно выбрать жетон, за который вы хотите сделать бросок, и использовать следующую формулу:
 
 `/roll 1d20 + 5 &{tracker}`
 
-The &{} part is where you put your options for the roll, and the "tracker" option is what says "Show the results of this roll, but also use the result as the value in the turn tracker." If the token that you have selected doesn't already have a turn in the turn order, one will be added. If it already has at least one turn, all current turns will be updated with the new value. Roll Templates
+Часть &{} - это место, куда вы помещаете параметры броска, а опция "tracker" - это то, что говорит: "Показать результаты этого броска, а также использовать результат как значение в трекере хода". Если у выбранного вами жетона еще нет хода в порядке хода, он будет добавлен. Если у него уже есть хотя бы один ход, все текущие ходы будут обновлены новым значением. Шаблоны бросков
 
-Roll Templates are a special facet of the Character Sheets system which provide additional layout and styling options for the display of roll results. Using a Roll Template is very easy to use. Just include a special flag in your chat message which tells Roll20 that you want to use a Roll Template, and then provide all of the data that you want to include.
+Шаблоны бросков - это особый аспект системы "Листы персонажей", который предоставляет дополнительные возможности по оформлению и стилизации отображения результатов бросков. Использовать шаблоны бросков очень просто. Просто включите в сообщение в чате специальный флаг, сообщающий Roll20, что вы хотите использовать шаблон ролла, а затем укажите все данные, которые вы хотите включить.
 
-Here's an example that uses the 'default' template (which all games have access to, regardless of the game system or Character Sheets you are using): `&{template:default}` &#x20;
+Вот пример, использующий шаблон "по умолчанию" (к которому имеют доступ все игры, независимо от используемой игровой системы или таблицы персонажей): `&{template:default}` &#x20;
+
 
 {% hint style="info" %}
-Note: If you're interested in using Roll Templates in your own custom macros or creating your own custom templates please vist the wiki entry on Roll Templates.
+Примечание: Если вы хотите использовать шаблоны роллов в своих собственных макросах или создать свои собственные шаблоны, пожалуйста, посетите вики-запись о шаблонах роллов.
 {% endhint %}
 
-&{template:default}    Roll20 Dice Specification Math Operators and Functions
+&{template:default}    
 
-Roll20 supports the basic arithmetic operators you learned in school: +, -, \* (multiply), and / (divide).
+Математические операторы и функции спецификации костей Roll20
 
-In addition to the basic four, you have access to:
+Roll20 поддерживает основные арифметические операторы, которые вы изучали в школе: +, -, \* (умножение) и / (деление).
 
-```
-%, for modulus division. The result of a % b is the remainder of a / b. If you think back to when you were first learning long division without getting into decimals, you were learning how to perform modulus division. Modulus is useful, for example, to test whether a value is even or odd: a % 2 will be 0 if a is even (and positive) and 1 if a is odd (and positive). In general, the result of a % b when a and b are both whole numbers will be a whole number in the range [0, |b| - 1] where |b| is the absolute value of b. (If a is less than 0, the result will be negative, including -0. -0 is functionally equivalent to 0.)
-**, for exponentiation. You may be more familiar with a^b as the notation for "raising a to the power of b", but in Roll20 you would use a**b instead. Also note that finding roots is simply raising a number to a fractional exponent; square root is simply an exponent of 0.5, for example. 
-```
+В дополнение к основным четырем операторам вам доступны:
 
-You also have access to a small set of mathematical functions:
 
 ```
-floor(x) rounds x towards negative infinity.
-round(x) rounds x towards 0 if the fractional portion of x is less than 0.5, and round x towards positive infinity if the fractional portion of x is 0.5 or greater.
-ceil(x) rounds x towards positive infinity.
-abs(x) returns the absolute value of x. 
+% - для деления по модулю. Результат a % b - это остаток от a / b. Если вспомнить, как вы впервые изучали деление без десятичных дробей, то вы учились выполнять деление по модулю. Деление по модулю полезно, например, для проверки того, является ли значение четным или нечетным: a % 2 будет равно 0, если a четное (и положительное), и 1, если a нечетное (и положительное). В общем случае результат a % b, когда a и b - целые числа, будет целым числом в диапазоне [0, |b| - 1], где |b| - абсолютное значение b. (Если a меньше 0, результат будет отрицательным, включая -0. -0 функционально эквивалентен 0.)
+** - для экспоненцирования. Возможно, вам больше знакомо выражение a^b, означающее "возведение a в степень b", но в Roll20 вместо него используется a**b. Также обратите внимание, что нахождение корней - это просто возведение числа в дробную экспоненту; квадратный корень - это просто экспонента из 0,5, например. 
 ```
 
-Operations are performed by order of precedence, just like in normal mathematics. From highest to lowest precedence:
+Вы также имеете доступ к небольшому набору математических функций:
 
 ```
-Grouping with parentheses (( and )); just like in real math, you can modify the precedence ordering by wrapping parentheses around things
-Calling floor/round/ceil/abs
-Exponentiation (**)
-Multiplication (*), division (/), and modulus (%), in the order they appear (left-to-right) in the formula
-Addition (+) and subtraction (-), in the order they appear (left-to-right) in the formula 
+floor(x) округляет x в сторону отрицательной бесконечности.
+round(x) округляет x в сторону 0, если дробная часть x меньше 0,5, и округляет x в сторону положительной бесконечности, если дробная часть x равна 0,5 или больше.
+ceil(x) округляет x в сторону положительной бесконечности.
+abs(x) возвращает абсолютное значение x. 
 ```
 
-### Order of Operations
-
-While the Roll20 dice engine does support basic math and functions such as floor() and ceil(), it is first and foremost a dice engine, and so it has its own order of operations. This means that putting parentheses inside of your dice formula will not always affect the outcome of the roll (for example, you can't force a variable to be interpreted before a macro). Here is the general order of operations:
+Операции выполняются в порядке старшинства, как и в обычной математике. От наибольшего к наименьшему старшинству:
 
 ```
-Abilities are expanded (meaning the definition of the ability is placed in the formula anywhere that ability appears).
-Macros are expanded, including nested macros up to 99 levels deep.
-Variables are substituted
-Roll queries are executed (the player making the roll is asked to provide a value for each query, and that value is substituted in where the roll query appears in the formula)
-All previous steps are repeated until there are no longer any unresolved abilities, macros, variables, or queries. This allows for nesting (e.g. putting an attribute in a macro).
-Inline rolls are executed, starting with the most deeply nested inline roll working upward. The overall result of the inline roll is substituted in place where it appeared in the formula.
-The remaining roll is executed: first, dice are rolled for any dice (e.g. "2d6" is rolled; including any special dice such as dropped or exploding), then the result of that roll is substituted into the formula. Next, floor() and ceil() functions are executed. Finally, the entire remaining formula is evaluated, including observing proper math order of operations (parentheses first, then multiplication/division, then addition/subtraction). 
+Группировка с помощью круглых скобок (( и )); как и в реальной математике, вы можете изменить порядок старшинства, обернув круглые скобки вокруг элементов
+Вызывая floor/round/ceil/abs
+Экспоненциация (**)
+Умножение (*), деление (/) и модуль (%), в порядке их появления (слева направо) в формуле
+Сложение (+) и вычитание (-), в порядке их появления (слева направо) в формуле 
 ```
 
-### Types Of Dice
+### Порядок операций
 
-Roll20 supports more than just your standard polyhedrons when rolling dice, below are the available die types you can use in your games. Basic Roll NdX
-
-Rolls N traditional (almost, you can have any number of sides that you want) dice with X sides per die. N must be greater than or equal to 0 and X must be greater than or equal to 1. Fate/Fudge Roll NdF
-
-Rolls N Fate/Fudge dice. These dice have three sides with values of -1, 0, and 1. Computed Dice Roll (N+Y)dX/Nd(X+Y)
-
-Computes the number of dice to roll or the number of sides on the dice based on the mathematical expression in the parentheses. Dice computation can be used with both Basic and Fate dice.
-
-Within (N+Y)dX, the number of dice (N+Y) is rounded to the nearest whole number, just like round(N+Y). Roll Modifiers
-
-Modfiers that can change the behavior or outcome of dice rolls. Each modifier states which Types Of Dice it can be applied to in parentheses after the modifier name. Rolls can have multiple modifiers applied to a single roll to allow for complex dice expressions.
+Хотя движок для игры в кости Roll20 поддерживает базовую математику и такие функции, как floor() и ceil(), это прежде всего движок для игры в кости, и поэтому у него есть свой порядок операций. Это означает, что размещение круглых скобок внутри формулы броска костей не всегда влияет на результат броска (например, вы не можете заставить переменную интерпретироваться перед макросом). Вот общий порядок операций:
 
 ```
-B - Basic Roll
+Способности расширяются (то есть определение способности помещается в формулу везде, где эта способность появляется).
+Макросы расширяются, включая вложенные макросы глубиной до 99 уровней.
+Подставляются переменные
+Выполняются запросы на бросок (игрока, делающего бросок, просят указать значение для каждого запроса, и это значение подставляется туда, где запрос на бросок появляется в формуле)
+Все предыдущие шаги повторяются до тех пор, пока не останется нерешенных способностей, макросов, переменных или запросов. Это позволяет создавать вложенность (например, помещать атрибут в макрос).
+Выполняются последовательные перекаты, начиная с наиболее глубоко вложенного последовательного переката и далее по возрастающей. Общий результат линейного ролика подставляется на место, где он был в формуле.
+Остальные броски выполняются следующим образом: сначала бросаются любые кости (например, "2d6"; включая любые специальные кости, такие как выпавшие или взорвавшиеся), затем результат броска подставляется в формулу. Затем выполняются функции floor() и ceil(). Наконец, оценивается вся оставшаяся формула, включая соблюдение правильного математического порядка операций (сначала скобки, затем умножение/деление, затем сложение/вычитание). 
+```
+
+### Типы костей
+
+Roll20 поддерживает не только стандартные многогранники при броске костей. Ниже перечислены типы костей, которые вы можете использовать в своих играх. Основной бросок NdX
+
+Бросает N традиционных (почти, вы можете иметь любое количество сторон, которое вы хотите) костей с X сторонами на одну кость. N должно быть больше или равно 0, а X должно быть больше или равно 1. Fate/Fudge Roll NdF
+
+Бросает N костей Fate/Fudge. У этих костей три стороны со значениями -1, 0 и 1. Вычисление числа бросков костей (N+Y)dX/Nd(X+Y)
+
+Вычисляет количество бросков костей или количество сторон кубика на основе математического выражения в скобках. Вычисление костей может использоваться как с базовыми, так и с судьбоносными костями.
+
+В пределах (N+Y)dX количество костей (N+Y) округляется до ближайшего целого числа, как и round(N+Y). Модификаторы бросков
+
+Модификаторы, которые могут изменить поведение или результат бросков костей. В скобках после названия модификатора указано, к каким типам костей он может быть применен. К одному броску может быть применено несколько модификаторов, что позволяет создавать сложные выражения для костей.
+
+```
+B - базовый бросок
 F - Fate/Fudge Roll 
 ```
 
-Many modifiers compare each die to a target number to decided if the modifier action should be applied. We'll call this a Compare Point or CP for short in the roll modifiers below. A Compare Point consists of an optional compare operation <,=,> and a target number. If the operation is not specified = is assumed and for most modifiers the entire Compare Point can be left off for the default behavior.
+Многие модификаторы сравнивают каждый кубик с целевым числом, чтобы решить, следует ли применить действие модификатора. Мы будем называть это точкой сравнения или CP для краткости в модификаторах бросков ниже. Точка сравнения состоит из необязательной операции сравнения <,=,> и целевого числа. Если операция не указана, подразумевается =, а для большинства модификаторов всю точку сравнения можно не указывать, чтобы получить поведение по умолчанию.
 
 ```
-Example Compare Points
-3 - If the roll is equal to 3
->2 - If the roll is greater than or equal to 2
-<18 - If the roll is less than or equal to 18 
+Примеры точек сравнения
+3 - Если бросок равен 3
+>2 - Если бросок больше или равен 2
+<18 - Если бросок меньше или равен 18 
 ```
 
-Target Number / Successes (B,F) - CP
+Количество целей / Успехов (B,F) - CP
 
-Normally when you perform a roll, Roll20 reports back the total value of all the dice rolled, plus any modifiers. Some game systems, though, work by rolling a set of dice versus a target number, and then adding up the total number of successes instead.
-
-```
-Example Success Checks
-3d6>3 - Roll 3 d6's and count one success for each roll of 3 or higher
-10d6<4 - Roll 10 d6's and count one success for each roll of 4 or less 
-```
-
-Failures (B,F) - fCP
-
-Some systems build on success checks by also including failures. Failure checks only work when a success check is already being done and each failure subtracts one from the total number of successes.
+Обычно, когда вы выполняете бросок, Roll20 сообщает общее значение всех брошенных костей, плюс любые модификаторы. Однако некоторые игровые системы работают, бросая набор костей против целевого числа, а затем суммируя общее количество успехов.
 
 ```
-Example Failure Checks
-3d6>3f1 - Roll 3 d6's and count one success for each roll of 3 or higher and one failure for each 1
-10d6<4f>5 - Roll 10 d6's and count one success for each roll of 4 or less and one failure for each roll of 5 or more 
+Примеры проверок на успех
+3d6>3 - бросьте 3 к6 и засчитайте один успех за каждый бросок 3 или выше
+10d6<4 - бросьте 10 к6 и засчитайте один успех за каждый бросок 4 или меньше 
 ```
 
-Exploding Dice (B,F) !CP
+Провалы (B,F) - fCP
 
-Exploding dice, also known as "rule of 6" or "rule of 10s" depending on your gaming system, rolls an additional die if the maximum is rolled. If the additional roll is also the maximum number the additional rolls keep on going! The Compare Point can be specified to change the exploding trigger.
-
-```
-Example Exploding Dice
-3d6! - Rolls 3d6 and explodes every time a 6 is rolled
-3d6!>5 - Rolls 3d6 and explodes every time a 5 or 6 is rolled 
-```
-
-Compounding Dice (B,F) !!CP
-
-Shadowrun (and some other systems, such as 7th Sea and L5R) use a special style of exploding dice where the the additional rolls for each dice are added together as a single "roll". To do this, just use two exclamation marks instead of one. With the compounding exploding rolls a single roll can be infinitely high! The Compare Point can be specified to change the exploding trigger.
+Некоторые системы развивают проверки на успех, включая в них и провалы. Проверка на провал работает только тогда, когда проверка на успех уже выполняется, и каждый провал вычитает единицу из общего числа успехов.
 
 ```
-Example Compounding Dice
-5d6!! - Rolls 5d6 and compound every time a 6 is rolled
-5d6!!5 - Rolls 5d6 and compound every time a 5 is rolled, 6's will be treated as a normal roll 
+Пример проверки на провал
+3d6>3f1 - бросьте 3 к6 и считайте один успех за каждый бросок 3 или выше и один провал за каждый 1
+10d6<4f>5 - бросьте 10 к6 и засчитайте один успех за каждый бросок 4 или меньше и один провал за каждый бросок 5 или больше 
 ```
 
-Penetrating Dice (B,F) !pCP
+Взрывающаяся кость (B,F) !CP
 
-HackMaster (and some other systems) use a special style of exploding dice where the additional rolls for each dice have 1 subtracted from the roll. To do this, add a p after the exclamation mark. A die can penetrate multiple times but the modifier is only ever -1 to each additional die.
-
-```
-Example Compounding Dice
-5d6!p - Rolls 5d6 and explode with a -1 modifier every time a 6 is rolled
-5d6!p>5 - Rolls 5d6 and explode with a -1 modifier every time a 5 or higher is rolled. 
-```
-
-Keep / Drop Dice (B,F) khN/klN/dhN/dlN
-
-Some game systems ask you to roll a large number of dice, and then either drop a certain number (N) of the lowest rolls, or keep only a certain number (N) of the highest rolls. Roll20 supports this type of roll through the d and k commands, respectively. The optional h/l parameter can either be h to keep or drop the highest N dice or l to keep or drop the lowest N dice. If not specified when keeping rolls the high rolls will be kept and when dropping rolls the low rolls will be dropped.
+Взрывающаяся кость, также известная как "правило 6" или "правило 10", в зависимости от вашей игровой системы, бросает дополнительный кубик, если выпал максимум. Если дополнительный бросок также равен максимальному числу, дополнительные броски продолжаются! Точка сравнения может быть указана для изменения триггера взрыва.
 
 ```
-Example Keep Rolls
-8d100k4 - Roll 8 d100's and keep the four largest rolls.
-8d100kl4 - Roll 8 d100's and keep the four smallest rolls.
-Example Drop Rolls
-8d100d4 - Roll 8 d100's and drop the four smallest rolls.
-8d100dh4 - Roll 8 d100's and drop the four largest rolls. 
+Пример взрывающихся костей
+3d6! - Бросает 3д6 и взрывается каждый раз, когда выпадает 6
+3d6!>5 - бросает 3d6 и взрывается каждый раз, когда выпадает 5 или 6 
 ```
 
-Rerolling Dice (B,F) rCP
+Составные Кости (B,F) !!!CP
 
-Several systems require that certain dice be reroll, for example brutal weapons in D\&D 4e require any 1s or 2s to be re-rolled and the original die value ignored. The reroll modifier can be specified multiple times to allow rerolling at multiple Compare Points. By default the dice will continue to reroll until the result is inside the defined parameters. Optionally you can set the results to only reroll once regardless of the outcome.
-
-```
-Example Rerolls
-2d10r<2 - Roll 2 d10's and reroll any time a 2 or lower is rolled
-8d6r - Roll 8 d6's and reroll any time a 1 is rolled
-8d6r2r4r6 - Roll 8 d6's and reroll any time a 2, 4, or 6 is rolled
-2d6ro<2 - Roll 2 d6's and reroll anything less than 2 but only once 
-```
-
-Special Case: Reroll Once (B,F) roCP
-
-In some systems (such as D\&D 5E) you want to reroll dice below a certain value, but you only want to reroll the dice one time each. To do that, just use ro instead of r.
+В Shadowrun (и некоторых других системах, таких как 7th Sea и L5R) используется особый стиль взрывающихся костей, когда дополнительные броски для каждого кубика складываются в один "бросок". Для этого достаточно использовать два восклицательных знака вместо одного. С помощью суммирования взрывающихся бросков один бросок может быть бесконечно высоким! Точка сравнения может быть указана для изменения триггера взрыва.
 
 ```
-Example Reroll Once Rolls
-2d10ro<2 - Roll 2 d10's and reroll any time a 2 or lower is rolled, but only up to one time per dice. 
+Пример составных костей
+5d6!! - Бросает 5d6 и компаундирует каждый раз, когда выпадает 6
+5d6!!!5 - бросает 5d6 и комбинирует каждый раз, когда выпадает 5, 6 будет рассматриваться как обычный бросок 
 ```
 
-Sorting Dice (B,F) sa/sd
+Проникающие Кости (B,F) !pCP
 
-You may want to see your results in either ascending or descending order. The sorting modifier does just this. The order parameter is optional and specifies the order to sort with a for ascending and d for descending. Sorting defaults to ascending if order is not specified.
-
-```
-Example Rerolls
-8d6s - Roll 8 d6's and sort the results in ascending order
-8d6sd - Roll 8 d6's and sort the results in descending order 
-```
-
-Order of Operations for Modifiers
-
-Modifiers are applied in the following order:
+В HackMaster (и некоторых других системах) используется особый стиль взрывающихся костей, когда при дополнительных бросках из каждого броска вычитается 1. Чтобы сделать это, добавьте букву p после восклицательного знака. Кубик может проникать несколько раз, но модификатор будет равен -1 только для каждого дополнительного кубика.
 
 ```
-Exploding, Compounding, Penetrating, Rerolls
-These are applied while the dice are still rolling. imagine that you roll some exploding 6d6 on your table and the instant one of them settles as a 6 another die is rolled
-Keep, Drop, Success, Failure, Sorting
-These are applied after all of the dice have "settled" and all of the result values are known. 
+Пример соединения костей
+5d6!p - бросает 5d6 и взрывается с модификатором -1 каждый раз, когда выпадает 6
+5d6!p>5 - бросает 5d6 и взрывается с модификатором -1 каждый раз, когда выпадает 5 или выше. 
 ```
 
-### Grouped Rolls
+Кости (B,F) khN/klN/dhN/dlN
 
-Mutliple rolls can be perfomed within a group via curly braces using a comma to seperate the sub-roll expressions {3d6+3d4+5, 2d8+4}. Grouped Rolls have their own set of Group Modifiers which perform actions across the whole group.
-
-Note: each sub-roll expression within a Grouped Roll must contain elements of the same type:
+Некоторые игровые системы просят вас бросить большое количество костей, а затем либо отбросить определенное количество (N) самых низких бросков, либо оставить только определенное количество (N) самых высоких бросков. Roll20 поддерживает этот тип бросков с помощью команд d и k соответственно. Необязательный параметр h/l может быть либо h, чтобы оставить или сбросить самые высокие N костей, либо l, чтобы оставить или сбросить самые низкие N костей. Если параметр не указан, то при сохранении бросков старшие броски будут сохранены, а при сбросе бросков - низшие броски будут сброшены.
 
 ```
-"Sum rolls", which can be Basic Rolls or nested Group Rolls.
-"Success rolls".
-("M rolls"—which are simply numbers—may be mentioned in an error message. However, unlike the other two roll types, M rolls are not required to be present within every sub-roll expression.) 
+Пример сохранения бросков
+8d100k4 - бросить 8 кубиков d100 и оставить четыре самых больших.
+8d100kl4 - бросить 8 d100 и оставить четыре самых маленьких.
+Пример бросков
+8d100d4 - бросьте 8 d100 и сбросьте четыре самых маленьких валика.
+8d100dh4 - бросьте 8 d100 и сбросьте четыре самых больших валика. 
 ```
 
-For example, `[[{1d6,5}kh1]]`  will fail, but `[[ {1d6, 5 + 0d0}kh1 ]]` or `[[ {1d6, {5}}kh1 ]] or [[ {[[1d6]], 5}kh1 ]]` will work.&#x20;
+Повторный бросок костей (B,F) rCP
 
-### Grouped Roll Modifiers
-
-Modfiers that can change the behavior or outcome of grouped rolls. Grouped Rolls can have multiple modifiers applied to a group roll to allow for complex dice expressions. Keep / Drop khN/klN/dhN/dlN
-
-To apply a keep or drop modifier across multiple types of dice wrap the roll in a group. With a single Sub-Roll in the group the keep/drop operation is applied across all rolls. To choose the best or worse roll expression multiple sub-groups can be used. In this case the keep/drop operation is applied to the final result of each subgroup.
+Некоторые системы требуют, чтобы определенные кости были переброшены, например, жестокое оружие в D\&D 4e требует, чтобы все 1 или 2 были переброшены, а исходное значение кубика игнорировалось. Модификатор повторного броска может быть указан несколько раз, чтобы разрешить повторный бросок в нескольких точках сравнения. По умолчанию кости будут продолжать перебрасываться до тех пор, пока результат не окажется в пределах заданных параметров. Опционально вы можете установить, что результаты будут перебрасываться только один раз, независимо от результата.
 
 ```
-Single Sub-Roll Keep Example
-{4d6+3d8}k4 - Roll 4 d6's and 3 d8's, out of those 7 dice the highest 4 are kept and summed up.
-Multiple Sub-Roll Drop Example
-{4d6+2d8, 3d20+3, 5d10+1}d1 - Roll each of the three sub-roll expressions and total them up. Drop the sub-roll expression with the lowest total and sum the other two totals as the result. 
+Примеры повторных бросков
+2d10r<2 - бросает 2 кубика d10 и делает повторный бросок каждый раз, когда выпадает 2 или меньше
+8d6r - бросьте 8 к6 и делайте повторный бросок каждый раз, когда выпадает 1
+8d6r2r4r6 - бросайте 8 к6 и делайте повторный бросок при выпадении 2, 4 или 6
+2d6ro<2 - бросьте 2 к6 и перебросьте все, что меньше 2, но только один раз. 
 ```
 
-Target Number / Successes (B,F) - CP
+Особый случай: Reroll Once (B,F) roCP
 
-The same concept as when using on Dice Rolls but with different behavor for a group. For a Grouped Roll with a single sub-roll expression the success check is done after the remaining math expressions have been totaled into each roll. Single sub-roll groups are also useful when doing a success check on a roll that has another Compare Point enabled modifer. For a Grouped Roll with a multiple sub-roll expression the success check is applied to the esult of each sub-roll expression.
-
-```
-Single Sub-Roll Success Example
-{3d20+5}>21 - Roll 3 d20's, for each roll add 5 and then count a success for each result of 21 or more.
-{2d6!}>4 - Roll 2d6 exploding and count a success for each roll of 4 or greater.
-Multiple Sub-Roll Success Example
-{4d6+2d8, 3d20+3, 5d10+1}>40 - Roll each of the three sub-roll expression and total them up. Count one success for each sub-roll total of 40 or more. 
-```
-
-Failures (B,F) - fCP
-
-Failure checks on groups work just like success checks.
+В некоторых системах (например, D\&D 5E) вы хотите перебросить кости ниже определенного значения, но при этом вы хотите перебросить их только один раз. Чтобы сделать это, просто используйте ro вместо r.
 
 ```
-Single Sub-Roll Failure Example
-{3d20+5}>21f<10 - Roll 3 d20's, for each roll add 5 and then count a success for each result of 21 or more and count a failure for each result of 10 or less.
-{2d6!}>4f1 - Roll 2d6 exploding and count a success for each roll of 4 or greater and a failure for each roll of 1.
-Multiple Sub-Roll Failure Example
-{4d6+2d8, 3d20+3, 5d10+1}>40f<10 - Roll each of the three sub-roll expression and total them up. Count one success for each sub-roll total of 40 or more and one failure for each sub-roll total of 10 or less. 
+Пример повторного броска один раз
+2d10ro<2 - бросьте 2 кубика d10 и делайте повторный бросок каждый раз, когда выпадает 2 или ниже, но только один раз на каждую кость. 
 ```
 
-[https://wiki.roll20.net/Dice\_Reference](https://wiki.roll20.net/Dice\_Reference)
+Сортировка костей (B,F) sa/sd
+
+Вы можете захотеть увидеть свои результаты в порядке возрастания или убывания. Модификатор сортировки делает именно это. Параметр order является необязательным и задает порядок сортировки: a - по возрастанию, d - по убыванию. Если порядок не указан, то по умолчанию сортировка происходит по возрастанию.
+
+```
+Примеры повторных бросков
+8d6s - бросить 8 к6 и отсортировать результаты в порядке возрастания
+8d6sd - бросить 8 к6 и отсортировать результаты в порядке убывания 
+```
+
+Порядок действий для модификаторов
+
+Модификаторы применяются в следующем порядке:
+
+```
+Взрывающийся, Составляющий, Проникающий, Повторные броски
+Они применяются во время броска костей. Представьте, что вы бросаете на стол несколько взрывающихся 6d6, и как только одна из них выпадает как 6, бросается еще одна кость.
+Оставить, Бросить, Успех, Провал, Сортировка
+Применяются после того, как все кости "осели" и все значения результатов известны. 
+```
+
+### Группированные броски
+
+Несколько бросков могут быть выполнены внутри группы с помощью фигурных скобок, используя запятую для разделения выражений под-бросков {3d6+3d4+5, 2d8+4}. Групповые броски имеют свой собственный набор групповых модификаторов, которые выполняют действия всей группы.
+
+Примечание: каждое выражение подброска в сгруппированном броске должно содержать элементы одного типа:
+
+```
+"Суммарные броски", которые могут быть Базовыми бросками или вложенными Групповыми бросками.
+"Успех".
+("M-роллы", которые являются просто числами, могут быть упомянуты в сообщении об ошибке. Однако, в отличие от двух других типов бросков, M-броски не обязаны присутствовать в каждом выражении под-броска). 
+```
+
+Например, `[[{1d6,5}kh1]]`  провалится, но `[[ {1d6, 5 + 0d0}kh1 ]]` или `[[ {1d6, {5}}kh1 ]] или [[ {[[1d6]], 5}kh1 ]]` или [[ {[[1д6]], 5}кх1 ]]` сработает.&#x20;
+
+### Модификаторы сгруппированных бросков
+
+Модификаторы, которые могут изменить поведение или результат сгруппированных бросков. Групповые броски могут иметь несколько модификаторов, применяемых к групповому броску, что позволяет использовать сложные выражения на костях. Удержать / сбросить khN/klN/dhN/dlN
+
+Чтобы применить модификатор keep или drop к нескольким типам костей, оберните бросок в группу. При наличии в группе одного подброска операция keep/drop применяется ко всем броскам. Чтобы выбрать лучшее или худшее выражение броска, можно использовать несколько подгрупп. В этом случае операция keep/drop применяется к конечному результату каждой подгруппы.
+
+```
+Пример сохранения одной подгруппы
+{4d6+3d8}k4 - Бросаем 4 к6 и 3 к8, из 7 костей сохраняем и суммируем 4 самые высокие.
+Пример выпадения нескольких подбросов
+{4d6+2d8, 3d20+3, 5d10+1}к1 - Бросьте каждое из трех выражений подброса и суммируйте их. Бросьте выражение с наименьшим итогом и просуммируйте два оставшихся в результате. 
+```
+
+Количество целей / Успехов (B,F) - CP
+
+Та же концепция, что и при использовании на бросках Кости, но с другим поведением для группы. Для сгруппированных бросков с одним выражением в подброске проверка успеха выполняется после того, как остальные математические выражения будут суммированы в каждом броске. Группы с одним подброском также полезны при проверке успешности броска, у которого есть другой модификатор с функцией Compare Point. Для сгруппированного рулона с несколькими выражениями подрулеток проверка успеха применяется к результату каждого выражения подрулеток.
+
+```
+Пример успеха одиночного подброска
+{3d20+5}>21 - бросьте 3 d20, за каждый бросок добавьте 5 и засчитайте успех за каждый результат 21 или больше.
+{2d6!}>4 - бросьте 2d6 на взрыв и засчитайте успех за каждый результат 4 или больше.
+Пример успеха нескольких под-роллов
+{4d6+2d8, 3d20+3, 5d10+1}>40 - бросьте каждое из трех выражений под-роллов и суммируйте их. Засчитайте один успех за каждый суб-ролл, равный 40 или более. 
+```
+
+Провалы (B,F) - fCP
+
+Проверки на провал в группах работают так же, как и проверки на успех.
+
+```
+Пример провала одного подброска
+{3d20+5}>21f<10 - Бросьте 3 d20, к каждому броску прибавьте 5 и засчитайте успех за каждый результат 21 или больше и засчитайте провал за каждый результат 10 или меньше.
+{2d6!}>4f1 - бросьте 2d6 на взрыв и засчитайте успех за каждый бросок 4 или больше и провал за каждый бросок 1.
+Пример провала нескольких под-роллов
+{4d6+2d8, 3d20+3, 5d10+1}>40f<10 - Бросьте каждый из трех суб-роллов выражения и суммируйте их. Засчитайте один успех для каждого суб-ролла, равного 40 или более, и один провал для каждого суб-ролла, равного 10 или менее. 
+```
